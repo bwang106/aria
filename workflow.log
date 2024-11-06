@@ -1,0 +1,471 @@
+2024-11-05 17:04:21,672 - INFO - ### Starting workflow
+2024-11-05 17:16:23,753 - INFO - ### Starting workflow
+2024-11-05 17:19:31,429 - INFO - ### Starting workflow
+2024-11-06 12:22:52,254 - INFO - ### Starting workflow
+2024-11-06 12:51:07,405 - INFO - ### Starting workflow
+2024-11-06 13:01:27,513 - INFO - ### Starting workflow
+2024-11-06 13:01:27,977 - INFO - Response from ag:13e82541:20241025:expert-agent:338569a8:  data: {'message': 'No API key found in request', 'request_id': '1923b9236690c347d439e1527892536c'}
+2024-11-06 13:01:27,979 - ERROR - Unexpected response format: {'message': 'No API key found in request', 'request_id': '1923b9236690c347d439e1527892536c'}
+2024-11-06 13:06:54,570 - INFO - ### Starting workflow
+2024-11-06 13:07:00,016 - INFO - Response from ag:13e82541:20241025:expert-agent:338569a8:  data: {'id': '8eed236a85974b1b8042bf4d59d800b9', 'object': 'chat.completion', 'created': 1730887307, 'model': 'open-mistral-nemo', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'Sure, here\'s a step-by-step guide on how to drill a hole into a wooden block:\n\n**Materials Needed:**\n- Wooden block\n- Drill (preferably a cordless drill for ease of use)\n- Drill bit (the size depends on the hole you want to make)\n- Pencil\n- Clamp (optional, but helpful for securing the wooden block)\n- Safety glasses\n- Ear protection (for loud drills)\n- Dust mask (optional, for reducing wood dust)\n\n**Steps:**\n\n1. **Safety First**: Put on safety glasses to protect your eyes from wood chips and debris. If your drill is loud, use ear protection. A dust mask can also be helpful for reducing wood dust.\n\n2. **Choose the Right Drill Bit**: Select a drill bit that is slightly smaller than the size of the hole you want to create. For example, if you want a 1/2" hole, use a 7/16" or 9/32" drill bit.\n\n3. **Mark the Spot**: Use a pencil to mark the exact spot where you want to drill the hole. This will serve as your guide.\n\n4. **Secure the Wooden Block**: If you\'re having trouble holding the wooden block steady, use a clamp to secure it to a workbench or another stable surface. Make sure the marked spot is accessible to the drill.\n\n5. **Start Drilling**:\n   - Hold the drill with both hands for better control.\n   - Place the tip of the drill bit on the marked spot.\n   - Apply gentle pressure and start the drill at a slow speed.\n   - As the drill bit begins to cut into the wood, increase the speed slightly.\n   - Keep the drill perpendicular to the surface of the wood to ensure a straight hole.\n\n6. **Drill to the Desired Depth**: Continue drilling until you reach the desired depth. Be careful not to drill all the way through the wooden block unless that\'s what you intend to do.\n\n7. **Remove the Drill**: Once you\'ve reached the desired depth, slowly release the pressure and stop the drill. Carefully remove the drill bit from the hole.\n\n8. **Clean Up**: Use a brush or compressed air to remove any wood dust from the hole and the drill bit.\n\n9. **Inspect Your Work**: Check the hole to make sure it\'s the right size and depth. If you\'re not satisfied, you can always drill a little more or use a different drill bit to enlarge the hole.\n\n10. **Store Your Tools**: When you\'re finished, put your drill and drill bits away in a safe place for future use.', 'tool_calls': None}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 603, 'total_tokens': 1148, 'completion_tokens': 545}}
+2024-11-06 13:24:56,035 - INFO - ### Starting workflow
+2024-11-06 13:24:56,035 - INFO - ### Run Expert agent
+2024-11-06 13:32:37,797 - INFO - ### Starting workflow
+2024-11-06 13:32:37,798 - INFO - ### Run Expert agent
+2024-11-06 14:01:31,701 - INFO - ### Starting workflow
+2024-11-06 14:01:31,702 - INFO - ### Run Expert agent
+2024-11-06 14:04:00,005 - INFO - ### Starting workflow
+2024-11-06 14:04:00,005 - INFO - ### Run Expert agent
+2024-11-06 14:06:34,953 - INFO - ### Starting workflow
+2024-11-06 14:06:34,954 - INFO - ### Run Expert agent
+2024-11-06 14:15:09,600 - INFO - ### Starting workflow
+2024-11-06 14:15:09,600 - INFO - ### Run Expert agent
+2024-11-06 14:15:16,875 - INFO - Response from ag:13e82541:20241025:expert-agent:338569a8: data: {'id': '9edc9a51355941de91cd57052e13adb7', 'object': 'chat.completion', 'created': 1730891402, 'model': 'open-mistral-nemo', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': "Here's a step-by-step guide on how to drill a hole into a wooden block, along with some safety tips:\n\n**Materials Needed:**\n1. Wooden block\n2. Drill (handheld or electric)\n3. Drill bit (appropriate size for your task)\n4. Clamps or a vice\n5. Safety glasses\n6. Work gloves (optional)\n7. Pencil\n8. Measuring tape or ruler\n\n**Steps:**\n\n1. **Safety First**:\n   - Wear safety glasses to protect your eyes from debris.\n   - Consider wearing work gloves to protect your hands.\n   - Ensure the drill is unplugged (if electric) before starting to prevent accidental startup.\n\n2. **Measure and Mark**:\n   - Determine the size of the hole you need and choose an appropriate drill bit.\n   - Measure and mark the center point of where you want the hole to be on the wooden block using a pencil.\n\n3. **Secure the Wood**:\n   - Clamp the wooden block securely to a workbench or use a vice to hold it in place. This prevents the wood from moving around while drilling, which could cause injury or inaccuracy.\n\n4. **Drill a Pilot Hole (optional but recommended)**:\n   - Start by drilling a small pilot hole using a smaller drill bit. This helps prevent the wood from splitting and makes it easier to start the larger hole.\n\n5. **Drill the Hole**:\n   - Position the drill bit at the marked center point.\n   - Apply gentle pressure and start drilling at a slow speed.\n   - Keep the drill perpendicular to the surface of the wood to ensure a straight hole.\n   - Drill until you reach the desired depth. Be careful not to drill too deep and break through the other side if that's not desired.\n\n6. **Finish Up**:\n   - Once done, remove the clamps or release the vice.\n   - Clean up any debris and dispose of it appropriately.\n   - Your wooden block now has a hole drilled into it!\n\n**Tips:**\n- Always drill slowly and steadily. Applying too much pressure or drilling too fast can cause the wood to split or the drill bit to bind.\n- If using an electric drill, start at a low speed and increase as needed.\n- If the drill bit starts to bind or the wood starts to split, stop drilling, remove the bit, and start again with less pressure.\n- For larger holes or complex shapes, you might need to use a jigsaw, hole saw, or other specialized tools.\n- Always unplug the drill when changing bits or taking breaks to prevent accidental startup.", 'tool_calls': None}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 603, 'total_tokens': 1135, 'completion_tokens': 532}}
+2024-11-06 14:15:16,875 - ERROR - Workflow execution failed: AgentWorkflow.run_memory_agent() takes 1 positional argument but 2 were given. Please check the workflow.
+2024-11-06 14:15:16,876 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7bd63f75d010>
+2024-11-06 14:15:16,876 - ERROR - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7bd63f96db50>, 1106251.954997767)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7bd63f75d160>
+2024-11-06 14:18:28,724 - INFO - ### Starting workflow
+2024-11-06 14:18:28,724 - INFO - ### Run Expert agent
+2024-11-06 14:18:34,741 - INFO - Response from ag:13e82541:20241025:expert-agent:338569a8: data: {'id': 'f7568ae0af2b4ee59635d53979852fe0', 'object': 'chat.completion', 'created': 1730891601, 'model': 'open-mistral-nemo', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'Here\'s a step-by-step guide on how to drill a hole into a wooden block safely and effectively:\n\n**Materials Needed:**\n- Wooden block\n- Drill (preferably a cordless or corded hand drill)\n- Drill bit (appropriate size for your project, e.g., 1/2", 3/4", or 1")\n- Pencil\n- Clamp or vise\n- Safety glasses\n- Dust mask (optional)\n- Ear protection (for corded drills)\n\n**Steps:**\n\n1. **Safety First**:\n   - Put on safety glasses to protect your eyes from debris.\n   - If using a corded drill, wear ear protection to reduce noise.\n   - Consider wearing a dust mask for prolonged drilling to reduce inhalation of wood dust.\n\n2. **Secure the Wooden Block**:\n   - Clamp the wooden block securely in a vise or hold it firmly in place with a clamp. This prevents the block from moving during drilling, ensuring a straight and accurate hole.\n\n3. **Mark the Drilling Spot**:\n   - Use a pencil to mark the exact center of where you want to drill the hole. This will serve as a guide for the drill bit.\n\n4. **Choose the Right Drill Bit**:\n   - Ensure you\'re using the correct drill bit size for your project. A too-small bit might not create a wide enough hole, while a too-large bit might cause the wood to split.\n\n5. **Drill a Pilot Hole (optional but recommended)**:\n   - For larger holes (e.g., 1" or bigger), it\'s a good idea to first drill a smaller pilot hole (e.g., 1/8" or 1/4") to prevent the wood from splitting. This is especially important if you\'re drilling near the edge of the block.\n\n6. **Start Drilling**:\n   - Place the tip of the drill bit on the marked spot.\n   - Apply gentle pressure and start the drill at a slow speed.\n   - Let the drill do the work; don\'t force it or apply too much pressure.\n\n7. **Drill Straight**:\n   - Keep the drill bit perpendicular to the surface of the wooden block to ensure a straight hole.\n   - You can use a drill guide or a square to help maintain a straight angle.\n\n8. **Stop Drilling When You\'ve Reached the Desired Depth**:\n   - Once you\'ve drilled to the depth you need, stop the drill and withdraw the bit slowly.\n\n9. **Clean Up**:\n   - Remove the clamp or vise and brush off any wood dust from the hole and the surface of the wooden block.\n   - Wipe the drill bit clean to remove any wood residue.\n\n10. **Safety Check**:\n    - Before moving on to the next step or putting away your tools, make sure there are no remaining wood slivers or sharp edges that could cause injury.', 'tool_calls': None}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 603, 'total_tokens': 1196, 'completion_tokens': 593}}
+2024-11-06 14:18:34,741 - INFO - ### Run Memory agent
+2024-11-06 14:18:42,631 - INFO - Response from ag:13e82541:20241025:untitlerecord-model-agent-promptd-agent:ccc270fb: data: {'id': '9e5f2b91b39848c8a48bc0f254863c70', 'object': 'chat.completion', 'created': 1730891607, 'model': 'open-mistral-nemo', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '**Agent Interaction and Data Flow:**\n\n**Expert Agent to Memory Model Agent:**\n\n1. **Data Transmission**: The Expert Agent continuously transmits operational data and video recordings to the Memory Model Agent. This data includes tool locations, procedural steps, worker positions, and timestamps.\n\n   *Format:*\n   ```\n   {\n     "timestamp": "2024-10-25T14:30:00Z",\n     "tool_id": "T001",\n     "tool_location": {"x": 15.2, "y": 23.5, "z": 0.0},\n     "tool_status": "in_use",\n     "worker_id": "W002",\n     "worker_position": {"x": 12.3, "y": 20.8, "z": 0.0},\n     "video_data": "base64_encoded_video_data"\n   }\n   ```\n\n2. **Data Request**: The Expert Agent may also request real-time data from the Memory Model Agent, such as the current location of a specific tool or the status of a particular workspace.\n\n   *Format:*\n   ```\n   {\n     "request_type": "tool_location",\n     "tool_id": "T001"\n   }\n   ```\n\n**Memory Model Agent to Analysis Model Agent:**\n\n1. **Data Update Notification**: Whenever new or updated data is added to the database, the Memory Model Agent sends a notification to the Analysis Model Agent to trigger immediate analysis.\n\n   *Format:*\n   ```\n   {\n     "notification_type": "data_update",\n     "timestamp": "2024-10-25T14:30:00Z",\n     "data_id": "D003"\n   }\n   ```\n\n2. **Data Query**: The Analysis Model Agent may query the Memory Model Agent for specific data to support its analytical processes.\n\n   *Format:*\n   ```\n   {\n     "request_type": "data_query",\n     "query_criteria": {\n       "tool_id": "T001",\n       "timestamp_range": {"start": "2024-10-25T12:00:00Z", "end": "2024-10-25T16:00:00Z"}\n     }\n   }\n   ```\n\n**Memory Model Agent to Other Agents (if needed):**\n\n1. **Data Synchronization**: The Memory Model Agent may need to synchronize data updates with other agents in the system, such as the Workflow Management Agent or the Resource Allocation Agent, to maintain data consistency and accuracy.\n\n   *Format:*\n   ```\n   {\n     "synchronization_type": "data_update",\n     "timestamp": "2024-10-25T14:30:00Z",\n     "data_id": "D003"\n   }\n   ```\n\n**API Endpoints:**\n\n- **POST /data/update**: Receives operational data and video recordings from the Expert Agent.\n- **GET /data/query**: Retrieves specific data based on query criteria from the Analysis Model Agent or other agents.\n- **POST /notification/send**: Sends data update notifications to the Analysis Model Agent.\n- **POST /synchronization/update**: Synchronizes data updates with other agents in the system.\n\nThese interactions and data flows enable the Memory Model Agent to efficiently manage operational data, ensuring that all relevant agents have access to the most current and accurate information.', 'tool_calls': None}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 1269, 'total_tokens': 1996, 'completion_tokens': 727}}
+2024-11-06 14:18:42,632 - INFO - Memory agent result: **Agent Interaction and Data Flow:**
+
+**Expert Agent to Memory Model Agent:**
+
+1. **Data Transmission**: The Expert Agent continuously transmits operational data and video recordings to the Memory Model Agent. This data includes tool locations, procedural steps, worker positions, and timestamps.
+
+   *Format:*
+   ```
+   {
+     "timestamp": "2024-10-25T14:30:00Z",
+     "tool_id": "T001",
+     "tool_location": {"x": 15.2, "y": 23.5, "z": 0.0},
+     "tool_status": "in_use",
+     "worker_id": "W002",
+     "worker_position": {"x": 12.3, "y": 20.8, "z": 0.0},
+     "video_data": "base64_encoded_video_data"
+   }
+   ```
+
+2. **Data Request**: The Expert Agent may also request real-time data from the Memory Model Agent, such as the current location of a specific tool or the status of a particular workspace.
+
+   *Format:*
+   ```
+   {
+     "request_type": "tool_location",
+     "tool_id": "T001"
+   }
+   ```
+
+**Memory Model Agent to Analysis Model Agent:**
+
+1. **Data Update Notification**: Whenever new or updated data is added to the database, the Memory Model Agent sends a notification to the Analysis Model Agent to trigger immediate analysis.
+
+   *Format:*
+   ```
+   {
+     "notification_type": "data_update",
+     "timestamp": "2024-10-25T14:30:00Z",
+     "data_id": "D003"
+   }
+   ```
+
+2. **Data Query**: The Analysis Model Agent may query the Memory Model Agent for specific data to support its analytical processes.
+
+   *Format:*
+   ```
+   {
+     "request_type": "data_query",
+     "query_criteria": {
+       "tool_id": "T001",
+       "timestamp_range": {"start": "2024-10-25T12:00:00Z", "end": "2024-10-25T16:00:00Z"}
+     }
+   }
+   ```
+
+**Memory Model Agent to Other Agents (if needed):**
+
+1. **Data Synchronization**: The Memory Model Agent may need to synchronize data updates with other agents in the system, such as the Workflow Management Agent or the Resource Allocation Agent, to maintain data consistency and accuracy.
+
+   *Format:*
+   ```
+   {
+     "synchronization_type": "data_update",
+     "timestamp": "2024-10-25T14:30:00Z",
+     "data_id": "D003"
+   }
+   ```
+
+**API Endpoints:**
+
+- **POST /data/update**: Receives operational data and video recordings from the Expert Agent.
+- **GET /data/query**: Retrieves specific data based on query criteria from the Analysis Model Agent or other agents.
+- **POST /notification/send**: Sends data update notifications to the Analysis Model Agent.
+- **POST /synchronization/update**: Synchronizes data updates with other agents in the system.
+
+These interactions and data flows enable the Memory Model Agent to efficiently manage operational data, ensuring that all relevant agents have access to the most current and accurate information.
+2024-11-06 14:18:42,632 - INFO - ### Run Analysis agent
+2024-11-06 14:18:50,208 - INFO - Response from ag:13e82541:20241025:analysis-model-agent-prompt:c1d46050: data: {'id': '4a2764ecb15a49a7b4b40a63b418a69a', 'object': 'chat.completion', 'created': 1730891615, 'model': 'open-mistral-nemo', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '**Agent Interaction and Data Flow (Continued):**\n\n**Analysis Model Agent to Record Model Agent:**\n\n1. **Guide Distribution**: Once the Analysis Model Agent has generated operational guides, it distributes them to the Record Model Agent for storage and retrieval.\n\n   *Format:*\n   ```\n   {\n     "guide_id": "G001",\n     "guide_name": "Assembly Procedure",\n     "guide_content": "Markdown formatted guide content",\n     "timestamp": "2024-10-25T15:00:00Z"\n   }\n   ```\n\n2. **Guide Update Notification**: When an operational guide is updated, the Analysis Model Agent notifies the Record Model Agent to ensure the stored guide is the most recent version.\n\n   *Format:*\n   ```\n   {\n     "notification_type": "guide_update",\n     "guide_id": "G001",\n     "timestamp": "2024-10-25T16:30:00Z"\n   }\n   ```\n\n**Record Model Agent to Analysis Model Agent:**\n\n1. **Guide Retrieval**: The Analysis Model Agent may request specific guides from the Record Model Agent for review, update, or distribution.\n\n   *Format:*\n   ```\n   {\n     "request_type": "guide_retrieve",\n     "guide_id": "G001"\n   }\n   ```\n\n2. **Real-Time Alerts**: The Record Model Agent sends real-time alerts to the Analysis Model Agent when significant changes or anomalies are detected in the operational environment.\n\n   *Format:*\n   ```\n   {\n     "alert_type": "environmental_change",\n     "timestamp": "2024-10-25T17:15:00Z",\n     "details": "Temperature in Workspace A has exceeded safe limits."\n   }\n   ```\n\n**Analysis Model Agent to Workflow Management Agent:**\n\n1. **Task Allocation**: The Analysis Model Agent communicates task allocations and instructions to the Workflow Management Agent to ensure efficient workflow and resource utilization.\n\n   *Format:*\n   ```\n   {\n     "task_allocation": {\n       "task_id": "T001",\n       "task_name": "Assembly of Component X",\n       "assigned_to": "W003",\n       "instructions": "Detailed task instructions in Markdown format"\n     }\n   }\n   ```\n\n2. **Workflow Update**: The Analysis Model Agent may also provide updates to the overall workflow based on changes in operational guides or real-time alerts.\n\n   *Format:*\n   ```\n   {\n     "update_type": "workflow_change",\n     "change_details": "Due to increased temperature, Step 4 of Guide G001 has been updated to include cooling procedures."\n   }\n   ```\n\n**API Endpoints:**\n\n- **POST /guide/distribute**: Receives operational guides from the Analysis Model Agent for storage.\n- **POST /notification/receive**: Receives notifications about guide updates from the Analysis Model Agent.\n- **GET /guide/retrieve**: Retrieves specific guides based on the request from the Analysis Model Agent.\n- **POST /alert/send**: Sends real-time alerts to the Analysis Model Agent when significant changes or anomalies are detected.\n\nThese interactions and data flows enable the Record Model Agent to efficiently manage operational guides, ensuring that all relevant agents have access to the most current and accurate guides. Additionally, the communication with the Workflow Management Agent helps maintain an efficient and safe workflow.', 'tool_calls': None}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 1406, 'total_tokens': 2117, 'completion_tokens': 711}}
+2024-11-06 14:18:50,208 - INFO - Analysis agent result: **Agent Interaction and Data Flow (Continued):**
+
+**Analysis Model Agent to Record Model Agent:**
+
+1. **Guide Distribution**: Once the Analysis Model Agent has generated operational guides, it distributes them to the Record Model Agent for storage and retrieval.
+
+   *Format:*
+   ```
+   {
+     "guide_id": "G001",
+     "guide_name": "Assembly Procedure",
+     "guide_content": "Markdown formatted guide content",
+     "timestamp": "2024-10-25T15:00:00Z"
+   }
+   ```
+
+2. **Guide Update Notification**: When an operational guide is updated, the Analysis Model Agent notifies the Record Model Agent to ensure the stored guide is the most recent version.
+
+   *Format:*
+   ```
+   {
+     "notification_type": "guide_update",
+     "guide_id": "G001",
+     "timestamp": "2024-10-25T16:30:00Z"
+   }
+   ```
+
+**Record Model Agent to Analysis Model Agent:**
+
+1. **Guide Retrieval**: The Analysis Model Agent may request specific guides from the Record Model Agent for review, update, or distribution.
+
+   *Format:*
+   ```
+   {
+     "request_type": "guide_retrieve",
+     "guide_id": "G001"
+   }
+   ```
+
+2. **Real-Time Alerts**: The Record Model Agent sends real-time alerts to the Analysis Model Agent when significant changes or anomalies are detected in the operational environment.
+
+   *Format:*
+   ```
+   {
+     "alert_type": "environmental_change",
+     "timestamp": "2024-10-25T17:15:00Z",
+     "details": "Temperature in Workspace A has exceeded safe limits."
+   }
+   ```
+
+**Analysis Model Agent to Workflow Management Agent:**
+
+1. **Task Allocation**: The Analysis Model Agent communicates task allocations and instructions to the Workflow Management Agent to ensure efficient workflow and resource utilization.
+
+   *Format:*
+   ```
+   {
+     "task_allocation": {
+       "task_id": "T001",
+       "task_name": "Assembly of Component X",
+       "assigned_to": "W003",
+       "instructions": "Detailed task instructions in Markdown format"
+     }
+   }
+   ```
+
+2. **Workflow Update**: The Analysis Model Agent may also provide updates to the overall workflow based on changes in operational guides or real-time alerts.
+
+   *Format:*
+   ```
+   {
+     "update_type": "workflow_change",
+     "change_details": "Due to increased temperature, Step 4 of Guide G001 has been updated to include cooling procedures."
+   }
+   ```
+
+**API Endpoints:**
+
+- **POST /guide/distribute**: Receives operational guides from the Analysis Model Agent for storage.
+- **POST /notification/receive**: Receives notifications about guide updates from the Analysis Model Agent.
+- **GET /guide/retrieve**: Retrieves specific guides based on the request from the Analysis Model Agent.
+- **POST /alert/send**: Sends real-time alerts to the Analysis Model Agent when significant changes or anomalies are detected.
+
+These interactions and data flows enable the Record Model Agent to efficiently manage operational guides, ensuring that all relevant agents have access to the most current and accurate guides. Additionally, the communication with the Workflow Management Agent helps maintain an efficient and safe workflow.
+2024-11-06 14:18:50,208 - INFO - Final Analysis Result: **Agent Interaction and Data Flow (Continued):**
+
+**Analysis Model Agent to Record Model Agent:**
+
+1. **Guide Distribution**: Once the Analysis Model Agent has generated operational guides, it distributes them to the Record Model Agent for storage and retrieval.
+
+   *Format:*
+   ```
+   {
+     "guide_id": "G001",
+     "guide_name": "Assembly Procedure",
+     "guide_content": "Markdown formatted guide content",
+     "timestamp": "2024-10-25T15:00:00Z"
+   }
+   ```
+
+2. **Guide Update Notification**: When an operational guide is updated, the Analysis Model Agent notifies the Record Model Agent to ensure the stored guide is the most recent version.
+
+   *Format:*
+   ```
+   {
+     "notification_type": "guide_update",
+     "guide_id": "G001",
+     "timestamp": "2024-10-25T16:30:00Z"
+   }
+   ```
+
+**Record Model Agent to Analysis Model Agent:**
+
+1. **Guide Retrieval**: The Analysis Model Agent may request specific guides from the Record Model Agent for review, update, or distribution.
+
+   *Format:*
+   ```
+   {
+     "request_type": "guide_retrieve",
+     "guide_id": "G001"
+   }
+   ```
+
+2. **Real-Time Alerts**: The Record Model Agent sends real-time alerts to the Analysis Model Agent when significant changes or anomalies are detected in the operational environment.
+
+   *Format:*
+   ```
+   {
+     "alert_type": "environmental_change",
+     "timestamp": "2024-10-25T17:15:00Z",
+     "details": "Temperature in Workspace A has exceeded safe limits."
+   }
+   ```
+
+**Analysis Model Agent to Workflow Management Agent:**
+
+1. **Task Allocation**: The Analysis Model Agent communicates task allocations and instructions to the Workflow Management Agent to ensure efficient workflow and resource utilization.
+
+   *Format:*
+   ```
+   {
+     "task_allocation": {
+       "task_id": "T001",
+       "task_name": "Assembly of Component X",
+       "assigned_to": "W003",
+       "instructions": "Detailed task instructions in Markdown format"
+     }
+   }
+   ```
+
+2. **Workflow Update**: The Analysis Model Agent may also provide updates to the overall workflow based on changes in operational guides or real-time alerts.
+
+   *Format:*
+   ```
+   {
+     "update_type": "workflow_change",
+     "change_details": "Due to increased temperature, Step 4 of Guide G001 has been updated to include cooling procedures."
+   }
+   ```
+
+**API Endpoints:**
+
+- **POST /guide/distribute**: Receives operational guides from the Analysis Model Agent for storage.
+- **POST /notification/receive**: Receives notifications about guide updates from the Analysis Model Agent.
+- **GET /guide/retrieve**: Retrieves specific guides based on the request from the Analysis Model Agent.
+- **POST /alert/send**: Sends real-time alerts to the Analysis Model Agent when significant changes or anomalies are detected.
+
+These interactions and data flows enable the Record Model Agent to efficiently manage operational guides, ensuring that all relevant agents have access to the most current and accurate guides. Additionally, the communication with the Workflow Management Agent helps maintain an efficient and safe workflow.
+2024-11-06 14:18:50,208 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7893ba1e5010>
+2024-11-06 14:18:50,209 - ERROR - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7893ba3f9b50>, 1106465.287998451)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7893ba1e5160>
+2024-11-06 16:20:33,424 - INFO - ### Starting workflow
+2024-11-06 16:20:33,424 - INFO - ### Run Expert agent
+2024-11-06 16:20:39,051 - INFO - Response from ag:13e82541:20241025:expert-agent:338569a8: data: {'id': '69aa102de4ad4e0f80c72ad9c39b3a67', 'object': 'chat.completion', 'created': 1730898925, 'model': 'open-mistral-nemo', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '**Step-by-Step Guide to Drill a Hole into a Wooden Block**\n\n**Materials Needed:**\n- Wooden block\n- Drill (handheld or electric)\n- Drill bit (appropriate size for your project)\n- Pencil\n- Clamps\n- Safety glasses\n- Ear protection (for electric drill)\n- Sandpaper (optional, for smoothing edges)\n\n**Steps:**\n\n1. **Safety First**:\n   - Wear safety glasses to protect your eyes from debris.\n   - Use ear protection if you\'re using an electric drill to reduce noise.\n   - Ensure the area is well-lit and free of clutter.\n\n2. **Determine the Hole Size and Location**:\n   - Decide on the size of the hole you need. The drill bit size should match or be slightly smaller than the desired hole diameter.\n   - Mark the center of the hole location on the wooden block using a pencil.\n\n3. **Secure the Wooden Block**:\n   - Clamp the wooden block securely to a work surface or a vise. This prevents the block from moving during drilling and helps maintain accuracy.\n\n4. **Choose the Right Drill Bit**:\n   - Select a drill bit that matches the size of the hole you want to create. For this guide, let\'s assume you\'re using a ½" (12mm) drill bit.\n\n5. **Start Drilling**:\n   - If using a handheld drill, apply steady pressure and turn the handle clockwise to start drilling. If using an electric drill, select a low speed setting and apply gentle pressure while pulling the trigger.\n   - Center the drill bit on your marked spot and slowly start drilling into the wood. Keep the drill perpendicular to the surface to ensure a straight hole.\n\n6. **Drill to the Desired Depth**:\n   - Drill until you reach the desired depth. Be careful not to drill too deep and break through the other side of the wooden block unless that\'s your intention.\n\n7. **Remove the Drill Bit**:\n   - Once you\'ve reached the desired depth, slowly release the pressure and stop the drill. Carefully remove the drill bit from the hole.\n\n8. **Sand the Edges (Optional)**:\n   - If needed, use sandpaper to smooth any rough edges around the hole.\n\n9. **Clean Up**:\n   - Remove the clamps and clean up your workspace. Dispose of any wood debris safely.\n\n10. **Inspect Your Work**:\n    - Check the hole to ensure it\'s the correct size and depth. If needed, make any necessary adjustments.\n\nNow you have successfully drilled a hole into a wooden block! This guide can be applied to various woodworking projects that require creating holes for screws, bolts, or other fasteners. Always remember to prioritize safety when using power tools.', 'tool_calls': None}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 603, 'total_tokens': 1171, 'completion_tokens': 568}}
+2024-11-06 16:20:39,051 - INFO - ### Run Memory agent
+2024-11-06 16:20:50,315 - INFO - Response from ag:13e82541:20241025:untitlerecord-model-agent-promptd-agent:ccc270fb: data: {'id': 'fa69533b4dc54a8b9957290744780b45', 'object': 'chat.completion', 'created': 1730898931, 'model': 'open-mistral-nemo', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': "**Memory Model Agent Operational Log**\n\n**Last Updated:** 2024-10-26 09:30:15 UTC\n\n**Tool Inventory**\n\n| Tool ID | Tool Name | Current Location | Last Modified By | Last Modified Timestamp | Status |\n|---|---|---|---|---|---|\n| T001 | Drill (Electric) | Workbench A | Expert Agent | 2024-10-26 08:55:32 UTC | Available |\n| T002 | Screwdriver (Phillips) | Toolbox 1 | Worker 001 | 2024-10-26 09:10:22 UTC | In Use |\n| T003 | Tape Measure | Wall Mount (South) | Expert Agent | 2024-10-26 08:30:15 UTC | Available |\n| T004 | Circular Saw | Storage Shelf 2 | Worker 002 | 2024-10-26 08:45:12 UTC | In Use |\n| T005 | Level (2ft) | Workbench B | Expert Agent | 2024-10-26 09:00:45 UTC | Available |\n\n**Workspace Configurations**\n\n| Workspace ID | Configuration | Last Modified By | Last Modified Timestamp |\n|---|---|---|---|\n| WS001 | Assembly Line 1: Active, Assembly Line 2: Inactive | Expert Agent | 2024-10-26 08:30:15 UTC |\n| WS002 | Storage Area: Organized, Shipping Area: Active | Worker 003 | 2024-10-26 09:20:33 UTC |\n\n**Notifications Sent to Analysis Model Agent**\n\n- 2024-10-26 08:55:32 UTC: New data segment added - Tool T001 (Electric Drill) moved to Workbench A.\n- 2024-10-26 09:10:22 UTC: Data segment updated - Tool T002 (Phillips Screwdriver) status changed to 'In Use' by Worker 001.\n- 2024-10-26 09:20:33 UTC: Data segment updated - Workspace WS002 configuration updated by Worker 003.\n\n**Outdated Data Purged**\n\n- 2024-10-26 09:00:00 UTC: Data segment for Tool T006 (Hammer) removed. Tool was decommissioned on 2024-10-25.\n\n**Data Security Status**\n\n- All operational data is encrypted and securely stored.\n- End-to-end encryption is active for data in transit and at rest.\n- Regular security audits are scheduled to maintain data integrity and confidentiality.\n\n**System Synchronization Status**\n\n- All agents within the system are synchronized and up-to-date.\n- Real-time data consistency is maintained across all relevant agents.\n\n**API Key**\n\n- ag:13e82541:20241026:Memory-model-agent-prompt:ccc270fb\n\nThe Memory Model Agent is actively monitoring and updating operational data to ensure the system runs smoothly and efficiently. Any changes in tool locations, statuses, or workspace configurations are promptly logged and analyzed to facilitate immediate responsive actions.", 'tool_calls': None}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 1244, 'total_tokens': 2028, 'completion_tokens': 784}}
+2024-11-06 16:20:50,316 - INFO - Memory agent result: **Memory Model Agent Operational Log**
+
+**Last Updated:** 2024-10-26 09:30:15 UTC
+
+**Tool Inventory**
+
+| Tool ID | Tool Name | Current Location | Last Modified By | Last Modified Timestamp | Status |
+|---|---|---|---|---|---|
+| T001 | Drill (Electric) | Workbench A | Expert Agent | 2024-10-26 08:55:32 UTC | Available |
+| T002 | Screwdriver (Phillips) | Toolbox 1 | Worker 001 | 2024-10-26 09:10:22 UTC | In Use |
+| T003 | Tape Measure | Wall Mount (South) | Expert Agent | 2024-10-26 08:30:15 UTC | Available |
+| T004 | Circular Saw | Storage Shelf 2 | Worker 002 | 2024-10-26 08:45:12 UTC | In Use |
+| T005 | Level (2ft) | Workbench B | Expert Agent | 2024-10-26 09:00:45 UTC | Available |
+
+**Workspace Configurations**
+
+| Workspace ID | Configuration | Last Modified By | Last Modified Timestamp |
+|---|---|---|---|
+| WS001 | Assembly Line 1: Active, Assembly Line 2: Inactive | Expert Agent | 2024-10-26 08:30:15 UTC |
+| WS002 | Storage Area: Organized, Shipping Area: Active | Worker 003 | 2024-10-26 09:20:33 UTC |
+
+**Notifications Sent to Analysis Model Agent**
+
+- 2024-10-26 08:55:32 UTC: New data segment added - Tool T001 (Electric Drill) moved to Workbench A.
+- 2024-10-26 09:10:22 UTC: Data segment updated - Tool T002 (Phillips Screwdriver) status changed to 'In Use' by Worker 001.
+- 2024-10-26 09:20:33 UTC: Data segment updated - Workspace WS002 configuration updated by Worker 003.
+
+**Outdated Data Purged**
+
+- 2024-10-26 09:00:00 UTC: Data segment for Tool T006 (Hammer) removed. Tool was decommissioned on 2024-10-25.
+
+**Data Security Status**
+
+- All operational data is encrypted and securely stored.
+- End-to-end encryption is active for data in transit and at rest.
+- Regular security audits are scheduled to maintain data integrity and confidentiality.
+
+**System Synchronization Status**
+
+- All agents within the system are synchronized and up-to-date.
+- Real-time data consistency is maintained across all relevant agents.
+
+**API Key**
+
+- ag:13e82541:20241026:Memory-model-agent-prompt:ccc270fb
+
+The Memory Model Agent is actively monitoring and updating operational data to ensure the system runs smoothly and efficiently. Any changes in tool locations, statuses, or workspace configurations are promptly logged and analyzed to facilitate immediate responsive actions.
+2024-11-06 16:20:50,316 - INFO - ### Run Analysis agent
+2024-11-06 16:20:57,870 - INFO - Response from ag:13e82541:20241025:analysis-model-agent-prompt:c1d46050: data: {'id': '9307e776b0f049e1b294f6f0c1444435', 'object': 'chat.completion', 'created': 1730898942, 'model': 'open-mistral-nemo', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': "**Generated Operational Guide: Assembly Line 1 - Product Assembly**\n\n**Guide ID:** AG001\n\n**Last Updated:** 2024-10-26 09:30:15 UTC\n\n**1. Preparation**\n\n- **Team Assembly**: Assemble team members at the start of Assembly Line 1.\n  - Team Leader: Worker 001\n  - Team Members: Worker 002, Worker 003, Worker 004\n\n- **Tool Gathering**: Collect necessary tools from their respective locations.\n  - Tool T001 (Electric Drill) from Workbench A\n  - Tool T002 (Phillips Screwdriver) from Worker 001 (currently in use)\n  - Tool T003 (Tape Measure) from Wall Mount (South)\n  - Tool T005 (Level) from Workbench B\n\n- **Safety Briefing**: Conduct a safety briefing to ensure all team members are aware of the following:\n  - Always wear appropriate Personal Protective Equipment (PPE).\n  - Keep the workspace clean and organized to prevent accidents.\n  - Follow the established safety protocols for each tool.\n\n**2. Assembly Line Setup**\n\n- **Team Leader**: Initiate the assembly line by activating the conveyor belt.\n- **Team Members**: Position yourselves along the assembly line, following the designated workstations:\n  - Worker 002: Workstation 1 - Initial Assembly\n  - Worker 003: Workstation 2 - Component Addition\n  - Worker 004: Workstation 3 - Final Assembly and Quality Check\n\n**3. Assembly Process**\n\n- **Worker 002 - Workstation 1: Initial Assembly**\n  - Measure and mark the initial assembly points using Tool T003 (Tape Measure).\n  - Secure the base component using Tool T001 (Electric Drill) and appropriate screws.\n\n- **Worker 003 - Workstation 2: Component Addition**\n  - Add the secondary components to the base, following the established sequence.\n  - Use Tool T002 (Phillips Screwdriver) to secure the components in place.\n\n- **Worker 004 - Workstation 3: Final Assembly and Quality Check**\n  - Assemble the final components, ensuring they align with the level indicator (Tool T005).\n  - Perform a final quality check to ensure all components are securely fastened and functional.\n\n**4. Completion and Handoff**\n\n- **Team Leader**: Monitor the assembly line and ensure all team members are following the established protocol.\n- **Team Members**: Upon completion of your designated tasks, hand off the assembled product to the next team member or the shipping area, as indicated by the conveyor belt's direction.\n\n**5. Troubleshooting**\n\n- In case of any tool malfunction or assembly issue, immediately notify the Team Leader and follow their instructions for resolution.\n- Always prioritize safety over speed. If a tool or component is damaged, replace it before continuing.\n\n**6. Real-Time Updates**\n\n- The Analysis Model Agent will continuously monitor the assembly line and provide real-time updates and feedback to ensure optimal efficiency and safety.\n- Any changes in operational protocols or tool locations will be promptly communicated to the team.\n\n**7. Post-Assembly Cleanup**\n\n- Once the assembly line is complete, all team members should assist in cleaning and organizing the workspace.\n- Return all tools to their designated storage locations.\n\nBy following this comprehensive operational guide, the assembly team can efficiently and safely complete the product assembly task on Assembly Line 1. Regular updates and real-time feedback will ensure that the guide remains relevant and effective in maintaining optimal operational efficiency.", 'tool_calls': None}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 1463, 'total_tokens': 2237, 'completion_tokens': 774}}
+2024-11-06 16:20:57,874 - INFO - Analysis agent result: **Generated Operational Guide: Assembly Line 1 - Product Assembly**
+
+**Guide ID:** AG001
+
+**Last Updated:** 2024-10-26 09:30:15 UTC
+
+**1. Preparation**
+
+- **Team Assembly**: Assemble team members at the start of Assembly Line 1.
+  - Team Leader: Worker 001
+  - Team Members: Worker 002, Worker 003, Worker 004
+
+- **Tool Gathering**: Collect necessary tools from their respective locations.
+  - Tool T001 (Electric Drill) from Workbench A
+  - Tool T002 (Phillips Screwdriver) from Worker 001 (currently in use)
+  - Tool T003 (Tape Measure) from Wall Mount (South)
+  - Tool T005 (Level) from Workbench B
+
+- **Safety Briefing**: Conduct a safety briefing to ensure all team members are aware of the following:
+  - Always wear appropriate Personal Protective Equipment (PPE).
+  - Keep the workspace clean and organized to prevent accidents.
+  - Follow the established safety protocols for each tool.
+
+**2. Assembly Line Setup**
+
+- **Team Leader**: Initiate the assembly line by activating the conveyor belt.
+- **Team Members**: Position yourselves along the assembly line, following the designated workstations:
+  - Worker 002: Workstation 1 - Initial Assembly
+  - Worker 003: Workstation 2 - Component Addition
+  - Worker 004: Workstation 3 - Final Assembly and Quality Check
+
+**3. Assembly Process**
+
+- **Worker 002 - Workstation 1: Initial Assembly**
+  - Measure and mark the initial assembly points using Tool T003 (Tape Measure).
+  - Secure the base component using Tool T001 (Electric Drill) and appropriate screws.
+
+- **Worker 003 - Workstation 2: Component Addition**
+  - Add the secondary components to the base, following the established sequence.
+  - Use Tool T002 (Phillips Screwdriver) to secure the components in place.
+
+- **Worker 004 - Workstation 3: Final Assembly and Quality Check**
+  - Assemble the final components, ensuring they align with the level indicator (Tool T005).
+  - Perform a final quality check to ensure all components are securely fastened and functional.
+
+**4. Completion and Handoff**
+
+- **Team Leader**: Monitor the assembly line and ensure all team members are following the established protocol.
+- **Team Members**: Upon completion of your designated tasks, hand off the assembled product to the next team member or the shipping area, as indicated by the conveyor belt's direction.
+
+**5. Troubleshooting**
+
+- In case of any tool malfunction or assembly issue, immediately notify the Team Leader and follow their instructions for resolution.
+- Always prioritize safety over speed. If a tool or component is damaged, replace it before continuing.
+
+**6. Real-Time Updates**
+
+- The Analysis Model Agent will continuously monitor the assembly line and provide real-time updates and feedback to ensure optimal efficiency and safety.
+- Any changes in operational protocols or tool locations will be promptly communicated to the team.
+
+**7. Post-Assembly Cleanup**
+
+- Once the assembly line is complete, all team members should assist in cleaning and organizing the workspace.
+- Return all tools to their designated storage locations.
+
+By following this comprehensive operational guide, the assembly team can efficiently and safely complete the product assembly task on Assembly Line 1. Regular updates and real-time feedback will ensure that the guide remains relevant and effective in maintaining optimal operational efficiency.
+2024-11-06 16:20:57,874 - INFO - Final Analysis Result: **Generated Operational Guide: Assembly Line 1 - Product Assembly**
+
+**Guide ID:** AG001
+
+**Last Updated:** 2024-10-26 09:30:15 UTC
+
+**1. Preparation**
+
+- **Team Assembly**: Assemble team members at the start of Assembly Line 1.
+  - Team Leader: Worker 001
+  - Team Members: Worker 002, Worker 003, Worker 004
+
+- **Tool Gathering**: Collect necessary tools from their respective locations.
+  - Tool T001 (Electric Drill) from Workbench A
+  - Tool T002 (Phillips Screwdriver) from Worker 001 (currently in use)
+  - Tool T003 (Tape Measure) from Wall Mount (South)
+  - Tool T005 (Level) from Workbench B
+
+- **Safety Briefing**: Conduct a safety briefing to ensure all team members are aware of the following:
+  - Always wear appropriate Personal Protective Equipment (PPE).
+  - Keep the workspace clean and organized to prevent accidents.
+  - Follow the established safety protocols for each tool.
+
+**2. Assembly Line Setup**
+
+- **Team Leader**: Initiate the assembly line by activating the conveyor belt.
+- **Team Members**: Position yourselves along the assembly line, following the designated workstations:
+  - Worker 002: Workstation 1 - Initial Assembly
+  - Worker 003: Workstation 2 - Component Addition
+  - Worker 004: Workstation 3 - Final Assembly and Quality Check
+
+**3. Assembly Process**
+
+- **Worker 002 - Workstation 1: Initial Assembly**
+  - Measure and mark the initial assembly points using Tool T003 (Tape Measure).
+  - Secure the base component using Tool T001 (Electric Drill) and appropriate screws.
+
+- **Worker 003 - Workstation 2: Component Addition**
+  - Add the secondary components to the base, following the established sequence.
+  - Use Tool T002 (Phillips Screwdriver) to secure the components in place.
+
+- **Worker 004 - Workstation 3: Final Assembly and Quality Check**
+  - Assemble the final components, ensuring they align with the level indicator (Tool T005).
+  - Perform a final quality check to ensure all components are securely fastened and functional.
+
+**4. Completion and Handoff**
+
+- **Team Leader**: Monitor the assembly line and ensure all team members are following the established protocol.
+- **Team Members**: Upon completion of your designated tasks, hand off the assembled product to the next team member or the shipping area, as indicated by the conveyor belt's direction.
+
+**5. Troubleshooting**
+
+- In case of any tool malfunction or assembly issue, immediately notify the Team Leader and follow their instructions for resolution.
+- Always prioritize safety over speed. If a tool or component is damaged, replace it before continuing.
+
+**6. Real-Time Updates**
+
+- The Analysis Model Agent will continuously monitor the assembly line and provide real-time updates and feedback to ensure optimal efficiency and safety.
+- Any changes in operational protocols or tool locations will be promptly communicated to the team.
+
+**7. Post-Assembly Cleanup**
+
+- Once the assembly line is complete, all team members should assist in cleaning and organizing the workspace.
+- Return all tools to their designated storage locations.
+
+By following this comprehensive operational guide, the assembly team can efficiently and safely complete the product assembly task on Assembly Line 1. Regular updates and real-time feedback will ensure that the guide remains relevant and effective in maintaining optimal operational efficiency.
