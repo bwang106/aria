@@ -214,7 +214,7 @@ class AgentWorkflow:
 
 # 示例用法，定义主异步函数
 async def main():
-    initial_query = "how to drill a hole into a wooden block"
+    initial_query = "Drill (Electric) from Workbench A is unavailable for use."
     agent_workflow = AgentWorkflow()
     try:
         await agent_workflow.workflow(initial_query)
