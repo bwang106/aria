@@ -20,7 +20,7 @@ agents = {
     'workflow': "ag:13e82541:20241025:master-workflow:7bcaf579"
 }
 
-central_database = {} 
+central_database = { 'memory_data': pd.DataFrame(columns=["Timestamp", "Object", "Action"]),}  # 用于存储从 CSV 文件读取的数据
 
 class AgentWorkflow:
     def __init__(self):
@@ -46,25 +46,6 @@ class AgentWorkflow:
             else:
                 logging.error(f"Unexpected response format: {data}")
                 raise ValueError("Invalid response format from API.")
-
-    #async def run_workflow_agent(self, query):
-    #    """运行工作流代理并返回响应"""
-    #    print("### Run Workflow agent")
-    #    try:
-    #        response = await self.perform_task(agents['workflow'], query)
-    #        return response
-    #    except Exception as e:
-    #        print(f"Request failed: {e}. Please check your request.")
-    #        return None
-
-
-
-    #def extract_pattern(self, text, pattern):
-    #    """从文本中提取模式"""
-    #    match = re.search(pattern, text, flags=re.DOTALL)
-    #    if match:
-    #        return match.group(1).strip()
-    #    return None
 
     async def run_expert_agent(self, query_expert):
         """运行专家代理并返回结果"""
@@ -119,42 +100,6 @@ class AgentWorkflow:
     This comprehensive description of the Master Workflow outlines a structured and efficient approach to managing complex operational tasks, ensuring high performance, and fostering an environment of continuous improvement within the organization.
     """
 
-
-    #planning_result = run_workflow_agent(query)
-    #print(f"Planning result: {query}")
-
-#class AgentWorkflow:
-#    def __init__(self):
-#        pass
-
-    #def run_expert_agent(self, query_expert):
-    #    """
-    #    Sends a user query to a Python agent and returns the response.
-#
-    #    Args:
-    #        query (str): The user query to be sent to the Python agent.
-#
-    #    Returns:
-    #        str: The response content from the Python agent.
-    #    """
-    #    print("### Run Expert agent")
-    #    print(f"User query: {query_expert}")
-    #    try:
-    #        response = client.agents.complete(
-    #            agent_id= agents['expert'],
-    #            messages = [
-    #                {
-    #                    "role": "user",
-    #                    "content":  query_expert
-    #                },
-    #            ]
-    #        )
-    #        result = response.choices[0].message.content
-    #        return result
-#
-    #    except Exception as e:
-    #        print(f"Request failed: {e}. Please check your request.")
-    #        return None
     async def run_memory_agent(self):
         """运行内存代理并返回结果"""
         logging.info("### Run Memory agent")
@@ -171,14 +116,7 @@ class AgentWorkflow:
         else:
             logging.error("Expert data not found in central database. Please check the workflow or central database.")
             return None
-        #result = await perform_task(agents['memory'], expert_result)
-        #logging.info(f"Memory agent result: {result}")
-        # 将结果存入中央数据库
-        #central_database['memory_data'] = result
-        #return result
-        #except Exception as e:
-            #logging.error(f"Memory agent request failed: {e}. Please check your request.")
-            #return None
+
 
     async def run_analysis_agent(self):
         """运行分析代理并返回结果"""
@@ -214,8 +152,10 @@ class AgentWorkflow:
 
 # 示例用法，定义主异步函数
 async def main():
-    initial_query = "Drill (Electric) from Workbench A is unavailable for use."
+    initial_query = "give me the result of the object and action based on changes"
     agent_workflow = AgentWorkflow()
+    
+    await agent_workflow.load_data_from_csv('/mnt/logicNAS/Exchange/Aria/User_16/User_16_412_0210_3_480_gaze.csv')
     try:
         await agent_workflow.workflow(initial_query)
     except Exception as e:
