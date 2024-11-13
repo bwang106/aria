@@ -634,3 +634,453 @@ This guide update reflects the Analysis Model Agent's processing of the latest o
 **End of Guide Update**
 
 This guide update reflects the Analysis Model Agent's processing of the latest operational data and video recordings, resulting in critical updates to the Assembly Line - Section 3: Structural Welding & Fabrication guide. The agent has successfully incorporated real-time tool status changes, workspace reconfigurations, and safety updates, ensuring that the guide remains accurate, relevant, and actionable for the operational team.
+2024-11-06 16:40:26,347 - INFO - ### Starting workflow
+2024-11-06 16:40:26,353 - INFO - ### Run Expert agent
+2024-11-06 16:40:34,836 - INFO - Response from ag:13e82541:20241025:expert-agent:338569a8: data: {'id': '792a96ba70774768a3ea71838dcc5d83', 'object': 'chat.completion', 'created': 1730900119, 'model': 'open-mistral-nemo', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': "Based on the provided information, here's a comprehensive list of tools and techniques the Expert Agent can use to fulfill its responsibilities:\n\n**1. Image Processing and Machine Learning Tools for 2D Map Analysis:**\n\n- **Computer Vision Libraries**:\n  - OpenCV (Open Source Computer Vision Library)\n  - PIL (Python Imaging Library)\n  - scikit-image\n\n- **Machine Learning Libraries**:\n  - scikit-learn\n  - TensorFlow\n  - PyTorch\n\n- **Deep Learning Models for Object Detection and Behavior Prediction**:\n  - YOLO (You Only Look Once)\n  - Faster R-CNN\n  - SSD (Single Shot MultiBox Detector)\n  - Mask R-CNN\n  - Transformer-based models (e.g., DETR) for behavior prediction\n\n- **Image Segmentation Techniques**:\n  - Thresholding\n  - Edge detection (Sobel, Canny)\n  - Contour finding\n  - Region growing\n  - Watershed algorithm\n  - Deep learning-based segmentation (e.g., U-Net, Mask R-CNN)\n\n- **Feature Extraction Techniques**:\n  - Histogram of Oriented Gradients (HOG)\n  - Scale-Invariant Feature Transform (SIFT)\n  - Speeded Up Robust Features (SURF)\n  - Oriented FAST and Rotated BRIEF (ORB)\n\n**2. Video Processing Tools for Industrial Task Recordings:**\n\n- **Video Compression Techniques**:\n  - H.264 (Advanced Video Coding)\n  - H.265 (High-Efficiency Video Coding)\n  - VP9\n  - AV1\n\n- **Video Processing Libraries**:\n  - OpenCV\n  - FFmpeg\n  - MoviePy\n\n- **Video Annotation Tools**:\n  - VGG Image Annotator (VIA)\n  - RectLabel\n  - LabelImg\n  - Labelbox\n  - VGG Annotator\n\n- **Object Tracking Algorithms**:\n  - IOU Tracker\n  - DeepSORT\n  - KCF Tracker\n  - Median Flow Tracker\n  - Multi-Target Tracking by Deep Associations (MOTDT)\n\n- **Pose Estimation Algorithms**:\n  - OpenPose\n  - DeepLabCut\n  - Leap Motion SDK\n  - MediaPipe Pose\n\n**3. Data Handling and Transmission Tools:**\n\n- **Data Formatting and Serialization**:\n  - JSON (JavaScript Object Notation)\n  - XML (eXtensible Markup Language)\n  - CSV (Comma-Separated Values)\n  - Parquet\n  - Avro\n\n- **Data Transmission Protocols**:\n  - HTTP (Hypertext Transfer Protocol)\n  - gRPC (Remote Procedure Call)\n  - MQTT (Message Queuing Telemetry Transport)\n  - AMQP (Advanced Message Queuing Protocol)\n  - WebSockets\n\n- **API Libraries**:\n  - Flask (for creating the API)\n  - requests (for making API requests)\n  - REST (Representational State Transfer) for API design\n\n**4. Other Useful Tools and Libraries:**\n\n- **Geospatial Libraries** (for map analysis and location-based data):\n  - GeoPandas\n  - Shapely\n  - Folium\n  - Leaflet.js\n\n- **Data Analysis Libraries**:\n  - Pandas\n  - NumPy\n  - Matplotlib\n  - Seaborn\n\n- **Cloud Storage Services** (for storing and retrieving data):\n  - Amazon S3\n  - Google Cloud Storage\n  - Microsoft Azure Blob Storage\n  - IBM Cloud Object Storage\n\nBy utilizing these tools and techniques, the Expert Agent can efficiently analyze 2D maps, capture comprehensive video recordings, and transmit the extracted data to the Record Model Agent for further processing and logging.", 'tool_calls': None}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 598, 'total_tokens': 1387, 'completion_tokens': 789}}
+2024-11-06 16:40:34,839 - INFO - ### Run Memory agent
+2024-11-06 16:40:42,341 - INFO - Response from ag:13e82541:20241025:untitlerecord-model-agent-promptd-agent:ccc270fb: data: {'id': '7537444fe58842dfaea1f45f6c403a30', 'object': 'chat.completion', 'created': 1730900127, 'model': 'open-mistral-nemo', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': "**Agent Interaction and Data Flow Diagram**\n\nHere's a diagram illustrating the interaction between the Expert Agent and other agents, as well as the flow of data within the system:\n\n```mermaid\ngraph LR\n    A[Expert Agent] --> B[Record Model Agent]\n    A --> C[Analysis Model Agent]\n    B --> D[Database]\n    B --> E[Analysis Model Agent]\n    C --> F[Expert Agent]\n    C --> G[Control Model Agent]\n    G --> H[Industrial Process]\n    H --> A\n    I[Industrial Process] --> J[Video Cameras]\n    J --> A\n    K[Industrial Process] --> L[Sensors]\n    L --> A\n    M[Analysis Model Agent] --> N[Expert Agent]\n    N --> O[Industrial Process]\n    O --> P[Workers]\n    P --> Q[Expert Agent]\n    Q --> R[Record Model Agent]\n    R --> S[Database]\n    S --> T[Analysis Model Agent]\n    U[Analysis Model Agent] --> V[Control Model Agent]\n    V --> W[Industrial Process]\n    W --> X[Workers]\n    X --> Y[Expert Agent]\n    Y --> Z[Record Model Agent]\n    Z --> S\n```\n\n**Data Flow Description**\n\n1. **Data Collection**:\n   - The Expert Agent collects data from various sources within the industrial process, including video cameras, sensors, and workers' inputs.\n   - Video cameras capture detailed visual data of the operations, while sensors provide additional contextual information like temperature, humidity, or equipment status.\n   - Workers' inputs can include manual annotations, tool usage reports, or any other relevant data they wish to contribute.\n\n2. **Data Processing**:\n   - The Expert Agent processes the collected data using advanced image processing, machine learning, and video analysis techniques to extract relevant operational details. This includes tool usage, worker positions, and procedural steps.\n   - The processed data is then structured and formatted for efficient storage and retrieval.\n\n3. **Data Transmission**:\n   - The Expert Agent transmits the processed data to the Record Model Agent for logging and storage in the database.\n   - It also sends real-time data updates to the Analysis Model Agent for immediate analysis and responsive workflow adjustments.\n\n4. **Data Logging and Storage**:\n   - The Record Model Agent receives the processed data from the Expert Agent and logs it in the database.\n   - It ensures that outdated data is promptly purged, preserving only the most relevant and current information.\n\n5. **Data Analysis**:\n   - The Analysis Model Agent receives real-time data updates from the Record Model Agent and performs immediate analysis on the new or updated data.\n   - It identifies trends, anomalies, and patterns in the operational data to facilitate informed decision-making and optimize the industrial process.\n\n6. **Feedback Loop**:\n   - The Analysis Model Agent sends feedback to the Expert Agent, suggesting improvements or adjustments to the data collection and processing strategies.\n   - It also communicates with the Control Model Agent to implement recommended changes in the industrial process workflow.\n\n7. **Industrial Process Control**:\n   - The Control Model Agent receives recommendations from the Analysis Model Agent and implements them in the industrial process, ensuring that the workflow is optimized based on the latest analysis results.\n\n8. **Data Retrieval and Long-term Storage**:\n   - The Record Model Agent retrieves data from the database upon request from the Analysis Model Agent or other relevant agents within the system.\n   - It ensures that the data is securely stored and easily accessible for long-term analysis and reference.\n\nBy following this data flow and interaction diagram, the Expert Agent can effectively collaborate with other agents to maintain a comprehensive and up-to-date record of the industrial process, facilitating real-time analysis, optimization, and decision-making.", 'tool_calls': None}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 1465, 'total_tokens': 2235, 'completion_tokens': 770}}
+2024-11-06 16:40:42,350 - INFO - Memory agent result: **Agent Interaction and Data Flow Diagram**
+
+Here's a diagram illustrating the interaction between the Expert Agent and other agents, as well as the flow of data within the system:
+
+```mermaid
+graph LR
+    A[Expert Agent] --> B[Record Model Agent]
+    A --> C[Analysis Model Agent]
+    B --> D[Database]
+    B --> E[Analysis Model Agent]
+    C --> F[Expert Agent]
+    C --> G[Control Model Agent]
+    G --> H[Industrial Process]
+    H --> A
+    I[Industrial Process] --> J[Video Cameras]
+    J --> A
+    K[Industrial Process] --> L[Sensors]
+    L --> A
+    M[Analysis Model Agent] --> N[Expert Agent]
+    N --> O[Industrial Process]
+    O --> P[Workers]
+    P --> Q[Expert Agent]
+    Q --> R[Record Model Agent]
+    R --> S[Database]
+    S --> T[Analysis Model Agent]
+    U[Analysis Model Agent] --> V[Control Model Agent]
+    V --> W[Industrial Process]
+    W --> X[Workers]
+    X --> Y[Expert Agent]
+    Y --> Z[Record Model Agent]
+    Z --> S
+```
+
+**Data Flow Description**
+
+1. **Data Collection**:
+   - The Expert Agent collects data from various sources within the industrial process, including video cameras, sensors, and workers' inputs.
+   - Video cameras capture detailed visual data of the operations, while sensors provide additional contextual information like temperature, humidity, or equipment status.
+   - Workers' inputs can include manual annotations, tool usage reports, or any other relevant data they wish to contribute.
+
+2. **Data Processing**:
+   - The Expert Agent processes the collected data using advanced image processing, machine learning, and video analysis techniques to extract relevant operational details. This includes tool usage, worker positions, and procedural steps.
+   - The processed data is then structured and formatted for efficient storage and retrieval.
+
+3. **Data Transmission**:
+   - The Expert Agent transmits the processed data to the Record Model Agent for logging and storage in the database.
+   - It also sends real-time data updates to the Analysis Model Agent for immediate analysis and responsive workflow adjustments.
+
+4. **Data Logging and Storage**:
+   - The Record Model Agent receives the processed data from the Expert Agent and logs it in the database.
+   - It ensures that outdated data is promptly purged, preserving only the most relevant and current information.
+
+5. **Data Analysis**:
+   - The Analysis Model Agent receives real-time data updates from the Record Model Agent and performs immediate analysis on the new or updated data.
+   - It identifies trends, anomalies, and patterns in the operational data to facilitate informed decision-making and optimize the industrial process.
+
+6. **Feedback Loop**:
+   - The Analysis Model Agent sends feedback to the Expert Agent, suggesting improvements or adjustments to the data collection and processing strategies.
+   - It also communicates with the Control Model Agent to implement recommended changes in the industrial process workflow.
+
+7. **Industrial Process Control**:
+   - The Control Model Agent receives recommendations from the Analysis Model Agent and implements them in the industrial process, ensuring that the workflow is optimized based on the latest analysis results.
+
+8. **Data Retrieval and Long-term Storage**:
+   - The Record Model Agent retrieves data from the database upon request from the Analysis Model Agent or other relevant agents within the system.
+   - It ensures that the data is securely stored and easily accessible for long-term analysis and reference.
+
+By following this data flow and interaction diagram, the Expert Agent can effectively collaborate with other agents to maintain a comprehensive and up-to-date record of the industrial process, facilitating real-time analysis, optimization, and decision-making.
+2024-11-06 16:40:42,351 - INFO - ### Run Analysis agent
+2024-11-06 16:40:53,558 - INFO - Response from ag:13e82541:20241025:analysis-model-agent-prompt:c1d46050: data: {'id': '787484617ee64452b9774f532dee6c84', 'object': 'chat.completion', 'created': 1730900134, 'model': 'open-mistral-nemo', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': "**Agent Interaction and Data Flow Diagram (Updated)**\n\nHere's an updated diagram that includes the Communication Model Agent and the User Interface Agent, illustrating a more comprehensive data flow and interaction within the system:\n\n```mermaid\ngraph LR\n    A[Expert Agent] --> B[Record Model Agent]\n    A --> C[Analysis Model Agent]\n    A --> D[Communication Model Agent]\n    B --> E[Database]\n    B --> F[Analysis Model Agent]\n    C --> G[Control Model Agent]\n    C --> H[User Interface Agent]\n    G --> I[Industrial Process]\n    I --> J[Video Cameras]\n    J --> A\n    I --> K[Sensors]\n    K --> A\n    L[Industrial Process] --> M[Workers]\n    M --> N[Expert Agent]\n    N --> O[Record Model Agent]\n    O --> E\n    P[Analysis Model Agent] --> Q[Expert Agent]\n    Q --> R[Record Model Agent]\n    R --> E\n    S[Control Model Agent] --> T[Industrial Process]\n    T --> U[Workers]\n    U --> V[Expert Agent]\n    V --> W[Record Model Agent]\n    W --> E\n    X[User Interface Agent] --> Y[Workers]\n    Y --> Z[Expert Agent]\n    Z --> AA[Record Model Agent]\n    AA --> E\n    BB[Communication Model Agent] --> CC[Workers]\n    CC --> DD[Expert Agent]\n    DD --> EE[Record Model Agent]\n    EE --> E\n    FF[Analysis Model Agent] --> GG[Expert Agent]\n    GG --> HH[Record Model Agent]\n    HH --> E\n    II[Expert Agent] --> JJ[Communication Model Agent]\n    JJ --> KK[Workers]\n    KK --> LL[Expert Agent]\n    LL --> MM[Record Model Agent]\n    MM --> E\n```\n\n**Updated Data Flow Description**\n\n1. **Data Collection**:\n   - The Expert Agent collects data from various sources within the industrial process, including video cameras, sensors, and workers' inputs.\n   - Video cameras capture detailed visual data of the operations, while sensors provide additional contextual information like temperature, humidity, or equipment status.\n   - Workers' inputs can include manual annotations, tool usage reports, or any other relevant data they wish to contribute.\n\n2. **Data Processing**:\n   - The Expert Agent processes the collected data using advanced image processing, machine learning, and video analysis techniques to extract relevant operational details. This includes tool usage, worker positions, and procedural steps.\n   - The processed data is then structured and formatted for efficient storage and retrieval.\n\n3. **Data Transmission**:\n   - The Expert Agent transmits the processed data to the Record Model Agent for logging and storage in the database.\n   - It also sends real-time data updates to the Analysis Model Agent for immediate analysis and responsive workflow adjustments.\n   - Additionally, the Expert Agent communicates with the Communication Model Agent to facilitate real-time interactions with workers.\n\n4. **Data Logging and Storage**:\n   - The Record Model Agent receives the processed data from the Expert Agent and logs it in the database.\n   - It ensures that outdated data is promptly purged, preserving only the most relevant and current information.\n\n5. **Data Analysis**:\n   - The Analysis Model Agent receives real-time data updates from the Record Model Agent and performs immediate analysis on the new or updated data.\n   - It identifies trends, anomalies, and patterns in the operational data to facilitate informed decision-making and optimize the industrial process.\n   - The Analysis Model Agent also communicates with the User Interface Agent to provide workers with relevant insights and recommendations.\n\n6. **Feedback Loop**:\n   - The Analysis Model Agent sends feedback to the Expert Agent, suggesting improvements or adjustments to the data collection and processing strategies.\n   - It also communicates with the Control Model Agent to implement recommended changes in the industrial process workflow.\n\n7. **Industrial Process Control**:\n   - The Control Model Agent receives recommendations from the Analysis Model Agent and implements them in the industrial process, ensuring that the workflow is optimized based on the latest analysis results.\n\n8. **Real-time Communication**:\n   - The Communication Model Agent facilitates real-time interactions between the Expert Agent and the workers, enabling quick and efficient communication of critical information.\n   - It receives updates from the Expert Agent and conveys them to the workers, ensuring that everyone is informed and up-to-date on the current operational status.\n\n9. **User Interface**:\n   - The User Interface Agent provides workers with a user-friendly interface to access relevant data, insights, and recommendations from the Analysis Model Agent.\n   - It allows workers to input their observations, feedback, or any other relevant data, which is then transmitted to the Expert Agent for further processing and analysis.\n\n10. **Data Retrieval and Long-term Storage**:\n    - The Record Model Agent retrieves data from the database upon request from the Analysis Model Agent, the User Interface Agent, or other relevant agents within the system.\n    - It ensures that the data is securely stored and easily accessible for long-term analysis and reference.\n\nBy incorporating the Communication Model Agent and the User Interface Agent, the system can now facilitate more comprehensive data flow and interaction, enabling real-time communication, efficient data exchange, and improved collaboration among all stakeholders. This updated diagram illustrates how these agents work together to create a more integrated and responsive industrial process management system.", 'tool_calls': None}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 1449, 'total_tokens': 2556, 'completion_tokens': 1107}}
+2024-11-06 16:40:53,559 - INFO - Analysis agent result: **Agent Interaction and Data Flow Diagram (Updated)**
+
+Here's an updated diagram that includes the Communication Model Agent and the User Interface Agent, illustrating a more comprehensive data flow and interaction within the system:
+
+```mermaid
+graph LR
+    A[Expert Agent] --> B[Record Model Agent]
+    A --> C[Analysis Model Agent]
+    A --> D[Communication Model Agent]
+    B --> E[Database]
+    B --> F[Analysis Model Agent]
+    C --> G[Control Model Agent]
+    C --> H[User Interface Agent]
+    G --> I[Industrial Process]
+    I --> J[Video Cameras]
+    J --> A
+    I --> K[Sensors]
+    K --> A
+    L[Industrial Process] --> M[Workers]
+    M --> N[Expert Agent]
+    N --> O[Record Model Agent]
+    O --> E
+    P[Analysis Model Agent] --> Q[Expert Agent]
+    Q --> R[Record Model Agent]
+    R --> E
+    S[Control Model Agent] --> T[Industrial Process]
+    T --> U[Workers]
+    U --> V[Expert Agent]
+    V --> W[Record Model Agent]
+    W --> E
+    X[User Interface Agent] --> Y[Workers]
+    Y --> Z[Expert Agent]
+    Z --> AA[Record Model Agent]
+    AA --> E
+    BB[Communication Model Agent] --> CC[Workers]
+    CC --> DD[Expert Agent]
+    DD --> EE[Record Model Agent]
+    EE --> E
+    FF[Analysis Model Agent] --> GG[Expert Agent]
+    GG --> HH[Record Model Agent]
+    HH --> E
+    II[Expert Agent] --> JJ[Communication Model Agent]
+    JJ --> KK[Workers]
+    KK --> LL[Expert Agent]
+    LL --> MM[Record Model Agent]
+    MM --> E
+```
+
+**Updated Data Flow Description**
+
+1. **Data Collection**:
+   - The Expert Agent collects data from various sources within the industrial process, including video cameras, sensors, and workers' inputs.
+   - Video cameras capture detailed visual data of the operations, while sensors provide additional contextual information like temperature, humidity, or equipment status.
+   - Workers' inputs can include manual annotations, tool usage reports, or any other relevant data they wish to contribute.
+
+2. **Data Processing**:
+   - The Expert Agent processes the collected data using advanced image processing, machine learning, and video analysis techniques to extract relevant operational details. This includes tool usage, worker positions, and procedural steps.
+   - The processed data is then structured and formatted for efficient storage and retrieval.
+
+3. **Data Transmission**:
+   - The Expert Agent transmits the processed data to the Record Model Agent for logging and storage in the database.
+   - It also sends real-time data updates to the Analysis Model Agent for immediate analysis and responsive workflow adjustments.
+   - Additionally, the Expert Agent communicates with the Communication Model Agent to facilitate real-time interactions with workers.
+
+4. **Data Logging and Storage**:
+   - The Record Model Agent receives the processed data from the Expert Agent and logs it in the database.
+   - It ensures that outdated data is promptly purged, preserving only the most relevant and current information.
+
+5. **Data Analysis**:
+   - The Analysis Model Agent receives real-time data updates from the Record Model Agent and performs immediate analysis on the new or updated data.
+   - It identifies trends, anomalies, and patterns in the operational data to facilitate informed decision-making and optimize the industrial process.
+   - The Analysis Model Agent also communicates with the User Interface Agent to provide workers with relevant insights and recommendations.
+
+6. **Feedback Loop**:
+   - The Analysis Model Agent sends feedback to the Expert Agent, suggesting improvements or adjustments to the data collection and processing strategies.
+   - It also communicates with the Control Model Agent to implement recommended changes in the industrial process workflow.
+
+7. **Industrial Process Control**:
+   - The Control Model Agent receives recommendations from the Analysis Model Agent and implements them in the industrial process, ensuring that the workflow is optimized based on the latest analysis results.
+
+8. **Real-time Communication**:
+   - The Communication Model Agent facilitates real-time interactions between the Expert Agent and the workers, enabling quick and efficient communication of critical information.
+   - It receives updates from the Expert Agent and conveys them to the workers, ensuring that everyone is informed and up-to-date on the current operational status.
+
+9. **User Interface**:
+   - The User Interface Agent provides workers with a user-friendly interface to access relevant data, insights, and recommendations from the Analysis Model Agent.
+   - It allows workers to input their observations, feedback, or any other relevant data, which is then transmitted to the Expert Agent for further processing and analysis.
+
+10. **Data Retrieval and Long-term Storage**:
+    - The Record Model Agent retrieves data from the database upon request from the Analysis Model Agent, the User Interface Agent, or other relevant agents within the system.
+    - It ensures that the data is securely stored and easily accessible for long-term analysis and reference.
+
+By incorporating the Communication Model Agent and the User Interface Agent, the system can now facilitate more comprehensive data flow and interaction, enabling real-time communication, efficient data exchange, and improved collaboration among all stakeholders. This updated diagram illustrates how these agents work together to create a more integrated and responsive industrial process management system.
+2024-11-06 16:40:53,559 - INFO - Final Analysis Result: **Agent Interaction and Data Flow Diagram (Updated)**
+
+Here's an updated diagram that includes the Communication Model Agent and the User Interface Agent, illustrating a more comprehensive data flow and interaction within the system:
+
+```mermaid
+graph LR
+    A[Expert Agent] --> B[Record Model Agent]
+    A --> C[Analysis Model Agent]
+    A --> D[Communication Model Agent]
+    B --> E[Database]
+    B --> F[Analysis Model Agent]
+    C --> G[Control Model Agent]
+    C --> H[User Interface Agent]
+    G --> I[Industrial Process]
+    I --> J[Video Cameras]
+    J --> A
+    I --> K[Sensors]
+    K --> A
+    L[Industrial Process] --> M[Workers]
+    M --> N[Expert Agent]
+    N --> O[Record Model Agent]
+    O --> E
+    P[Analysis Model Agent] --> Q[Expert Agent]
+    Q --> R[Record Model Agent]
+    R --> E
+    S[Control Model Agent] --> T[Industrial Process]
+    T --> U[Workers]
+    U --> V[Expert Agent]
+    V --> W[Record Model Agent]
+    W --> E
+    X[User Interface Agent] --> Y[Workers]
+    Y --> Z[Expert Agent]
+    Z --> AA[Record Model Agent]
+    AA --> E
+    BB[Communication Model Agent] --> CC[Workers]
+    CC --> DD[Expert Agent]
+    DD --> EE[Record Model Agent]
+    EE --> E
+    FF[Analysis Model Agent] --> GG[Expert Agent]
+    GG --> HH[Record Model Agent]
+    HH --> E
+    II[Expert Agent] --> JJ[Communication Model Agent]
+    JJ --> KK[Workers]
+    KK --> LL[Expert Agent]
+    LL --> MM[Record Model Agent]
+    MM --> E
+```
+
+**Updated Data Flow Description**
+
+1. **Data Collection**:
+   - The Expert Agent collects data from various sources within the industrial process, including video cameras, sensors, and workers' inputs.
+   - Video cameras capture detailed visual data of the operations, while sensors provide additional contextual information like temperature, humidity, or equipment status.
+   - Workers' inputs can include manual annotations, tool usage reports, or any other relevant data they wish to contribute.
+
+2. **Data Processing**:
+   - The Expert Agent processes the collected data using advanced image processing, machine learning, and video analysis techniques to extract relevant operational details. This includes tool usage, worker positions, and procedural steps.
+   - The processed data is then structured and formatted for efficient storage and retrieval.
+
+3. **Data Transmission**:
+   - The Expert Agent transmits the processed data to the Record Model Agent for logging and storage in the database.
+   - It also sends real-time data updates to the Analysis Model Agent for immediate analysis and responsive workflow adjustments.
+   - Additionally, the Expert Agent communicates with the Communication Model Agent to facilitate real-time interactions with workers.
+
+4. **Data Logging and Storage**:
+   - The Record Model Agent receives the processed data from the Expert Agent and logs it in the database.
+   - It ensures that outdated data is promptly purged, preserving only the most relevant and current information.
+
+5. **Data Analysis**:
+   - The Analysis Model Agent receives real-time data updates from the Record Model Agent and performs immediate analysis on the new or updated data.
+   - It identifies trends, anomalies, and patterns in the operational data to facilitate informed decision-making and optimize the industrial process.
+   - The Analysis Model Agent also communicates with the User Interface Agent to provide workers with relevant insights and recommendations.
+
+6. **Feedback Loop**:
+   - The Analysis Model Agent sends feedback to the Expert Agent, suggesting improvements or adjustments to the data collection and processing strategies.
+   - It also communicates with the Control Model Agent to implement recommended changes in the industrial process workflow.
+
+7. **Industrial Process Control**:
+   - The Control Model Agent receives recommendations from the Analysis Model Agent and implements them in the industrial process, ensuring that the workflow is optimized based on the latest analysis results.
+
+8. **Real-time Communication**:
+   - The Communication Model Agent facilitates real-time interactions between the Expert Agent and the workers, enabling quick and efficient communication of critical information.
+   - It receives updates from the Expert Agent and conveys them to the workers, ensuring that everyone is informed and up-to-date on the current operational status.
+
+9. **User Interface**:
+   - The User Interface Agent provides workers with a user-friendly interface to access relevant data, insights, and recommendations from the Analysis Model Agent.
+   - It allows workers to input their observations, feedback, or any other relevant data, which is then transmitted to the Expert Agent for further processing and analysis.
+
+10. **Data Retrieval and Long-term Storage**:
+    - The Record Model Agent retrieves data from the database upon request from the Analysis Model Agent, the User Interface Agent, or other relevant agents within the system.
+    - It ensures that the data is securely stored and easily accessible for long-term analysis and reference.
+
+By incorporating the Communication Model Agent and the User Interface Agent, the system can now facilitate more comprehensive data flow and interaction, enabling real-time communication, efficient data exchange, and improved collaboration among all stakeholders. This updated diagram illustrates how these agents work together to create a more integrated and responsive industrial process management system.
+2024-11-13 17:24:14,858 - INFO - ### Starting workflow
+2024-11-13 17:24:14,858 - INFO - ### Run Expert agent
+2024-11-13 17:24:14,859 - ERROR - Workflow execution failed: AgentWorkflow.perform_task() missing 1 required positional argument: 'base64_image'. Please check the workflow.
+2024-11-13 17:25:41,125 - INFO - ### Starting workflow
+2024-11-13 17:25:41,136 - ERROR - Workflow execution failed: AgentWorkflow.run_expert_agent() missing 1 required positional argument: 'base64_image'. Please check the workflow.
+2024-11-13 17:28:06,401 - INFO - ### Starting workflow
+2024-11-13 17:28:06,401 - INFO - ### Run Expert agent
+2024-11-13 17:28:06,401 - ERROR - Workflow execution failed: AgentWorkflow.perform_task() missing 1 required positional argument: 'base64_image'. Please check the workflow.
+2024-11-13 17:28:37,426 - INFO - ### Starting workflow
+2024-11-13 17:28:37,427 - INFO - ### Run Expert agent
+2024-11-13 17:28:37,783 - INFO - Response from ag:13e82541:20241025:expert-agent:338569a8: data: {'type': 'invalid_request_filter', 'code': 2201, 'message': 'Request body is not a valid query', 'object': 'error', 'param': None}
+2024-11-13 17:28:37,783 - ERROR - Unexpected response format: {'type': 'invalid_request_filter', 'code': 2201, 'message': 'Request body is not a valid query', 'object': 'error', 'param': None}
+2024-11-13 17:28:37,783 - ERROR - Workflow execution failed: Invalid response format from API.. Please check the workflow.
+2024-11-13 18:19:35,212 - INFO - ### Starting workflow
+2024-11-13 18:19:35,229 - INFO - ### Run Expert agent<
+2024-11-13 18:19:35,804 - ERROR - Workflow execution failed: 500, message='Attempt to decode JSON with unexpected mimetype: text/plain; charset=utf-8', url='https://api.mistral.ai/v1/agents/completions'. Please check the workflow.
+2024-11-13 18:24:15,303 - INFO - ### Starting workflow
+2024-11-13 18:24:15,303 - INFO - ### Run Expert agent
+2024-11-13 18:24:15,572 - ERROR - Workflow execution failed: 500, message='Attempt to decode JSON with unexpected mimetype: text/plain; charset=utf-8', url='https://api.mistral.ai/v1/agents/completions'. Please check the workflow.
+2024-11-13 18:30:26,887 - INFO - ### Starting workflow
+2024-11-13 18:30:26,887 - INFO - ### Run Expert agent
+2024-11-13 18:30:27,170 - ERROR - Workflow execution failed: 500, message='Attempt to decode JSON with unexpected mimetype: text/plain; charset=utf-8', url='https://api.mistral.ai/v1/agents/completions'. Please check the workflow.
+2024-11-13 18:34:59,494 - INFO - ### Starting workflow
+2024-11-13 18:34:59,495 - INFO - ### Run Expert agent
+2024-11-13 18:34:59,870 - ERROR - Workflow execution failed: 500, message='Attempt to decode JSON with unexpected mimetype: text/plain; charset=utf-8', url='https://api.mistral.ai/v1/agents/completions'. Please check the workflow.
+2024-11-13 18:44:26,637 - INFO - ### Starting workflow
+2024-11-13 18:44:26,638 - INFO - ### Run Expert agent
+2024-11-13 18:44:26,905 - ERROR - Failed to run expert agent: 500, message='Attempt to decode JSON with unexpected mimetype: text/plain; charset=utf-8', url='https://api.mistral.ai/v1/agents/completions'
+2024-11-13 18:50:06,915 - ERROR - Workflow execution failed: name 'base64_image' is not defined. Please check the workflow.
+2024-11-13 18:59:32,029 - INFO - ### Starting workflow
+2024-11-13 18:59:32,030 - INFO - ### Run Expert agent
+2024-11-13 18:59:32,431 - ERROR - Failed to run expert agent: 500, message='Attempt to decode JSON with unexpected mimetype: text/plain; charset=utf-8', url='https://api.mistral.ai/v1/agents/completions'
+2024-11-13 19:10:18,314 - INFO - ### Starting workflow
+2024-11-13 19:10:18,329 - INFO - ### Run Expert agent
+2024-11-13 19:10:18,548 - INFO - Response from ag:13e82541:20241025:expert-agent:338569a8: data: {'detail': [{'type': 'missing', 'loc': ['file', 'file'], 'msg': 'Field required'}]}
+2024-11-13 19:10:18,549 - ERROR - Unexpected response format: {'detail': [{'type': 'missing', 'loc': ['file', 'file'], 'msg': 'Field required'}]}
+2024-11-13 19:10:18,549 - ERROR - HTTP error 422: {"detail": [{"type": "missing", "loc": ["file", "file"], "msg": "Field required"}]}
+2024-11-13 19:10:18,549 - ERROR - Failed to run expert agent: Invalid response format from API.
+2024-11-13 19:10:30,909 - INFO - ### Starting workflow
+2024-11-13 19:10:30,910 - INFO - ### Run Expert agent
+2024-11-13 19:10:31,274 - ERROR - Failed to run expert agent: 500, message='Attempt to decode JSON with unexpected mimetype: text/plain; charset=utf-8', url='https://api.mistral.ai/v1/agents/completions'
+2024-11-13 19:14:17,985 - INFO - ### Starting workflow
+2024-11-13 19:14:17,997 - INFO - ### Run Expert agent
+2024-11-13 19:14:17,997 - ERROR - Failed to run expert agent: ClientSession.post() missing 1 required positional argument: 'url'
+2024-11-13 19:30:56,363 - INFO - ### Starting workflow
+2024-11-13 19:30:56,364 - INFO - ### Run Expert agent
+2024-11-13 19:30:56,818 - ERROR - Failed to run expert agent: 500, message='Attempt to decode JSON with unexpected mimetype: text/plain; charset=utf-8', url='https://api.mistral.ai/v1/agents/completions'
+2024-11-13 19:32:24,302 - INFO - ### Starting workflow
+2024-11-13 19:32:24,303 - INFO - ### Run Expert agent
+2024-11-13 19:32:24,651 - ERROR - Failed to run expert agent: 500, message='Attempt to decode JSON with unexpected mimetype: text/plain; charset=utf-8', url='https://api.mistral.ai/v1/agents/completions'
+2024-11-13 19:32:36,804 - INFO - ### Starting workflow
+2024-11-13 19:32:36,805 - INFO - ### Run Expert agent
+2024-11-13 19:32:37,936 - INFO - Response from ag:13e82541:20241025:expert-agent:338569a8: data: {'id': '0cafc828b5d84921b25dba42bb2167ee', 'object': 'chat.completion', 'created': 1731515241, 'model': 'pixtral-12b-2409', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': "To assist you effectively, I need you to provide the specific image or 2D map from which you want the Expert Agent to extract the essential operational data. Please upload the image, and I'll proceed with the analysis and capture the information as per the guidelines provided.", 'tool_calls': None}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 601, 'total_tokens': 655, 'completion_tokens': 54}}
+2024-11-13 19:32:37,943 - INFO - Expert agent returned result: To assist you effectively, I need you to provide the specific image or 2D map from which you want the Expert Agent to extract the essential operational data. Please upload the image, and I'll proceed with the analysis and capture the information as per the guidelines provided.
+2024-11-13 19:32:37,944 - INFO - ### Run Memory agent
+2024-11-13 19:32:37,973 - INFO - Current Memory Data:
+Empty DataFrame
+Columns: [Timestamp, Object, Action]
+Index: []
+2024-11-13 19:32:37,974 - ERROR - Workflow execution failed: AgentWorkflow.perform_task() missing 1 required positional argument: 'base64_image'. Please check the workflow.
+2024-11-13 19:33:13,534 - INFO - ### Starting workflow
+2024-11-13 19:33:13,535 - INFO - ### Run Expert agent
+2024-11-13 19:33:18,374 - INFO - Response from ag:13e82541:20241025:expert-agent:338569a8: data: {'id': '78d7f9061566417091d6f8f86f55a532', 'object': 'chat.completion', 'created': 1731515278, 'model': 'pixtral-12b-2409', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'Certainly! The image provided appears to be from a surveillance camera, showing a scene with some objects on the floor. Here\'s a summary of the elements present in the image:\n\n1. **Objects on the Floor**:\n   - A large white box or container with a handle on top.\n   - Blue straps or tape laid out on the floor in a somewhat diagonal orientation.\n   - A cable or wire extending from the container.\n\n2. **Surroundings**:\n   - The area looks like a storage or industrial space with concrete flooring.\n   - There are some additional items and cables in the background, suggesting a workspace.\n\n3. **Highlighted Area**:\n   - There is a blue-shaded area with a red circle containing a green checkmark in the middle. This area is highlighted with the label "Mask 1, Score: 0.555".\n   - The blue-shaded area might indicate an object or region of interest detected by some object detection or classification algorithm.\n\nOverall, the image captures an industrial or storage environment with various objects and materials scattered on the floor, with a specific region of interest highlighted and scored.', 'tool_calls': None}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 3253, 'total_tokens': 3483, 'completion_tokens': 230}}
+2024-11-13 19:33:18,374 - INFO - Expert agent returned result: Certainly! The image provided appears to be from a surveillance camera, showing a scene with some objects on the floor. Here's a summary of the elements present in the image:
+
+1. **Objects on the Floor**:
+   - A large white box or container with a handle on top.
+   - Blue straps or tape laid out on the floor in a somewhat diagonal orientation.
+   - A cable or wire extending from the container.
+
+2. **Surroundings**:
+   - The area looks like a storage or industrial space with concrete flooring.
+   - There are some additional items and cables in the background, suggesting a workspace.
+
+3. **Highlighted Area**:
+   - There is a blue-shaded area with a red circle containing a green checkmark in the middle. This area is highlighted with the label "Mask 1, Score: 0.555".
+   - The blue-shaded area might indicate an object or region of interest detected by some object detection or classification algorithm.
+
+Overall, the image captures an industrial or storage environment with various objects and materials scattered on the floor, with a specific region of interest highlighted and scored.
+2024-11-13 19:33:18,374 - INFO - ### Run Memory agent
+2024-11-13 19:33:18,378 - INFO - Current Memory Data:
+Empty DataFrame
+Columns: [Timestamp, Object, Action]
+Index: []
+2024-11-13 19:33:18,378 - ERROR - Workflow execution failed: AgentWorkflow.perform_task() missing 1 required positional argument: 'base64_image'. Please check the workflow.
+2024-11-13 19:33:30,958 - INFO - ### Starting workflow
+2024-11-13 19:33:30,958 - INFO - ### Run Expert agent
+2024-11-13 19:33:34,431 - INFO - Response from ag:13e82541:20241025:expert-agent:338569a8: data: {'id': 'a6710f2e1cac42db9b86fa90ea3e4777', 'object': 'chat.completion', 'created': 1731515296, 'model': 'pixtral-12b-2409', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': "Here's the result extracted from the image:\n\n- **Mask Identifier**: Mask 1\n- **Score**: 0.555\n- **Visual Elements**: The image shows a person wearing gloves, holding a long blue object, possibly a tool or equipment. The person appears to be in an industrial or workshop setting, with various equipment and materials scattered around, including a white container, blue straps, and cables.\n\nThe score indicates the confidence level of the model in detecting the specific mask or object of interest within the image. In this case, the score of 0.555 suggests moderate confidence.", 'tool_calls': None}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 3253, 'total_tokens': 3377, 'completion_tokens': 124}}
+2024-11-13 19:33:34,432 - INFO - Expert agent returned result: Here's the result extracted from the image:
+
+- **Mask Identifier**: Mask 1
+- **Score**: 0.555
+- **Visual Elements**: The image shows a person wearing gloves, holding a long blue object, possibly a tool or equipment. The person appears to be in an industrial or workshop setting, with various equipment and materials scattered around, including a white container, blue straps, and cables.
+
+The score indicates the confidence level of the model in detecting the specific mask or object of interest within the image. In this case, the score of 0.555 suggests moderate confidence.
+2024-11-13 19:33:34,432 - INFO - ### Run Memory agent
+2024-11-13 19:33:34,436 - INFO - Current Memory Data:
+Empty DataFrame
+Columns: [Timestamp, Object, Action]
+Index: []
+2024-11-13 19:33:34,436 - ERROR - Workflow execution failed: AgentWorkflow.perform_task() missing 1 required positional argument: 'base64_image'. Please check the workflow.
+2024-11-13 19:58:43,549 - INFO - ### Starting workflow
+2024-11-13 19:58:43,556 - INFO - ### Run Expert agent
+2024-11-13 19:58:48,565 - INFO - Response from ag:13e82541:20241025:expert-agent:338569a8: data: {'id': '7d4b8c6806ec4bb5ba8332bdddf07206', 'object': 'chat.completion', 'created': 1731516808, 'model': 'pixtral-12b-2409', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'Certainly! Below is the information formatted in a table. Based on your instructions, I will simulate the process of sending this information into the Memory Agent.\n\n### Information Table\n\n| Timestamp | Object (Segmentation Label) | Action Prediction |\n|-----------|-----------------------------|-------------------|\n| 2280      | Blue Area (Segmented Object) | Working with Object |\n\n### Simulated Message to Memory Agent\n\n```json\n{\n    "timestamp": 2280,\n    "object": "Blue Area (Segmented Object)",\n    "action": "Working with Object"\n}\n```\n\n### Saving to Central Memory Station\n\nAssuming the Memory Agent receives and processes this data, it would be saved as follows:\n\n```json\n{\n    "memory_entries": [\n        {\n            "timestamp": 2280,\n            "object": "Blue Area (Segmented Object)",\n            "action": "Working with Object"\n        }\n    ]\n}\n```\n\n### Confirmation\n\nThe information has been successfully formatted and simulated to be sent to the Memory Agent and saved in the central memory station.', 'tool_calls': None}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 3358, 'total_tokens': 3583, 'completion_tokens': 225}}
+2024-11-13 19:58:48,565 - INFO - Expert agent returned result: Certainly! Below is the information formatted in a table. Based on your instructions, I will simulate the process of sending this information into the Memory Agent.
+
+### Information Table
+
+| Timestamp | Object (Segmentation Label) | Action Prediction |
+|-----------|-----------------------------|-------------------|
+| 2280      | Blue Area (Segmented Object) | Working with Object |
+
+### Simulated Message to Memory Agent
+
+```json
+{
+    "timestamp": 2280,
+    "object": "Blue Area (Segmented Object)",
+    "action": "Working with Object"
+}
+```
+
+### Saving to Central Memory Station
+
+Assuming the Memory Agent receives and processes this data, it would be saved as follows:
+
+```json
+{
+    "memory_entries": [
+        {
+            "timestamp": 2280,
+            "object": "Blue Area (Segmented Object)",
+            "action": "Working with Object"
+        }
+    ]
+}
+```
+
+### Confirmation
+
+The information has been successfully formatted and simulated to be sent to the Memory Agent and saved in the central memory station.
+2024-11-13 19:58:48,582 - ERROR - Workflow execution failed: AgentWorkflow.run_memory_agent() missing 1 required positional argument: 'base64_image'. Please check the workflow.
+2024-11-13 20:18:34,292 - INFO - ### Starting workflow
+2024-11-13 20:18:34,304 - INFO - ### Run Expert agent
+2024-11-13 20:18:41,442 - INFO - Response from ag:13e82541:20241025:expert-agent:338569a8: data: {'id': 'bcd4e414c4f74cfdb34a27d8f6ec97a1', 'object': 'chat.completion', 'created': 1731517999, 'model': 'pixtral-12b-2409', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'Sure, let\'s construct the table based on the information provided and perform the analysis.\n\n### Table\n| Clone Timestamp | Clone Object (Blue Area Segmentation with Label) | Action Prediction |\n|-----------------|------------------------------------------------------|-------------------|\n| 2280            | An object with label "X" (possibly a tool or part)  | Working on/with object "X" |\n\n### Analysis\n1. **Timestamp**:\n   - The timestamp from the video frame is 2280.\n\n2. **Object Detection and Segmentation**:\n   - The detected object in the blue area of segmentation is labeled "X".\n   - The object appears to be a specific tool or part that the individual is working with.\n\n3. **Action Prediction**:\n   - The action being performed is likely related to handling or working on the labeled object "X".\n\n### Memory Agent Message\n```json\n{\n    "timestamp": 2280,\n    "object": {\n        "label": "X",\n        "description": "The individual is working with a specific tool or part."\n    },\n    "action": "Working on/with object \'X\'"\n}\n```\n\n### Central Memory Station Entry\n```json\n{\n    "timestamp": 2280,\n    "object": {\n        "label": "X",\n        "description": "The individual is working with a specific tool or part."\n    },\n    "action": "Working on/with object \'X\'"\n}\n```\n\nThis table and analysis provide a structured format for the information extracted from the video frame, including the detected object and the predicted action. The data is formatted for easy transmission and storage in the central memory station.', 'tool_calls': None}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 3367, 'total_tokens': 3712, 'completion_tokens': 345}}
+2024-11-13 20:18:41,442 - INFO - Expert agent returned result: Sure, let's construct the table based on the information provided and perform the analysis.
+
+### Table
+| Clone Timestamp | Clone Object (Blue Area Segmentation with Label) | Action Prediction |
+|-----------------|------------------------------------------------------|-------------------|
+| 2280            | An object with label "X" (possibly a tool or part)  | Working on/with object "X" |
+
+### Analysis
+1. **Timestamp**:
+   - The timestamp from the video frame is 2280.
+
+2. **Object Detection and Segmentation**:
+   - The detected object in the blue area of segmentation is labeled "X".
+   - The object appears to be a specific tool or part that the individual is working with.
+
+3. **Action Prediction**:
+   - The action being performed is likely related to handling or working on the labeled object "X".
+
+### Memory Agent Message
+```json
+{
+    "timestamp": 2280,
+    "object": {
+        "label": "X",
+        "description": "The individual is working with a specific tool or part."
+    },
+    "action": "Working on/with object 'X'"
+}
+```
+
+### Central Memory Station Entry
+```json
+{
+    "timestamp": 2280,
+    "object": {
+        "label": "X",
+        "description": "The individual is working with a specific tool or part."
+    },
+    "action": "Working on/with object 'X'"
+}
+```
+
+This table and analysis provide a structured format for the information extracted from the video frame, including the detected object and the predicted action. The data is formatted for easy transmission and storage in the central memory station.
+2024-11-13 20:18:41,455 - ERROR - Workflow execution failed: AgentWorkflow.run_memory_agent() missing 1 required positional argument: 'base64_image'. Please check the workflow.
