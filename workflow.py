@@ -6,19 +6,19 @@ from aiohttp import ClientSession
 import re
 import logging
 import pandas as pd
-#import cv2
 import base64
 from io import BytesIO
 from PIL import Image
 import json
+import csv
+import logging
+
+csv_file_path = '/mnt/Data/bosong/agent/log.csv'
 
 # 读取图像并将其编码为 Base64
 def encode_image(img):
     with open(img, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode("utf-8")
-
-#img = "/mnt/logicNAS/Exchange/Aria/User_16/test1.jpg"
-#base64_img = encode_image(img)
 
 logging.basicConfig(filename='workflow.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -34,58 +34,68 @@ agents = {
     'workflow': "ag:13e82541:20241025:master-workflow:7bcaf579"
 }
 
-#central_database = { 'memory_data': pd.DataFrame(columns=["Timestamp", "Object", "Action"]),}  # 用于存储从 CSV 文件读取的数据
 # 中央数据库，用于存储各个代理的结果和状态信息
 central_database = {
     'tool_inventory': [],
     'workspace_configurations': [],
+    'expert_data': "",  # 用于存储专家代理的结果
     'memory_data': pd.DataFrame(columns=["Timestamp", "Object", "Action"]),  # 用于存储从 CSV 文件读取的数据
 }
 
 class AgentWorkflow:
-    def __init__(self):
+    def __init__(self, csv_file_path):
         self.client_session = ClientSession()
+        self.csv_file_path = csv_file_path
+        
+    async def read_csv_data(self):
+        """Read data from a CSV file and update central database."""
+        try:
+            with open(self.csv_file_path, mode='r', newline='') as file:
+                reader = csv.DictReader(file)
+                central_database['memory_data'] = pd.DataFrame(reader)
+        except FileNotFoundError:
+            central_database['memory_data'] = pd.DataFrame(columns=["Timestamp", "Object", "Action"])
+            print("CSV file not found. Created a new dataframe.")
+        except Exception as e:
+            print(f"Error reading CSV file: {e}")
+            # Optionally, create an empty DataFrame on any error
+            central_database['memory_data'] = pd.DataFrame(columns=["Timestamp", "Object", "Action"])
+
+    async def write_csv_data(self):
+        """Write the central database to a CSV file."""
+        try:
+            central_database['memory_data'].to_csv(self.csv_file_path, index=False)
+            print("Data written to CSV successfully.")
+        except Exception as e:
+            print(f"Failed to write to CSV: {e}")
         
     async def close(self):
         """关闭资源，确保客户端会话被正确关闭"""
         await self.client_session.close()
 
     async def perform_task(self, agent_id, question, base64_image):
-        if agent_id == agents['expert']:
-            """异步执行任务并获取响应"""
-            url = f"https://api.mistral.ai/v1/agents/completions"
-            headers = {'Authorization': f'Bearer {API_KEY}',
-                        'Content-Type': 'application/json'}
-            params = {
-                "agent_id": agent_id,
-                "messages": [
-                    {
-                        "role": "user", 
-                        "content":[
-                            {
-                                "type": "text",
-                                "text": question
-                            },
-                            {
-                                "type": "image_url",
-                                "image_url": f"data:image/jpeg;base64,{base64_image}"
-                            } 
-                        ] 
-                    },
-                ]
-            }
-        else:
-            url = f"https://api.mistral.ai/v1/agents/completions"
-            headers = {'Authorization': f'Bearer{API_KEY}'}
-            params = {
-                "agent_id": agent_id,
-                "messages": [
-                    {
-                        "role": "user", 
-                        "content": question
-                    },
-                ]
-            }  
+        """异步执行任务并获取响应"""
+        url = f"https://api.mistral.ai/v1/agents/completions"
+        headers = {'Authorization': f'Bearer {API_KEY}',
+                    'Content-Type': 'application/json'}
+        params = {
+            "agent_id": agent_id,
+            "messages": [
+                {
+                    "role": "user", 
+                    "content":[
+                        {
+                            "type": "text",
+                            "text": question
+                        },
+                        {
+                            "type": "image_url",
+                            "image_url": f"data:image/jpeg;base64,{base64_image}"
+                        } 
+                    ] 
+                },
+            ]
+        }
         
         async with self.client_session.post(url, json=params, headers=headers) as response:
             data = await response.json()  # Directly parse the JSON response
@@ -158,44 +168,36 @@ class AgentWorkflow:
     This comprehensive description of the Master Workflow outlines a structured and efficient approach to managing complex operational tasks, ensuring high performance, and fostering an environment of continuous improvement within the organization.
     """
     
-#    async def load_data_from_csv(self, csv_file_path):
-#        """从 CSV 文件加载数据并更新内存代理"""
-#        try:
-#            df = pd.read_csv(csv_file_path)
-#            for index, row in df.iterrows():
-#                timestamp = row['Timestamp']
-#                object_name = row['Object']
-#                action = row['Action']
-#                # 更新内存数据框
-#                central_database['memory_data'] = central_database['memory_data'].append(
-#                    {"Timestamp": timestamp, "Object": object_name, "Action": action}, ignore_index=True)
-#            logging.info("Data loaded successfully from CSV.")
-#        except Exception as e:
-#            logging.error(f"Failed to load data from CSV: {e}")
-
     async def run_memory_agent(self, base64_image):
-        """运行内存代理并返回结果"""
         logging.info("### Run Memory agent")
-        expert_result = central_database.get('expert_data', '')
-        """运行内存代理并返回结果"""
         print("### Run Memory agent")
-        # 从中央数据库获取专家数据
-        #for tool in central_database['tool_inventory']:
-        #    if tool['Status'] == 'In Use':
-        #        logging.info(f"{tool['Tool Name']} is currently in use.")
-        #    else:
-        #        logging.info(f"{tool['Tool Name']} is available.")
+        expert_result = central_database.get('expert_data', '')
 
+        await self.read_csv_data()  # Read existing data from CSV
+        central_database['memory_data'] = pd.read_csv(self.csv_file_path)
+        logging.info("CSV data successfully read and memory data updated.")
         # 输出当前内存数据内容
-        logging.info(f"Current Memory Data:\n{central_database['memory_data']}")
-
-        #expert_result = central_database.get('expert_data', '')
+        #logging.info(f"Current Memory Data:\n{central_database['memory_data']}")
+        
         if expert_result:
-            result = await self.perform_task(agents['memory'], expert_result, base64_image)
+            memory_result_json = central_database['memory_data'].to_json(orient='records')
+            result = await self.perform_task(agents['memory'], expert_result+memory_result_json, base64_image)
             logging.info(f"Memory agent result: {result}")
-            central_database['memory_data'] = result  # 将结果存入中央数据库
-            return result
 
+            if result:
+                try:
+                    # 假设 result 是一个字典，可以直接转换为 DataFrame
+                    new_record = pd.DataFrame([result])  # 直接将字典列表转换为 DataFrame
+                    central_database['memory_data'] = pd.concat([central_database['memory_data'], new_record], ignore_index=True)
+                    logging.info(f"Memory agent returned result: {result}")
+                    await self.write_csv_data()  # 成功处理后写入 CSV
+                    return result
+                except Exception as e:  # 捕获所有可能的错误
+                    logging.error(f"Failed to process memory agent result: {e}")
+                    return None
+            else:
+                logging.error("No result returned from memory agent.")
+                return None
         else:
             logging.error("Expert data not found in central database. Please check the workflow or central database.")
             return None
@@ -241,7 +243,7 @@ class AgentWorkflow:
             """运行分析代理并返回结果"""
             print("### Run Analysis agent")
             # 从中央数据库获取内存数据
-            if memory_result:
+            if not memory_result.empty:
                 result = await self.perform_task(agents['analysis'], memory_result, base64_image)
                 logging.info(f"Analysis agent result: {result}")
                 # 将结果存入中央数据库
@@ -255,26 +257,26 @@ class AgentWorkflow:
             return None
 
     async def workflow(self, initial_query, base64_image):
-        """执行工作流"""
-        logging.info("### Starting workflow")
-        expert_result = await self.run_expert_agent(initial_query, base64_image)
-        if expert_result:
-            memory_result = await self.run_memory_agent()#expert_result)
-            if memory_result:
-                analysis_result = await self.run_analysis_agent()#memory_result)
-                logging.info(f"Final Analysis Result: {analysis_result}")
-                print(f"Final Analysis Result: {analysis_result}")
+            """Execute the workflow with CSV operations."""
+            logging.info("### Starting workflow")
+            await self.read_csv_data()  # Read existing data from CSV
+            expert_result = await self.run_expert_agent(initial_query, base64_image)
+            if expert_result:
+                memory_result = await self.run_memory_agent(base64_image)
+                if memory_result:
+                    analysis_result = await self.run_analysis_agent(base64_image)
+                    logging.info(f"Final Analysis Result: {analysis_result}")
+                    print(f"Final Analysis Result: {analysis_result}")
+                    #await self.write_csv_data()  # Write updated data to CSV
 
-# 示例用法，定义主异步函数
 async def main():
-    initial_query = "Analyse the image: the circle with star is the eye gaze point, which i am looing at the point, the blue area is the segmentation of the whole area of the object i am working with,. the information of the picture is from the video frame of timestamp 2280, show me a table with one clone timestamp, secone clone is object(the blue area of segmentation with lable) please detect and analyse the item or object, third clone is the action prediction. send these message into memory agent and give me the result in table and save it into central memory station."
-    # 读取图像并将其编码为 Base64
-    img = "/mnt/logicNAS/Exchange/Aria/User_16/test1.jpg"
-    base64_image = encode_image(img)  # 使用之前定义的 encode_image 函数
+    #img = "/mnt/logicNAS/Exchange/Aria/User_16/test2.jpg"
+    img = "/mnt/logicNAS/Exchange/Aria/User_16/gaze/04500.jpg"
+    base64_image = encode_image(img)
+    initial_query =(f"Analyse the image and tell me what is the object shown in highlight: the circle with star is the eye gaze point, which I am looking at the point, the highlighted area is the segmentation of the whole area of the object I am working with. The information of the picture is from the video frame of timestamp {img}, show me a table with one column timestamp, second column is object(the highlighted color area of segmentation with label) please detect and analyse the item or object, third column is the action prediction. Send these messages into the memory agent and give me the result in table and save it into central memory station." )
 
-    agent_workflow = AgentWorkflow()
-    
-#    await agent_workflow.load_data_from_csv('/mnt/logicNAS/Exchange/Aria/User_16/User_16_412_0210_3_480_gaze.csv')
+    agent_workflow = AgentWorkflow(csv_file_path=csv_file_path)
+
     try:
         await agent_workflow.workflow(initial_query, base64_image)
     except Exception as e:
@@ -283,6 +285,6 @@ async def main():
     finally:    
         await agent_workflow.close()
 
-# 运行主函数
 if __name__ == "__main__":
+    csv_file_path = '/mnt/Data/bosong/agent/log.csv'
     asyncio.run(main())
