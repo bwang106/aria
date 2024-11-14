@@ -271,9 +271,9 @@ class AgentWorkflow:
 
 async def main():
     #img = "/mnt/logicNAS/Exchange/Aria/User_16/test2.jpg"
-    img = "/mnt/logicNAS/Exchange/Aria/User_16/gaze/04500.jpg"
+    img = "/mnt/logicNAS/Exchange/Aria/User_16/gaze/04550.jpg"
     base64_image = encode_image(img)
-    initial_query =(f"Analyse the image and tell me what is the object shown in highlight: the circle with star is the eye gaze point, which I am looking at the point, the highlighted area is the segmentation of the whole area of the object I am working with. The information of the picture is from the video frame of timestamp {img}, show me a table with one column timestamp, second column is object(the highlighted color area of segmentation with label) please detect and analyse the item or object, third column is the action prediction. Send these messages into the memory agent and give me the result in table and save it into central memory station." )
+    initial_query =(f"Analyse the image and tell me what is the object shown in highlight: the circle with star is the eye gaze point, which I am looking at the point, the highlighted area is the segmentation of the whole area of the object I am working with. The information of the picture is from the video frame of timestamp, the file name is the timestamp from path {img}, show me a table with one column timestamp, second column is object(the highlighted color area of segmentation with label) please detect and analyse the item or object, third column is the action prediction. Send these messages into the memory agent and give me the result in table and save it into central memory station." )
 
     agent_workflow = AgentWorkflow(csv_file_path=csv_file_path)
 

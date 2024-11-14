@@ -2009,3 +2009,279 @@ This script demonstrates how to write the parsed data into a CSV file and a cent
 2024-11-14 18:03:24,555 - INFO - ### Run Analysis agent
 2024-11-14 18:03:24,555 - ERROR - Analysis agent request failed: Object of type DataFrame is not JSON serializable. Please check your request.
 2024-11-14 18:03:24,556 - INFO - Final Analysis Result: None
+2024-11-14 18:37:51,641 - INFO - ### Starting workflow
+2024-11-14 18:37:51,643 - INFO - ### Run Expert agent
+2024-11-14 18:37:51,833 - INFO - Response from ag:13e82541:20241025:expert-agent:338569a8: data: {'detail': [{'type': 'value_error', 'loc': ['body'], 'msg': "Value error, Image content must be a URL (starting with 'https') or base64 encoded image (starting with 'data:image/<format>;base64,<image-base64>'). Received: data:image/jpeg;base64,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04500.jpg", 'input': {'agent_id': 'ag:13e82541:20241025:expert-agent:338569a8', 'messages': [{'role': 'user', 'content': [{'type': 'text', 'text': 'Analyse the image and tell me what is the object shown in highlight: the circle with star is the eye gaze point, which I am looking at the point, the highlighted area is the segmentation of the whole area of the object I am working with. The information of the picture is from the video frame of timestamp from the frames, the file name is the timestamp /mnt/logicNAS/Exchange/Aria/User_16/gaze/04500.jpg,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04550.jpg,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04600.jpg, show me a table with one column timestamp, second column is object(the highlighted color area of segmentation with label) please detect and analyse the item or object, third column is the action prediction. Send these messages into the memory agent and give me the result in table and save it into central memory station.'}, {'type': 'image_url', 'image_url': 'data:image/jpeg;base64,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04500.jpg'}, {'type': 'image_url', 'image_url': 'data:image/jpeg;base64,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04550.jpg'}, {'type': 'image_url', 'image_url': 'data:image/jpeg;base64,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04600.jpg'}]}]}, 'ctx': {'error': {}}}]}
+2024-11-14 18:37:51,833 - ERROR - Unexpected response format: {'detail': [{'type': 'value_error', 'loc': ['body'], 'msg': "Value error, Image content must be a URL (starting with 'https') or base64 encoded image (starting with 'data:image/<format>;base64,<image-base64>'). Received: data:image/jpeg;base64,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04500.jpg", 'input': {'agent_id': 'ag:13e82541:20241025:expert-agent:338569a8', 'messages': [{'role': 'user', 'content': [{'type': 'text', 'text': 'Analyse the image and tell me what is the object shown in highlight: the circle with star is the eye gaze point, which I am looking at the point, the highlighted area is the segmentation of the whole area of the object I am working with. The information of the picture is from the video frame of timestamp from the frames, the file name is the timestamp /mnt/logicNAS/Exchange/Aria/User_16/gaze/04500.jpg,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04550.jpg,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04600.jpg, show me a table with one column timestamp, second column is object(the highlighted color area of segmentation with label) please detect and analyse the item or object, third column is the action prediction. Send these messages into the memory agent and give me the result in table and save it into central memory station.'}, {'type': 'image_url', 'image_url': 'data:image/jpeg;base64,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04500.jpg'}, {'type': 'image_url', 'image_url': 'data:image/jpeg;base64,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04550.jpg'}, {'type': 'image_url', 'image_url': 'data:image/jpeg;base64,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04600.jpg'}]}]}, 'ctx': {'error': {}}}]}
+2024-11-14 18:37:51,834 - ERROR - HTTP error 422: {"detail":[{"type":"value_error","loc":["body"],"msg":"Value error, Image content must be a URL (starting with 'https') or base64 encoded image (starting with 'data:image/<format>;base64,<image-base64>'). Received: data:image/jpeg;base64,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04500.jpg","input":{"agent_id":"ag:13e82541:20241025:expert-agent:338569a8","messages":[{"role":"user","content":[{"type":"text","text":"Analyse the image and tell me what is the object shown in highlight: the circle with star is the eye gaze point, which I am looking at the point, the highlighted area is the segmentation of the whole area of the object I am working with. The information of the picture is from the video frame of timestamp from the frames, the file name is the timestamp /mnt/logicNAS/Exchange/Aria/User_16/gaze/04500.jpg,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04550.jpg,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04600.jpg, show me a table with one column timestamp, second column is object(the highlighted color area of segmentation with label) please detect and analyse the item or object, third column is the action prediction. Send these messages into the memory agent and give me the result in table and save it into central memory station."},{"type":"image_url","image_url":"data:image/jpeg;base64,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04500.jpg"},{"type":"image_url","image_url":"data:image/jpeg;base64,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04550.jpg"},{"type":"image_url","image_url":"data:image/jpeg;base64,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04600.jpg"}]}]},"ctx":{"error":{}}}]}
+2024-11-14 18:37:51,834 - ERROR - Failed to run expert agent: Invalid response format from API.
+2024-11-14 18:38:05,594 - INFO - ### Starting workflow
+2024-11-14 18:38:05,595 - INFO - ### Run Expert agent
+2024-11-14 18:38:05,759 - INFO - Response from ag:13e82541:20241025:expert-agent:338569a8: data: {'detail': [{'type': 'value_error', 'loc': ['body'], 'msg': "Value error, Image content must be a URL (starting with 'https') or base64 encoded image (starting with 'data:image/<format>;base64,<image-base64>'). Received: data:image/jpeg;base64,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04500.jpg", 'input': {'agent_id': 'ag:13e82541:20241025:expert-agent:338569a8', 'messages': [{'role': 'user', 'content': [{'type': 'text', 'text': 'Analyse the image and tell me what is the object shown in highlight: the circle with star is the eye gaze point, which I am looking at the point, the highlighted area is the segmentation of the whole area of the object I am working with. The information of the picture is from the video frame of timestamp from the frames, the file name is the timestamp /mnt/logicNAS/Exchange/Aria/User_16/gaze/04500.jpg,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04550.jpg,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04600.jpg, show me a table with one column timestamp, second column is object(the highlighted color area of segmentation with label) please detect and analyse the item or object, third column is the action prediction. Send these messages into the memory agent and give me the result in table and save it into central memory station.'}, {'type': 'image_url', 'image_url': 'data:image/jpeg;base64,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04500.jpg'}, {'type': 'image_url', 'image_url': 'data:image/jpeg;base64,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04550.jpg'}, {'type': 'image_url', 'image_url': 'data:image/jpeg;base64,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04600.jpg'}]}]}, 'ctx': {'error': {}}}]}
+2024-11-14 18:38:05,760 - ERROR - Unexpected response format: {'detail': [{'type': 'value_error', 'loc': ['body'], 'msg': "Value error, Image content must be a URL (starting with 'https') or base64 encoded image (starting with 'data:image/<format>;base64,<image-base64>'). Received: data:image/jpeg;base64,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04500.jpg", 'input': {'agent_id': 'ag:13e82541:20241025:expert-agent:338569a8', 'messages': [{'role': 'user', 'content': [{'type': 'text', 'text': 'Analyse the image and tell me what is the object shown in highlight: the circle with star is the eye gaze point, which I am looking at the point, the highlighted area is the segmentation of the whole area of the object I am working with. The information of the picture is from the video frame of timestamp from the frames, the file name is the timestamp /mnt/logicNAS/Exchange/Aria/User_16/gaze/04500.jpg,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04550.jpg,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04600.jpg, show me a table with one column timestamp, second column is object(the highlighted color area of segmentation with label) please detect and analyse the item or object, third column is the action prediction. Send these messages into the memory agent and give me the result in table and save it into central memory station.'}, {'type': 'image_url', 'image_url': 'data:image/jpeg;base64,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04500.jpg'}, {'type': 'image_url', 'image_url': 'data:image/jpeg;base64,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04550.jpg'}, {'type': 'image_url', 'image_url': 'data:image/jpeg;base64,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04600.jpg'}]}]}, 'ctx': {'error': {}}}]}
+2024-11-14 18:38:05,760 - ERROR - HTTP error 422: {"detail":[{"type":"value_error","loc":["body"],"msg":"Value error, Image content must be a URL (starting with 'https') or base64 encoded image (starting with 'data:image/<format>;base64,<image-base64>'). Received: data:image/jpeg;base64,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04500.jpg","input":{"agent_id":"ag:13e82541:20241025:expert-agent:338569a8","messages":[{"role":"user","content":[{"type":"text","text":"Analyse the image and tell me what is the object shown in highlight: the circle with star is the eye gaze point, which I am looking at the point, the highlighted area is the segmentation of the whole area of the object I am working with. The information of the picture is from the video frame of timestamp from the frames, the file name is the timestamp /mnt/logicNAS/Exchange/Aria/User_16/gaze/04500.jpg,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04550.jpg,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04600.jpg, show me a table with one column timestamp, second column is object(the highlighted color area of segmentation with label) please detect and analyse the item or object, third column is the action prediction. Send these messages into the memory agent and give me the result in table and save it into central memory station."},{"type":"image_url","image_url":"data:image/jpeg;base64,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04500.jpg"},{"type":"image_url","image_url":"data:image/jpeg;base64,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04550.jpg"},{"type":"image_url","image_url":"data:image/jpeg;base64,/mnt/logicNAS/Exchange/Aria/User_16/gaze/04600.jpg"}]}]},"ctx":{"error":{}}}]}
+2024-11-14 18:38:05,761 - ERROR - Failed to run expert agent: Invalid response format from API.
+2024-11-14 18:52:57,285 - INFO - ### Starting workflow
+2024-11-14 18:52:57,286 - INFO - ### Run Expert agent
+2024-11-14 18:53:00,756 - INFO - Response from ag:13e82541:20241025:expert-agent:338569a8: data: {'id': 'db12b08165a04603aac9ce1965993e21', 'object': 'chat.completion', 'created': 1731599262, 'model': 'pixtral-12b-2409', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'Certainly! Below is the table formatted as requested:\n\n| Timestamp                | Object                                      | Action Prediction           |\n|--------------------------|---------------------------------------------|-----------------------------|\n| 04550                    | Aluminum extrusion                          | Cutting or machining         |\n\n### Explanation:\n\n- **Timestamp**: The timestamp is derived from the file name, which is `04550.jpg`.\n- **Object**: The highlighted area in the image corresponds to an aluminum extrusion.\n- **Action Prediction**: Based on the context and the setting visible in the image, the predicted action is "cutting or machining."\n\nThis table captures the essential details and predictions based on the provided image. Please ensure to save this information into the central memory station as directed.', 'tool_calls': None}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 1680, 'total_tokens': 1832, 'completion_tokens': 152}}
+2024-11-14 18:53:00,757 - INFO - Expert agent returned result: Certainly! Below is the table formatted as requested:
+
+| Timestamp                | Object                                      | Action Prediction           |
+|--------------------------|---------------------------------------------|-----------------------------|
+| 04550                    | Aluminum extrusion                          | Cutting or machining         |
+
+### Explanation:
+
+- **Timestamp**: The timestamp is derived from the file name, which is `04550.jpg`.
+- **Object**: The highlighted area in the image corresponds to an aluminum extrusion.
+- **Action Prediction**: Based on the context and the setting visible in the image, the predicted action is "cutting or machining."
+
+This table captures the essential details and predictions based on the provided image. Please ensure to save this information into the central memory station as directed.
+2024-11-14 18:53:00,757 - INFO - ### Run Memory agent
+2024-11-14 18:53:00,766 - INFO - CSV data successfully read and memory data updated.
+2024-11-14 18:53:04,696 - INFO - Response from ag:13e82541:20241025:untitlerecord-model-agent-promptd-agent:ccc270fb: data: {'id': '89d38c55b4e84da3b014135d7ee0bcb6', 'object': 'chat.completion', 'created': 1731599265, 'model': 'pixtral-12b-2409', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '[{"name":"expert_advice","arguments":{"content":"Read the result from the expert agent, the circle with star is the eye gaze point, the highlighted color area is the segmentation of the whole area of the object person working with. the information of the picture is from the video frame of timestamp, show me a table with one column timestamp, secone column is to prediction the object or item based on the shape and working prediction(the highlighted area of segmentation with lable), third column is the action prediction. Remember and write this table into csv file and central database.\\nRead the table from the csv file and central database and shows the results of Table of Analysis, also shows the data saved before and shows the old table information:\\n\\n| Timestamp | Object (Highlighted Area)         | Action Prediction                           |"}}]', 'tool_calls': None}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 4952, 'total_tokens': 5120, 'completion_tokens': 168}}
+2024-11-14 18:53:04,697 - INFO - Memory agent result: [{"name":"expert_advice","arguments":{"content":"Read the result from the expert agent, the circle with star is the eye gaze point, the highlighted color area is the segmentation of the whole area of the object person working with. the information of the picture is from the video frame of timestamp, show me a table with one column timestamp, secone column is to prediction the object or item based on the shape and working prediction(the highlighted area of segmentation with lable), third column is the action prediction. Remember and write this table into csv file and central database.\nRead the table from the csv file and central database and shows the results of Table of Analysis, also shows the data saved before and shows the old table information:\n\n| Timestamp | Object (Highlighted Area)         | Action Prediction                           |"}}]
+2024-11-14 18:53:04,699 - INFO - Memory agent returned result: [{"name":"expert_advice","arguments":{"content":"Read the result from the expert agent, the circle with star is the eye gaze point, the highlighted color area is the segmentation of the whole area of the object person working with. the information of the picture is from the video frame of timestamp, show me a table with one column timestamp, secone column is to prediction the object or item based on the shape and working prediction(the highlighted area of segmentation with lable), third column is the action prediction. Remember and write this table into csv file and central database.\nRead the table from the csv file and central database and shows the results of Table of Analysis, also shows the data saved before and shows the old table information:\n\n| Timestamp | Object (Highlighted Area)         | Action Prediction                           |"}}]
+2024-11-14 18:53:04,704 - ERROR - Failed to process memory agent result: "None of [Index(['Timestamp', 'Object (Highlighted Area)', 'Action Prediction'], dtype='object')] are in the [columns]"
+2024-11-14 18:58:56,763 - INFO - ### Starting workflow
+2024-11-14 18:58:56,768 - INFO - ### Run Expert agent
+2024-11-14 18:59:02,228 - INFO - Response from ag:13e82541:20241025:expert-agent:338569a8: data: {'id': '96db1d7277a446018aaadd219cff5587', 'object': 'chat.completion', 'created': 1731599621, 'model': 'pixtral-12b-2409', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'Sure, I\'ll construct the table based on the provided information and analyze the highlighted object in the image.\n\n### Table\n\n| Timestamp                  | Object                          | Action Prediction             |\n|----------------------------|---------------------------------|-------------------------------|\n| 04550                      | Aluminum profile/extrusion      | Assembling or cutting profile |\n\n### Analysis\n\n1. **Timestamp**: The timestamp provided is **04550**.\n2. **Object**: The highlighted area in the image shows an **Aluminum profile or extrusion**. This type of object is commonly used in industrial settings for various construction and manufacturing purposes.\n3. **Action Prediction**: Based on the visual content and typical industrial tasks involving such objects, the predicted action is **assembling or cutting the profile**.\n\n### Message to Memory Agent\n\n```json\n{\n  "timestamp": "04550",\n  "object": "Aluminum profile/extrusion",\n  "action_prediction": "Assembling or cutting profile"\n}\n```\n\nThis information will be sent to the Memory Agent and stored in the central memory station for further processing and reference.\n\n### Result Table\n\n| Timestamp | Object                | Action Prediction          |\n|-----------|-----------------------|----------------------------|\n| 04550     | Aluminum profile/extrusion | Assembling or cutting profile |', 'tool_calls': None}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 1680, 'total_tokens': 1954, 'completion_tokens': 274}}
+2024-11-14 18:59:02,228 - INFO - Expert agent returned result: Sure, I'll construct the table based on the provided information and analyze the highlighted object in the image.
+
+### Table
+
+| Timestamp                  | Object                          | Action Prediction             |
+|----------------------------|---------------------------------|-------------------------------|
+| 04550                      | Aluminum profile/extrusion      | Assembling or cutting profile |
+
+### Analysis
+
+1. **Timestamp**: The timestamp provided is **04550**.
+2. **Object**: The highlighted area in the image shows an **Aluminum profile or extrusion**. This type of object is commonly used in industrial settings for various construction and manufacturing purposes.
+3. **Action Prediction**: Based on the visual content and typical industrial tasks involving such objects, the predicted action is **assembling or cutting the profile**.
+
+### Message to Memory Agent
+
+```json
+{
+  "timestamp": "04550",
+  "object": "Aluminum profile/extrusion",
+  "action_prediction": "Assembling or cutting profile"
+}
+```
+
+This information will be sent to the Memory Agent and stored in the central memory station for further processing and reference.
+
+### Result Table
+
+| Timestamp | Object                | Action Prediction          |
+|-----------|-----------------------|----------------------------|
+| 04550     | Aluminum profile/extrusion | Assembling or cutting profile |
+2024-11-14 18:59:02,229 - INFO - ### Run Memory agent
+2024-11-14 18:59:02,242 - INFO - CSV data successfully read and memory data updated.
+2024-11-14 18:59:17,176 - INFO - Response from ag:13e82541:20241025:untitlerecord-model-agent-promptd-agent:ccc270fb: data: {'id': '53822be2051a489f889662460c198f81', 'object': 'chat.completion', 'created': 1731599627, 'model': 'pixtral-12b-2409', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'Certainly! Below is the structured table format based on the given image analysis and instructions. This table includes the timestamp, the predicted object based on the highlighted area, and the predicted action.\n\n### Table of Analysis\n\n| Timestamp | Object (Highlighted Area)         | Action Prediction                             |\n|-----------|------------------------------------|-----------------------------------------------|\n| 4404      | White rectangular object           | Handling or installing the object              |\n| 4468      | Blue straps                        | Securing or tying the straps                  |\n| 04550     | Aluminum profile/extrusion        | Assembling or cutting the profile             |\n\n### CSV File Content\n\n```plaintext\nTimestamp,Object (Highlighted Area),Action Prediction\n4404,"White rectangular object","Handling or installing the object"\n4468,"Blue straps","Securing or tying the straps"\n04550,"Aluminum profile/extrusion","Assembling or cutting the profile"\n```\n\n### Central Database Entry\n\n```json\nCentral Memory Station:\n{\n  "data_entries": [\n    {\n      "timestamp": 4404,\n      "object": "White rectangular object",\n      "action_prediction": "Handling or installing the object"\n    },\n    {\n      "timestamp": 4468,\n      "object": "Blue straps",\n      "action_prediction": "Securing or tying the straps"\n    },\n    {\n      "timestamp": 04550,\n      "object": "Aluminum profile/extrusion",\n      "action_prediction": "Assembling or cutting the profile"\n    }\n  ]\n}\n```\n\n### Steps to Write into Memory and Show Results\n\n1. **Data Reception**: Receive the image data from the Expert Agent.\n2. **Data Parsing**: Parse the image data to identify the highlighted area and the timestamp.\n3. **Log Updates**: Based on the parsed data, update the log with the timestamp, predicted object, and action prediction.\n4. **Store Data**: Store the structured data in a central database for future reference.\n5. **Display Results**: Retrieve and display the stored data from the central database.\n\n### Retrieving and Displaying Results\n\n```python\n# Importing necessary libraries\nimport json\nimport csv\n\n# Sample data entries\ndata_entries = [\n    {\n        "timestamp": 4404,\n        "object": "White rectangular object",\n        "action_prediction": "Handling or installing the object"\n    },\n    {\n        "timestamp": 4468,\n        "object": "Blue straps",\n        "action_prediction": "Securing or tying the straps"\n    },\n    {\n        "timestamp": 04550,\n        "object": "Aluminum profile/extrusion",\n        "action_prediction": "Assembling or cutting the profile"\n    }\n]\n\n# Central database storage (example: JSON file)\ncentral_memory_station = {\n    "data_entries": data_entries\n}\n\n# Writing the data to a CSV file (example: using Python\'s csv library)\nwith open(\'data_log.csv\', mode=\'w\', newline=\'\') as file:\n    writer = csv.writer(file)\n    writer.writerow(["Timestamp", "Object (Highlighted Area)", "Action Prediction"])\n    for entry in data_entries:\n        writer.writerow([entry["timestamp"], entry["object"], entry["action_prediction"]])\n\n# Displaying the results (example: printing the data)\nprint("Central Database Entry:")\nprint(json.dumps(central_memory_station, indent=4))\n\nprint("\\nCSV File Content:")\nwith open(\'data_log.csv\', \'r\') as file:\n    content = file.read()\nprint(content)\n```\n\nThis script demonstrates how to write the parsed data into a CSV file and a central database, and then retrieve and display the results. The table and data entries ensure that the information is well-organized and easily accessible for further analysis and operational support.', 'tool_calls': None}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 5375, 'total_tokens': 6191, 'completion_tokens': 816}}
+2024-11-14 18:59:17,176 - INFO - Memory agent result: Certainly! Below is the structured table format based on the given image analysis and instructions. This table includes the timestamp, the predicted object based on the highlighted area, and the predicted action.
+
+### Table of Analysis
+
+| Timestamp | Object (Highlighted Area)         | Action Prediction                             |
+|-----------|------------------------------------|-----------------------------------------------|
+| 4404      | White rectangular object           | Handling or installing the object              |
+| 4468      | Blue straps                        | Securing or tying the straps                  |
+| 04550     | Aluminum profile/extrusion        | Assembling or cutting the profile             |
+
+### CSV File Content
+
+```plaintext
+Timestamp,Object (Highlighted Area),Action Prediction
+4404,"White rectangular object","Handling or installing the object"
+4468,"Blue straps","Securing or tying the straps"
+04550,"Aluminum profile/extrusion","Assembling or cutting the profile"
+```
+
+### Central Database Entry
+
+```json
+Central Memory Station:
+{
+  "data_entries": [
+    {
+      "timestamp": 4404,
+      "object": "White rectangular object",
+      "action_prediction": "Handling or installing the object"
+    },
+    {
+      "timestamp": 4468,
+      "object": "Blue straps",
+      "action_prediction": "Securing or tying the straps"
+    },
+    {
+      "timestamp": 04550,
+      "object": "Aluminum profile/extrusion",
+      "action_prediction": "Assembling or cutting the profile"
+    }
+  ]
+}
+```
+
+### Steps to Write into Memory and Show Results
+
+1. **Data Reception**: Receive the image data from the Expert Agent.
+2. **Data Parsing**: Parse the image data to identify the highlighted area and the timestamp.
+3. **Log Updates**: Based on the parsed data, update the log with the timestamp, predicted object, and action prediction.
+4. **Store Data**: Store the structured data in a central database for future reference.
+5. **Display Results**: Retrieve and display the stored data from the central database.
+
+### Retrieving and Displaying Results
+
+```python
+# Importing necessary libraries
+import json
+import csv
+
+# Sample data entries
+data_entries = [
+    {
+        "timestamp": 4404,
+        "object": "White rectangular object",
+        "action_prediction": "Handling or installing the object"
+    },
+    {
+        "timestamp": 4468,
+        "object": "Blue straps",
+        "action_prediction": "Securing or tying the straps"
+    },
+    {
+        "timestamp": 04550,
+        "object": "Aluminum profile/extrusion",
+        "action_prediction": "Assembling or cutting the profile"
+    }
+]
+
+# Central database storage (example: JSON file)
+central_memory_station = {
+    "data_entries": data_entries
+}
+
+# Writing the data to a CSV file (example: using Python's csv library)
+with open('data_log.csv', mode='w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerow(["Timestamp", "Object (Highlighted Area)", "Action Prediction"])
+    for entry in data_entries:
+        writer.writerow([entry["timestamp"], entry["object"], entry["action_prediction"]])
+
+# Displaying the results (example: printing the data)
+print("Central Database Entry:")
+print(json.dumps(central_memory_station, indent=4))
+
+print("\nCSV File Content:")
+with open('data_log.csv', 'r') as file:
+    content = file.read()
+print(content)
+```
+
+This script demonstrates how to write the parsed data into a CSV file and a central database, and then retrieve and display the results. The table and data entries ensure that the information is well-organized and easily accessible for further analysis and operational support.
+2024-11-14 18:59:17,179 - INFO - Memory agent returned result: Certainly! Below is the structured table format based on the given image analysis and instructions. This table includes the timestamp, the predicted object based on the highlighted area, and the predicted action.
+
+### Table of Analysis
+
+| Timestamp | Object (Highlighted Area)         | Action Prediction                             |
+|-----------|------------------------------------|-----------------------------------------------|
+| 4404      | White rectangular object           | Handling or installing the object              |
+| 4468      | Blue straps                        | Securing or tying the straps                  |
+| 04550     | Aluminum profile/extrusion        | Assembling or cutting the profile             |
+
+### CSV File Content
+
+```plaintext
+Timestamp,Object (Highlighted Area),Action Prediction
+4404,"White rectangular object","Handling or installing the object"
+4468,"Blue straps","Securing or tying the straps"
+04550,"Aluminum profile/extrusion","Assembling or cutting the profile"
+```
+
+### Central Database Entry
+
+```json
+Central Memory Station:
+{
+  "data_entries": [
+    {
+      "timestamp": 4404,
+      "object": "White rectangular object",
+      "action_prediction": "Handling or installing the object"
+    },
+    {
+      "timestamp": 4468,
+      "object": "Blue straps",
+      "action_prediction": "Securing or tying the straps"
+    },
+    {
+      "timestamp": 04550,
+      "object": "Aluminum profile/extrusion",
+      "action_prediction": "Assembling or cutting the profile"
+    }
+  ]
+}
+```
+
+### Steps to Write into Memory and Show Results
+
+1. **Data Reception**: Receive the image data from the Expert Agent.
+2. **Data Parsing**: Parse the image data to identify the highlighted area and the timestamp.
+3. **Log Updates**: Based on the parsed data, update the log with the timestamp, predicted object, and action prediction.
+4. **Store Data**: Store the structured data in a central database for future reference.
+5. **Display Results**: Retrieve and display the stored data from the central database.
+
+### Retrieving and Displaying Results
+
+```python
+# Importing necessary libraries
+import json
+import csv
+
+# Sample data entries
+data_entries = [
+    {
+        "timestamp": 4404,
+        "object": "White rectangular object",
+        "action_prediction": "Handling or installing the object"
+    },
+    {
+        "timestamp": 4468,
+        "object": "Blue straps",
+        "action_prediction": "Securing or tying the straps"
+    },
+    {
+        "timestamp": 04550,
+        "object": "Aluminum profile/extrusion",
+        "action_prediction": "Assembling or cutting the profile"
+    }
+]
+
+# Central database storage (example: JSON file)
+central_memory_station = {
+    "data_entries": data_entries
+}
+
+# Writing the data to a CSV file (example: using Python's csv library)
+with open('data_log.csv', mode='w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerow(["Timestamp", "Object (Highlighted Area)", "Action Prediction"])
+    for entry in data_entries:
+        writer.writerow([entry["timestamp"], entry["object"], entry["action_prediction"]])
+
+# Displaying the results (example: printing the data)
+print("Central Database Entry:")
+print(json.dumps(central_memory_station, indent=4))
+
+print("\nCSV File Content:")
+with open('data_log.csv', 'r') as file:
+    content = file.read()
+print(content)
+```
+
+This script demonstrates how to write the parsed data into a CSV file and a central database, and then retrieve and display the results. The table and data entries ensure that the information is well-organized and easily accessible for further analysis and operational support.
+2024-11-14 18:59:17,184 - INFO - ### Run Analysis agent
+2024-11-14 18:59:17,184 - ERROR - Analysis agent request failed: Object of type DataFrame is not JSON serializable. Please check your request.
+2024-11-14 18:59:17,185 - INFO - Final Analysis Result: None
