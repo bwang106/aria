@@ -2285,3 +2285,17 @@ This script demonstrates how to write the parsed data into a CSV file and a cent
 2024-11-14 18:59:17,184 - INFO - ### Run Analysis agent
 2024-11-14 18:59:17,184 - ERROR - Analysis agent request failed: Object of type DataFrame is not JSON serializable. Please check your request.
 2024-11-14 18:59:17,185 - INFO - Final Analysis Result: None
+2024-12-05 19:42:04,708 - INFO - Starting workflow
+2024-12-05 19:42:04,709 - INFO - Running Expert Agent
+2024-12-05 19:42:05,533 - ERROR - HTTP error 422: {"object":"error","message":"Agent not found","type":"invalid_agent","param":null,"code":"1700"}
+2024-12-05 19:42:05,534 - ERROR - Workflow failed due to expert agent issues.
+2024-12-05 19:42:05,534 - INFO - Workflow completed.
+2024-12-05 19:50:14,074 - INFO - Starting workflow
+2024-12-05 19:50:14,074 - INFO - Running Expert Agent
+2024-12-05 19:50:21,260 - ERROR - HTTP error 200: {"id":"b398c5ade2aa49bc9a9eac75c8c32043","object":"chat.completion","created":1733417053,"model":"pixtral-12b-2409","choices":[{"index":0,"message":{"role":"assistant","content":"The image appears to be taken from a bird's-eye view, possibly from a security camera or drone, showing a workspace or industrial setting. Here are the details:\n\n1. **Environment**:\n   - The floor is covered with a light-colored material, possibly a protective covering or flooring designed for industrial use.\n   - There are various objects and equipment scattered around the workspace, including what looks like machinery or tools.\n\n2. **Objects**:\n   - Several long, thin metallic rods or pipes are laid out on the floor. They are arranged in parallel lines.\n   - There is a small black object on the floor, which could be a tool or piece of equipment.\n   - A blue cable or wire is visible near the black object.\n\n3. **Human Interaction**:\n   - A person's hands are visible in the bottom right corner of the image. They are holding one of the metallic rods or pipes.\n   - The person's hands are wearing gloves, suggesting they are engaged in some form of manual labor or handling materials.\n\n4. **Additional Details**:\n   - There is a red circle with a line through it drawn over the person's hand, which could indicate that the action being performed is incorrect or should be avoided.\n   - The image has a slight fisheye effect, which is common in security camera footage.\n\nThis detailed summary provides an overview of the image, including the environment, objects, human interaction, and any notable details.","tool_calls":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":1532,"total_tokens":1822,"completion_tokens":290}}
+2024-12-05 19:50:21,261 - ERROR - Workflow failed due to expert agent issues.
+2024-12-05 19:50:21,261 - INFO - Workflow completed.
+2024-12-05 19:50:40,490 - INFO - Starting workflow
+2024-12-05 19:50:40,490 - INFO - Running Expert Agent
+2024-12-05 19:50:49,111 - ERROR - Workflow execution failed: string indices must be integers, not 'str'
+2024-12-05 19:50:49,111 - INFO - Workflow completed.
