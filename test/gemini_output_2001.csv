@@ -1,0 +1,561 @@
+timestamp,response_text
+2025-01-16 19:21:49,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""phone"",
+            ""object_type"": ""electronic device"",
+            ""object_color"": ""black and white"",
+            ""object_size"": ""approximately 15cm x 7cm x 1cm"",
+            ""action"": ""holding phone"",
+            ""timestamp"": ""00:00""
+        },
+        {
+            ""object_name"": ""blue safety vest"",
+            ""object_type"": ""clothing"",
+            ""object_color"": ""blue"",
+            ""object_size"": ""approximately 60cm x 50cm"",
+            ""action"": ""picking up safety vest"",
+            ""timestamp"": ""00:04""
+        },
+        {
+            ""object_name"": ""blue safety vest"",
+            ""object_type"": ""clothing"",
+            ""object_color"": ""blue"",
+            ""object_size"": ""approximately 60cm x 50cm"",
+            ""action"": ""putting on safety vest"",
+            ""timestamp"": ""00:06""
+        },
+        {
+            ""object_name"": ""blue safety vest"",
+            ""object_type"": ""clothing"",
+            ""object_color"": ""blue"",
+            ""object_size"": ""approximately 60cm x 50cm"",
+            ""action"": ""zipping up safety vest"",
+            ""timestamp"": ""00:20""
+        },
+        {
+            ""object_name"": ""blue safety vest"",
+            ""object_type"": ""clothing"",
+            ""object_color"": ""blue"",
+            ""object_size"": ""approximately 60cm x 50cm"",
+            ""action"": ""zipping up safety vest"",
+            ""timestamp"": ""00:30""
+        },
+        {
+            ""object_name"": ""black gloves"",
+            ""object_type"": ""clothing"",
+            ""object_color"": ""black"",
+            ""object_size"": ""approximately 25cm x 10cm"",
+            ""action"": ""putting on gloves"",
+            ""timestamp"": ""00:37""
+        },
+         {
+            ""object_name"": ""black gloves"",
+            ""object_type"": ""clothing"",
+            ""object_color"": ""black"",
+            ""object_size"": ""approximately 25cm x 10cm"",
+            ""action"": ""putting on gloves"",
+            ""timestamp"": ""00:42""
+        },
+        {
+            ""object_name"": ""wooden block"",
+            ""object_type"": ""material"",
+            ""object_color"": ""light brown"",
+            ""object_size"": ""approximately 15cm x 10cm x 8cm"",
+            ""action"": ""inspecting wooden block"",
+            ""timestamp"": ""00:50""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 20cm x 3cm x 3cm"",
+            ""action"": ""checking bracket with screwdriver"",
+            ""timestamp"": ""01:01""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 20cm x 3cm x 3cm"",
+            ""action"": ""checking bracket with screwdriver"",
+            ""timestamp"": ""01:07""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 20cm x 3cm x 3cm"",
+            ""action"": ""checking bracket with screwdriver"",
+            ""timestamp"": ""01:15""
+        },
+        {
+            ""object_name"": ""clamp"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""black and red"",
+            ""object_size"": ""approximately 40cm x 15cm x 5cm"",
+            ""action"": ""holding clamp"",
+            ""timestamp"": ""01:23""
+        }
+    ]
+}
+```
+"
+2025-01-16 19:22:13,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""clamp"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""black and red"",
+            ""object_size"": ""approximately 25 cm long"",
+            ""action"": ""holding a clamp"",
+            ""timestamp"": ""00:00""
+        },
+        {
+            ""object_name"": ""clamp"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""black and red"",
+            ""object_size"": ""approximately 25 cm long"",
+            ""action"": ""positioning the clamp on a wooden block"",
+            ""timestamp"": ""00:04""
+        },
+        {
+            ""object_name"": ""clamp"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""black and red"",
+            ""object_size"": ""approximately 25 cm long"",
+            ""action"": ""tightening the clamp on a wooden block"",
+            ""timestamp"": ""00:08""
+        },
+         {
+            ""object_name"": ""clamp"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""black and red"",
+            ""object_size"": ""approximately 25 cm long"",
+            ""action"": ""adjusting the clamp on a wooden block"",
+            ""timestamp"": ""00:12""
+        },
+        {
+            ""object_name"": ""clamp"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""black and red"",
+            ""object_size"": ""approximately 25 cm long"",
+            ""action"": ""tightening the clamp on a wooden block"",
+            ""timestamp"": ""00:17""
+        },
+        {
+            ""object_name"": ""clamp"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""black and red"",
+            ""object_size"": ""approximately 25 cm long"",
+            ""action"": ""adjusting the clamp on a wooden block"",
+            ""timestamp"": ""00:22""
+        },
+        {
+            ""object_name"": ""clamp"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""black and red"",
+            ""object_size"": ""approximately 25 cm long"",
+            ""action"": ""releasing the clamp on a wooden block"",
+            ""timestamp"": ""00:28""
+        },
+        {
+            ""object_name"": ""wooden block"",
+            ""object_type"": ""object"",
+            ""object_color"": ""light brown"",
+            ""object_size"": ""approximately 15 cm x 15 cm x 8 cm"",
+            ""action"": ""checking the stability of the wooden block"",
+            ""timestamp"": ""00:32""
+        },
+        {
+            ""object_name"": ""Makita case"",
+            ""object_type"": ""object"",
+            ""object_color"": ""teal"",
+            ""object_size"": ""approximately 40 cm x 30 cm x 15 cm"",
+            ""action"": ""opening the Makita case"",
+            ""timestamp"": ""00:40""
+        },
+        {
+            ""object_name"": ""drill"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""teal and black"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""taking out the drill from the case"",
+            ""timestamp"": ""00:44""
+        },
+        {
+            ""object_name"": ""battery"",
+            ""object_type"": ""object"",
+            ""object_color"": ""black"",
+            ""object_size"": ""approximately 10 cm x 8 cm x 5 cm"",
+            ""action"": ""attaching the battery to the drill"",
+            ""timestamp"": ""00:46""
+        },
+        {
+            ""object_name"": ""drill bits case"",
+            ""object_type"": ""object"",
+            ""object_color"": ""black"",
+            ""object_size"": ""approximately 15 cm x 10 cm x 3 cm"",
+            ""action"": ""taking out the drill bits case"",
+            ""timestamp"": ""00:51""
+        },
+        {
+            ""object_name"": ""drill bits case"",
+            ""object_type"": ""object"",
+            ""object_color"": ""black"",
+            ""object_size"": ""approximately 15 cm x 10 cm x 3 cm"",
+            ""action"": ""opening the drill bits case"",
+            ""timestamp"": ""00:54""
+        },
+        {
+            ""object_name"": ""drill bit"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""silver and red"",
+            ""object_size"": ""approximately 8 cm long"",
+            ""action"": ""selecting a drill bit"",
+            ""timestamp"": ""00:58""
+        },
+        {
+            ""object_name"": ""drill bit"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""silver and red"",
+            ""object_size"": ""approximately 8 cm long"",
+            ""action"": ""inserting the drill bit into the drill"",
+            ""timestamp"": ""01:02""
+        },
+        {
+            ""object_name"": ""drill bit"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""silver and red"",
+            ""object_size"": ""approximately 8 cm long"",
+            ""action"": ""tightening the drill bit into the drill"",
+            ""timestamp"": ""01:08""
+        },
+        {
+            ""object_name"": ""drill"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""teal and black"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""preparing the drill for use"",
+            ""timestamp"": ""01:16""
+        }
+    ]
+}
+```
+"
+2025-01-16 19:22:47,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""Drill"",
+            ""object_type"": ""Power Tool"",
+            ""object_color"": ""Teal and Black"",
+            ""object_size"": ""Approximately 20cm long, 15cm high, 8cm wide"",
+            ""action"": ""Using the drill to drive a screw into a wooden block"",
+            ""timestamp"": ""00:00""
+        },
+         {
+            ""object_name"": ""Drill"",
+            ""object_type"": ""Power Tool"",
+            ""object_color"": ""Teal and Black"",
+            ""object_size"": ""Approximately 20cm long, 15cm high, 8cm wide"",
+            ""action"": ""Using the drill to drive a screw into a wooden block"",
+            ""timestamp"": ""00:06""
+        },
+        {
+            ""object_name"": ""Drill"",
+            ""object_type"": ""Power Tool"",
+            ""object_color"": ""Teal and Black"",
+            ""object_size"": ""Approximately 20cm long, 15cm high, 8cm wide"",
+            ""action"": ""Using the drill to drive a screw into a wooden block"",
+             ""timestamp"": ""00:12""
+        },
+        {
+            ""object_name"": ""Drill"",
+            ""object_type"": ""Power Tool"",
+            ""object_color"": ""Teal and Black"",
+            ""object_size"": ""Approximately 20cm long, 15cm high, 8cm wide"",
+            ""action"": ""Using the drill to drive a screw into a wooden block"",
+            ""timestamp"": ""00:17""
+        },
+        {
+            ""object_name"": ""Drill"",
+            ""object_type"": ""Power Tool"",
+            ""object_color"": ""Teal and Black"",
+            ""object_size"": ""Approximately 20cm long, 15cm high, 8cm wide"",
+            ""action"": ""Using the drill to drive a screw into a wooden block"",
+            ""timestamp"": ""00:23""
+        },
+         {
+            ""object_name"": ""Drill"",
+            ""object_type"": ""Power Tool"",
+            ""object_color"": ""Teal and Black"",
+            ""object_size"": ""Approximately 20cm long, 15cm high, 8cm wide"",
+            ""action"": ""Using the drill to drive a screw into a wooden block"",
+            ""timestamp"": ""00:29""
+        },
+        {
+            ""object_name"": ""Drill"",
+            ""object_type"": ""Power Tool"",
+            ""object_color"": ""Teal and Black"",
+            ""object_size"": ""Approximately 20cm long, 15cm high, 8cm wide"",
+            ""action"": ""Removing the drill from the screw"",
+            ""timestamp"": ""00:39""
+        },
+        {
+            ""object_name"": ""Screw"",
+            ""object_type"": ""Fastener"",
+            ""object_color"": ""Silver"",
+            ""object_size"": ""Approximately 3cm long, 0.5cm diameter"",
+            ""action"": ""Removing the screw from the wooden block"",
+            ""timestamp"": ""00:42""
+        },
+        {
+            ""object_name"": ""Clamp"",
+            ""object_type"": ""Tool"",
+            ""object_color"": ""Black and Silver"",
+            ""object_size"": ""Approximately 30cm long, 10cm high, 5cm wide"",
+            ""action"": ""Unclamping the wooden block"",
+            ""timestamp"": ""00:47""
+        },
+        {
+            ""object_name"": ""Clamp"",
+            ""object_type"": ""Tool"",
+            ""object_color"": ""Black and Silver"",
+            ""object_size"": ""Approximately 30cm long, 10cm high, 5cm wide"",
+            ""action"": ""Unclamping the wooden block"",
+            ""timestamp"": ""00:52""
+        },
+        {
+            ""object_name"": ""Clamp"",
+            ""object_type"": ""Tool"",
+            ""object_color"": ""Black and Silver"",
+            ""object_size"": ""Approximately 30cm long, 10cm high, 5cm wide"",
+            ""action"": ""Placing the clamp on the table"",
+            ""timestamp"": ""00:56""
+        },
+        {
+            ""object_name"": ""Wooden Block"",
+            ""object_type"": ""Object"",
+            ""object_color"": ""Light Brown"",
+            ""object_size"": ""Approximately 10cm long, 10cm wide, 5cm high"",
+            ""action"": ""Placing the wooden block on the table"",
+            ""timestamp"": ""01:00""
+        },
+        {
+            ""object_name"": ""Dustpan"",
+            ""object_type"": ""Cleaning Tool"",
+            ""object_color"": ""Silver"",
+            ""object_size"": ""Approximately 25cm long, 20cm wide, 5cm high"",
+            ""action"": ""Using the dustpan to collect debris"",
+            ""timestamp"": ""01:03""
+        },
+        {
+            ""object_name"": ""Brush"",
+            ""object_type"": ""Cleaning Tool"",
+            ""object_color"": ""Orange and Brown"",
+            ""object_size"": ""Approximately 15cm long, 3cm wide, 2cm high"",
+            ""action"": ""Using the brush to sweep debris into the dustpan"",
+            ""timestamp"": ""01:05""
+        },
+        {
+            ""object_name"": ""Brush"",
+            ""object_type"": ""Cleaning Tool"",
+            ""object_color"": ""Orange and Brown"",
+            ""object_size"": ""Approximately 15cm long, 3cm wide, 2cm high"",
+            ""action"": ""Using the brush to sweep debris into the dustpan"",
+            ""timestamp"": ""01:08""
+        },
+        {
+            ""object_name"": ""Brush"",
+            ""object_type"": ""Cleaning Tool"",
+            ""object_color"": ""Orange and Brown"",
+            ""object_size"": ""Approximately 15cm long, 3cm wide, 2cm high"",
+            ""action"": ""Using the brush to sweep debris into the dustpan"",
+            ""timestamp"": ""01:11""
+        },
+        {
+            ""object_name"": ""Wooden Block"",
+            ""object_type"": ""Object"",
+            ""object_color"": ""Light Brown"",
+            ""object_size"": ""Approximately 10cm long, 10cm wide, 5cm high"",
+            ""action"": ""Placing the wooden block on the table"",
+            ""timestamp"": ""01:16""
+        },
+        {
+            ""object_name"": ""Level"",
+            ""object_type"": ""Tool"",
+            ""object_color"": ""Yellow and Black"",
+            ""object_size"": ""Approximately 30cm long, 5cm wide, 2cm high"",
+            ""action"": ""Using the level to mark the wooden block"",
+            ""timestamp"": ""01:25""
+        },
+        {
+            ""object_name"": ""Level"",
+            ""object_type"": ""Tool"",
+            ""object_color"": ""Yellow and Black"",
+            ""object_size"": ""Approximately 30cm long, 5cm wide, 2cm high"",
+            ""action"": ""Using the level to mark the wooden block"",
+            ""timestamp"": ""01:34""
+        },
+        {
+            ""object_name"": ""Screwdriver"",
+            ""object_type"": ""Hand Tool"",
+            ""object_color"": ""Red and Black"",
+            ""object_size"": ""Approximately 20cm long, 3cm wide, 2cm high"",
+            ""action"": ""Using the screwdriver to mark the wooden block"",
+            ""timestamp"": ""02:01""
+        }
+    ]
+}
+```
+"
+2025-01-16 19:23:11,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""0:06""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""0:12""
+        },
+        {
+            ""object_name"": ""metal L-shaped bracket"",
+            ""object_type"": ""object"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 5 cm on each side"",
+            ""action"": ""using a metal bracket to mark the position"",
+            ""timestamp"": ""0:18""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to mark the position"",
+            ""timestamp"": ""0:20""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to mark the position"",
+            ""timestamp"": ""0:26""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to mark the position"",
+            ""timestamp"": ""0:32""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to mark the position"",
+            ""timestamp"": ""0:38""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to mark the position"",
+            ""timestamp"": ""0:44""
+        },
+        {
+            ""object_name"": ""wooden block"",
+            ""object_type"": ""object"",
+            ""object_color"": ""light brown"",
+            ""object_size"": ""approximately 15 cm x 10 cm x 5 cm"",
+            ""action"": ""holding a wooden block"",
+            ""timestamp"": ""0:50""
+        },
+        {
+            ""object_name"": ""clamp"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""black and red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""using a clamp to secure the wooden block"",
+            ""timestamp"": ""0:53""
+        },
+        {
+            ""object_name"": ""clamp"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""black and red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""using a clamp to secure the wooden block"",
+            ""timestamp"": ""0:59""
+        },
+        {
+            ""object_name"": ""clamp"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""black and red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""using a clamp to secure the wooden block"",
+            ""timestamp"": ""1:05""
+        },
+        {
+            ""object_name"": ""clamp"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""black and red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""using a clamp to secure the wooden block"",
+            ""timestamp"": ""1:11""
+        },
+        {
+            ""object_name"": ""clamp"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""black and red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""using a clamp to secure the wooden block"",
+            ""timestamp"": ""1:17""
+        },
+        {
+            ""object_name"": ""clamp"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""black and red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""using a clamp to secure the wooden block"",
+            ""timestamp"": ""1:23""
+        },
+        {
+            ""object_name"": ""wooden block"",
+            ""object_type"": ""object"",
+            ""object_color"": ""light brown"",
+            ""object_size"": ""approximately 15 cm x 10 cm x 5 cm"",
+            ""action"": ""holding a wooden block"",
+            ""timestamp"": ""1:26""
+        }
+    ]
+}
+```
+"

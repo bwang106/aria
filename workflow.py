@@ -122,52 +122,7 @@ class AgentWorkflow:
             print(f"Error: {e}")
             # 根据错误类型和重要性，可以选择重新尝试或返回特定错误信息
             return None
-    """query = 
 
-
-    ### Master Workflow Comprehensive Description
-
-    #### Objective:
-    You as the Master Workflow is meticulously designed to orchestrate and synchronize the operations of three pivotal agents: the Expert Agent, the Memory Model Agent, and the Analysis Model Agent. Serving as the central hub, this workflow initiates, coordinates, and monitors the tasks assigned to each agent, ensuring a seamless execution of the entire process flow and enhancing the overall operational efficiency of the organization.
-
-    #### Components:
-    1. **Expert Agent**:
-       - **Role:** This agent is responsible for capturing and cataloging detailed operational procedures and expert insights, forming the foundational data layer for subsequent analysis.
-       - **Trigger:** It is automatically initiated at the start of the workflow or upon detection of specified events, ensuring timely data collection.
-       - **Output:** Produces detailed operational data that serves as the primary input for the Memory Model Agent.
-        - API: ag:13e82541:20241025:expert-agent:338569a8
-
-    2. **Memory Model Agent**:
-       - **Role:** Focuses on logging and tracking critical workflow details, tool usage, and workspace configurations, ensuring all operational aspects are accurately documented.
-       - **Trigger:** Activated upon the successful completion of the Expert Agent's task, maintaining a streamlined process flow.
-       - **Output:** Generates structured data logs that are crucial for the Analysis Model Agent’s operations.
-        - API: ag:13e82541:20241025:Memory-model-agent-prompt:ccc270fb
-
-    3. **Analysis Model Agent**:
-       - **Role:** Analyzes the collected data to create logical flowcharts and detailed operational guides, translating complex data into actionable insights.
-       - **Trigger:** Commences operations once the Memory Model Agent completes its data logging, ensuring a continuous workflow.
-       - **Output:** Provides comprehensive guides and analysis reports that are instrumental for training purposes and operational improvements.
-        - API: ag:13e82541:20241025:analysis-model-agent-prompt:c1d46050
-
-    #### Workflow Management:
-    - **Data Synchronization:** Implements mechanisms to ensure real-time data sharing and synchronization across all agents using a centralized database or shared environment variables. This facilitates immediate data availability and consistency.
-    - **Error Handling:** Incorporates robust error detection and recovery mechanisms to handle failures in agent tasks efficiently. This includes options for retries or alternative measures based on predefined conditions, minimizing downtime and enhancing system resilience.
-    - **Monitoring and Logging:** Utilizes advanced monitoring tools to track the status and performance of all agents. Detailed logs are maintained for audit and optimization purposes, ensuring transparency and enabling continuous improvement.
-
-    #### Usage:
-    This workflow is tailored for organizations aiming to automate and streamline complex operational processes. It enhances data accuracy and significantly improves decision-making capabilities through detailed analysis and reporting.
-
-    #### Instructions:
-    - **Initiation:** To initiate the Master Workflow, execute the command: `mistral execution-create Master_Workflow`.
-    - **Monitoring:** Continuously monitor the workflow execution through the Mistral dashboard or CLI to ensure all tasks are progressing as planned and address any anomalies promptly.
-    - **Review:** Regularly consult the log files to identify and promptly address any potential issues, ensuring optimal workflow performance.
-
-    #### Note:
-    Before launching the workflow, ensure that all agents are properly configured and that necessary permissions and API keys are set up to avoid any disruptions during operations.
-
-    This comprehensive description of the Master Workflow outlines a structured and efficient approach to managing complex operational tasks, ensuring high performance, and fostering an environment of continuous improvement within the organization.
-    """
-    
     async def run_memory_agent(self, base64_image):
         logging.info("### Run Memory agent")
         print("### Run Memory agent")
@@ -215,24 +170,24 @@ class AgentWorkflow:
 #        except Exception as e:
 #            logging.error(f"Failed to load data from CSV: {e}")
 
-        """更新内存数据中的特定行"""
-        if not central_database['memory_data'].empty:
-            for index, row in central_database['memory_data'].iterrows():
-                if row["Timestamp"] == timestamp:
-                    if object_name is not None:
-                        central_database['memory_data'].at[index, 'Object'] = object_name
-                    if action is not None:
-                        central_database['memory_data'].at[index, 'Action'] = action
-                    logging.info(f"Updated memory data for timestamp {timestamp}.")
-                    return True
-        logging.warning(f"No entry found for timestamp {timestamp}.")
-        return False
-
-        """查询特定时间戳的数据"""
-        if not central_database['memory_data'].empty:
-            result = central_database['memory_data'][central_database['memory_data']['Timestamp'] == timestamp]
-            return result if not result.empty else None
-        return None
+#        """更新内存数据中的特定行"""
+#        if not central_database['memory_data'].empty:
+#            for index, row in central_database['memory_data'].iterrows():
+#                if row["Timestamp"] == timestamp:
+#                    if object_name is not None:
+#                        central_database['memory_data'].at[index, 'Object'] = object_name
+#                    if action is not None:
+#                        central_database['memory_data'].at[index, 'Action'] = action
+#                    logging.info(f"Updated memory data for timestamp {timestamp}.")
+#                    return True
+#        logging.warning(f"No entry found for timestamp {timestamp}.")
+#        return False
+#
+#        """查询特定时间戳的数据"""
+#        if not central_database['memory_data'].empty:
+#            result = central_database['memory_data'][central_database['memory_data']['Timestamp'] == timestamp]
+#            return result if not result.empty else None
+#        return None
 
 
     async def run_analysis_agent(self, base64_image):
