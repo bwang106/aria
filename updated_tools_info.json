@@ -1,0 +1,182 @@
+[
+    {
+        "video_name": "00:00",
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red and yellow",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to fasten screws on the metal frame",
+        "timestamp": "0:00"
+    },
+    {
+        "video_name": "00:00",
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red and yellow",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to fasten screws on the metal frame",
+        "timestamp": "0:03"
+    },
+    {
+        "video_name": "00:00",
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red and yellow",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to fasten screws on the metal frame",
+        "timestamp": "0:06"
+    },
+    {
+        "video_name": "00:00",
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red and yellow",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to fasten screws on the metal frame",
+        "timestamp": "0:08"
+    },
+    {
+        "video_name": "00:00",
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red and yellow",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to fasten screws on the metal frame",
+        "timestamp": "0:11"
+    },
+    {
+        "video_name": "00:00",
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red and yellow",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to fasten screws on the metal frame",
+        "timestamp": "0:14"
+    },
+    {
+        "video_name": "00:00",
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red and yellow",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to fasten screws on the metal frame",
+        "timestamp": "0:17"
+    },
+    {
+        "video_name": "00:00",
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red and yellow",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to fasten screws on the metal frame",
+        "timestamp": "0:20"
+    },
+    {
+        "video_name": "00:00",
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red and yellow",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to fasten screws on the metal frame",
+        "timestamp": "0:23"
+    },
+    {
+        "video_name": "00:00",
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red and yellow",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to fasten screws on the metal frame",
+        "timestamp": "0:26"
+    },
+    {
+        "video_name": "00:00",
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red and yellow",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to fasten screws on the metal frame",
+        "timestamp": "0:29"
+    },
+    {
+        "video_name": "00:00",
+        "object_name": "red and black cable",
+        "object_type": "cable",
+        "object_color": "red and black",
+        "object_size": "approximately 10 cm long",
+        "action": "holding a cable",
+        "timestamp": "0:31"
+    },
+    {
+        "video_name": "00:00",
+        "object_name": "red and black cable",
+        "object_type": "cable",
+        "object_color": "red and black",
+        "object_size": "approximately 10 cm long",
+        "action": "holding a cable",
+        "timestamp": "0:33"
+    },
+    {
+        "video_name": "00:00",
+        "object_name": "black cable",
+        "object_type": "cable",
+        "object_color": "black",
+        "object_size": "approximately 10 cm long",
+        "action": "holding a cable",
+        "timestamp": "0:35"
+    },
+    {
+        "video_name": "00:00",
+        "object_name": "black cable",
+        "object_type": "cable",
+        "object_color": "black",
+        "object_size": "approximately 10 cm long",
+        "action": "connecting the cable to the board",
+        "timestamp": "0:37"
+    },
+    {
+        "video_name": "00:00",
+        "object_name": "black cable",
+        "object_type": "cable",
+        "object_color": "black",
+        "object_size": "approximately 10 cm long",
+        "action": "connecting the cable to the board",
+        "timestamp": "0:40"
+    },
+    {
+        "video_name": "00:00",
+        "object_name": "black cable",
+        "object_type": "cable",
+        "object_color": "black",
+        "object_size": "approximately 10 cm long",
+        "action": "connecting the cable to the board",
+        "timestamp": "0:43"
+    },
+    {
+        "video_name": "00:00",
+        "object_name": "black cable",
+        "object_type": "cable",
+        "object_color": "black",
+        "object_size": "approximately 10 cm long",
+        "action": "connecting the cable to the board",
+        "timestamp": "0:46"
+    },
+    {
+        "video_name": "00:00",
+        "object_name": "black cable",
+        "object_type": "cable",
+        "object_color": "black",
+        "object_size": "approximately 10 cm long",
+        "action": "connecting the cable to the board",
+        "timestamp": "0:48"
+    },
+    {
+        "video_name": "00:00",
+        "object_name": "black cable",
+        "object_type": "cable",
+        "object_color": "black",
+        "object_size": "approximately 10 cm long",
+        "action": "connecting the cable to the board",
+        "timestamp": "0:51"
+    }
+]

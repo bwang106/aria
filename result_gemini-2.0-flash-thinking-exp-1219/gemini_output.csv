@@ -1,0 +1,793 @@
+timestamp,response_text
+2025-01-23 19:08:30,"response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      ""candidates"": [
+        {
+          ""content"": {
+            ""parts"": [
+              {
+                ""text"": ""```json\n{\n    \""video_name\"": \""video\"",\n    \""tools\"": [\n        {\n            \""object_name\"": \""screwdriver\"",\n            \""object_type\"": \""screwdriver\"",\n            \""object_color\"": \""red and black handle, silver head\"",\n            \""object_size\"": \""medium\"",\n            \""action\"": \""picking up the screwdriver with red and black handle from the desk\"",\n            \""timestamp\"": \""00:01-00:02\""\n        },\n        {\n            \""object_name\"": \""screwdriver\"",\n            \""object_type\"": \""screwdriver\"",\n            \""object_color\"": \""red and black handle, silver head\"",\n            \""object_size\"": \""medium\"",\n            \""action\"": \""moving the screwdriver towards the computer case\"",\n            \""timestamp\"": \""00:02-00:03\""\n        },\n        {\n            \""object_name\"": \""screwdriver\"",\n            \""object_type\"": \""screwdriver\"",\n            \""object_color\"": \""red and black handle, silver head\"",\n            \""object_size\"": \""medium\"",\n            \""action\"": \""putting down the screwdriver with red and black handle on the desk\"",\n            \""timestamp\"": \""00:03-00:04\""\n        },\n        {\n            \""object_name\"": \""screwdriver\"",\n            \""object_type\"": \""screwdriver\"",\n            \""object_color\"": \""green and black handle, silver head\"",\n            \""object_size\"": \""medium\"",\n            \""action\"": \""picking up the screwdriver with green and black handle from the desk\"",\n            \""timestamp\"": \""00:08-00:09\""\n        },\n        {\n            \""object_name\"": \""screwdriver\"",\n            \""object_type\"": \""screwdriver\"",\n            \""object_color\"": \""green and black handle, silver head\"",\n            \""object_size\"": \""medium\"",\n            \""action\"": \""inspecting the inner side of the computer case while holding the screwdriver\"",\n            \""timestamp\"": \""00:09-00:14\""\n        },\n        {\n            \""object_name\"": \""screwdriver\"",\n            \""object_type\"": \""screwdriver\"",\n            \""object_color\"": \""green and black handle, silver head\"",\n            \""object_size\"": \""medium\"",\n            \""action\"": \""putting down the screwdriver with green and black handle on the desk\"",\n            \""timestamp\"": \""00:14-00:15\""\n        },\n        {\n            \""object_name\"": \""RAM module\"",\n            \""object_type\"": \""RAM\"",\n            \""object_color\"": \""green PCB with silver connectors\"",\n            \""object_size\"": \""small, rectangular\"",\n            \""action\"": \""picking up the RAM module from the desk\"",\n            \""timestamp\"": \""00:33-00:34\""\n        },\n        {\n            \""object_name\"": \""RAM module\"",\n            \""object_type\"": \""RAM\"",\n            \""object_color\"": \""green PCB with silver connectors\"",\n            \""object_size\"": \""small, rectangular\"",\n            \""action\"": \""installing the RAM module into the slot inside the computer case\"",\n            \""timestamp\"": \""00:34-00:49\""\n        },\n        {\n            \""object_name\"": \""RAM module\"",\n            \""object_type\"": \""RAM\"",\n            \""object_color\"": \""green PCB with silver connectors\"",\n            \""object_size\"": \""small, rectangular\"",\n            \""action\"": \""releasing the RAM module after installation\"",\n            \""timestamp\"": \""00:49-00:50\""\n        },\n        {\n            \""object_name\"": \""computer case side panel\"",\n            \""object_type\"": \""case panel\"",\n            \""object_color\"": \""grey\"",\n            \""object_size\"": \""large, rectangular\"",\n            \""action\"": \""picking up the computer case side panel\"",\n            \""timestamp\"": \""00:52-00:53\""\n        },\n        {\n            \""object_name\"": \""computer case side panel\"",\n            \""object_type\"": \""case panel\"",\n            \""object_color\"": \""grey\"",\n            \""object_size\"": \""large, rectangular\"",\n            \""action\"": \""moving the computer case side panel\"",\n            \""timestamp\"": \""00:53-00:55\""\n        },\n        {\n            \""object_name\"": \""computer case side panel\"",\n            \""object_type\"": \""case panel\"",\n            \""object_color\"": \""grey\"",\n            \""object_size\"": \""large, rectangular\"",\n            \""action\"": \""putting down the computer case side panel on the desk\"",\n            \""timestamp\"": \""00:55-00:56\""\n        },\n        {\n            \""object_name\"": \""hard drive\"",\n            \""object_type\"": \""hard drive\"",\n            \""object_color\"": \""silver casing\"",\n            \""object_size\"": \""2.5 inch, rectangular\"",\n            \""action\"": \""picking up the hard drive from the desk\"",\n            \""timestamp\"": \""01:04-01:07\""\n        },\n        {\n            \""object_name\"": \""hard drive\"",\n            \""object_type\"": \""hard drive\"",\n            \""object_color\"": \""silver casing\"",\n            \""object_size\"": \""2.5 inch, rectangular\"",\n            \""action\"": \""placing the hard drive into the hard drive bay inside the computer case\"",\n            \""timestamp\"": \""01:07-01:12\""\n        },\n        {\n            \""object_name\"": \""screwdriver\"",\n            \""object_type\"": \""screwdriver\"",\n            \""object_color\"": \""red and black handle, silver head\"",\n            \""object_size\"": \""medium\"",\n            \""action\"": \""picking up the screwdriver with red and black handle from the desk\"",\n            \""timestamp\"": \""01:14-01:15\""\n        },\n        {\n            \""object_name\"": \""screwdriver\"",\n            \""object_type\"": \""screwdriver\"",\n            \""object_color\"": \""red and black handle, silver head\"",\n            \""object_size\"": \""medium\"",\n            \""action\"": \""using the screwdriver to fasten the screws and fix the hard drive in the bay\"",\n            \""timestamp\"": \""01:15-01:26\""\n        },\n        {\n            \""object_name\"": \""screwdriver\"",\n            \""object_type\"": \""screwdriver\"",\n            \""object_color\"": \""red and black handle, silver head\"",\n            \""object_size\"": \""medium\"",\n            \""action\"": \""putting down the screwdriver with red and black handle on the desk\"",\n            \""timestamp\"": \""01:26-01:27\""\n        },\n        {\n            \""object_name\"": \""screw\"",\n            \""object_type\"": \""screw\"",\n            \""object_color\"": \""silver\"",\n            \""object_size\"": \""tiny, round head\"",\n            \""action\"": \""picking up a screw from the desk\"",\n            \""timestamp\"": \""01:27-01:28\""\n        },\n        {\n            \""object_name\"": \""screw\"",\n            \""object_type\"": \""screw\"",\n            \""object_color\"": \""silver\"",\n            \""object_size\"": \""tiny, round head\"",\n            \""action\"": \""placing the screw to fix the hard drive\"",\n            \""timestamp\"": \""01:30-01:31\""\n        },\n        {\n            \""object_name\"": \""screwdriver\"",\n            \""object_type\"": \""screwdriver\"",\n            \""object_color\"": \""red and black handle, silver head\"",\n            \""object_size\"": \""medium\"",\n            \""action\"": \""picking up the screwdriver with red and black handle from the desk\"",\n            \""timestamp\"": \""01:31-01:33\""\n        },\n        {\n            \""object_name\"": \""screwdriver\"",\n            \""object_type\"": \""screwdriver\"",\n            \""object_color\"": \""red and black handle, silver head\"",\n            \""object_size\"": \""medium\"",\n            \""action\"": \""using the screwdriver to fasten the screw and fix the hard drive in the bay\"",\n            \""timestamp\"": \""01:33-01:35\""\n        },\n        {\n            \""object_name\"": \""screwdriver\"",\n            \""object_type\"": \""screwdriver\"",\n            \""object_color\"": \""red and black handle, silver head\"",\n            \""object_size\"": \""medium\"",\n            \""action\"": \""putting down the screwdriver with red and black handle on the desk\"",\n            \""timestamp\"": \""01:35-01:36\""\n        }\n    ]\n}\n```""
+              }
+            ],
+            ""role"": ""model""
+          },
+          ""finish_reason"": ""STOP"",
+          ""index"": 0,
+          ""safety_ratings"": [
+            {
+              ""category"": ""HARM_CATEGORY_SEXUALLY_EXPLICIT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HATE_SPEECH"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HARASSMENT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_DANGEROUS_CONTENT"",
+              ""probability"": ""NEGLIGIBLE""
+            }
+          ]
+        }
+      ],
+      ""usage_metadata"": {
+        ""prompt_token_count"": 27054,
+        ""candidates_token_count"": 3136,
+        ""total_token_count"": 30190
+      }
+    }),
+)"
+2025-01-23 19:08:52,"response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      ""candidates"": [
+        {
+          ""content"": {
+            ""parts"": [
+              {
+                ""text"": ""```json\n{\n    \""video_name\"": \""video\"",\n    \""tools\"": [\n        {\n            \""object_name\"": \""Red Screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Red and Yellow handle, Silver tip\"",\n            \""object_size\"": \""Medium (approx. 15-20cm length)\"",\n            \""action\"": \""Using a red screwdriver to unscrew screws from a metal case.\"",\n            \""timestamp\"": \""00:00-00:03\""\n        },\n        {\n            \""object_name\"": \""Red Screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Red and Yellow handle, Silver tip\"",\n            \""object_size\"": \""Medium (approx. 15-20cm length)\"",\n            \""action\"": \""Using a red screwdriver to unscrew screws from a metal case.\"",\n            \""timestamp\"": \""00:03-00:07\""\n        },\n        {\n            \""object_name\"": \""Red Screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Red and Yellow handle, Silver tip\"",\n            \""object_size\"": \""Medium (approx. 15-20cm length)\"",\n            \""action\"": \""Using a red screwdriver to unscrew screws from a metal case.\"",\n            \""timestamp\"": \""00:07-00:11\""\n        },\n        {\n            \""object_name\"": \""Red Screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Red and Yellow handle, Silver tip\"",\n            \""object_size\"": \""Medium (approx. 15-20cm length)\"",\n            \""action\"": \""Using a red screwdriver to unscrew screws from a metal case.\"",\n            \""timestamp\"": \""00:11-00:16\""\n        },\n        {\n            \""object_name\"": \""Red Screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Red and Yellow handle, Silver tip\"",\n            \""object_size\"": \""Medium (approx. 15-20cm length)\"",\n            \""action\"": \""Using a red screwdriver to unscrew screws from a metal case.\"",\n            \""timestamp\"": \""00:16-00:21\""\n        },\n        {\n            \""object_name\"": \""Red Screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Red and Yellow handle, Silver tip\"",\n            \""object_size\"": \""Medium (approx. 15-20cm length)\"",\n            \""action\"": \""Using a red screwdriver to unscrew screws from a metal case.\"",\n            \""timestamp\"": \""00:21-00:24\""\n        },\n        {\n            \""object_name\"": \""Red Screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Red and Yellow handle, Silver tip\"",\n            \""object_size\"": \""Medium (approx. 15-20cm length)\"",\n            \""action\"": \""Using a red screwdriver to unscrew screws from a metal case.\"",\n            \""timestamp\"": \""00:24-00:27\""\n        },\n        {\n            \""object_name\"": \""Red Screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Red and Yellow handle, Silver tip\"",\n            \""object_size\"": \""Medium (approx. 15-20cm length)\"",\n            \""action\"": \""Using a red screwdriver to unscrew screws from a metal case.\"",\n            \""timestamp\"": \""00:27-00:30\""\n        },\n        {\n            \""object_name\"": \""Black and Red Cable\"",\n            \""object_type\"": \""Cable\"",\n            \""object_color\"": \""Black and Red wires, Black and White connectors\"",\n            \""object_size\"": \""Short (approx. 10-15cm length)\"",\n            \""action\"": \""Picking up a black and red cable with connectors.\"",\n            \""timestamp\"": \""00:30-00:32\""\n        },\n        {\n            \""object_name\"": \""Black and Red Cable\"",\n            \""object_type\"": \""Cable\"",\n            \""object_color\"": \""Black and Red wires, Black and White connectors\"",\n            \""object_size\"": \""Short (approx. 10-15cm length)\"",\n            \""action\"": \""Holding a black and red cable with connectors.\"",\n            \""timestamp\"": \""00:32-00:37\""\n        },\n        {\n            \""object_name\"": \""Black and Red Cable\"",\n            \""object_type\"": \""Cable\"",\n            \""object_color\"": \""Black and Red wires, Black and White connectors\"",\n            \""object_size\"": \""Short (approx. 10-15cm length)\"",\n            \""action\"": \""Connecting the black connector of the cable to a port inside the metal case.\"",\n            \""timestamp\"": \""00:37-00:42\""\n        },\n        {\n            \""object_name\"": \""Black and Red Cable\"",\n            \""object_type\"": \""Cable\"",\n            \""object_color\"": \""Black and Red wires, Black and White connectors\"",\n            \""object_size\"": \""Short (approx. 10-15cm length)\"",\n            \""action\"": \""Connecting the black connector of the cable to a port inside the metal case.\"",\n            \""timestamp\"": \""00:42-00:46\""\n        },\n        {\n            \""object_name\"": \""Black and Red Cable\"",\n            \""object_type\"": \""Cable\"",\n            \""object_color\"": \""Black and Red wires, Black and White connectors\"",\n            \""object_size\"": \""Short (approx. 10-15cm length)\"",\n            \""action\"": \""Connecting the black connector of the cable to a port inside the metal case.\"",\n            \""timestamp\"": \""00:46-00:50\""\n        },\n        {\n            \""object_name\"": \""Black and Red Cable\"",\n            \""object_type\"": \""Cable\"",\n            \""object_color\"": \""Black and Red wires, Black and White connectors\"",\n            \""object_size\"": \""Short (approx. 10-15cm length)\"",\n            \""action\"": \""Connecting the black connector of the cable to a port inside the metal case.\"",\n            \""timestamp\"": \""00:50-00:53\""\n        }\n    ]\n}\n```""
+              }
+            ],
+            ""role"": ""model""
+          },
+          ""finish_reason"": ""STOP"",
+          ""index"": 0,
+          ""safety_ratings"": [
+            {
+              ""category"": ""HARM_CATEGORY_SEXUALLY_EXPLICIT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HATE_SPEECH"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HARASSMENT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_DANGEROUS_CONTENT"",
+              ""probability"": ""NEGLIGIBLE""
+            }
+          ]
+        }
+      ],
+      ""usage_metadata"": {
+        ""prompt_token_count"": 16434,
+        ""candidates_token_count"": 2458,
+        ""total_token_count"": 18892
+      }
+    }),
+)"
+2025-01-23 19:09:18,"response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      ""candidates"": [
+        {
+          ""content"": {
+            ""parts"": [
+              {
+                ""text"": ""```json\n{\n    \""video_name\"": \""video\"",\n    \""tools\"": [\n        {\n            \""object_name\"": \""SATA cable\"",\n            \""object_type\"": \""cable\"",\n            \""object_color\"": \""red\"",\n            \""object_size\"": \""approx. 20cm long\"",\n            \""action\"": \""picking up a red SATA cable\"",\n            \""timestamp\"": \""00:00-00:02\""\n        },\n        {\n            \""object_name\"": \""SATA cable\"",\n            \""object_type\"": \""cable\"",\n            \""object_color\"": \""red\"",\n            \""object_size\"": \""approx. 20cm long\"",\n            \""action\"": \""connecting one end of the SATA cable to a connector inside the device\"",\n            \""timestamp\"": \""00:02-00:09\""\n        },\n        {\n            \""object_name\"": \""SATA cable\"",\n            \""object_type\"": \""cable\"",\n            \""object_color\"": \""red\"",\n            \""object_size\"": \""approx. 20cm long\"",\n            \""action\"": \""holding and examining the other end of the SATA cable\"",\n            \""timestamp\"": \""00:09-00:15\""\n        },\n        {\n            \""object_name\"": \""SATA cable\"",\n            \""object_type\"": \""cable\"",\n            \""object_color\"": \""red\"",\n            \""object_size\"": \""approx. 20cm long\"",\n            \""action\"": \""connecting the other end of the SATA cable to another connector inside the device\"",\n            \""timestamp\"": \""00:15-00:28\""\n        },\n        {\n            \""object_name\"": \""red screwdriver\"",\n            \""object_type\"": \""screwdriver\"",\n            \""object_color\"": \""red and yellow\"",\n            \""object_size\"": \""approx. 15cm long, round handle\"",\n            \""action\"": \""picking up a red screwdriver\"",\n            \""timestamp\"": \""00:28-00:31\""\n        },\n        {\n            \""object_name\"": \""red screwdriver\"",\n            \""object_type\"": \""screwdriver\"",\n            \""object_color\"": \""red and yellow\"",\n            \""object_size\"": \""approx. 15cm long, round handle\"",\n            \""action\"": \""using the red screwdriver to push the SATA cable connector to secure it\"",\n            \""timestamp\"": \""00:31-00:32\""\n        },\n        {\n            \""object_name\"": \""SATA cable\"",\n            \""object_type\"": \""cable\"",\n            \""object_color\"": \""red\"",\n            \""object_size\"": \""approx. 20cm long\"",\n            \""action\"": \""picking up the SATA cable again\"",\n            \""timestamp\"": \""00:32-00:34\""\n        },\n        {\n            \""object_name\"": \""SATA cable\"",\n            \""object_type\"": \""cable\"",\n            \""object_color\"": \""red\"",\n            \""object_size\"": \""approx. 20cm long\"",\n            \""action\"": \""connecting the SATA cable again, trying different orientations\"",\n            \""timestamp\"": \""00:34-00:42\""\n        },\n        {\n            \""object_name\"": \""SATA cable\"",\n            \""object_type\"": \""cable\"",\n            \""object_color\"": \""red\"",\n            \""object_size\"": \""approx. 20cm long\"",\n            \""action\"": \""confirming the connection of SATA cable\"",\n            \""timestamp\"": \""00:42-00:43\""\n        },\n        {\n            \""object_name\"": \""SATA cable\"",\n            \""object_type\"": \""cable\"",\n            \""object_color\"": \""red\"",\n            \""object_size\"": \""approx. 20cm long\"",\n            \""action\"": \""adjusting and securing the SATA cable connection, trying different angles and orientations\"",\n            \""timestamp\"": \""00:43-00:58\""\n        },\n        {\n            \""object_name\"": \""red screwdriver\"",\n            \""object_type\"": \""screwdriver\"",\n            \""object_color\"": \""red and yellow\"",\n            \""object_size\"": \""approx. 15cm long, round handle\"",\n            \""action\"": \""picking up the red screwdriver again\"",\n            \""timestamp\"": \""00:58-01:03\""\n        },\n        {\n            \""object_name\"": \""red screwdriver\"",\n            \""object_type\"": \""screwdriver\"",\n            \""object_color\"": \""red and yellow\"",\n            \""object_size\"": \""approx. 15cm long, round handle\"",\n            \""action\"": \""using the red screwdriver to disconnect the SATA cable\"",\n            \""timestamp\"": \""01:03-01:04\""\n        },\n        {\n            \""object_name\"": \""SATA cable\"",\n            \""object_type\"": \""cable\"",\n            \""object_color\"": \""red\"",\n            \""object_size\"": \""approx. 20cm long\"",\n            \""action\"": \""holding the SATA cable and examining both ends\"",\n            \""timestamp\"": \""01:04-01:10\""\n        },\n        {\n            \""object_name\"": \""SATA cable\"",\n            \""object_type\"": \""cable\"",\n            \""object_color\"": \""red\"",\n            \""object_size\"": \""approx. 20cm long\"",\n            \""action\"": \""trying to connect the SATA cable again, in a different orientation\"",\n            \""timestamp\"": \""01:10-01:21\""\n        },\n        {\n            \""object_name\"": \""SATA cable\"",\n            \""object_type\"": \""cable\"",\n            \""object_color\"": \""red\"",\n            \""object_size\"": \""approx. 20cm long\"",\n            \""action\"": \""successfully connecting the SATA cable\"",\n            \""timestamp\"": \""01:21-01:24\""\n        },\n        {\n            \""object_name\"": \""red screwdriver\"",\n            \""object_type\"": \""screwdriver\"",\n            \""object_color\"": \""red and yellow\"",\n            \""object_size\"": \""approx. 15cm long, round handle\"",\n            \""action\"": \""using the red screwdriver to secure the SATA cable connection\"",\n            \""timestamp\"": \""01:24-01:36\""\n        },\n        {\n            \""object_name\"": \""SATA cable\"",\n            \""object_type\"": \""cable\"",\n            \""object_color\"": \""red\"",\n            \""object_size\"": \""approx. 20cm long\"",\n            \""action\"": \""touching the connected SATA cable to check if it's secure\"",\n            \""timestamp\"": \""01:36-01:41\""\n        },\n        {\n            \""object_name\"": \""red screwdriver\"",\n            \""object_type\"": \""screwdriver\"",\n            \""object_color\"": \""red and yellow\"",\n            \""object_size\"": \""approx. 15cm long, round handle\"",\n            \""action\"": \""placing the red screwdriver down\"",\n            \""timestamp\"": \""01:41-01:47\""\n        }\n    ]\n}\n```""
+              }
+            ],
+            ""role"": ""model""
+          },
+          ""finish_reason"": ""STOP"",
+          ""index"": 0,
+          ""safety_ratings"": [
+            {
+              ""category"": ""HARM_CATEGORY_SEXUALLY_EXPLICIT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HATE_SPEECH"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HARASSMENT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_DANGEROUS_CONTENT"",
+              ""probability"": ""NEGLIGIBLE""
+            }
+          ]
+        }
+      ],
+      ""usage_metadata"": {
+        ""prompt_token_count"": 32069,
+        ""candidates_token_count"": 2622,
+        ""total_token_count"": 34691
+      }
+    }),
+)"
+2025-01-23 19:09:43,"response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      ""candidates"": [
+        {
+          ""content"": {
+            ""parts"": [
+              {
+                ""text"": ""```json\n{\n    \""video_name\"": \""video\"",\n    \""tools\"": [\n        {\n            \""object_name\"": \""Red Screwdriver\"",\n            \""object_type\"": \""Tool\"",\n            \""object_color\"": \""Red\"",\n            \""object_size\"": \""Medium, approx. 15cm length\"",\n            \""action\"": \""Using a red screwdriver to fasten screws into a metal box.\"",\n            \""timestamp\"": \""00:00-00:07\""\n        },\n        {\n            \""object_name\"": \""Side Plate\"",\n            \""object_type\"": \""Component\"",\n            \""object_color\"": \""Silver\"",\n            \""object_size\"": \""Small, rectangular, approx. 10cm x 3cm\"",\n            \""action\"": \""Holding and showing a silver rectangular side plate with port cutouts.\"",\n            \""timestamp\"": \""00:09-00:10\""\n        },\n        {\n            \""object_name\"": \""Side Plate\"",\n            \""object_type\"": \""Component\"",\n            \""object_color\"": \""Silver\"",\n            \""object_size\"": \""Small, rectangular, approx. 10cm x 3cm\"",\n            \""action\"": \""Holding and showing a silver rectangular side plate with port cutouts.\"",\n            \""timestamp\"": \""00:14-00:17\""\n        },\n        {\n            \""object_name\"": \""Side Plate\"",\n            \""object_type\"": \""Component\"",\n            \""object_color\"": \""Silver\"",\n            \""object_size\"": \""Small, rectangular, approx. 10cm x 3cm\"",\n            \""action\"": \""Positioning and fitting the silver rectangular side plate onto the metal box.\"",\n            \""timestamp\"": \""00:17-00:27\""\n        },\n        {\n            \""object_name\"": \""Green and Black Screwdriver\"",\n            \""object_type\"": \""Tool\"",\n            \""object_color\"": \""Green and Black\"",\n            \""object_size\"": \""Medium, approx. 15cm length\"",\n            \""action\"": \""Picking up a green and black screwdriver with an ergonomic grip and Phillips head.\"",\n            \""timestamp\"": \""00:27-00:30\""\n        },\n        {\n            \""object_name\"": \""Green and Black Screwdriver\"",\n            \""object_type\"": \""Tool\"",\n            \""object_color\"": \""Green and Black\"",\n            \""object_size\"": \""Medium, approx. 15cm length\"",\n            \""action\"": \""Using the green and black screwdriver to screw in screws and attach the side plate to the metal box.\"",\n            \""timestamp\"": \""00:30-00:52\""\n        },\n        {\n            \""object_name\"": \""Green and Black Screwdriver\"",\n            \""object_type\"": \""Tool\"",\n            \""object_color\"": \""Green and Black\"",\n            \""object_size\"": \""Medium, approx. 15cm length\"",\n            \""action\"": \""Using the green and black screwdriver to screw in screws and attach the side plate to the metal box.\"",\n            \""timestamp\"": \""00:52-01:19\""\n        },\n        {\n            \""object_name\"": \""Assembled Part\"",\n            \""object_type\"": \""Component\"",\n            \""object_color\"": \""Silver\"",\n            \""object_size\"": \""Medium\"",\n            \""action\"": \""Holding and showing the partially assembled silver part.\"",\n            \""timestamp\"": \""01:19-01:22\""\n        },\n        {\n            \""object_name\"": \""Lower Plate\"",\n            \""object_type\"": \""Component\"",\n            \""object_color\"": \""Silver\"",\n            \""object_size\"": \""Medium, rectangular, approx. 15cm x 8cm\"",\n            \""action\"": \""Picking up a larger silver rectangular lower plate.\"",\n            \""timestamp\"": \""01:27-01:31\""\n        }\n    ]\n}\n```""
+              }
+            ],
+            ""role"": ""model""
+          },
+          ""finish_reason"": ""STOP"",
+          ""index"": 0,
+          ""safety_ratings"": [
+            {
+              ""category"": ""HARM_CATEGORY_SEXUALLY_EXPLICIT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HATE_SPEECH"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HARASSMENT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_DANGEROUS_CONTENT"",
+              ""probability"": ""NEGLIGIBLE""
+            }
+          ]
+        }
+      ],
+      ""usage_metadata"": {
+        ""prompt_token_count"": 27349,
+        ""candidates_token_count"": 2061,
+        ""total_token_count"": 29410
+      }
+    }),
+)"
+2025-01-23 19:10:08,"response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      ""candidates"": [
+        {
+          ""content"": {
+            ""parts"": [
+              {
+                ""text"": ""```json\n{\n    \""video_name\"": \""00:00.mp4\"",\n    \""tools\"": [\n        {\n            \""object_name\"": \""grey plate\"",\n            \""object_type\"": \""plate\"",\n            \""object_color\"": \""grey\"",\n            \""object_size\"": \""rectangular, approximately 20cm x 15cm\"",\n            \""action\"": \""holding and placing the grey plate onto a metal case\"",\n            \""timestamp\"": \""00:00-00:02\""\n        },\n        {\n            \""object_name\"": \""green and black screwdriver\"",\n            \""object_type\"": \""screwdriver\"",\n            \""object_color\"": \""green and black\"",\n            \""object_size\"": \""approximately 15cm long, round handle\"",\n            \""action\"": \""picking up a green and black screwdriver\"",\n            \""timestamp\"": \""00:06-00:07\""\n        },\n        {\n            \""object_name\"": \""green and black screwdriver\"",\n            \""object_type\"": \""screwdriver\"",\n            \""object_color\"": \""green and black\"",\n            \""object_size\"": \""approximately 15cm long, round handle\"",\n            \""action\"": \""using the screwdriver to fasten a screw on the grey plate\"",\n            \""timestamp\"": \""00:09-00:17\""\n        },\n        {\n            \""object_name\"": \""green and black screwdriver\"",\n            \""object_type\"": \""screwdriver\"",\n            \""object_color\"": \""green and black\"",\n            \""object_size\"": \""approximately 15cm long, round handle\"",\n            \""action\"": \""using the screwdriver to fasten a screw on the grey plate\"",\n            \""timestamp\"": \""00:17-00:26\""\n        },\n        {\n            \""object_name\"": \""green and black screwdriver\"",\n            \""object_type\"": \""screwdriver\"",\n            \""object_color\"": \""green and black\"",\n            \""object_size\"": \""approximately 15cm long, round handle\"",\n            \""action\"": \""using the screwdriver to fasten a screw on the grey plate\"",\n            \""timestamp\"": \""00:26-00:37\""\n        },\n        {\n            \""object_name\"": \""grey plate\"",\n            \""object_type\"": \""plate\"",\n            \""object_color\"": \""grey\"",\n            \""object_size\"": \""rectangular, approximately 20cm x 15cm\"",\n            \""action\"": \""holding and turning over the grey plate attached to the metal case\"",\n            \""timestamp\"": \""00:39-00:43\""\n        },\n        {\n            \""object_name\"": \""upper plate\"",\n            \""object_type\"": \""plate\"",\n            \""object_color\"": \""grey\"",\n            \""object_size\"": \""rectangular with heatsink fins, approximately 20cm x 15cm\"",\n            \""action\"": \""holding and placing the upper plate onto the metal case\"",\n            \""timestamp\"": \""00:47-00:52\""\n        },\n        {\n            \""object_name\"": \""green and black screwdriver\"",\n            \""object_type\"": \""screwdriver\"",\n            \""object_color\"": \""green and black\"",\n            \""object_size\"": \""approximately 15cm long, round handle\"",\n            \""action\"": \""picking up a green and black screwdriver\"",\n            \""timestamp\"": \""00:52-00:53\""\n        },\n        {\n            \""object_name\"": \""green and black screwdriver\"",\n            \""object_type\"": \""screwdriver\"",\n            \""object_color\"": \""green and black\"",\n            \""object_size\"": \""approximately 15cm long, round handle\"",\n            \""action\"": \""using the screwdriver to fasten a screw on the upper plate\"",\n            \""timestamp\"": \""00:53-01:08\""\n        },\n        {\n            \""object_name\"": \""green and black screwdriver\"",\n            \""object_type\"": \""screwdriver\"",\n            \""object_color\"": \""green and black\"",\n            \""object_size\"": \""approximately 15cm long, round handle\"",\n            \""action\"": \""using the screwdriver to fasten a screw on the upper plate\"",\n            \""timestamp\"": \""01:08-01:15\""\n        }\n    ],\n    \""summary_table\"": [\n        {\n            \""timestamp\"": \""00:00-00:02\"",\n            \""object\"": \""grey plate\"",\n            \""estimated_action\"": \""placing plate\""\n        },\n        {\n            \""timestamp\"": \""00:06-00:07\"",\n            \""object\"": \""green and black screwdriver\"",\n            \""estimated_action\"": \""picking up screwdriver\""\n        },\n        {\n            \""timestamp\"": \""00:09-00:17\"",\n            \""object\"": \""green and black screwdriver\"",\n            \""estimated_action\"": \""fastening screw\""\n        },\n        {\n            \""timestamp\"": \""00:17-00:26\"",\n            \""object\"": \""green and black screwdriver\"",\n            \""estimated_action\"": \""fastening screw\""\n        },\n        {\n            \""timestamp\"": \""00:26-00:37\"",\n            \""object\"": \""green and black screwdriver\"",\n            \""estimated_action\"": \""fastening screw\""\n        },\n        {\n            \""timestamp\"": \""00:39-00:43\"",\n            \""object\"": \""grey plate\"",\n            \""estimated_action\"": \""turning over plate\""\n        },\n        {\n            \""timestamp\"": \""00:47-00:52\"",\n            \""object\"": \""upper plate\"",\n            \""estimated_action\"": \""placing upper plate\""\n        },\n        {\n            \""timestamp\"": \""00:52-00:53\"",\n            \""object\"": \""green and black screwdriver\"",\n            \""estimated_action\"": \""picking up screwdriver\""\n        },\n        {\n            \""timestamp\"": \""00:53-01:08\"",\n            \""object\"": \""green and black screwdriver\"",\n            \""estimated_action\"": \""fastening screw\""\n        },\n        {\n            \""timestamp\"": \""01:08-01:15\"",\n            \""object\"": \""green and black screwdriver\"",\n            \""estimated_action\"": \""fastening screw\""\n        }\n    ],\n    \""behavior_summary\"": \""The user is assembling a device case. They start by attaching a grey plate to the case using a green and black screwdriver to fasten screws. Then, they attach an upper plate, also using the same screwdriver to fasten screws.\""\n}\n```""
+              }
+            ],
+            ""role"": ""model""
+          },
+          ""finish_reason"": ""STOP"",
+          ""index"": 0,
+          ""safety_ratings"": [
+            {
+              ""category"": ""HARM_CATEGORY_SEXUALLY_EXPLICIT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HATE_SPEECH"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HARASSMENT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_DANGEROUS_CONTENT"",
+              ""probability"": ""NEGLIGIBLE""
+            }
+          ]
+        }
+      ],
+      ""usage_metadata"": {
+        ""prompt_token_count"": 25284,
+        ""candidates_token_count"": 2053,
+        ""total_token_count"": 27337
+      }
+    }),
+)"
+2025-01-23 19:10:29,"response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      ""candidates"": [
+        {
+          ""content"": {
+            ""parts"": [
+              {
+                ""text"": ""```json\n{\n    \""video_name\"": \""user\"",\n    \""tools\"": [\n        {\n            \""object_name\"": \""metal bracket\"",\n            \""object_type\"": \""bracket\"",\n            \""object_color\"": \""silver\"",\n            \""object_size\"": \""10-15cm length\"",\n            \""action\"": \""examining and positioning\"",\n            \""timestamp\"": \""00:00-00:04\""\n        },\n        {\n            \""object_name\"": \""metal bracket\"",\n            \""object_type\"": \""bracket\"",\n            \""object_color\"": \""silver\"",\n            \""object_size\"": \""10-15cm length\"",\n            \""action\"": \""examining and positioning\"",\n            \""timestamp\"": \""00:00-00:04\""\n        },\n        {\n            \""object_name\"": \""IO shield\"",\n            \""object_type\"": \""computer part\"",\n            \""object_color\"": \""silver\"",\n            \""object_size\"": \""8cm width\"",\n            \""action\"": \""examining\"",\n            \""timestamp\"": \""00:04-00:07\""\n        },\n        {\n            \""object_name\"": \""IO shield\"",\n            \""object_type\"": \""computer part\"",\n            \""object_color\"": \""silver\"",\n            \""object_size\"": \""8cm width\"",\n            \""action\"": \""positioning on computer case\"",\n            \""timestamp\"": \""00:07-00:17\""\n        },\n        {\n            \""object_name\"": \""screwdriver\"",\n            \""object_type\"": \""tool\"",\n            \""object_color\"": \""green and black\"",\n            \""object_size\"": \""15cm length\"",\n            \""action\"": \""picking up\"",\n            \""timestamp\"": \""00:19-00:24\""\n        },\n        {\n            \""object_name\"": \""screwdriver\"",\n            \""object_type\"": \""tool\"",\n            \""object_color\"": \""green and black\"",\n            \""object_size\"": \""15cm length\"",\n            \""action\"": \""using screwdriver to fasten screws on IO shield\"",\n            \""timestamp\"": \""00:24-00:35\""\n        },\n        {\n            \""object_name\"": \""screwdriver\"",\n            \""object_type\"": \""tool\"",\n            \""object_color\"": \""green and black\"",\n            \""object_size\"": \""15cm length\"",\n            \""action\"": \""using screwdriver to fasten screws\"",\n            \""timestamp\"": \""00:36-00:46\""\n        },\n        {\n            \""object_name\"": \""screwdriver\"",\n            \""object_type\"": \""tool\"",\n            \""object_color\"": \""green and black\"",\n            \""object_size\"": \""15cm length\"",\n            \""action\"": \""using screwdriver to fasten screws\"",\n            \""timestamp\"": \""00:47-01:02\""\n        },\n        {\n            \""object_name\"": \""green connector cable\"",\n            \""object_type\"": \""cable\"",\n            \""object_color\"": \""green and black\"",\n            \""object_size\"": \""20cm cable length\"",\n            \""action\"": \""picking up\"",\n            \""timestamp\"": \""01:12-01:18\""\n        },\n        {\n            \""object_name\"": \""green connector cable\"",\n            \""object_type\"": \""cable\"",\n            \""object_color\"": \""green and black\"",\n            \""object_size\"": \""20cm cable length\"",\n            \""action\"": \""connecting power cable to computer case\"",\n            \""timestamp\"": \""01:18-01:19\""\n        }\n    ]\n}\n```""
+              }
+            ],
+            ""role"": ""model""
+          },
+          ""finish_reason"": ""STOP"",
+          ""index"": 0,
+          ""safety_ratings"": [
+            {
+              ""category"": ""HARM_CATEGORY_SEXUALLY_EXPLICIT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HATE_SPEECH"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HARASSMENT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_DANGEROUS_CONTENT"",
+              ""probability"": ""NEGLIGIBLE""
+            }
+          ]
+        }
+      ],
+      ""usage_metadata"": {
+        ""prompt_token_count"": 23809,
+        ""candidates_token_count"": 1648,
+        ""total_token_count"": 25457
+      }
+    }),
+)"
+2025-01-23 19:10:52,"response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      ""candidates"": [
+        {
+          ""content"": {
+            ""parts"": [
+              {
+                ""text"": ""```json\n{\n    \""video_name\"": \""00:00\"",\n    \""tools\"": [\n        {\n            \""object_name\"": \""Red and yellow screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Red and yellow\"",\n            \""object_size\"": \""Length: 20cm, Diameter: 2cm\"",\n            \""action\"": \""Using a screwdriver to unscrew a screw on the computer case.\"",\n            \""timestamp\"": \""00:00-00:11\""\n        },\n        {\n            \""object_name\"": \""Grey computer case\"",\n            \""object_type\"": \""Computer case\"",\n            \""object_color\"": \""Grey\"",\n            \""object_size\"": \""Length: 30cm, Width: 25cm, Height: 8cm\"",\n            \""action\"": \""Holding and adjusting the computer case on the wooden block.\"",\n            \""timestamp\"": \""00:12-00:14\""\n        },\n        {\n            \""object_name\"": \""Red and yellow screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Red and yellow\"",\n            \""object_size\"": \""Length: 20cm, Diameter: 2cm\"",\n            \""action\"": \""Putting down the screwdriver on the table.\"",\n            \""timestamp\"": \""00:14-00:15\""\n        },\n        {\n            \""object_name\"": \""Grey computer case\"",\n            \""object_type\"": \""Computer case\"",\n            \""object_color\"": \""Grey\"",\n            \""object_size\"": \""Length: 30cm, Width: 25cm, Height: 8cm\"",\n            \""action\"": \""Holding and lifting the computer case.\"",\n            \""timestamp\"": \""00:15-00:17\""\n        },\n        {\n            \""object_name\"": \""Grey computer case\"",\n            \""object_type\"": \""Computer case\"",\n            \""object_color\"": \""Grey\"",\n            \""object_size\"": \""Length: 30cm, Width: 25cm, Height: 8cm\"",\n            \""action\"": \""Placing the computer case on the table.\"",\n            \""timestamp\"": \""00:17-00:19\""\n        },\n        {\n            \""object_name\"": \""Metal bracket\"",\n            \""object_type\"": \""Bracket\"",\n            \""object_color\"": \""Silver\"",\n            \""object_size\"": \""Length: 15cm, Width: 2cm, Thickness: 0.2cm\"",\n            \""action\"": \""Picking up and examining a metal bracket.\"",\n            \""timestamp\"": \""00:30-00:32\""\n        },\n        {\n            \""object_name\"": \""Metal brackets\"",\n            \""object_type\"": \""Brackets\"",\n            \""object_color\"": \""Silver\"",\n            \""object_size\"": \""Length: 15cm, Width: 2cm, Thickness: 0.2cm (each)\"",\n            \""action\"": \""Holding and aligning two metal brackets together.\"",\n            \""timestamp\"": \""00:32-00:36\""\n        },\n        {\n            \""object_name\"": \""Metal bracket\"",\n            \""object_type\"": \""Bracket\"",\n            \""object_color\"": \""Silver\"",\n            \""object_size\"": \""Length: 15cm, Width: 2cm, Thickness: 0.2cm\"",\n            \""action\"": \""Placing a metal bracket on the side of the computer case.\"",\n            \""timestamp\"": \""00:37-00:39\""\n        },\n        {\n            \""object_name\"": \""Metal bracket\"",\n            \""object_type\"": \""Bracket\"",\n            \""object_color\"": \""Silver\"",\n            \""object_size\"": \""Length: 15cm, Width: 2cm, Thickness: 0.2cm\"",\n            \""action\"": \""Holding and adjusting a metal bracket on the computer case.\"",\n            \""timestamp\"": \""00:45-00:59\""\n        },\n        {\n            \""object_name\"": \""Metal bracket\"",\n            \""object_type\"": \""Bracket\"",\n            \""object_color\"": \""Silver\"",\n            \""object_size\"": \""Length: 15cm, Width: 2cm, Thickness: 0.2cm\"",\n            \""action\"": \""Placing a metal bracket on the side of the computer case.\"",\n            \""timestamp\"": \""01:04-01:07\""\n        },\n        {\n            \""object_name\"": \""Metal bracket\"",\n            \""object_type\"": \""Bracket\"",\n            \""object_color\"": \""Silver\"",\n            \""object_size\"": \""Length: 15cm, Width: 2cm, Thickness: 0.2cm\"",\n            \""action\"": \""Holding and adjusting a metal bracket on the computer case.\"",\n            \""timestamp\"": \""01:07-01:13\""\n        },\n        {\n            \""object_name\"": \""Grey computer case\"",\n            \""object_type\"": \""Computer case\"",\n            \""object_color\"": \""Grey\"",\n            \""object_size\"": \""Length: 30cm, Width: 25cm, Height: 8cm\"",\n            \""action\"": \""Holding and adjusting the computer case.\"",\n            \""timestamp\"": \""01:15-01:22\""\n        }\n    ]\n}\n```""
+              }
+            ],
+            ""role"": ""model""
+          },
+          ""finish_reason"": ""STOP"",
+          ""index"": 0,
+          ""safety_ratings"": [
+            {
+              ""category"": ""HARM_CATEGORY_SEXUALLY_EXPLICIT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HATE_SPEECH"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HARASSMENT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_DANGEROUS_CONTENT"",
+              ""probability"": ""NEGLIGIBLE""
+            }
+          ]
+        }
+      ],
+      ""usage_metadata"": {
+        ""prompt_token_count"": 24989,
+        ""candidates_token_count"": 1591,
+        ""total_token_count"": 26580
+      }
+    }),
+)"
+2025-01-23 19:11:12,"response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      ""candidates"": [
+        {
+          ""content"": {
+            ""parts"": [
+              {
+                ""text"": ""```json\n{\n    \""video_name\"": \""0000.mp4\"",\n    \""tools\"": [\n        {\n            \""object_name\"": \""metal part\"",\n            \""object_type\"": \""object\"",\n            \""object_color\"": \""silver\"",\n            \""object_size\"": \""15cm length, 2cm width, rectangular\"",\n            \""action\"": \""holding and placing a metal part onto the device\"",\n            \""timestamp\"": \""00:00-00:04\""\n        },\n        {\n            \""object_name\"": \""screw\"",\n            \""object_type\"": \""object\"",\n            \""object_color\"": \""silver\"",\n            \""object_size\"": \""0.5cm diameter, round\"",\n            \""action\"": \""picking up and placing a screw\"",\n            \""timestamp\"": \""00:04-00:05\""\n        },\n        {\n            \""object_name\"": \""screwdriver\"",\n            \""object_type\"": \""tool\"",\n            \""object_color\"": \""red\"",\n            \""object_size\"": \""15cm length, round handle\"",\n            \""action\"": \""using a screwdriver to fasten the screw\"",\n            \""timestamp\"": \""00:12-00:26\""\n        },\n        {\n            \""object_name\"": \""metal part\"",\n            \""object_type\"": \""object\"",\n            \""object_color\"": \""silver\"",\n            \""object_size\"": \""15cm length, 2cm width, rectangular\"",\n            \""action\"": \""holding and placing a metal part onto the device\"",\n            \""timestamp\"": \""00:27-00:28\""\n        },\n        {\n            \""object_name\"": \""screw\"",\n            \""object_type\"": \""object\"",\n            \""object_color\"": \""silver\"",\n            \""object_size\"": \""0.5cm diameter, round\"",\n            \""action\"": \""picking up and placing a screw\"",\n            \""timestamp\"": \""00:28-00:29\""\n        },\n        {\n            \""object_name\"": \""screwdriver\"",\n            \""object_type\"": \""tool\"",\n            \""object_color\"": \""red\"",\n            \""object_size\"": \""15cm length, round handle\"",\n            \""action\"": \""using a screwdriver to fasten the screw\"",\n            \""timestamp\"": \""00:29-00:34\""\n        },\n        {\n            \""object_name\"": \""metal part\"",\n            \""object_type\"": \""object\"",\n            \""object_color\"": \""silver\"",\n            \""object_size\"": \""15cm length, 2cm width, rectangular\"",\n            \""action\"": \""holding and placing a metal part onto the device\"",\n            \""timestamp\"": \""00:46-00:47\""\n        },\n        {\n            \""object_name\"": \""screw\"",\n            \""object_type\"": \""object\"",\n            \""object_color\"": \""silver\"",\n            \""object_size\"": \""0.5cm diameter, round\"",\n            \""action\"": \""picking up and placing a screw\"",\n            \""timestamp\"": \""00:51-00:52\""\n        },\n        {\n            \""object_name\"": \""screwdriver\"",\n            \""object_type\"": \""tool\"",\n            \""object_color\"": \""red\"",\n            \""object_size\"": \""15cm length, round handle\"",\n            \""action\"": \""using a screwdriver to fasten the screw\"",\n            \""timestamp\"": \""00:52-00:56\""\n        }\n    ]\n}\n```""
+              }
+            ],
+            ""role"": ""model""
+          },
+          ""finish_reason"": ""STOP"",
+          ""index"": 0,
+          ""safety_ratings"": [
+            {
+              ""category"": ""HARM_CATEGORY_SEXUALLY_EXPLICIT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HATE_SPEECH"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HARASSMENT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_DANGEROUS_CONTENT"",
+              ""probability"": ""NEGLIGIBLE""
+            }
+          ]
+        }
+      ],
+      ""usage_metadata"": {
+        ""prompt_token_count"": 17024,
+        ""candidates_token_count"": 1273,
+        ""total_token_count"": 18297
+      }
+    }),
+)"
+2025-01-23 19:11:37,"response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      ""candidates"": [
+        {
+          ""content"": {
+            ""parts"": [
+              {
+                ""text"": ""```json\n{\n    \""video_name\"": \""video.mp4\"",\n    \""tools\"": [\n        {\n            \""object_name\"": \""Red Screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Red and Silver\"",\n            \""object_size\"": \""Approx. 15cm long, round handle with diameter 2cm, silver shaft\"",\n            \""action\"": \""Using a red screwdriver to unscrew screws from the silver metal case.\"",\n            \""timestamp\"": \""00:00-00:04\""\n        },\n        {\n            \""object_name\"": \""Screw\"",\n            \""object_type\"": \""Screw\"",\n            \""object_color\"": \""Silver\"",\n            \""object_size\"": \""Approx. 0.5cm diameter, 1cm long, round head\"",\n            \""action\"": \""Picking up a silver screw with fingers and placing it on the white table.\"",\n            \""timestamp\"": \""00:04-00:07\""\n        },\n        {\n            \""object_name\"": \""Metal Bracket\"",\n            \""object_type\"": \""Bracket\"",\n            \""object_color\"": \""Silver\"",\n            \""object_size\"": \""Approx. 5cm long, 1cm wide, rectangular shape\"",\n            \""action\"": \""Using fingers to remove a silver metal bracket from the silver metal case.\"",\n            \""timestamp\"": \""00:07-00:12\""\n        },\n        {\n            \""object_name\"": \""Red Screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Red and Silver\"",\n            \""object_size\"": \""Approx. 15cm long, round handle with diameter 2cm, silver shaft\"",\n            \""action\"": \""Using a red screwdriver to unscrew screws from the silver metal case.\"",\n            \""timestamp\"": \""00:12-00:30\""\n        },\n        {\n            \""object_name\"": \""Screw\"",\n            \""object_type\"": \""Screw\"",\n            \""object_color\"": \""Silver\"",\n            \""object_size\"": \""Approx. 0.5cm diameter, 1cm long, round head\"",\n            \""action\"": \""Picking up silver screws with fingers and placing them on the white table.\"",\n            \""timestamp\"": \""00:30-00:38\""\n        },\n        {\n            \""object_name\"": \""Red Screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Red and Silver\"",\n            \""object_size\"": \""Approx. 15cm long, round handle with diameter 2cm, silver shaft\"",\n            \""action\"": \""Using a red screwdriver to unscrew screws from the silver metal case.\"",\n            \""timestamp\"": \""00:38-00:50\""\n        },\n        {\n            \""object_name\"": \""Silver Metal Case\"",\n            \""object_type\"": \""Case\"",\n            \""object_color\"": \""Silver\"",\n            \""object_size\"": \""Approx. 30cm x 20cm x 5cm, rectangular shape\"",\n            \""action\"": \""Holding the silver metal case and flipping it over to show the other side.\"",\n            \""timestamp\"": \""00:50-00:56\""\n        },\n        {\n            \""object_name\"": \""Red Screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Red and Silver\"",\n            \""object_size\"": \""Approx. 15cm long, round handle with diameter 2cm, silver shaft\"",\n            \""action\"": \""Using a red screwdriver to screw screws into the wooden block attached to the silver metal case.\"",\n            \""timestamp\"": \""01:03-01:11\""\n        },\n        {\n            \""object_name\"": \""Red Screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Red and Silver\"",\n            \""object_size\"": \""Approx. 15cm long, round handle with diameter 2cm, silver shaft\"",\n            \""action\"": \""Using a red screwdriver to screw screws into the wooden block attached to the silver metal case.\"",\n            \""timestamp\"": \""01:11-01:24\""\n        }\n    ]\n}\n```""
+              }
+            ],
+            ""role"": ""model""
+          },
+          ""finish_reason"": ""STOP"",
+          ""index"": 0,
+          ""safety_ratings"": [
+            {
+              ""category"": ""HARM_CATEGORY_SEXUALLY_EXPLICIT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HATE_SPEECH"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HARASSMENT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_DANGEROUS_CONTENT"",
+              ""probability"": ""NEGLIGIBLE""
+            }
+          ]
+        }
+      ],
+      ""usage_metadata"": {
+        ""prompt_token_count"": 25284,
+        ""candidates_token_count"": 1883,
+        ""total_token_count"": 27167
+      }
+    }),
+)"
+2025-01-23 19:12:07,"response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      ""candidates"": [
+        {
+          ""content"": {
+            ""parts"": [
+              {
+                ""text"": ""```json\n{\n    \""video_name\"": \""video\"",\n    \""tools\"": [\n        {\n            \""object_name\"": \""Red Screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Red\"",\n            \""object_size\"": \""Approx. 15cm length, Round handle, ~2cm diameter\"",\n            \""action\"": \""Using screwdriver to unscrew screws from the side of a grey electronic device\"",\n            \""timestamp\"": \""00:00-00:07\""\n        },\n        {\n            \""object_name\"": \""Screw\"",\n            \""object_type\"": \""Screw\"",\n            \""object_color\"": \""Silver\"",\n            \""object_size\"": \""Small, ~0.5cm diameter\"",\n            \""action\"": \""Picking up and holding a screw after unscrewing it\"",\n            \""timestamp\"": \""00:07-00:11\""\n        },\n        {\n            \""object_name\"": \""Red Screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Red\"",\n            \""object_size\"": \""Approx. 15cm length, Round handle, ~2cm diameter\"",\n            \""action\"": \""Using screwdriver to unscrew screws from the side of a grey electronic device\"",\n            \""timestamp\"": \""00:11-00:21\""\n        },\n        {\n            \""object_name\"": \""Screw\"",\n            \""object_type\"": \""Screw\"",\n            \""object_color\"": \""Silver\"",\n            \""object_size\"": \""Small, ~0.5cm diameter\"",\n            \""action\"": \""Picking up and holding a screw after unscrewing it\"",\n            \""timestamp\"": \""00:21-00:25\""\n        },\n        {\n            \""object_name\"": \""Red Screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Red\"",\n            \""object_size\"": \""Approx. 15cm length, Round handle, ~2cm diameter\"",\n            \""action\"": \""Using screwdriver to unscrew screws from the side of a grey electronic device\"",\n            \""timestamp\"": \""00:25-00:35\""\n        },\n        {\n            \""object_name\"": \""Screw\"",\n            \""object_type\"": \""Screw\"",\n            \""object_color\"": \""Silver\"",\n            \""object_size\"": \""Small, ~0.5cm diameter\"",\n            \""action\"": \""Picking up and holding a screw after unscrewing it\"",\n            \""timestamp\"": \""00:35-00:39\""\n        },\n        {\n            \""object_name\"": \""Red Screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Red\"",\n            \""object_size\"": \""Approx. 15cm length, Round handle, ~2cm diameter\"",\n            \""action\"": \""Using screwdriver to unscrew screws from the side of a grey electronic device\"",\n            \""timestamp\"": \""00:39-01:12\""\n        },\n        {\n            \""object_name\"": \""Grey Electronic Device\"",\n            \""object_type\"": \""Electronic Device\"",\n            \""object_color\"": \""Grey\"",\n            \""object_size\"": \""Rectangular, Approx. 30cm x 20cm x 5cm\"",\n            \""action\"": \""Lifting and holding the grey electronic device after unscrewing\"",\n            \""timestamp\"": \""01:12-01:13\""\n        },\n        {\n            \""object_name\"": \""Black Cable\"",\n            \""object_type\"": \""Cable\"",\n            \""object_color\"": \""Black\"",\n            \""object_size\"": \""Round, Approx. 1m length, ~1cm diameter\"",\n            \""action\"": \""Holding and preparing to plug a black cable into the grey electronic device\"",\n            \""timestamp\"": \""01:17-01:24\""\n        }\n    ]\n}\n```""
+              }
+            ],
+            ""role"": ""model""
+          },
+          ""finish_reason"": ""STOP"",
+          ""index"": 0,
+          ""safety_ratings"": [
+            {
+              ""category"": ""HARM_CATEGORY_SEXUALLY_EXPLICIT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HATE_SPEECH"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HARASSMENT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_DANGEROUS_CONTENT"",
+              ""probability"": ""NEGLIGIBLE""
+            }
+          ]
+        }
+      ],
+      ""usage_metadata"": {
+        ""prompt_token_count"": 25284,
+        ""candidates_token_count"": 3036,
+        ""total_token_count"": 28320
+      }
+    }),
+)"
+2025-01-23 19:39:47,"response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      ""candidates"": [
+        {
+          ""content"": {
+            ""parts"": [
+              {
+                ""text"": ""```json\n{\n    \""video_name\"": \""video\"",\n    \""tools\"": [\n        {\n            \""object_name\"": \""computer case\"",\n            \""object_type\"": \""computer part\"",\n            \""object_color\"": \""grey\"",\n            \""object_size\"": \""approximately 30cm x 20cm x 5cm\"",\n            \""action\"": \""holding and inspecting the inner side of the computer case\"",\n            \""timestamp\"": \""00:07-00:14\""\n        },\n        {\n            \""object_name\"": \""computer case\"",\n            \""object_type\"": \""computer part\"",\n            \""object_color\"": \""grey\"",\n            \""object_size\"": \""approximately 30cm x 20cm x 5cm\"",\n            \""action\"": \""placing the computer case on the desk\"",\n            \""timestamp\"": \""00:14\""\n        },\n        {\n            \""object_name\"": \""RAM module\"",\n            \""object_type\"": \""computer component\"",\n            \""object_color\"": \""green\"",\n            \""object_size\"": \""approximately 7cm x 3cm x 0.5cm\"",\n            \""action\"": \""holding a RAM module\"",\n            \""timestamp\"": \""00:34-00:35\""\n        },\n        {\n            \""object_name\"": \""RAM module\"",\n            \""object_type\"": \""computer component\"",\n            \""object_color\"": \""green\"",\n            \""object_size\"": \""approximately 7cm x 3cm x 0.5cm\"",\n            \""action\"": \""installing the RAM module into the slot\"",\n            \""timestamp\"": \""00:35-00:49\""\n        },\n        {\n            \""object_name\"": \""computer case\"",\n            \""object_type\"": \""computer part\"",\n            \""object_color\"": \""grey\"",\n            \""object_size\"": \""approximately 20cm x 15cm x 3cm\"",\n            \""action\"": \""holding and placing the computer case part on the desk\"",\n            \""timestamp\"": \""00:52-00:56\""\n        },\n        {\n            \""object_name\"": \""hard disk\"",\n            \""object_type\"": \""computer component\"",\n            \""object_color\"": \""metallic\"",\n            \""object_size\"": \""approximately 10cm x 7cm x 1cm\"",\n            \""action\"": \""holding a hard disk\"",\n            \""timestamp\"": \""01:06-01:07\""\n        },\n        {\n            \""object_name\"": \""hard disk\"",\n            \""object_type\"": \""computer component\"",\n            \""object_color\"": \""metallic\"",\n            \""object_size\"": \""approximately 10cm x 7cm x 1cm\"",\n            \""action\"": \""placing the hard disk into the computer case\"",\n            \""timestamp\"": \""01:07-01:12\""\n        },\n        {\n            \""object_name\"": \""red screwdriver\"",\n            \""object_type\"": \""tool\"",\n            \""object_color\"": \""red and black\"",\n            \""object_size\"": \""approximately 15cm long, round handle with diameter 2cm\"",\n            \""action\"": \""holding a red screwdriver\"",\n            \""timestamp\"": \""01:15-01:16\""\n        },\n        {\n            \""object_name\"": \""red screwdriver\"",\n            \""object_type\"": \""tool\"",\n            \""object_color\"": \""red and black\"",\n            \""object_size\"": \""approximately 15cm long, round handle with diameter 2cm\"",\n            \""action\"": \""using the red screwdriver to screw in the hard disk\"",\n            \""timestamp\"": \""01:16-01:25\""\n        },\n        {\n            \""object_name\"": \""screw\"",\n            \""object_type\"": \""fastener\"",\n            \""object_color\"": \""silver\"",\n            \""object_size\"": \""approximately 0.5cm diameter, 0.8cm long\"",\n            \""action\"": \""holding a screw\"",\n            \""timestamp\"": \""01:27-01:28\""\n        },\n        {\n            \""object_name\"": \""red screwdriver\"",\n            \""object_type\"": \""tool\"",\n            \""object_color\"": \""red and black\"",\n            \""object_size\"": \""approximately 15cm long, round handle with diameter 2cm\"",\n            \""action\"": \""using the red screwdriver to screw in the screw\"",\n            \""timestamp\"": \""01:29-01:30\""\n        }\n    ]\n}\n```""
+              }
+            ],
+            ""role"": ""model""
+          },
+          ""finish_reason"": ""STOP"",
+          ""index"": 0,
+          ""safety_ratings"": [
+            {
+              ""category"": ""HARM_CATEGORY_SEXUALLY_EXPLICIT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HATE_SPEECH"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HARASSMENT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_DANGEROUS_CONTENT"",
+              ""probability"": ""NEGLIGIBLE""
+            }
+          ]
+        }
+      ],
+      ""usage_metadata"": {
+        ""prompt_token_count"": 27057,
+        ""candidates_token_count"": 2048,
+        ""total_token_count"": 29105
+      }
+    }),
+)"
+2025-01-23 19:40:14,"response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      ""candidates"": [
+        {
+          ""content"": {
+            ""parts"": [
+              {
+                ""text"": ""```json\n{\n    \""video_name\"": \""video\"",\n    \""tools\"": [\n        {\n            \""object_name\"": \""Red Screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Red and Silver\"",\n            \""object_size\"": \""Length approximately 15cm, handle diameter approximately 2cm\"",\n            \""action\"": \""Using the red screwdriver to unscrew screws from the device casing\"",\n            \""timestamp\"": \""00:00-00:06\""\n        },\n        {\n            \""object_name\"": \""Red Screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Red and Silver\"",\n            \""object_size\"": \""Length approximately 15cm, handle diameter approximately 2cm\"",\n            \""action\"": \""Using the red screwdriver to unscrew screws from the device casing\"",\n            \""timestamp\"": \""00:06-00:12\""\n        },\n        {\n            \""object_name\"": \""Red Screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Red and Silver\"",\n            \""object_size\"": \""Length approximately 15cm, handle diameter approximately 2cm\"",\n            \""action\"": \""Using the red screwdriver to unscrew screws from the device casing\"",\n            \""timestamp\"": \""00:12-00:18\""\n        },\n        {\n            \""object_name\"": \""Red Screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Red and Silver\"",\n            \""object_size\"": \""Length approximately 15cm, handle diameter approximately 2cm\"",\n            \""action\"": \""Using the red screwdriver to unscrew screws from the device casing\"",\n            \""timestamp\"": \""00:18-00:24\""\n        },\n        {\n            \""object_name\"": \""Red Screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Red and Silver\"",\n            \""object_size\"": \""Length approximately 15cm, handle diameter approximately 2cm\"",\n            \""action\"": \""Using the red screwdriver to unscrew screws from the device casing\"",\n            \""timestamp\"": \""00:24-00:31\""\n        },\n        {\n            \""object_name\"": \""Power Cable Connector\"",\n            \""object_type\"": \""Cable Connector\"",\n            \""object_color\"": \""Black with multi-colored wires (red, yellow, black)\"",\n            \""object_size\"": \""Approximately 2cm in width, 1cm in height, and 1cm in thickness\"",\n            \""action\"": \""Holding the power cable connector to plug it into the device\"",\n            \""timestamp\"": \""00:31-00:37\""\n        },\n        {\n            \""object_name\"": \""Power Cable Connector\"",\n            \""object_type\"": \""Cable Connector\"",\n            \""object_color\"": \""Black with multi-colored wires (red, yellow, black)\"",\n            \""object_size\"": \""Approximately 2cm in width, 1cm in height, and 1cm in thickness\"",\n            \""action\"": \""Plugging the power cable connector into the port on the device\"",\n            \""timestamp\"": \""00:37-00:46\""\n        },\n        {\n            \""object_name\"": \""Data Cable Connector\"",\n            \""object_type\"": \""Cable Connector\"",\n            \""object_color\"": \""Black\"",\n            \""object_size\"": \""Approximately 1.5cm in width, 0.5cm in height, and 0.5cm in thickness\"",\n            \""action\"": \""Holding the data cable connector to plug it into the device\"",\n            \""timestamp\"": \""00:46-00:49\""\n        },\n        {\n            \""object_name\"": \""Data Cable Connector\"",\n            \""object_type\"": \""Cable Connector\"",\n            \""object_color\"": \""Black\"",\n            \""object_size\"": \""Approximately 1.5cm in width, 0.5cm in height, and 0.5cm in thickness\"",\n            \""action\"": \""Plugging the data cable connector into the port on the device\"",\n            \""timestamp\"": \""00:49-00:53\""\n        }\n    ]\n}\n```""
+              }
+            ],
+            ""role"": ""model""
+          },
+          ""finish_reason"": ""STOP"",
+          ""index"": 0,
+          ""safety_ratings"": [
+            {
+              ""category"": ""HARM_CATEGORY_SEXUALLY_EXPLICIT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HATE_SPEECH"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HARASSMENT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_DANGEROUS_CONTENT"",
+              ""probability"": ""NEGLIGIBLE""
+            }
+          ]
+        }
+      ],
+      ""usage_metadata"": {
+        ""prompt_token_count"": 16437,
+        ""candidates_token_count"": 3209,
+        ""total_token_count"": 19646
+      }
+    }),
+)"
+2025-01-23 19:40:35,"response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      ""candidates"": [
+        {
+          ""content"": {
+            ""parts"": [
+              {
+                ""text"": ""```json\n{\n    \""video_name\"": \""0001.mp4\"",\n    \""tools\"": [\n        {\n            \""object_name\"": \""Red SATA cable\"",\n            \""object_type\"": \""Cable\"",\n            \""object_color\"": \""Red\"",\n            \""object_size\"": \""Length: ~30cm, Width: ~1cm\"",\n            \""action\"": \""Holding and connecting the SATA cable to the device.\"",\n            \""timestamp\"": \""00:00-00:28\""\n        },\n        {\n            \""object_name\"": \""Red Screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Red and Yellow\"",\n            \""object_size\"": \""Length: ~15cm, Handle Diameter: ~2cm\"",\n            \""action\"": \""Holding and using the screwdriver to tighten screws.\"",\n            \""timestamp\"": \""00:29-00:30\""\n        },\n        {\n            \""object_name\"": \""Red SATA cable\"",\n            \""object_type\"": \""Cable\"",\n            \""object_color\"": \""Red\"",\n            \""object_size\"": \""Length: ~30cm, Width: ~1cm\"",\n            \""action\"": \""Holding and connecting the SATA cable to the device.\"",\n            \""timestamp\"": \""00:30-00:42\""\n        },\n        {\n            \""object_name\"": \""Red Screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Red and Yellow\"",\n            \""object_size\"": \""Length: ~15cm, Handle Diameter: ~2cm\"",\n            \""action\"": \""Holding the screwdriver.\"",\n            \""timestamp\"": \""00:42-00:43\""\n        },\n        {\n            \""object_name\"": \""Red SATA cable\"",\n            \""object_type\"": \""Cable\"",\n            \""object_color\"": \""Red\"",\n            \""object_size\"": \""Length: ~30cm, Width: ~1cm\"",\n            \""action\"": \""Holding and connecting the SATA cable to the device.\"",\n            \""timestamp\"": \""00:43-00:59\""\n        },\n        {\n            \""object_name\"": \""Red Screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Red and Yellow\"",\n            \""object_size\"": \""Length: ~15cm, Handle Diameter: ~2cm\"",\n            \""action\"": \""Using the screwdriver to adjust or remove a connector.\"",\n            \""timestamp\"": \""01:00-01:03\""\n        },\n        {\n            \""object_name\"": \""Red SATA cable\"",\n            \""object_type\"": \""Cable\"",\n            \""object_color\"": \""Red\"",\n            \""object_size\"": \""Length: ~30cm, Width: ~1cm\"",\n            \""action\"": \""Holding and connecting the SATA cable to the device.\"",\n            \""timestamp\"": \""01:04-01:10\""\n        },\n        {\n            \""object_name\"": \""Red Screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Red and Yellow\"",\n            \""object_size\"": \""Length: ~15cm, Handle Diameter: ~2cm\"",\n            \""action\"": \""Holding the screwdriver.\"",\n            \""timestamp\"": \""01:11-01:14\""\n        },\n        {\n            \""object_name\"": \""Red SATA cable\"",\n            \""object_type\"": \""Cable\"",\n            \""object_color\"": \""Red\"",\n            \""object_size\"": \""Length: ~30cm, Width: ~1cm\"",\n            \""action\"": \""Holding and connecting the SATA cable to the device.\"",\n            \""timestamp\"": \""01:14-01:36\""\n        },\n        {\n            \""object_name\"": \""Green and Black Screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Green and Black\"",\n            \""object_size\"": \""Length: ~15cm, Handle Diameter: ~2cm\"",\n            \""action\"": \""Holding the screwdriver.\"",\n            \""timestamp\"": \""01:46-01:47\""\n        }\n    ]\n}\n```""
+              }
+            ],
+            ""role"": ""model""
+          },
+          ""finish_reason"": ""STOP"",
+          ""index"": 0,
+          ""safety_ratings"": [
+            {
+              ""category"": ""HARM_CATEGORY_SEXUALLY_EXPLICIT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HATE_SPEECH"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HARASSMENT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_DANGEROUS_CONTENT"",
+              ""probability"": ""NEGLIGIBLE""
+            }
+          ]
+        }
+      ],
+      ""usage_metadata"": {
+        ""prompt_token_count"": 32072,
+        ""candidates_token_count"": 1357,
+        ""total_token_count"": 33429
+      }
+    }),
+)"
+2025-01-23 19:40:56,"response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      ""candidates"": [
+        {
+          ""content"": {
+            ""parts"": [
+              {
+                ""text"": ""```json\n{\n    \""video_name\"": \""video\"",\n    \""tools\"": [\n        {\n            \""object_name\"": \""Red Screwdriver\"",\n            \""object_type\"": \""Tool\"",\n            \""object_color\"": \""Red and Silver\"",\n            \""object_size\"": \""Medium\"",\n            \""action\"": \""Screwing screws into the device\"",\n            \""timestamp\"": \""00:00-00:02\""\n        },\n        {\n            \""object_name\"": \""Red Screwdriver\"",\n            \""object_type\"": \""Tool\"",\n            \""object_color\"": \""Red and Silver\"",\n            \""object_size\"": \""Medium\"",\n            \""action\"": \""Screwing screws into the device\"",\n            \""timestamp\"": \""00:05-00:08\""\n        },\n        {\n            \""object_name\"": \""Red Screwdriver\"",\n            \""object_type\"": \""Tool\"",\n            \""object_color\"": \""Red and Silver\"",\n            \""object_size\"": \""Medium\"",\n            \""action\"": \""Placing screwdriver down\"",\n            \""timestamp\"": \""00:08-00:10\""\n        },\n        {\n            \""object_name\"": \""Side Plate\"",\n            \""object_type\"": \""Component\"",\n            \""object_color\"": \""Silver\"",\n            \""object_size\"": \""Small\"",\n            \""action\"": \""Holding and picking up side plate\"",\n            \""timestamp\"": \""00:14-00:17\""\n        },\n        {\n            \""object_name\"": \""Side Plate\"",\n            \""object_type\"": \""Component\"",\n            \""object_color\"": \""Silver\"",\n            \""object_size\"": \""Small\"",\n            \""action\"": \""Attaching side plate to the device\"",\n            \""timestamp\"": \""00:17-00:27\""\n        },\n        {\n            \""object_name\"": \""Green/Black Screwdriver\"",\n            \""object_type\"": \""Tool\"",\n            \""object_color\"": \""Green, Black and Silver\"",\n            \""object_size\"": \""Medium\"",\n            \""action\"": \""Picking up and preparing to screw\"",\n            \""timestamp\"": \""00:28-00:37\""\n        },\n        {\n            \""object_name\"": \""Green/Black Screwdriver\"",\n            \""object_type\"": \""Tool\"",\n            \""object_color\"": \""Green, Black and Silver\"",\n            \""object_size\"": \""Medium\"",\n            \""action\"": \""Screwing screws into the side plate\"",\n            \""timestamp\"": \""00:37-00:40\""\n        },\n        {\n            \""object_name\"": \""Green/Black Screwdriver\"",\n            \""object_type\"": \""Tool\"",\n            \""object_color\"": \""Green, Black and Silver\"",\n            \""object_size\"": \""Medium\"",\n            \""action\"": \""Screwing screws into the side plate\"",\n            \""timestamp\"": \""00:46-00:49\""\n        },\n        {\n            \""object_name\"": \""Green/Black Screwdriver\"",\n            \""object_type\"": \""Tool\"",\n            \""object_color\"": \""Green, Black and Silver\"",\n            \""object_size\"": \""Medium\"",\n            \""action\"": \""Screwing screws into the side plate\"",\n            \""timestamp\"": \""00:58-01:01\""\n        },\n        {\n            \""object_name\"": \""Green/Black Screwdriver\"",\n            \""object_type\"": \""Tool\"",\n            \""object_color\"": \""Green, Black and Silver\"",\n            \""object_size\"": \""Medium\"",\n            \""action\"": \""Screwing screws into the side plate\"",\n            \""timestamp\"": \""01:04-01:07\""\n        },\n        {\n            \""object_name\"": \""Green/Black Screwdriver\"",\n            \""object_type\"": \""Tool\"",\n            \""object_color\"": \""Green, Black and Silver\"",\n            \""object_size\"": \""Medium\"",\n            \""action\"": \""Placing screwdriver down\"",\n            \""timestamp\"": \""01:07-01:09\""\n        },\n        {\n            \""object_name\"": \""Lower Plate\"",\n            \""object_type\"": \""Component\"",\n            \""object_color\"": \""Silver\"",\n            \""object_size\"": \""Medium\"",\n            \""action\"": \""Holding and picking up lower plate\"",\n            \""timestamp\"": \""01:28-01:30\""\n        }\n    ]\n}\n```""
+              }
+            ],
+            ""role"": ""model""
+          },
+          ""finish_reason"": ""STOP"",
+          ""index"": 0,
+          ""safety_ratings"": [
+            {
+              ""category"": ""HARM_CATEGORY_SEXUALLY_EXPLICIT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HATE_SPEECH"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HARASSMENT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_DANGEROUS_CONTENT"",
+              ""probability"": ""NEGLIGIBLE""
+            }
+          ]
+        }
+      ],
+      ""usage_metadata"": {
+        ""prompt_token_count"": 27352,
+        ""candidates_token_count"": 2014,
+        ""total_token_count"": 29366
+      }
+    }),
+)"
+2025-01-23 19:41:16,"response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      ""candidates"": [
+        {
+          ""content"": {
+            ""parts"": [
+              {
+                ""text"": ""```json\n{\n    \""video_name\"": \""0000.mp4\"",\n    \""tools\"": [\n        {\n            \""object_name\"": \""Laptop Bottom Cover\"",\n            \""object_type\"": \""Laptop Part\"",\n            \""object_color\"": \""Grey\"",\n            \""object_size\"": \""Approx. 30cm x 20cm Rectangular\"",\n            \""action\"": \""Holding and attaching the laptop bottom cover to the case.\"",\n            \""timestamp\"": \""00:00-00:06\""\n        },\n        {\n            \""object_name\"": \""Green and Black Screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Green and Black\"",\n            \""object_size\"": \""Approx. 15cm long, Round handle\"",\n            \""action\"": \""Using the screwdriver to tighten screws on the laptop bottom cover.\"",\n            \""timestamp\"": \""00:08-00:37\""\n        },\n        {\n            \""object_name\"": \""Laptop Bottom Cover\"",\n            \""object_type\"": \""Laptop Part\"",\n            \""object_color\"": \""Grey\"",\n            \""object_size\"": \""Approx. 30cm x 20cm Rectangular\"",\n            \""action\"": \""Holding and showing the reattached laptop bottom cover.\"",\n            \""timestamp\"": \""00:38-00:42\""\n        },\n        {\n            \""object_name\"": \""Laptop Upper Plate\"",\n            \""object_type\"": \""Laptop Part\"",\n            \""object_color\"": \""Silver\"",\n            \""object_size\"": \""Approx. 30cm x 20cm Rectangular\"",\n            \""action\"": \""Holding and attaching the laptop upper plate to the case.\"",\n            \""timestamp\"": \""00:46-00:52\""\n        },\n        {\n            \""object_name\"": \""Green and Black Screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Green and Black\"",\n            \""object_size\"": \""Approx. 15cm long, Round handle\"",\n            \""action\"": \""Using the screwdriver to tighten screws on the laptop upper plate.\"",\n            \""timestamp\"": \""00:53-01:17\""\n        },\n        {\n            \""object_name\"": \""Green and Black Screwdriver\"",\n            \""object_type\"": \""Screwdriver\"",\n            \""object_color\"": \""Green and Black\"",\n            \""object_size\"": \""Approx. 15cm long, Round handle\"",\n            \""action\"": \""Changing the screwdriver bit.\"",\n            \""timestamp\"": \""01:17-01:18\""\n        }\n    ]\n}\n```""
+              }
+            ],
+            ""role"": ""model""
+          },
+          ""finish_reason"": ""STOP"",
+          ""index"": 0,
+          ""safety_ratings"": [
+            {
+              ""category"": ""HARM_CATEGORY_SEXUALLY_EXPLICIT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HATE_SPEECH"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HARASSMENT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_DANGEROUS_CONTENT"",
+              ""probability"": ""NEGLIGIBLE""
+            }
+          ]
+        }
+      ],
+      ""usage_metadata"": {
+        ""prompt_token_count"": 25287,
+        ""candidates_token_count"": 1022,
+        ""total_token_count"": 26309
+      }
+    }),
+)"
+2025-01-23 19:41:37,"response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      ""candidates"": [
+        {
+          ""content"": {
+            ""parts"": [
+              {
+                ""text"": ""```json\n{\n    \""video_name\"": \""00053.mp4\"",\n    \""tools\"": [\n        {\n            \""object_name\"": \""metal part\"",\n            \""object_type\"": \""computer bracket\"",\n            \""object_color\"": \""silver\"",\n            \""object_size\"": \""approximately 15cm length, 2cm width\"",\n            \""action\"": \""holding and placing a metal part onto another metal part\"",\n            \""timestamp\"": \""00:00-00:04\""\n        },\n        {\n            \""object_name\"": \""metal part\"",\n            \""object_type\"": \""computer bracket\"",\n            \""object_color\"": \""silver\"",\n            \""object_size\"": \""approximately 15cm length, 2cm width\"",\n            \""action\"": \""holding and examining a metal part\"",\n            \""timestamp\"": \""00:04-00:07\""\n        },\n        {\n            \""object_name\"": \""metal part\"",\n            \""object_type\"": \""computer bracket\"",\n            \""object_color\"": \""silver\"",\n            \""object_size\"": \""approximately 15cm length, 2cm width\"",\n            \""action\"": \""holding and placing a metal part onto a computer case\"",\n            \""timestamp\"": \""00:07-00:10\""\n        },\n        {\n            \""object_name\"": \""computer case\"",\n            \""object_type\"": \""electronic device enclosure\"",\n            \""object_color\"": \""grey\"",\n            \""object_size\"": \""approximately 30cm length, 25cm width, 10cm height\"",\n            \""action\"": \""holding and examining the back panel of a computer case\"",\n            \""timestamp\"": \""00:10-00:17\""\n        },\n        {\n            \""object_name\"": \""screwdriver\"",\n            \""object_type\"": \""hand tool\"",\n            \""object_color\"": \""green and black\"",\n            \""object_size\"": \""approximately 15cm length, 2cm diameter (handle)\"",\n            \""action\"": \""reaching for a screwdriver\"",\n            \""timestamp\"": \""00:17-00:20\""\n        },\n        {\n            \""object_name\"": \""screwdriver\"",\n            \""object_type\"": \""hand tool\"",\n            \""object_color\"": \""green and black\"",\n            \""object_size\"": \""approximately 15cm length, 2cm diameter (handle)\"",\n            \""action\"": \""holding a screwdriver and a screw\"",\n            \""timestamp\"": \""00:20-00:24\""\n        },\n        {\n            \""object_name\"": \""screwdriver\"",\n            \""object_type\"": \""hand tool\"",\n            \""object_color\"": \""green and black\"",\n            \""object_size\"": \""approximately 15cm length, 2cm diameter (handle)\"",\n            \""action\"": \""using a screwdriver to fasten a screw on the computer case\"",\n            \""timestamp\"": \""00:24-00:35\""\n        },\n        {\n            \""object_name\"": \""screw\"",\n            \""object_type\"": \""fastener\"",\n            \""object_color\"": \""silver\"",\n            \""object_size\"": \""approximately 1cm length, 0.5cm diameter (head)\"",\n            \""action\"": \""picking up a screw\"",\n            \""timestamp\"": \""00:35-00:38\""\n        },\n        {\n            \""object_name\"": \""screwdriver\"",\n            \""object_type\"": \""hand tool\"",\n            \""object_color\"": \""green and black\"",\n            \""object_size\"": \""approximately 15cm length, 2cm diameter (handle)\"",\n            \""action\"": \""using a screwdriver to fasten a screw on the computer case\"",\n            \""timestamp\"": \""00:38-00:46\""\n        },\n        {\n            \""object_name\"": \""screw\"",\n            \""object_type\"": \""fastener\"",\n            \""object_color\"": \""silver\"",\n            \""object_size\"": \""approximately 1cm length, 0.5cm diameter (head)\"",\n            \""action\"": \""picking up a screw\"",\n            \""timestamp\"": \""00:46-00:48\""\n        },\n        {\n            \""object_name\"": \""screwdriver\"",\n            \""object_type\"": \""hand tool\"",\n            \""object_color\"": \""green and black\"",\n            \""object_size\"": \""approximately 15cm length, 2cm diameter (handle)\"",\n            \""action\"": \""using a screwdriver to fasten a screw on the computer case\"",\n            \""timestamp\"": \""00:48-00:54\""\n        },\n        {\n            \""object_name\"": \""screwdriver\"",\n            \""object_type\"": \""hand tool\"",\n            \""object_color\"": \""green and black\"",\n            \""object_size\"": \""approximately 15cm length, 2cm diameter (handle)\"",\n            \""action\"": \""using a screwdriver to fasten a screw on the computer case\"",\n            \""timestamp\"": \""00:54-01:02\""\n        },\n        {\n            \""object_name\"": \""screwdriver\"",\n            \""object_type\"": \""hand tool\"",\n            \""object_color\"": \""green and black\"",\n            \""object_size\"": \""approximately 15cm length, 2cm diameter (handle)\"",\n            \""action\"": \""putting down the screwdriver\"",\n            \""timestamp\"": \""01:02-01:04\""\n        },\n        {\n            \""object_name\"": \""document\"",\n            \""object_type\"": \""paper\"",\n            \""object_color\"": \""white\"",\n            \""object_size\"": \""A4 paper size\"",\n            \""action\"": \""pointing to a document\"",\n            \""timestamp\"": \""01:04-01:07\""\n        },\n        {\n            \""object_name\"": \""green connector\"",\n            \""object_type\"": \""electrical connector\"",\n            \""object_color\"": \""green\"",\n            \""object_size\"": \""approximately 3cm length, 1cm width, 1cm height\"",\n            \""action\"": \""picking up a green connector\"",\n            \""timestamp\"": \""01:07-01:10\""\n        },\n        {\n            \""object_name\"": \""green connector\"",\n            \""object_type\"": \""electrical connector\"",\n            \""object_color\"": \""green\"",\n            \""object_size\"": \""approximately 3cm length, 1cm width, 1cm height\"",\n            \""action\"": \""connecting the green connector to the computer case\"",\n            \""timestamp\"": \""01:10-01:18\""\n        },\n        {\n            \""object_name\"": \""green connector\"",\n            \""object_type\"": \""electrical connector\"",\n            \""object_color\"": \""green\"",\n            \""object_size\"": \""approximately 3cm length, 1cm width, 1cm height\"",\n            \""action\"": \""putting down the green connector\"",\n            \""timestamp\"": \""01:18-01:19\""\n        }\n    ]\n}\n```""
+              }
+            ],
+            ""role"": ""model""
+          },
+          ""finish_reason"": ""STOP"",
+          ""index"": 0,
+          ""safety_ratings"": [
+            {
+              ""category"": ""HARM_CATEGORY_SEXUALLY_EXPLICIT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HATE_SPEECH"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HARASSMENT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_DANGEROUS_CONTENT"",
+              ""probability"": ""NEGLIGIBLE""
+            }
+          ]
+        }
+      ],
+      ""usage_metadata"": {
+        ""prompt_token_count"": 23812,
+        ""candidates_token_count"": 2312,
+        ""total_token_count"": 26124
+      }
+    }),
+)"
+2025-01-23 19:41:55,"response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      ""candidates"": [
+        {
+          ""content"": {
+            ""parts"": [
+              {
+                ""text"": ""```json\n{\n    \""video_name\"": \""00:00\"",\n    \""tools\"": [\n        {\n            \""object_name\"": \""Screwdriver\"",\n            \""object_type\"": \""Tool\"",\n            \""object_color\"": \""Red and Yellow\"",\n            \""object_size\"": \""Approximately 15cm long, round handle\"",\n            \""action\"": \""Using a screwdriver to tighten a screw on the green terminal block of the computer.\"",\n            \""timestamp\"": \""00:00-00:11\""\n        },\n        {\n            \""object_name\"": \""Computer\"",\n            \""object_type\"": \""Electronic Device\"",\n            \""object_color\"": \""Grey\"",\n            \""object_size\"": \""Approximately 30cm x 20cm x 5cm, rectangular shape\"",\n            \""action\"": \""Holding and slightly lifting the computer.\"",\n            \""timestamp\"": \""00:11-00:15\""\n        },\n        {\n            \""object_name\"": \""Computer\"",\n            \""object_type\"": \""Electronic Device\"",\n            \""object_color\"": \""Grey\"",\n            \""object_size\"": \""Approximately 30cm x 20cm x 5cm, rectangular shape\"",\n            \""action\"": \""Placing the computer back down on the wooden block.\"",\n            \""timestamp\"": \""00:15-00:19\""\n        },\n        {\n            \""object_name\"": \""Metal Bracket\"",\n            \""object_type\"": \""Component\"",\n            \""object_color\"": \""Silver\"",\n            \""object_size\"": \""Approximately 15cm x 2cm, rectangular strip shape\"",\n            \""action\"": \""Picking up and examining a metal bracket.\"",\n            \""timestamp\"": \""00:30-00:36\""\n        },\n        {\n            \""object_name\"": \""Metal Bracket\"",\n            \""object_type\"": \""Component\"",\n            \""object_color\"": \""Silver\"",\n            \""object_size\"": \""Approximately 15cm x 2cm, rectangular strip shape\"",\n            \""action\"": \""Positioning the metal bracket against the side of the computer.\"",\n            \""timestamp\"": \""00:36-00:40\""\n        },\n        {\n            \""object_name\"": \""Metal Bracket\"",\n            \""object_type\"": \""Component\"",\n            \""object_color\"": \""Silver\"",\n            \""object_size\"": \""Approximately 15cm x 2cm, rectangular strip shape\"",\n            \""action\"": \""Holding the metal bracket in place against the computer.\"",\n            \""timestamp\"": \""00:40-01:13\""\n        }\n    ]\n}\n```""
+              }
+            ],
+            ""role"": ""model""
+          },
+          ""finish_reason"": ""STOP"",
+          ""index"": 0,
+          ""safety_ratings"": [
+            {
+              ""category"": ""HARM_CATEGORY_SEXUALLY_EXPLICIT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HATE_SPEECH"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HARASSMENT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_DANGEROUS_CONTENT"",
+              ""probability"": ""NEGLIGIBLE""
+            }
+          ]
+        }
+      ],
+      ""usage_metadata"": {
+        ""prompt_token_count"": 24992,
+        ""candidates_token_count"": 1100,
+        ""total_token_count"": 26092
+      }
+    }),
+)"
+2025-01-23 19:42:14,"response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      ""candidates"": [
+        {
+          ""content"": {
+            ""parts"": [
+              {
+                ""text"": ""```json\n{\n    \""video_name\"": \""video_analysis\"",\n    \""tools\"": [\n        {\n            \""object_name\"": \""metal part\"",\n            \""object_type\"": \""component\"",\n            \""object_color\"": \""silver\"",\n            \""object_size\"": \""15cm length, 2cm width, rectangular\"",\n            \""action\"": \""holding and placing metal part onto the device\"",\n            \""timestamp\"": \""00:00-00:04\""\n        },\n        {\n            \""object_name\"": \""screw\"",\n            \""object_type\"": \""fastener\"",\n            \""object_color\"": \""silver\"",\n            \""object_size\"": \""0.5cm diameter, round\"",\n            \""action\"": \""picking up a screw\"",\n            \""timestamp\"": \""00:06\""\n        },\n        {\n            \""object_name\"": \""screw\"",\n            \""object_type\"": \""fastener\"",\n            \""object_color\"": \""silver\"",\n            \""object_size\"": \""0.5cm diameter, round\"",\n            \""action\"": \""placing a screw\"",\n            \""timestamp\"": \""00:07-00:08\""\n        },\n        {\n            \""object_name\"": \""screwdriver\"",\n            \""object_type\"": \""tool\"",\n            \""object_color\"": \""red and black\"",\n            \""object_size\"": \""15cm length, round handle\"",\n            \""action\"": \""using a screwdriver to fasten the screw\"",\n            \""timestamp\"": \""00:12-00:16\""\n        },\n        {\n            \""object_name\"": \""screwdriver\"",\n            \""object_type\"": \""tool\"",\n            \""object_color\"": \""red and black\"",\n            \""object_size\"": \""15cm length, round handle\"",\n            \""action\"": \""using a screwdriver to fasten the screw\"",\n            \""timestamp\"": \""00:17-00:25\""\n        },\n        {\n            \""object_name\"": \""screwdriver\"",\n            \""object_type\"": \""tool\"",\n            \""object_color\"": \""red and black\"",\n            \""object_size\"": \""15cm length, round handle\"",\n            \""action\"": \""using a screwdriver to fasten the screw\"",\n            \""timestamp\"": \""00:27-00:34\""\n        },\n        {\n            \""object_name\"": \""metal part\"",\n            \""object_type\"": \""component\"",\n            \""object_color\"": \""silver\"",\n            \""object_size\"": \""15cm length, 2cm width, rectangular\"",\n            \""action\"": \""holding and placing metal part onto the device\"",\n            \""timestamp\"": \""00:47-00:50\""\n        },\n        {\n            \""object_name\"": \""screw\"",\n            \""object_type\"": \""fastener\"",\n            \""object_color\"": \""silver\"",\n            \""object_size\"": \""0.5cm diameter, round\"",\n            \""action\"": \""picking up a screw\"",\n            \""timestamp\"": \""00:51\""\n        },\n        {\n            \""object_name\"": \""screw\"",\n            \""object_type\"": \""fastener\"",\n            \""object_color\"": \""silver\"",\n            \""object_size\"": \""0.5cm diameter, round\"",\n            \""action\"": \""placing a screw\"",\n            \""timestamp\"": \""00:52-00:53\""\n        },\n        {\n            \""object_name\"": \""screwdriver\"",\n            \""object_type\"": \""tool\"",\n            \""object_color\"": \""red and black\"",\n            \""object_size\"": \""15cm length, round handle\"",\n            \""action\"": \""using a screwdriver to fasten the screw\"",\n            \""timestamp\"": \""00:53-00:56\""\n        }\n    ]\n}\n```""
+              }
+            ],
+            ""role"": ""model""
+          },
+          ""finish_reason"": ""STOP"",
+          ""index"": 0,
+          ""safety_ratings"": [
+            {
+              ""category"": ""HARM_CATEGORY_SEXUALLY_EXPLICIT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HATE_SPEECH"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HARASSMENT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_DANGEROUS_CONTENT"",
+              ""probability"": ""NEGLIGIBLE""
+            }
+          ]
+        }
+      ],
+      ""usage_metadata"": {
+        ""prompt_token_count"": 17027,
+        ""candidates_token_count"": 1488,
+        ""total_token_count"": 18515
+      }
+    }),
+)"

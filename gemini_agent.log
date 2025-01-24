@@ -1,203 +1,417 @@
-2025-01-20 19:55:25,251 - INFO - Starting main function...
-2025-01-20 19:55:25,260 - INFO - Processing video file: /mnt/logicNAS/Exchange/Aria/User_16/video_seg_90/clip_1.mp4
-2025-01-20 19:55:27,615 - INFO - Uploaded file 'clip_1.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/1a4wsh266uie
-2025-01-20 19:55:27,616 - INFO - Waiting for file processing...
-2025-01-20 19:55:38,255 - INFO - ...all files ready
-2025-01-20 19:55:38,256 - INFO - File files/1a4wsh266uie
-2025-01-20 19:55:38,256 - INFO - Starting chat session...
-2025-01-20 19:55:38,257 - INFO - Sending message to Gemini...
-2025-01-20 19:55:53,043 - INFO - Saving Gemini's output...
-2025-01-20 19:55:53,046 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
-2025-01-20 19:55:53,046 - ERROR - Failed to decode JSON from responseExpecting value: line 1 column 1 (char 0):
-2025-01-20 19:55:53,047 - INFO - Processing video file: /mnt/logicNAS/Exchange/Aria/User_16/video_seg_90/clip_2.mp4
-2025-01-20 19:55:54,746 - INFO - Uploaded file 'clip_2.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/1tfb76x7bhg6
-2025-01-20 19:55:54,746 - INFO - Waiting for file processing...
-2025-01-20 19:56:05,392 - INFO - ...all files ready
-2025-01-20 19:56:05,393 - INFO - File files/1tfb76x7bhg6
-2025-01-20 19:56:05,394 - INFO - Starting chat session...
-2025-01-20 19:56:05,395 - INFO - Sending message to Gemini...
-2025-01-20 19:56:18,916 - INFO - Saving Gemini's output...
-2025-01-20 19:56:18,919 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
-2025-01-20 19:56:18,920 - ERROR - Failed to decode JSON from responseExpecting value: line 1 column 1 (char 0):
-2025-01-20 19:56:18,921 - INFO - Processing video file: /mnt/logicNAS/Exchange/Aria/User_16/video_seg_90/clip_3.mp4
-2025-01-20 19:56:20,281 - INFO - Uploaded file 'clip_3.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/zentjg70481j
-2025-01-20 19:56:20,281 - INFO - Waiting for file processing...
-2025-01-20 19:56:30,850 - INFO - ...all files ready
-2025-01-20 19:56:30,850 - INFO - File files/zentjg70481j
-2025-01-20 19:56:30,851 - INFO - Starting chat session...
-2025-01-20 19:56:30,852 - INFO - Sending message to Gemini...
-2025-01-20 19:57:01,113 - INFO - Saving Gemini's output...
-2025-01-20 19:57:01,115 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
-2025-01-20 19:57:01,116 - ERROR - Failed to decode JSON from responseExpecting value: line 1 column 1 (char 0):
-2025-01-20 19:57:01,116 - INFO - Processing video file: /mnt/logicNAS/Exchange/Aria/User_16/video_seg_90/clip_4.mp4
-2025-01-20 19:57:02,624 - INFO - Uploaded file 'clip_4.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/w4rt42hy94wu
-2025-01-20 19:57:02,624 - INFO - Waiting for file processing...
-2025-01-20 19:57:12,969 - INFO - ...all files ready
-2025-01-20 19:57:12,969 - INFO - File files/w4rt42hy94wu
-2025-01-20 19:57:12,970 - INFO - Starting chat session...
-2025-01-20 19:57:12,971 - INFO - Sending message to Gemini...
-2025-01-20 19:57:27,805 - INFO - Saving Gemini's output...
-2025-01-20 19:57:27,808 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
-2025-01-20 19:57:27,809 - ERROR - Failed to decode JSON from responseExpecting value: line 1 column 1 (char 0):
-2025-01-20 19:57:27,809 - INFO - Processing video file: /mnt/logicNAS/Exchange/Aria/User_16/video_seg_90/clip_5.mp4
-2025-01-20 19:57:29,494 - INFO - Uploaded file 'clip_5.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/wvi6lrk2nrds
-2025-01-20 19:57:29,494 - INFO - Waiting for file processing...
-2025-01-20 19:57:39,753 - INFO - ...all files ready
-2025-01-20 19:57:39,753 - INFO - File files/wvi6lrk2nrds
-2025-01-20 19:57:39,754 - INFO - Starting chat session...
-2025-01-20 19:57:39,755 - INFO - Sending message to Gemini...
-2025-01-20 19:57:54,959 - INFO - Saving Gemini's output...
-2025-01-20 19:57:54,962 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
-2025-01-20 19:57:54,962 - ERROR - Failed to decode JSON from responseExpecting value: line 1 column 1 (char 0):
-2025-01-20 19:57:54,963 - INFO - Processing video file: /mnt/logicNAS/Exchange/Aria/User_16/video_seg_90/clip_6.mp4
-2025-01-20 19:57:56,762 - INFO - Uploaded file 'clip_6.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/h51nfi41zorr
-2025-01-20 19:57:56,763 - INFO - Waiting for file processing...
-2025-01-20 19:58:07,113 - INFO - ...all files ready
-2025-01-20 19:58:07,114 - INFO - File files/h51nfi41zorr
-2025-01-20 19:58:07,114 - INFO - Starting chat session...
-2025-01-20 19:58:07,115 - INFO - Sending message to Gemini...
-2025-01-20 19:58:19,186 - INFO - Saving Gemini's output...
-2025-01-20 19:58:19,189 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
-2025-01-20 19:58:19,190 - ERROR - Failed to decode JSON from responseExpecting value: line 1 column 1 (char 0):
-2025-01-20 19:58:19,190 - INFO - Processing video file: /mnt/logicNAS/Exchange/Aria/User_16/video_seg_90/clip_7.mp4
-2025-01-20 19:58:20,849 - INFO - Uploaded file 'clip_7.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/5abb1rx04o8q
-2025-01-20 19:58:20,849 - INFO - Waiting for file processing...
-2025-01-20 19:58:31,230 - INFO - ...all files ready
-2025-01-20 19:58:31,231 - INFO - File files/5abb1rx04o8q
-2025-01-20 19:58:31,232 - INFO - Starting chat session...
-2025-01-20 19:58:31,233 - INFO - Sending message to Gemini...
-2025-01-20 19:58:44,599 - INFO - Saving Gemini's output...
-2025-01-20 19:58:44,602 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
-2025-01-20 19:58:44,603 - ERROR - Failed to decode JSON from responseExpecting value: line 1 column 1 (char 0):
-2025-01-20 19:58:44,603 - INFO - Processing video file: /mnt/logicNAS/Exchange/Aria/User_16/video_seg_90/clip_8.mp4
-2025-01-20 19:58:46,154 - INFO - Uploaded file 'clip_8.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/uvkc6laxbfpz
-2025-01-20 19:58:46,154 - INFO - Waiting for file processing...
-2025-01-20 19:58:56,453 - INFO - ...all files ready
-2025-01-20 19:58:56,454 - INFO - File files/uvkc6laxbfpz
-2025-01-20 19:58:56,455 - INFO - Starting chat session...
-2025-01-20 19:58:56,456 - INFO - Sending message to Gemini...
-2025-01-20 19:59:13,388 - INFO - Saving Gemini's output...
-2025-01-20 19:59:13,391 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
-2025-01-20 19:59:13,391 - ERROR - Failed to decode JSON from responseExpecting value: line 1 column 1 (char 0):
-2025-01-20 19:59:13,392 - INFO - Processing video file: /mnt/logicNAS/Exchange/Aria/User_16/video_seg_90/clip_9.mp4
-2025-01-20 19:59:15,380 - INFO - Uploaded file 'clip_9.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/1zzyzdhqb6nu
-2025-01-20 19:59:15,380 - INFO - Waiting for file processing...
-2025-01-20 19:59:25,755 - INFO - ...all files ready
-2025-01-20 19:59:25,756 - INFO - File files/1zzyzdhqb6nu
-2025-01-20 19:59:25,756 - INFO - Starting chat session...
-2025-01-20 19:59:25,757 - INFO - Sending message to Gemini...
-2025-01-20 19:59:51,064 - INFO - Saving Gemini's output...
-2025-01-20 19:59:51,067 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
-2025-01-20 19:59:51,068 - ERROR - Failed to decode JSON from responseExpecting value: line 1 column 1 (char 0):
-2025-01-20 19:59:51,068 - WARNING - No tool information collected from any video.
-2025-01-20 19:59:51,068 - INFO - Estimated total input tokens: 0
-2025-01-20 19:59:51,069 - INFO - Estimated total output tokens: 0
-2025-01-20 19:59:51,069 - INFO - Estimated total cost of processing all videos: $0.000000
-2025-01-20 19:59:51,069 - INFO - Main function completed.
-2025-01-20 19:59:51,069 - INFO - Main function completed.
-2025-01-20 20:29:15,712 - INFO - Starting main function...
-2025-01-20 20:29:15,719 - INFO - Processing video file: /mnt/logicNAS/Exchange/Aria/User_16/video_seg_90/clip_1.mp4
-2025-01-20 20:29:17,515 - INFO - Uploaded file 'clip_1.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/wrtqg3tcnz5y
-2025-01-20 20:29:17,515 - INFO - Waiting for file processing...
-2025-01-20 20:29:27,767 - INFO - ...all files ready
-2025-01-20 20:29:27,768 - INFO - File files/wrtqg3tcnz5y
-2025-01-20 20:29:27,769 - INFO - Starting chat session...
-2025-01-20 20:29:27,771 - INFO - Sending message to Gemini...
-2025-01-20 20:29:38,205 - INFO - Saving Gemini's output...
-2025-01-20 20:29:38,209 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
-2025-01-20 20:29:38,210 - ERROR - Error processing response: expected string or bytes-like object
-2025-01-20 20:29:38,210 - INFO - Processing video file: /mnt/logicNAS/Exchange/Aria/User_16/video_seg_90/clip_2.mp4
-2025-01-20 20:29:39,876 - INFO - Uploaded file 'clip_2.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/l1wbbtln99ma
-2025-01-20 20:29:39,876 - INFO - Waiting for file processing...
-2025-01-20 20:29:50,228 - INFO - ...all files ready
-2025-01-20 20:29:50,228 - INFO - File files/l1wbbtln99ma
-2025-01-20 20:29:50,229 - INFO - Starting chat session...
-2025-01-20 20:29:50,230 - INFO - Sending message to Gemini...
-2025-01-20 20:30:05,139 - INFO - Saving Gemini's output...
-2025-01-20 20:30:05,143 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
-2025-01-20 20:30:05,143 - ERROR - Error processing response: expected string or bytes-like object
-2025-01-20 20:30:05,144 - INFO - Processing video file: /mnt/logicNAS/Exchange/Aria/User_16/video_seg_90/clip_3.mp4
-2025-01-20 20:30:07,191 - INFO - Uploaded file 'clip_3.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/ycj5b9zk687e
-2025-01-20 20:30:07,192 - INFO - Waiting for file processing...
-2025-01-20 20:30:17,552 - INFO - ...all files ready
-2025-01-20 20:30:17,553 - INFO - File files/ycj5b9zk687e
-2025-01-20 20:30:17,554 - INFO - Starting chat session...
-2025-01-20 20:30:17,554 - INFO - Sending message to Gemini...
-2025-01-20 20:30:42,020 - INFO - Saving Gemini's output...
-2025-01-20 20:30:42,025 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
-2025-01-20 20:30:42,026 - ERROR - Error processing response: expected string or bytes-like object
-2025-01-20 20:30:42,026 - INFO - Processing video file: /mnt/logicNAS/Exchange/Aria/User_16/video_seg_90/clip_4.mp4
-2025-01-20 20:30:43,647 - INFO - Uploaded file 'clip_4.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/uif2yoi8kmpc
-2025-01-20 20:30:43,647 - INFO - Waiting for file processing...
-2025-01-20 20:30:53,919 - INFO - ...all files ready
-2025-01-20 20:30:53,920 - INFO - File files/uif2yoi8kmpc
-2025-01-20 20:30:53,921 - INFO - Starting chat session...
-2025-01-20 20:30:53,922 - INFO - Sending message to Gemini...
-2025-01-20 20:31:06,629 - INFO - Saving Gemini's output...
-2025-01-20 20:31:06,634 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
-2025-01-20 20:31:06,634 - ERROR - Error processing response: expected string or bytes-like object
-2025-01-20 20:31:06,635 - INFO - Processing video file: /mnt/logicNAS/Exchange/Aria/User_16/video_seg_90/clip_5.mp4
-2025-01-20 20:31:08,233 - INFO - Uploaded file 'clip_5.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/67o9c2ak53lp
-2025-01-20 20:31:08,233 - INFO - Waiting for file processing...
-2025-01-20 20:31:18,595 - INFO - ...all files ready
-2025-01-20 20:31:18,596 - INFO - File files/67o9c2ak53lp
-2025-01-20 20:31:18,596 - INFO - Starting chat session...
-2025-01-20 20:31:18,597 - INFO - Sending message to Gemini...
-2025-01-20 20:31:34,440 - INFO - Saving Gemini's output...
-2025-01-20 20:31:34,444 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
-2025-01-20 20:31:34,444 - ERROR - Error processing response: expected string or bytes-like object
-2025-01-20 20:31:34,445 - INFO - Processing video file: /mnt/logicNAS/Exchange/Aria/User_16/video_seg_90/clip_6.mp4
-2025-01-20 20:31:35,934 - INFO - Uploaded file 'clip_6.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/6ioq4jdd8o6c
-2025-01-20 20:31:35,934 - INFO - Waiting for file processing...
-2025-01-20 20:31:46,281 - INFO - ...all files ready
-2025-01-20 20:31:46,281 - INFO - File files/6ioq4jdd8o6c
-2025-01-20 20:31:46,282 - INFO - Starting chat session...
-2025-01-20 20:31:46,282 - INFO - Sending message to Gemini...
-2025-01-20 20:31:59,377 - INFO - Saving Gemini's output...
-2025-01-20 20:31:59,380 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
-2025-01-20 20:31:59,381 - ERROR - Error processing response: expected string or bytes-like object
-2025-01-20 20:31:59,381 - INFO - Processing video file: /mnt/logicNAS/Exchange/Aria/User_16/video_seg_90/clip_7.mp4
-2025-01-20 20:32:00,904 - INFO - Uploaded file 'clip_7.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/1djmpjsb64tu
-2025-01-20 20:32:00,904 - INFO - Waiting for file processing...
-2025-01-20 20:32:11,269 - INFO - ...all files ready
-2025-01-20 20:32:11,269 - INFO - File files/1djmpjsb64tu
-2025-01-20 20:32:11,270 - INFO - Starting chat session...
-2025-01-20 20:32:11,270 - INFO - Sending message to Gemini...
-2025-01-20 20:32:25,217 - INFO - Saving Gemini's output...
-2025-01-20 20:32:25,221 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
-2025-01-20 20:32:25,222 - ERROR - Error processing response: expected string or bytes-like object
-2025-01-20 20:32:25,222 - INFO - Processing video file: /mnt/logicNAS/Exchange/Aria/User_16/video_seg_90/clip_8.mp4
-2025-01-20 20:32:26,899 - INFO - Uploaded file 'clip_8.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/x0sql3jbxgd7
-2025-01-20 20:32:26,900 - INFO - Waiting for file processing...
-2025-01-20 20:32:37,144 - INFO - ...all files ready
-2025-01-20 20:32:37,144 - INFO - File files/x0sql3jbxgd7
-2025-01-20 20:32:37,145 - INFO - Starting chat session...
-2025-01-20 20:32:37,146 - INFO - Sending message to Gemini...
-2025-01-20 20:32:56,735 - INFO - Saving Gemini's output...
-2025-01-20 20:32:56,740 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
-2025-01-20 20:32:56,740 - ERROR - Error processing response: expected string or bytes-like object
-2025-01-20 20:32:56,741 - INFO - Processing video file: /mnt/logicNAS/Exchange/Aria/User_16/video_seg_90/clip_9.mp4
-2025-01-20 20:32:57,919 - INFO - Uploaded file 'clip_9.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/azvycpong0va
-2025-01-20 20:32:57,919 - INFO - Waiting for file processing...
-2025-01-20 20:33:08,156 - INFO - ...all files ready
-2025-01-20 20:33:08,157 - INFO - File files/azvycpong0va
-2025-01-20 20:33:08,158 - INFO - Starting chat session...
-2025-01-20 20:33:08,159 - INFO - Sending message to Gemini...
-2025-01-20 20:33:29,367 - INFO - Saving Gemini's output...
-2025-01-20 20:33:29,372 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
-2025-01-20 20:33:29,372 - ERROR - Error processing response: expected string or bytes-like object
-2025-01-20 20:33:29,373 - WARNING - No tool information collected from any video.
-2025-01-20 20:33:29,373 - INFO - Estimated total input tokens: 0
-2025-01-20 20:33:29,374 - INFO - Estimated total output tokens: 0
-2025-01-20 20:33:29,374 - INFO - Estimated total cost of processing all videos: $0.000000
-2025-01-20 20:33:29,374 - INFO - Main function completed.
+2025-01-24 13:55:09,269 - INFO - Starting main function...
+2025-01-24 13:55:09,269 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_1.mp4
+2025-01-24 13:55:11,103 - INFO - Uploaded file 'clip_1.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/ic13v9r0kybx
+2025-01-24 13:55:11,104 - INFO - Waiting for file processing...
+2025-01-24 13:55:21,406 - INFO - ...all files ready
+2025-01-24 13:59:38,832 - INFO - Starting main function...
+2025-01-24 13:59:38,832 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_1.mp4
+2025-01-24 13:59:40,842 - INFO - Uploaded file 'clip_1.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/rd2jh8nnhuiv
+2025-01-24 13:59:40,843 - INFO - Waiting for file processing...
+2025-01-24 13:59:51,258 - INFO - ...all files ready
+2025-01-24 14:10:37,280 - INFO - Starting main function...
+2025-01-24 14:10:37,280 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_1.mp4
+2025-01-24 14:10:40,136 - INFO - Uploaded file 'clip_1.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/s2f8oi014s0f
+2025-01-24 14:10:40,137 - INFO - Waiting for file processing...
+2025-01-24 14:10:50,535 - INFO - ...all files ready
+2025-01-24 14:18:33,630 - INFO - Starting main function...
+2025-01-24 14:18:33,630 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_1.mp4
+2025-01-24 14:18:35,986 - INFO - Uploaded file 'clip_1.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/j58idt67w5zf
+2025-01-24 14:18:35,987 - INFO - Waiting for file processing...
+2025-01-24 14:18:46,293 - INFO - ...all files ready
+2025-01-24 14:18:58,941 - INFO - Saving Gemini's output...
+2025-01-24 14:18:58,945 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
+2025-01-24 14:18:58,946 - INFO - Processing video: 00:00
+2025-01-24 14:18:58,947 - ERROR - Error occurred in extract_and_update_tools: the JSON object must be str, bytes or bytearray, not TextIOWrapper
+2025-01-24 14:18:58,947 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_2.mp4
+2025-01-24 14:19:00,396 - INFO - Uploaded file 'clip_2.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/e5uh2nv6tst
+2025-01-24 14:19:00,397 - INFO - Waiting for file processing...
+2025-01-24 14:19:10,672 - INFO - ...all files ready
+2025-01-24 14:19:23,545 - INFO - Saving Gemini's output...
+2025-01-24 14:19:23,549 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
+2025-01-24 14:19:23,549 - INFO - Processing video: 00:00
+2025-01-24 14:19:23,550 - ERROR - Error occurred in extract_and_update_tools: the JSON object must be str, bytes or bytearray, not TextIOWrapper
+2025-01-24 14:19:23,551 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_3.mp4
+2025-01-24 14:19:25,179 - INFO - Uploaded file 'clip_3.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/z6sznqyrr4n9
+2025-01-24 14:19:25,179 - INFO - Waiting for file processing...
+2025-01-24 14:19:35,482 - INFO - ...all files ready
+2025-01-24 14:19:58,144 - INFO - Saving Gemini's output...
+2025-01-24 14:19:58,148 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
+2025-01-24 14:19:58,149 - INFO - Processing video: 00:00
+2025-01-24 14:19:58,150 - ERROR - Error occurred in extract_and_update_tools: the JSON object must be str, bytes or bytearray, not TextIOWrapper
+2025-01-24 14:19:58,150 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_4.mp4
+2025-01-24 14:19:59,748 - INFO - Uploaded file 'clip_4.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/w5yandl62hl5
+2025-01-24 14:19:59,749 - INFO - Waiting for file processing...
+2025-01-24 14:20:10,001 - INFO - ...all files ready
+2025-01-24 14:20:21,489 - INFO - Saving Gemini's output...
+2025-01-24 14:20:21,492 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
+2025-01-24 14:20:21,493 - INFO - Processing video: 00:00
+2025-01-24 14:20:21,494 - ERROR - Error occurred in extract_and_update_tools: the JSON object must be str, bytes or bytearray, not TextIOWrapper
+2025-01-24 14:20:21,495 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_5.mp4
+2025-01-24 14:20:23,059 - INFO - Uploaded file 'clip_5.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/1nn5f601arm7
+2025-01-24 14:20:23,059 - INFO - Waiting for file processing...
+2025-01-24 14:20:33,432 - INFO - ...all files ready
+2025-01-24 14:20:47,922 - INFO - Saving Gemini's output...
+2025-01-24 14:20:47,926 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
+2025-01-24 14:20:47,927 - INFO - Processing video: 00:00
+2025-01-24 14:20:47,928 - ERROR - Error occurred in extract_and_update_tools: the JSON object must be str, bytes or bytearray, not TextIOWrapper
+2025-01-24 14:20:47,928 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_6.mp4
+2025-01-24 14:20:49,352 - INFO - Uploaded file 'clip_6.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/rkc9imfuf82u
+2025-01-24 14:20:49,353 - INFO - Waiting for file processing...
+2025-01-24 14:20:59,608 - INFO - ...all files ready
+2025-01-24 14:21:14,997 - INFO - Saving Gemini's output...
+2025-01-24 14:21:15,000 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
+2025-01-24 14:21:15,001 - INFO - Processing video: 00:00
+2025-01-24 14:21:15,002 - ERROR - Error occurred in extract_and_update_tools: the JSON object must be str, bytes or bytearray, not TextIOWrapper
+2025-01-24 14:21:15,002 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_7.mp4
+2025-01-24 14:21:16,736 - INFO - Uploaded file 'clip_7.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/ml9dza6bvi2a
+2025-01-24 14:21:16,737 - INFO - Waiting for file processing...
+2025-01-24 14:21:26,999 - INFO - ...all files ready
+2025-01-24 14:21:47,127 - INFO - Saving Gemini's output...
+2025-01-24 14:21:47,131 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
+2025-01-24 14:21:47,131 - INFO - Processing video: 00:00
+2025-01-24 14:21:47,132 - ERROR - Error occurred in extract_and_update_tools: the JSON object must be str, bytes or bytearray, not TextIOWrapper
+2025-01-24 14:21:47,132 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_8.mp4
+2025-01-24 14:21:48,940 - INFO - Uploaded file 'clip_8.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/60gkwxnixg6
+2025-01-24 14:21:48,941 - INFO - Waiting for file processing...
+2025-01-24 14:21:59,209 - INFO - ...all files ready
+2025-01-24 14:22:15,540 - INFO - Saving Gemini's output...
+2025-01-24 14:22:15,543 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
+2025-01-24 14:22:15,543 - INFO - Processing video: 00:00
+2025-01-24 14:22:15,544 - ERROR - Error occurred in extract_and_update_tools: the JSON object must be str, bytes or bytearray, not TextIOWrapper
+2025-01-24 14:22:15,544 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_9.mp4
+2025-01-24 14:22:17,424 - INFO - Uploaded file 'clip_9.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/p45gvqry738g
+2025-01-24 14:22:17,424 - INFO - Waiting for file processing...
+2025-01-24 14:22:27,731 - INFO - ...all files ready
+2025-01-24 14:22:39,238 - INFO - Saving Gemini's output...
+2025-01-24 14:22:39,241 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
+2025-01-24 14:22:39,242 - INFO - Processing video: 00:00
+2025-01-24 14:22:39,243 - ERROR - Error occurred in extract_and_update_tools: the JSON object must be str, bytes or bytearray, not TextIOWrapper
+2025-01-24 14:22:39,243 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_10.mp4
+2025-01-24 14:22:40,997 - INFO - Uploaded file 'clip_10.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/pq3vwj1m3jqp
+2025-01-24 14:22:40,998 - INFO - Waiting for file processing...
+2025-01-24 14:22:51,280 - INFO - ...all files ready
+2025-01-24 14:23:07,985 - INFO - Saving Gemini's output...
+2025-01-24 14:23:07,988 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
+2025-01-24 14:23:07,988 - INFO - Processing video: 00:00
+2025-01-24 14:23:07,989 - ERROR - Error occurred in extract_and_update_tools: the JSON object must be str, bytes or bytearray, not TextIOWrapper
+2025-01-24 14:23:07,989 - INFO - Main function completed.
+2025-01-24 14:29:48,911 - INFO - Starting main function...
+2025-01-24 14:29:48,911 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_1.mp4
+2025-01-24 14:29:50,842 - INFO - Uploaded file 'clip_1.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/37gr8pc7qz71
+2025-01-24 14:29:50,843 - INFO - Waiting for file processing...
+2025-01-24 14:30:01,101 - INFO - ...all files ready
+2025-01-24 14:30:15,657 - INFO - Saving Gemini's output...
+2025-01-24 14:30:15,660 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
+2025-01-24 14:30:15,661 - ERROR - Error occurred in extract_and_update_tools: [Errno 36] File name too long: '```json\n{\n    "video_name": "00:00",\n    "tools": [\n        {\n            "object_name": "paper",\n            "object_type": "document",\n            "object_color": "white",\n            "object_size": "A4",\n            "action": "holding paper",\n            "timestamp": "0:00"\n        },\n        {\n            "object_name": "screwdriver",\n            "object_type": "tool",\n            "object_color": "red and black",\n            "object_size": "15 cm long",\n            "action": "holding screwdriver",\n            "timestamp": "0:00"\n        },\n        {\n            "object_name": "screwdriver",\n            "object_type": "tool",\n            "object_color": "green and black",\n            "object_size": "15 cm long",\n            "action": "holding screwdriver",\n            "timestamp": "0:00"\n        },\n        {\n            "object_name": "computer case",\n            "object_type": "computer part",\n            "object_color": "gray",\n            "object_size": "30 cm x 20 cm x 5 cm",\n            "action": "holding computer case",\n            "timestamp": "0:05"\n        },\n        {\n            "object_name": "computer case",\n            "object_type": "computer part",\n            "object_color": "gray",\n            "object_size": "30 cm x 20 cm x 5 cm",\n            "action": "inspecting computer case",\n            "timestamp": "0:10"\n        },\n        {\n            "object_name": "computer case",\n            "object_type": "computer part",\n            "object_color": "gray",\n            "object_size": "30 cm x 20 cm x 5 cm",\n            "action": "inspecting computer case",\n            "timestamp": "0:15"\n        },\n        {\n            "object_name": "computer case",\n            "object_type": "computer part",\n            "object_color": "gray",\n            "object_size": "30 cm x 20 cm x 5 cm",\n            "action": "inspecting computer case",\n            "timestamp": "0:20"\n        },\n         {\n            "object_name": "computer case",\n            "object_type": "computer part",\n            "object_color": "gray",\n            "object_size": "30 cm x 20 cm x 5 cm",\n            "action": "inspecting computer case",\n            "timestamp": "0:25"\n        },\n        {\n            "object_name": "computer case",\n            "object_type": "computer part",\n            "object_color": "gray",\n            "object_size": "30 cm x 20 cm x 5 cm",\n            "action": "holding computer case",\n            "timestamp": "0:28"\n        },\n        {\n            "object_name": "RAM module",\n            "object_type": "computer part",\n            "object_color": "green",\n            "object_size": "5 cm long",\n            "action": "holding RAM module",\n            "timestamp": "0:34"\n        },\n        {\n            "object_name": "RAM module",\n            "object_type": "computer part",\n            "object_color": "green",\n            "object_size": "5 cm long",\n            "action": "installing RAM module",\n            "timestamp": "0:35"\n        },\n        {\n            "object_name": "computer case",\n            "object_type": "computer part",\n            "object_color": "gray",\n            "object_size": "30 cm x 20 cm x 5 cm",\n            "action": "holding computer case",\n            "timestamp": "0:51"\n        },\n        {\n            "object_name": "computer case",\n            "object_type": "computer part",\n            "object_color": "gray",\n            "object_size": "30 cm x 20 cm x 5 cm",\n            "action": "holding computer case",\n            "timestamp": "0:55"\n        },\n        {\n            "object_name": "hard drive",\n            "object_type": "computer part",\n            "object_color": "silver",\n            "object_size": "10 cm x 7 cm x 1 cm",\n            "action": "holding hard drive",\n            "timestamp": "1:05"\n        },\n        {\n            "object_name": "hard drive",\n            "object_type": "computer part",\n            "object_color": "silver",\n            "object_size": "10 cm x 7 cm x 1 cm",\n            "action": "installing hard drive",\n            "timestamp": "1:06"\n        },\n        {\n            "object_name": "screwdriver",\n            "object_type": "tool",\n            "object_color": "red and black",\n            "object_size": "15 cm long",\n            "action": "using screwdriver to fasten screws",\n            "timestamp": "1:15"\n        },\n        {\n            "object_name": "screwdriver",\n            "object_type": "tool",\n            "object_color": "red and black",\n            "object_size": "15 cm long",\n            "action": "using screwdriver to fasten screws",\n            "timestamp": "1:20"\n        },\n         {\n            "object_name": "screwdriver",\n            "object_type": "tool",\n            "object_color": "red and black",\n            "object_size": "15 cm long",\n            "action": "using screwdriver to fasten screws",\n            "timestamp": "1:25"\n        }\n    ]\n}\n```\n'
+2025-01-24 14:30:15,662 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_2.mp4
+2025-01-24 14:30:16,964 - INFO - Uploaded file 'clip_2.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/b2mzce07mkkd
+2025-01-24 14:30:16,964 - INFO - Waiting for file processing...
+2025-01-24 14:30:27,238 - INFO - ...all files ready
+2025-01-24 15:58:08,853 - INFO - Starting main function...
+2025-01-24 15:58:08,854 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_1.mp4
+2025-01-24 15:58:10,627 - INFO - Uploaded file 'clip_1.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/4oui6mzkx1qb
+2025-01-24 15:58:10,628 - INFO - Waiting for file processing...
+2025-01-24 15:58:20,917 - INFO - ...all files ready
+2025-01-24 15:58:34,630 - INFO - Saving Gemini's output...
+2025-01-24 15:58:34,632 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
+2025-01-24 15:58:34,633 - INFO - Processing video: 00:00
+2025-01-24 15:58:34,634 - ERROR - Error occurred in extract_and_update_tools: the JSON object must be str, bytes or bytearray, not TextIOWrapper
+2025-01-24 15:58:34,634 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_2.mp4
+2025-01-24 15:58:35,961 - INFO - Uploaded file 'clip_2.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/yyxyl2v2jg2
+2025-01-24 15:58:35,961 - INFO - Waiting for file processing...
+2025-01-24 16:03:05,001 - INFO - Starting main function...
+2025-01-24 16:03:05,002 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_1.mp4
+2025-01-24 16:03:06,963 - INFO - Uploaded file 'clip_1.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/2awshl2a5oex
+2025-01-24 16:03:06,964 - INFO - Waiting for file processing...
+2025-01-24 16:03:17,338 - INFO - ...all files ready
+2025-01-24 16:03:29,095 - INFO - Saving Gemini's output...
+2025-01-24 16:03:29,097 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
+2025-01-24 16:03:29,098 - INFO - extract_and_update_tools
+2025-01-24 16:03:29,098 - ERROR - Error occurred in extract_and_update_tools: [Errno 36] File name too long: '```json\n{\n    "video_name": "00:00",\n    "tools": [\n        {\n            "object_name": "paper",\n            "object_type": "document",\n            "object_color": "white",\n            "object_size": "A4",\n            "action": "holding and reading",\n            "timestamp": "0:00"\n        },\n        {\n            "object_name": "screwdriver",\n            "object_type": "tool",\n            "object_color": "red and black",\n            "object_size": "15 cm long",\n            "action": "holding",\n            "timestamp": "0:00"\n        },\n        {\n            "object_name": "screwdriver",\n            "object_type": "tool",\n            "object_color": "green and black",\n            "object_size": "15 cm long",\n            "action": "holding",\n            "timestamp": "0:00"\n        },\n        {\n            "object_name": "computer case",\n            "object_type": "computer part",\n            "object_color": "gray",\n            "object_size": "30 cm x 20 cm x 5 cm",\n            "action": "holding and inspecting",\n            "timestamp": "0:05"\n        },\n        {\n            "object_name": "computer case",\n            "object_type": "computer part",\n            "object_color": "gray",\n            "object_size": "30 cm x 20 cm x 5 cm",\n            "action": "holding and inspecting",\n            "timestamp": "0:11"\n        },\n         {\n            "object_name": "computer case",\n            "object_type": "computer part",\n            "object_color": "gray",\n            "object_size": "30 cm x 20 cm x 5 cm",\n            "action": "holding and inspecting",\n            "timestamp": "0:17"\n        },\n        {\n            "object_name": "computer case",\n            "object_type": "computer part",\n            "object_color": "gray",\n            "object_size": "30 cm x 20 cm x 5 cm",\n            "action": "holding and inspecting",\n            "timestamp": "0:23"\n        },\n        {\n            "object_name": "computer case",\n            "object_type": "computer part",\n            "object_color": "gray",\n            "object_size": "30 cm x 20 cm x 5 cm",\n            "action": "holding and inspecting",\n            "timestamp": "0:28"\n        },\n        {\n            "object_name": "RAM module",\n            "object_type": "computer part",\n            "object_color": "green and black",\n            "object_size": "5 cm x 2 cm",\n            "action": "holding and attaching",\n            "timestamp": "0:34"\n        },\n        {\n            "object_name": "RAM module",\n            "object_type": "computer part",\n            "object_color": "green and black",\n            "object_size": "5 cm x 2 cm",\n            "action": "attaching",\n            "timestamp": "0:36"\n        },\n        {\n            "object_name": "computer case",\n            "object_type": "computer part",\n            "object_color": "gray",\n            "object_size": "30 cm x 20 cm x 5 cm",\n            "action": "holding",\n            "timestamp": "0:52"\n        },\n        {\n            "object_name": "computer case",\n            "object_type": "computer part",\n            "object_color": "gray",\n            "object_size": "30 cm x 20 cm x 5 cm",\n            "action": "holding",\n            "timestamp": "0:55"\n        },\n        {\n            "object_name": "hard drive",\n            "object_type": "computer part",\n            "object_color": "silver",\n            "object_size": "10 cm x 7 cm x 1 cm",\n            "action": "holding and placing",\n            "timestamp": "1:05"\n        },\n        {\n            "object_name": "screwdriver",\n            "object_type": "tool",\n            "object_color": "red and black",\n            "object_size": "15 cm long",\n            "action": "using to fasten screws",\n            "timestamp": "1:15"\n        },\n        {\n            "object_name": "screwdriver",\n            "object_type": "tool",\n            "object_color": "red and black",\n            "object_size": "15 cm long",\n            "action": "using to fasten screws",\n            "timestamp": "1:20"\n        },\n        {\n            "object_name": "screwdriver",\n            "object_type": "tool",\n            "object_color": "red and black",\n            "object_size": "15 cm long",\n            "action": "using to fasten screws",\n            "timestamp": "1:25"\n        }\n    ]\n}\n```\n'
+2025-01-24 16:03:29,099 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_2.mp4
+2025-01-24 16:03:30,526 - INFO - Uploaded file 'clip_2.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/d9czajmiu05h
+2025-01-24 16:03:30,527 - INFO - Waiting for file processing...
+2025-01-24 16:23:38,566 - INFO - Starting main function...
+2025-01-24 16:23:38,567 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_1.mp4
+2025-01-24 16:23:40,460 - INFO - Uploaded file 'clip_1.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/jln6z2pp5pdj
+2025-01-24 16:23:40,461 - INFO - Waiting for file processing...
+2025-01-24 16:23:50,893 - INFO - ...all files ready
+2025-01-24 16:24:01,708 - INFO - Saving Gemini's output...
+2025-01-24 16:24:01,711 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
+2025-01-24 16:24:01,712 - INFO - extract_and_update_tools
+2025-01-24 16:24:01,712 - ERROR - Error occurred in extract_and_update_tools: [Errno 36] File name too long: '```json\n{\n    "video_name": "00:00",\n    "tools": [\n        {\n            "object_name": "paper",\n            "object_type": "document",\n            "object_color": "white",\n            "object_size": "A4",\n            "action": "holding paper",\n            "timestamp": "0:00"\n        },\n        {\n            "object_name": "screwdriver",\n            "object_type": "tool",\n            "object_color": "red and black",\n            "object_size": "15 cm long",\n            "action": "holding screwdriver",\n            "timestamp": "0:01"\n        },\n        {\n            "object_name": "screwdriver",\n            "object_type": "tool",\n            "object_color": "green and black",\n            "object_size": "15 cm long",\n            "action": "holding screwdriver",\n            "timestamp": "0:01"\n        },\n        {\n            "object_name": "computer case",\n            "object_type": "computer part",\n            "object_color": "gray",\n            "object_size": "30 cm x 20 cm x 5 cm",\n            "action": "holding computer case",\n            "timestamp": "0:05"\n        },\n         {\n            "object_name": "computer case",\n            "object_type": "computer part",\n            "object_color": "gray",\n            "object_size": "30 cm x 20 cm x 5 cm",\n            "action": "inspecting computer case",\n            "timestamp": "0:10"\n        },\n        {\n            "object_name": "computer case",\n            "object_type": "computer part",\n            "object_color": "gray",\n            "object_size": "30 cm x 20 cm x 5 cm",\n            "action": "holding computer case",\n            "timestamp": "0:28"\n        },\n        {\n            "object_name": "RAM module",\n            "object_type": "computer part",\n            "object_color": "green",\n            "object_size": "5 cm x 2 cm",\n            "action": "holding RAM module",\n            "timestamp": "0:33"\n        },\n        {\n            "object_name": "RAM module",\n            "object_type": "computer part",\n            "object_color": "green",\n            "object_size": "5 cm x 2 cm",\n            "action": "installing RAM module",\n            "timestamp": "0:35"\n        },\n        {\n            "object_name": "computer case",\n            "object_type": "computer part",\n            "object_color": "gray",\n            "object_size": "30 cm x 20 cm x 5 cm",\n            "action": "holding computer case",\n            "timestamp": "0:51"\n        },\n        {\n            "object_name": "hard drive",\n            "object_type": "computer part",\n            "object_color": "silver",\n            "object_size": "10 cm x 7 cm x 1 cm",\n            "action": "holding hard drive",\n            "timestamp": "0:53"\n        },\n        {\n            "object_name": "hard drive",\n            "object_type": "computer part",\n            "object_color": "silver",\n            "object_size": "10 cm x 7 cm x 1 cm",\n            "action": "installing hard drive",\n            "timestamp": "1:05"\n        },\n        {\n            "object_name": "screwdriver",\n            "object_type": "tool",\n            "object_color": "red and black",\n            "object_size": "15 cm long",\n            "action": "using screwdriver to fasten screws",\n            "timestamp": "1:15"\n        },\n        {\n            "object_name": "screwdriver",\n            "object_type": "tool",\n            "object_color": "red and black",\n            "object_size": "15 cm long",\n            "action": "using screwdriver to fasten screws",\n            "timestamp": "1:25"\n        }\n    ]\n}\n```\n'
+2025-01-24 16:24:01,713 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_2.mp4
+2025-01-24 16:24:03,151 - INFO - Uploaded file 'clip_2.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/2bos9b4kmcy9
+2025-01-24 16:24:03,152 - INFO - Waiting for file processing...
+2025-01-24 16:27:50,867 - INFO - Starting main function...
+2025-01-24 16:27:50,867 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_1.mp4
+2025-01-24 16:27:52,595 - INFO - Uploaded file 'clip_1.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/xuz35k03t4x1
+2025-01-24 16:27:52,596 - INFO - Waiting for file processing...
+2025-01-24 16:28:02,887 - INFO - ...all files ready
+2025-01-24 16:28:14,751 - INFO - Saving Gemini's output...
+2025-01-24 16:28:14,754 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
+2025-01-24 16:28:14,754 - INFO - extract_and_update_tools
+2025-01-24 16:28:14,754 - ERROR - Error occurred in extract_and_update_tools: [Errno 36] File name too long: '```json\n{\n    "video_name": "00:00",\n    "tools": [\n        {\n            "object_name": "paper",\n            "object_type": "document",\n            "object_color": "white",\n            "object_size": "A4",\n            "action": "holding and reading",\n            "timestamp": "0:00"\n        },\n        {\n            "object_name": "screwdriver",\n            "object_type": "tool",\n            "object_color": "red and black",\n            "object_size": "15cm long",\n            "action": "picking up",\n            "timestamp": "0:00"\n        },\n        {\n            "object_name": "screwdriver",\n            "object_type": "tool",\n            "object_color": "green and black",\n            "object_size": "15cm long",\n            "action": "picking up",\n            "timestamp": "0:00"\n        },\n        {\n            "object_name": "screwdriver",\n            "object_type": "tool",\n            "object_color": "red and black",\n            "object_size": "15cm long",\n            "action": "holding",\n            "timestamp": "0:01"\n        },\n        {\n            "object_name": "screwdriver",\n            "object_type": "tool",\n            "object_color": "green and black",\n            "object_size": "15cm long",\n            "action": "holding",\n            "timestamp": "0:01"\n        },\n        {\n            "object_name": "computer case",\n            "object_type": "computer part",\n            "object_color": "gray",\n            "object_size": "30cm x 20cm x 5cm",\n            "action": "holding and inspecting",\n            "timestamp": "0:05"\n        },\n        {\n            "object_name": "computer case",\n            "object_type": "computer part",\n            "object_color": "gray",\n            "object_size": "30cm x 20cm x 5cm",\n            "action": "holding and inspecting",\n            "timestamp": "0:12"\n        },\n         {\n            "object_name": "computer case",\n            "object_type": "computer part",\n            "object_color": "gray",\n            "object_size": "30cm x 20cm x 5cm",\n            "action": "holding and inspecting",\n            "timestamp": "0:20"\n        },\n        {\n            "object_name": "computer case",\n            "object_type": "computer part",\n            "object_color": "gray",\n            "object_size": "30cm x 20cm x 5cm",\n            "action": "holding and inspecting",\n            "timestamp": "0:27"\n        },\n        {\n            "object_name": "RAM module",\n            "object_type": "computer part",\n            "object_color": "green and black",\n            "object_size": "5cm x 2cm x 0.5cm",\n            "action": "holding and installing",\n            "timestamp": "0:34"\n        },\n        {\n            "object_name": "computer case",\n            "object_type": "computer part",\n            "object_color": "gray",\n            "object_size": "30cm x 20cm x 5cm",\n            "action": "holding and inspecting",\n            "timestamp": "0:51"\n        },\n        {\n            "object_name": "computer case",\n            "object_type": "computer part",\n            "object_color": "gray",\n            "object_size": "30cm x 20cm x 5cm",\n            "action": "holding and inspecting",\n            "timestamp": "0:55"\n        },\n        {\n            "object_name": "hard drive",\n            "object_type": "computer part",\n            "object_color": "silver",\n            "object_size": "10cm x 7cm x 1cm",\n            "action": "holding and installing",\n            "timestamp": "1:06"\n        },\n        {\n            "object_name": "screwdriver",\n            "object_type": "tool",\n            "object_color": "red and black",\n            "object_size": "15cm long",\n            "action": "using to fasten screws",\n            "timestamp": "1:15"\n        },\n        {\n            "object_name": "screwdriver",\n            "object_type": "tool",\n            "object_color": "red and black",\n            "object_size": "15cm long",\n            "action": "using to fasten screws",\n            "timestamp": "1:24"\n        }\n    ]\n}\n```\n'
+2025-01-24 16:28:14,755 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_2.mp4
+2025-01-24 16:28:16,164 - INFO - Uploaded file 'clip_2.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/iztku62zds45
+2025-01-24 16:28:16,165 - INFO - Waiting for file processing...
+2025-01-24 16:38:51,627 - INFO - Starting main function...
+2025-01-24 16:38:51,628 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_1.mp4
+2025-01-24 16:38:53,567 - INFO - Uploaded file 'clip_1.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/tpz710v4jdsc
+2025-01-24 16:38:53,568 - INFO - Waiting for file processing...
+2025-01-24 16:39:03,960 - INFO - ...all files ready
+2025-01-24 16:39:15,928 - INFO - Saving Gemini's output...
+2025-01-24 16:39:15,931 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
+2025-01-24 16:39:15,932 - INFO - extract_and_update_tools
+2025-01-24 16:39:15,932 - INFO - opened
+2025-01-24 16:39:15,933 - ERROR - Error occurred in extract_and_update_tools: 'str' object has no attribute 'group'
+2025-01-24 16:39:15,933 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_2.mp4
+2025-01-24 16:39:17,244 - INFO - Uploaded file 'clip_2.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/fkaq0ua0yn8f
+2025-01-24 16:39:17,244 - INFO - Waiting for file processing...
+2025-01-24 16:47:14,551 - INFO - Starting main function...
+2025-01-24 16:47:14,552 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_1.mp4
+2025-01-24 16:47:16,573 - INFO - Uploaded file 'clip_1.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/iqlv5z5o4bad
+2025-01-24 16:47:16,574 - INFO - Waiting for file processing...
+2025-01-24 16:47:26,968 - INFO - ...all files ready
+2025-01-24 16:47:41,492 - INFO - Saving Gemini's output...
+2025-01-24 16:47:41,498 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
+2025-01-24 16:47:41,500 - INFO - extract_and_update_tools
+2025-01-24 16:47:41,502 - INFO - matched
+2025-01-24 16:47:41,503 - INFO - Processing video: 00:00
+2025-01-24 16:47:41,507 - ERROR - Error occurred in extract_and_update_tools: the JSON object must be str, bytes or bytearray, not TextIOWrapper
+2025-01-24 16:47:41,508 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_2.mp4
+2025-01-24 16:47:43,214 - INFO - Uploaded file 'clip_2.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/wg040ap57vgs
+2025-01-24 16:47:43,214 - INFO - Waiting for file processing...
+2025-01-24 16:50:08,239 - INFO - Starting main function...
+2025-01-24 16:50:08,240 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_1.mp4
+2025-01-24 16:50:10,072 - INFO - Uploaded file 'clip_1.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/9l9mzj9m5q69
+2025-01-24 16:50:10,073 - INFO - Waiting for file processing...
+2025-01-24 16:50:20,360 - INFO - ...all files ready
+2025-01-24 16:50:32,143 - INFO - Saving Gemini's output...
+2025-01-24 16:50:32,149 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
+2025-01-24 16:50:32,151 - INFO - extract_and_update_tools
+2025-01-24 16:50:32,153 - INFO - matched
+2025-01-24 16:50:32,155 - INFO - Processing video: 00:00
+2025-01-24 16:50:32,160 - ERROR - Error occurred in extract_and_update_tools: the JSON object must be str, bytes or bytearray, not TextIOWrapper
+2025-01-24 16:50:32,161 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_2.mp4
+2025-01-24 16:50:33,557 - INFO - Uploaded file 'clip_2.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/elujjhclw54u
+2025-01-24 16:50:33,557 - INFO - Waiting for file processing...
+2025-01-24 16:59:55,090 - INFO - Starting main function...
+2025-01-24 16:59:55,090 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_1.mp4
+2025-01-24 16:59:56,894 - INFO - Uploaded file 'clip_1.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/7zy5s18vdhyn
+2025-01-24 16:59:56,895 - INFO - Waiting for file processing...
+2025-01-24 17:00:07,208 - INFO - ...all files ready
+2025-01-24 17:00:19,842 - INFO - Saving Gemini's output...
+2025-01-24 17:00:19,847 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
+2025-01-24 17:00:19,849 - INFO - extract_and_update_tools
+2025-01-24 17:00:19,851 - INFO - matched
+2025-01-24 17:00:19,852 - INFO - Processing video: 00:00
+2025-01-24 17:00:19,856 - ERROR - An error occurred while loading tools from /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/tool_databank.csv: the JSON object must be str, bytes or bytearray, not TextIOWrapper
+2025-01-24 17:00:19,857 - WARNING - No tools found in /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/tool_databank.csv, attempting to load from secondary CSV file.
+2025-01-24 17:00:19,860 - ERROR - An error occurred while loading tools from /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv: the JSON object must be str, bytes or bytearray, not TextIOWrapper
+2025-01-24 17:00:19,861 - INFO - load_tool_info_from_json databank_file
+2025-01-24 17:00:19,861 - INFO - test point1
+2025-01-24 17:00:19,861 - INFO - test point2
+2025-01-24 17:00:19,861 - INFO - New tool detected: paper with text and image
+2025-01-24 17:00:19,861 - INFO - test point1
+2025-01-24 17:00:19,862 - INFO - test point2
+2025-01-24 17:00:19,863 - INFO - New tool detected: screwdriver
+2025-01-24 17:00:19,863 - INFO - test point1
+2025-01-24 17:00:19,864 - INFO - test point2
+2025-01-24 17:00:19,865 - INFO - New tool detected: screwdriver
+2025-01-24 17:00:19,865 - INFO - test point1
+2025-01-24 17:00:19,866 - INFO - test point2
+2025-01-24 17:00:19,867 - INFO - New tool detected: computer case
+2025-01-24 17:00:19,868 - INFO - test point1
+2025-01-24 17:00:19,868 - INFO - test point2
+2025-01-24 17:00:19,869 - INFO - New tool detected: computer case
+2025-01-24 17:00:19,869 - INFO - test point1
+2025-01-24 17:00:19,869 - INFO - test point2
+2025-01-24 17:00:19,870 - INFO - New tool detected: computer case
+2025-01-24 17:00:19,870 - INFO - test point1
+2025-01-24 17:00:19,870 - INFO - test point2
+2025-01-24 17:00:19,870 - INFO - New tool detected: computer case
+2025-01-24 17:00:19,871 - INFO - test point1
+2025-01-24 17:00:19,871 - INFO - test point2
+2025-01-24 17:00:19,872 - INFO - New tool detected: RAM module
+2025-01-24 17:00:19,873 - INFO - test point1
+2025-01-24 17:00:19,873 - INFO - test point2
+2025-01-24 17:00:19,874 - INFO - New tool detected: RAM module
+2025-01-24 17:00:19,874 - INFO - test point1
+2025-01-24 17:00:19,875 - INFO - test point2
+2025-01-24 17:00:19,875 - INFO - New tool detected: computer case
+2025-01-24 17:00:19,875 - INFO - test point1
+2025-01-24 17:00:19,875 - INFO - test point2
+2025-01-24 17:00:19,875 - INFO - New tool detected: computer case
+2025-01-24 17:00:19,876 - INFO - test point1
+2025-01-24 17:00:19,876 - INFO - test point2
+2025-01-24 17:00:19,876 - INFO - New tool detected: hard drive
+2025-01-24 17:00:19,877 - INFO - test point1
+2025-01-24 17:00:19,878 - INFO - test point2
+2025-01-24 17:00:19,879 - INFO - New tool detected: hard drive
+2025-01-24 17:00:19,880 - INFO - test point1
+2025-01-24 17:00:19,880 - INFO - test point2
+2025-01-24 17:00:19,881 - INFO - New tool detected: screwdriver
+2025-01-24 17:00:19,882 - INFO - test point1
+2025-01-24 17:00:19,883 - INFO - test point2
+2025-01-24 17:00:19,883 - INFO - New tool detected: screwdriver
+2025-01-24 17:00:19,884 - INFO - test point1
+2025-01-24 17:00:19,885 - INFO - test point2
+2025-01-24 17:00:19,885 - INFO - New tool detected: screwdriver
+2025-01-24 17:00:19,886 - INFO - test point1
+2025-01-24 17:00:19,886 - INFO - test point2
+2025-01-24 17:00:19,886 - INFO - New tool detected: screwdriver
+2025-01-24 17:00:19,887 - INFO - save_updated_tools
+2025-01-24 17:00:19,891 - INFO - Updated tools information saved to /mnt/Data/bosong/agent/updated_tools_info.json
+2025-01-24 17:00:19,891 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_2.mp4
+2025-01-24 17:00:21,630 - INFO - Uploaded file 'clip_2.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/cn5grkxs8m76
+2025-01-24 17:00:21,631 - INFO - Waiting for file processing...
+2025-01-24 17:00:31,982 - INFO - ...all files ready
+2025-01-24 17:00:47,591 - INFO - Saving Gemini's output...
+2025-01-24 17:00:47,598 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
+2025-01-24 17:00:47,600 - INFO - extract_and_update_tools
+2025-01-24 17:00:47,602 - INFO - matched
+2025-01-24 17:00:47,604 - INFO - Processing video: 00:00
+2025-01-24 17:00:47,608 - ERROR - An error occurred while loading tools from /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/tool_databank.csv: the JSON object must be str, bytes or bytearray, not TextIOWrapper
+2025-01-24 17:00:47,609 - WARNING - No tools found in /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/tool_databank.csv, attempting to load from secondary CSV file.
+2025-01-24 17:00:47,612 - ERROR - An error occurred while loading tools from /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv: the JSON object must be str, bytes or bytearray, not TextIOWrapper
+2025-01-24 17:00:47,612 - INFO - load_tool_info_from_json databank_file
+2025-01-24 17:00:47,613 - INFO - test point1
+2025-01-24 17:00:47,613 - INFO - test point2
+2025-01-24 17:00:47,614 - INFO - New tool detected: red screwdriver
+2025-01-24 17:00:47,615 - INFO - test point1
+2025-01-24 17:00:47,616 - INFO - test point2
+2025-01-24 17:00:47,617 - INFO - New tool detected: red screwdriver
+2025-01-24 17:00:47,618 - INFO - test point1
+2025-01-24 17:00:47,619 - INFO - test point2
+2025-01-24 17:00:47,620 - INFO - New tool detected: red screwdriver
+2025-01-24 17:00:47,621 - INFO - test point1
+2025-01-24 17:00:47,622 - INFO - test point2
+2025-01-24 17:00:47,623 - INFO - New tool detected: red screwdriver
+2025-01-24 17:00:47,623 - INFO - test point1
+2025-01-24 17:00:47,624 - INFO - test point2
+2025-01-24 17:00:47,625 - INFO - New tool detected: red screwdriver
+2025-01-24 17:00:47,625 - INFO - test point1
+2025-01-24 17:00:47,626 - INFO - test point2
+2025-01-24 17:00:47,627 - INFO - New tool detected: red screwdriver
+2025-01-24 17:00:47,628 - INFO - test point1
+2025-01-24 17:00:47,628 - INFO - test point2
+2025-01-24 17:00:47,629 - INFO - New tool detected: red screwdriver
+2025-01-24 17:00:47,630 - INFO - test point1
+2025-01-24 17:00:47,630 - INFO - test point2
+2025-01-24 17:00:47,631 - INFO - New tool detected: red screwdriver
+2025-01-24 17:00:47,632 - INFO - test point1
+2025-01-24 17:00:47,633 - INFO - test point2
+2025-01-24 17:00:47,633 - INFO - New tool detected: red screwdriver
+2025-01-24 17:00:47,634 - INFO - test point1
+2025-01-24 17:00:47,634 - INFO - test point2
+2025-01-24 17:00:47,635 - INFO - New tool detected: red screwdriver
+2025-01-24 17:00:47,635 - INFO - test point1
+2025-01-24 17:00:47,635 - INFO - test point2
+2025-01-24 17:00:47,635 - INFO - New tool detected: red screwdriver
+2025-01-24 17:00:47,635 - INFO - test point1
+2025-01-24 17:00:47,635 - INFO - test point2
+2025-01-24 17:00:47,636 - INFO - New tool detected: red and black cable
+2025-01-24 17:00:47,637 - INFO - test point1
+2025-01-24 17:00:47,638 - INFO - test point2
+2025-01-24 17:00:47,639 - INFO - New tool detected: red and black cable
+2025-01-24 17:00:47,639 - INFO - test point1
+2025-01-24 17:00:47,640 - INFO - test point2
+2025-01-24 17:00:47,641 - INFO - New tool detected: black cable
+2025-01-24 17:00:47,642 - INFO - test point1
+2025-01-24 17:00:47,643 - INFO - test point2
+2025-01-24 17:00:47,644 - INFO - New tool detected: black cable
+2025-01-24 17:00:47,644 - INFO - test point1
+2025-01-24 17:00:47,645 - INFO - test point2
+2025-01-24 17:00:47,645 - INFO - New tool detected: black cable
+2025-01-24 17:00:47,645 - INFO - test point1
+2025-01-24 17:00:47,645 - INFO - test point2
+2025-01-24 17:00:47,645 - INFO - New tool detected: black cable
+2025-01-24 17:00:47,646 - INFO - test point1
+2025-01-24 17:00:47,646 - INFO - test point2
+2025-01-24 17:00:47,647 - INFO - New tool detected: black cable
+2025-01-24 17:00:47,648 - INFO - test point1
+2025-01-24 17:00:47,648 - INFO - test point2
+2025-01-24 17:00:47,649 - INFO - New tool detected: black cable
+2025-01-24 17:00:47,650 - INFO - test point1
+2025-01-24 17:00:47,650 - INFO - test point2
+2025-01-24 17:00:47,651 - INFO - New tool detected: black cable
+2025-01-24 17:00:47,652 - INFO - save_updated_tools
+2025-01-24 17:00:47,655 - INFO - Updated tools information saved to /mnt/Data/bosong/agent/updated_tools_info.json
+2025-01-24 17:00:47,656 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_3.mp4
+2025-01-24 17:00:49,301 - INFO - Uploaded file 'clip_3.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/7ik3x2mdt4mh
+2025-01-24 17:00:49,302 - INFO - Waiting for file processing...
+2025-01-24 17:19:42,899 - INFO - Starting main function...
+2025-01-24 17:19:42,899 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_1.mp4
+2025-01-24 17:19:44,836 - INFO - Uploaded file 'clip_1.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/es0mbmqst6t6
+2025-01-24 17:19:44,837 - INFO - Waiting for file processing...
+2025-01-24 17:19:55,294 - INFO - ...all files ready
+2025-01-24 17:20:08,662 - INFO - Saving Gemini's output...
+2025-01-24 17:20:08,666 - INFO - Gemini output saved to: /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv
+2025-01-24 17:20:08,667 - INFO - extract_and_update_tools
+2025-01-24 17:20:08,668 - INFO - matched
+2025-01-24 17:20:08,669 - INFO - Processing video: 00:00
+2025-01-24 17:20:08,672 - ERROR - An error occurred while loading tools from /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/tool_databank.csv: the JSON object must be str, bytes or bytearray, not TextIOWrapper
+2025-01-24 17:20:08,674 - WARNING - No tools found in /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/tool_databank.csv, attempting to load from secondary CSV file.
+2025-01-24 17:20:08,676 - ERROR - An error occurred while loading tools from /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/gemini_output.csv: the JSON object must be str, bytes or bytearray, not TextIOWrapper
+2025-01-24 17:20:08,677 - INFO - load_tool_info_from_json databank_file
+2025-01-24 17:20:08,677 - INFO - test point1
+2025-01-24 17:20:08,677 - INFO - test point2
+2025-01-24 17:20:08,678 - INFO - New tool detected: paper
+2025-01-24 17:20:08,678 - INFO - test point1
+2025-01-24 17:20:08,678 - INFO - test point2
+2025-01-24 17:20:08,678 - INFO - New tool detected: screwdriver
+2025-01-24 17:20:08,678 - INFO - test point1
+2025-01-24 17:20:08,678 - INFO - test point2
+2025-01-24 17:20:08,679 - INFO - New tool detected: screwdriver
+2025-01-24 17:20:08,679 - INFO - test point1
+2025-01-24 17:20:08,679 - INFO - test point2
+2025-01-24 17:20:08,680 - INFO - New tool detected: computer case
+2025-01-24 17:20:08,680 - INFO - test point1
+2025-01-24 17:20:08,681 - INFO - test point2
+2025-01-24 17:20:08,681 - INFO - New tool detected: computer case
+2025-01-24 17:20:08,682 - INFO - test point1
+2025-01-24 17:20:08,683 - INFO - test point2
+2025-01-24 17:20:08,683 - INFO - New tool detected: computer case
+2025-01-24 17:20:08,684 - INFO - test point1
+2025-01-24 17:20:08,684 - INFO - test point2
+2025-01-24 17:20:08,685 - INFO - New tool detected: computer case
+2025-01-24 17:20:08,685 - INFO - test point1
+2025-01-24 17:20:08,685 - INFO - test point2
+2025-01-24 17:20:08,685 - INFO - New tool detected: computer case
+2025-01-24 17:20:08,685 - INFO - test point1
+2025-01-24 17:20:08,686 - INFO - test point2
+2025-01-24 17:20:08,686 - INFO - New tool detected: computer case
+2025-01-24 17:20:08,686 - INFO - test point1
+2025-01-24 17:20:08,686 - INFO - test point2
+2025-01-24 17:20:08,687 - INFO - New tool detected: RAM module
+2025-01-24 17:20:08,687 - INFO - test point1
+2025-01-24 17:20:08,688 - INFO - test point2
+2025-01-24 17:20:08,688 - INFO - New tool detected: RAM module
+2025-01-24 17:20:08,689 - INFO - test point1
+2025-01-24 17:20:08,689 - INFO - test point2
+2025-01-24 17:20:08,690 - INFO - New tool detected: computer case
+2025-01-24 17:20:08,690 - INFO - test point1
+2025-01-24 17:20:08,690 - INFO - test point2
+2025-01-24 17:20:08,691 - INFO - New tool detected: computer case
+2025-01-24 17:20:08,691 - INFO - test point1
+2025-01-24 17:20:08,691 - INFO - test point2
+2025-01-24 17:20:08,691 - INFO - New tool detected: hard drive
+2025-01-24 17:20:08,691 - INFO - test point1
+2025-01-24 17:20:08,692 - INFO - test point2
+2025-01-24 17:20:08,692 - INFO - New tool detected: screwdriver
+2025-01-24 17:20:08,692 - INFO - test point1
+2025-01-24 17:20:08,692 - INFO - test point2
+2025-01-24 17:20:08,692 - INFO - New tool detected: screwdriver
+2025-01-24 17:20:08,692 - INFO - test point1
+2025-01-24 17:20:08,692 - INFO - test point2
+2025-01-24 17:20:08,692 - INFO - New tool detected: screwdriver
+2025-01-24 17:20:08,692 - INFO - save_updated_tools
+2025-01-24 17:20:08,695 - INFO - Updated tools information saved to /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp/tool_databank.csv
+2025-01-24 17:20:08,696 - INFO - update_databank
+2025-01-24 17:20:08,698 - ERROR - Error occurred in reading databank file: Error tokenizing data. C error: Expected 1 fields in line 3, saw 2
 
-
-git add /mnt/Data/bosong/agent/gemini.py
-git add /mnt/Data/bosong/agent/result_gemini-2.0-flash-exp
-git add /mnt/Data/bosong/agent/test
-git add /mnt/Data/bosong/agent/gemini_agent.log
-git add /mnt/Data/bosong/agent/result
-git add /mnt/Data/bosong/agent/segmentation.py
-
-git commit -m "analyse using gemini 2 with edited video and results"
+2025-01-24 17:20:08,698 - INFO - saved tools into csv now update the tools
+2025-01-24 17:20:08,698 - INFO - Processing video file: /mnt/IndEgo_Aria/bosong/video_clip90/clip_2.mp4
+2025-01-24 17:20:10,117 - INFO - Uploaded file 'clip_2.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/rus8rbwypf5b
+2025-01-24 17:20:10,118 - INFO - Waiting for file processing...

@@ -72,6 +72,37 @@ model = genai.GenerativeModel(
     model_name="gemini-2.0-flash-exp",
     #model_name="gemini-2.0-flash-thinking-exp-1219",
     generation_config=generation_config,
+    system_instruction="""You are an AI assistant, helping the worker. Analyze the video and identify all instances where the user is holding a tool (e.g., screwdrivers, pliers, wrenches) or an object (e.g., boxes, packaging materials). For each instance, provide:
+- Precise timestamps for when the tool or object is held.
+- Detailed descriptions of each action or movement involving the tool or object, including how the user is using it. For example, "using a screwdriver to fasten a bolt."
+- Detailed descriptions of the shape (e.g., round, square, rectangular, irregular) and size (e.g., length, width, height, diameter) of each tool or object.
+
+Output the results in a structured format that can be easily parsed:
+1. Provide a summary of the identified tools and objects in a table format with the following columns: timestamp, object, estimated action.
+2. Include a JSON object with detailed descriptions of each tool, which can be used directly in the update function. The JSON should include the fields with table and description of objects and actions needs to be accurate and complete,**Output the results in a structured JSON format**:
+{
+    "video_name": "",
+    "tools": [
+        {
+            
+            "object_name": "",
+            "object_type": "",
+            "object_color": "",
+            "object_size": "",
+            "action": "",
+            "timestamp": ""
+        },
+        ...
+    ]
+}
+Ensure that the output is valid JSON and does not contain any additional textual explanations or interpretations, video_name should be the input video name
+
+Ensure that repeat frame is minimized, but the description of objects and actions needs to be accurate and complete.:
+- If the action does not change for more than 6 seconds, only include the timestamps for the start, middle, and end of that action.
+- Provide a summary after the table that explains the behavior of the user with respect to the tools and objects.
+
+Additionally, extract the table data into a CSV file for subsequent reading and writing. Identify all tools and objects held by the user in the video, and ensure the analysis is thorough and accurate.
+"""
 )
 
 def extract_tool_info(response_text):
@@ -189,34 +220,34 @@ def find_and_sort_mp4_files(folder_path):
     mp4_files.sort(key=lambda f: int(re.search(r'clip_(\d+)', f).group(1)) if re.search(r'clip_(\d+)', f) else float('inf'))
     return [os.path.join(folder_path, f) for f in mp4_files]
 
-class GeminiAgent:
-    def __init__(self, model):
-        self.model = model
-        self.total_input_tokens = 0
-        self.total_output_tokens = 0
-
-    def generate_content(self, parts):
-        """Generates content with Gemini, tracks tokens, and returns response text."""
-        try:
-            response = self.model.generate_content(parts)
-
-            # Log the token usage
-            if response.prompt_feedback and response.prompt_feedback.token_count:
-                self.total_input_tokens += response.prompt_feedback.token_count
-                logging.info(f"Used {response.prompt_feedback.token_count} input tokens")
-                logging.info(f"Current total input tokens: {self.total_input_tokens}")
-
-            # Log the output token usage
-            if response.text:
-                self.total_output_tokens += len(response.text) // 4  #Rough estimate: 4 characters for 1 token
-                logging.info(f"Used {len(response.text) //4 } output tokens")
-                logging.info(f"Current total output tokens: {self.total_output_tokens}")
-
-
-            return response.text
-        except Exception as e:
-            logging.error(f"Error from Gemini API: {str(e)}")
-            return None
+#class GeminiAgent:
+#    def __init__(self, model):
+#        self.model = model
+#        self.total_input_tokens = 0
+#        self.total_output_tokens = 0
+#
+#    def generate_content(self, parts):
+#        """Generates content with Gemini, tracks tokens, and returns response text."""
+#        try:
+#            response = self.model.generate_content(parts)
+#
+#            # Log the token usage
+#            if response.prompt_feedback and response.prompt_feedback.token_count:
+#                self.total_input_tokens += response.prompt_feedback.token_count
+#                logging.info(f"Used {response.prompt_feedback.token_count} input tokens")
+#                logging.info(f"Current total input tokens: {self.total_input_tokens}")
+#
+#            # Log the output token usage
+#            if response.text:
+#                self.total_output_tokens += len(response.text) // 4  #Rough estimate: 4 characters for 1 token
+#                logging.info(f"Used {len(response.text) //4 } output tokens")
+#                logging.info(f"Current total output tokens: {self.total_output_tokens}")
+#
+#
+#            return response.text
+#        except Exception as e:
+#            logging.error(f"Error from Gemini API: {str(e)}")
+#            return None
 
 # Main function
 def main():
@@ -227,7 +258,7 @@ def main():
     video_files = find_and_sort_mp4_files(video_folder)
     
     all_tool_info=[]
-    gemini_agent = GeminiAgent(model)
+#    gemini_agent = GeminiAgent(model)
 
     for video_path in video_files:
         logging.info(f"Processing video file: {video_path}")
@@ -249,36 +280,14 @@ def main():
                 {
                     "role": "user",
                     "parts": [
-                        """You are an AI assistant, helping the worker. Analyze the video and identify all instances where the user is holding a tool (e.g., screwdrivers, pliers, wrenches) or an object (e.g., boxes, packaging materials). For each instance, provide:
-- Precise timestamps for when the tool or object is held.
-- Detailed descriptions of each action or movement involving the tool or object, including how the user is using it. For example, "using a screwdriver to fasten a bolt."
-- Detailed descriptions of the shape (e.g., round, square, rectangular, irregular) and size (e.g., length, width, height, diameter) of each tool or object.
-
-Output the results in a structured format that can be easily parsed:
-1. Provide a summary of the identified tools and objects in a table format with the following columns: timestamp, object, estimated action.
-2. Include a JSON object with detailed descriptions of each tool, which can be used directly in the update function. The JSON should include the fields with table and description of objects and actions needs to be accurate and complete,**Output the results in a structured JSON format**:
-{
-    "video_name": "",
-    "tools": [
-        {
-            
-            "object_name": "",
-            "object_type": "",
-            "object_color": "",
-            "object_size": "",
-            "action": "",
-            "timestamp": ""
-        },
-        ...
-    ]
-}
+                        """You are an AI assistant, helping the worker. Analyze the video and identify all instances where the user is holding a tool (e.g., screwdrivers, pliers, wrenches) or an object (e.g., boxes, packaging materials). 
 Ensure that the output is valid JSON and does not contain any additional textual explanations or interpretations, video_name should be the input video name
 
 Ensure that repeat frame is minimized, but the description of objects and actions needs to be accurate and complete.:
 - If the action does not change for more than 6 seconds, only include the timestamps for the start, middle, and end of that action.
 - Provide a summary after the table that explains the behavior of the user with respect to the tools and objects.
 
-Additionally, extract the table data into a CSV file for subsequent reading and writing. Identify all tools and objects held by the user in the video, and ensure the analysis is thorough and accurate.
+Additionally, extract the table data into a JSON/CSV file for subsequent reading and writing. Identify all tools and objects held by the user in the video, and ensure the analysis is thorough and accurate.
                     """],
                 },
             ]
@@ -286,7 +295,7 @@ Additionally, extract the table data into a CSV file for subsequent reading and 
 
         # Send the message to Gemini
         logging.info("Sending message to Gemini...")
-        response_text = chat_session.send_message("Extract tool and action information from the videos.")
+        response_text = chat_session.send_message("Extract tool and action information from the videos. Analyze the video and identify all instances, extract the table data into a JSON/CSV file for subsequent reading and writing.")
 
         #check if response is empty before parsing
         if not response_text:
@@ -332,34 +341,97 @@ Additionally, extract the table data into a CSV file for subsequent reading and 
 #        except Exception as e:
 #            logging.error(f"Error processing response: {str(e)}")
 #            continue
-        #假设 response.text 包含 JSON 格式的工具信息
+#       #假设 response.text 包含 JSON 格式的工具信息
+#change from 2001 1912
         try:
-            #tool_info_json = json.loads(response.text)
-            #all_tool_info.extend(tool_info_json)
-            response_data = json.loads(response_text)
-            video_name = response_data.get("video_name", "Unknown Video")
-            tools = response_data.get("tools", [])
-
-            # Log the video name for reference
-            logging.info(f"Processing video: {video_name}")
-
-            # Process each tool in the tools list
-            for tool in tools:
-                all_tool_info.append({
-                    "video_name": video_name,
-                    "object_name": tool.get("object_name", ""),
-                    "object_type": tool.get("object_type", ""),
-                    "object_color": tool.get("object_color", ""),
-                    "object_size": tool.get("object_size", ""),
-                    "action": tool.get("action", ""),
-                    "timestamp": tool.get("timestamp", "")
-                })
-        except json.JSONDecodeError as e:
-            logging.error(f"Failed to decode JSON from response{str(e)}:")
-            #logging.error(f"Response text{response.text}:")
-            continue #skip to the next video
+            # 检查 response_text 是否为有效字符串
+            if not isinstance(response_text, str):
+                raise ValueError(f"Expected string input, but got {type(response_text)}.")
     
-        # 更新数据银行
+            # 使用正则表达式查找 JSON 对象
+            json_match = re.search(r'\{.*\}', response_text, re.DOTALL)
+    
+            if json_match:
+                json_str = json_match.group(0)
+                tool_info_json = json.loads(json_str)
+    
+                if 'tools' in tool_info_json:
+                    video_name = tool_info_json.get("video_name", "Unknown Video")
+                    tools = tool_info_json['tools']
+    
+                    # 记录视频名称以供参考
+                    logging.info(f"Processing video: {video_name}")
+    
+                    # 从 JSON 文件加载当前工具信息
+                    existing_tools = load_tool_info_from_json(json_file)
+                    updated_tools_info = []
+    
+                    # 处理每个工具
+                    for tool in tools:
+                        # 检查更新并记录工具信息
+                        existing_tool = next((t for t in existing_tools if t.get("object_name") == tool.get("object_name")), None)
+                        if existing_tool:
+                            # 更新现有工具信息（这里可以根据需求进行更新）
+                            updated_tool_info = {
+                                "video_name": video_name,
+                                "object_name": tool.get("object_name", ""),
+                                "object_type": tool.get("object_type", existing_tool.get("object_type", "")),
+                                "object_color": tool.get("object_color", existing_tool.get("object_color", "")),
+                                "object_size": tool.get("object_size", existing_tool.get("object_size", "")),
+                                "action": tool.get("action", ""),
+                                "timestamp": tool.get("timestamp", "")
+                            }
+                            updated_tools_info.append(updated_tool_info)
+                        else:
+                            # 新工具信息
+                            updated_tools_info.append({
+                                "video_name": video_name,
+                                "object_name": tool.get("object_name", ""),
+                                "object_type": tool.get("object_type", ""),
+                                "object_color": tool.get("object_color", ""),
+                                "object_size": tool.get("object_size", ""),
+                                "action": tool.get("action", ""),
+                                "timestamp": tool.get("timestamp", "")
+                            })
+    
+                    # 在此处理更新的工具信息（例如保存到文件或数据库）
+                    save_updated_tools_info(updated_tools_info)  # 伪代码，您需要实现此函数
+    
+                else:
+                    logging.warning("No 'tools' key found in JSON response.")
+            else:
+                logging.warning("No JSON object found in Gemini's response.")
+    
+        except json.JSONDecodeError as e:
+            logging.error(f"Failed to decode JSON from response: {str(e)}")
+        except Exception as e:
+            logging.error(f"An unexpected error occurred while processing video {video}: {str(e)}")
+            continue  # Skip to the next video
+#       try:
+#           #tool_info_json = json.loads(response.text)
+#           #all_tool_info.extend(tool_info_json)
+#           response_data = json.loads(response_text)
+#           video_name = response_data.get("video_name", "Unknown Video")
+#           tools = response_data.get("tools", [])#
+#           # Log the video name for reference
+#           logging.info(f"Processing video: {video_name}")#
+#           # Process each tool in the tools list
+#           for tool in tools:
+#               all_tool_info.append({
+#                   "video_name": video_name,
+#                   "object_name": tool.get("object_name", ""),
+#                   "object_type": tool.get("object_type", ""),
+#                   "object_color": tool.get("object_color", ""),
+#                   "object_size": tool.get("object_size", ""),
+#                   "action": tool.get("action", ""),
+#                   "timestamp": tool.get("timestamp", "")
+#               })
+#       except json.JSONDecodeError as e:
+#           logging.error(f"Failed to decode JSON from response{str(e)}:")
+#           #logging.error(f"Response text{response.text}:")
+#           continue #skip to the next video
+#   
+#       # 更新数据银行
         #update_databank(tool_info_json)
 #
         ## Extract tool information from the response
@@ -388,10 +460,10 @@ Additionally, extract the table data into a CSV file for subsequent reading and 
         logging.warning("No tool information collected from any video.")
 
     # Estimate the total cost
-    estimated_cost = (gemini_agent.total_input_tokens * 0.0000025 + gemini_agent.total_output_tokens * 0.000008)  # Replace with actual prices
-    logging.info(f"Estimated total input tokens: {gemini_agent.total_input_tokens}")
-    logging.info(f"Estimated total output tokens: {gemini_agent.total_output_tokens}")
-    logging.info(f"Estimated total cost of processing all videos: ${estimated_cost:.6f}")
+#    estimated_cost = (gemini_agent.total_input_tokens * 0.0000025 + gemini_agent.total_output_tokens * 0.000008)  # Replace with actual prices
+#    logging.info(f"Estimated total input tokens: {gemini_agent.total_input_tokens}")
+#    logging.info(f"Estimated total output tokens: {gemini_agent.total_output_tokens}")
+#    logging.info(f"Estimated total cost of processing all videos: ${estimated_cost:.6f}")
     logging.info("Main function completed.")
 
 

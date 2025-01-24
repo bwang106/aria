@@ -3,10 +3,10 @@ from moviepy.video.io.VideoFileClip import VideoFileClip
 import os
 
 # Paths
-video_path = '/mnt/logicNAS/Exchange/Aria/User_16/video/User_16_414_0511_2_480.mp4'
-annotation_path = '/mnt/logicNAS/Exchange/Aria/User_16/video/User_16_414_0511_2_480.json'
-output_video_path = '/mnt/logicNAS/Exchange/Aria/User_16/video_seg_90/'
-output_annotation_path = '/mnt/logicNAS/Exchange/Aria/User_16/video_seg_90/'
+video_path = '/mnt/IndEgo_Aria/bosong/video_clip/User_16_410_2110_2_480.mp4'
+annotation_path = '/mnt/IndEgo_Aria/bosong/video_clip/User_16_410_2110_2_480.json'
+output_video_path = '/mnt/IndEgo_Aria/bosong/video_clip90/'
+output_annotation_path = '/mnt/IndEgo_Aria/bosong/video_clip90/'
 
 # Load annotations
 with open(annotation_path, 'r') as f:
@@ -36,7 +36,7 @@ for meta_id, meta_info in metadata.items():
         
         # Load the video
         with VideoFileClip(video_path) as video:
-            video_subclip = video.subclipped(current_start, start)
+            video_subclip = video.subclip(current_start, start)
             video_subclip.write_videofile(os.path.join(output_video_path, clip_name), codec='libx264')
         
         # Save annotations
@@ -61,7 +61,7 @@ if current_annotations:
     annotation_name = f'clip_{clip_counter}.json'
     
     with VideoFileClip(video_path) as video:
-        video_subclip = video.subclipped(current_start, video.duration)
+        video_subclip = video.subclip(current_start, video.duration)
         video_subclip.write_videofile(os.path.join(output_video_path, clip_name), codec='libx264')
     
     with open(os.path.join(output_annotation_path, annotation_name), 'w') as f:
