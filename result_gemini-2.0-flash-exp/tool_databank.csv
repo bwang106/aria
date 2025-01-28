@@ -1,155 +1,245 @@
 [
     {
         "video_name": "00:00",
-        "object_name": "paper",
-        "object_type": "document",
-        "object_color": "white",
-        "object_size": "A4",
-        "action": "holding paper",
-        "timestamp": "0:00"
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to unscrew screws on the side of a metal box",
+        "timestamp": "00:00"
     },
     {
         "video_name": "00:00",
-        "object_name": "screwdriver",
-        "object_type": "tool",
-        "object_color": "red and black",
-        "object_size": "15 cm long",
-        "action": "holding screwdriver",
-        "timestamp": "0:00"
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to unscrew screws on the side of a metal box",
+        "timestamp": "00:03"
     },
     {
         "video_name": "00:00",
-        "object_name": "screwdriver",
-        "object_type": "tool",
-        "object_color": "green and black",
-        "object_size": "15 cm long",
-        "action": "holding screwdriver",
-        "timestamp": "0:00"
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to unscrew screws on the side of a metal box",
+        "timestamp": "00:06"
     },
     {
         "video_name": "00:00",
-        "object_name": "computer case",
-        "object_type": "computer part",
-        "object_color": "gray",
-        "object_size": "30 cm x 20 cm x 5 cm",
-        "action": "holding computer case",
-        "timestamp": "0:05"
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to unscrew screws on the side of a metal box",
+        "timestamp": "00:09"
     },
     {
         "video_name": "00:00",
-        "object_name": "computer case",
-        "object_type": "computer part",
-        "object_color": "gray",
-        "object_size": "30 cm x 20 cm x 5 cm",
-        "action": "inspecting computer case",
-        "timestamp": "0:10"
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to unscrew screws on the side of a metal box",
+        "timestamp": "00:12"
     },
     {
         "video_name": "00:00",
-        "object_name": "computer case",
-        "object_type": "computer part",
-        "object_color": "gray",
-        "object_size": "30 cm x 20 cm x 5 cm",
-        "action": "inspecting computer case",
-        "timestamp": "0:15"
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to unscrew screws on the side of a metal box",
+        "timestamp": "00:15"
     },
     {
         "video_name": "00:00",
-        "object_name": "computer case",
-        "object_type": "computer part",
-        "object_color": "gray",
-        "object_size": "30 cm x 20 cm x 5 cm",
-        "action": "inspecting computer case",
-        "timestamp": "0:20"
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to unscrew screws on the side of a metal box",
+        "timestamp": "00:18"
     },
     {
         "video_name": "00:00",
-        "object_name": "computer case",
-        "object_type": "computer part",
-        "object_color": "gray",
-        "object_size": "30 cm x 20 cm x 5 cm",
-        "action": "inspecting computer case",
-        "timestamp": "0:25"
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to unscrew screws on the side of a metal box",
+        "timestamp": "00:21"
     },
     {
         "video_name": "00:00",
-        "object_name": "computer case",
-        "object_type": "computer part",
-        "object_color": "gray",
-        "object_size": "30 cm x 20 cm x 5 cm",
-        "action": "holding computer case",
-        "timestamp": "0:28"
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to unscrew screws on the side of a metal box",
+        "timestamp": "00:24"
     },
     {
         "video_name": "00:00",
-        "object_name": "RAM module",
-        "object_type": "computer part",
-        "object_color": "green",
-        "object_size": "5 cm x 2 cm x 0.5 cm",
-        "action": "holding RAM module",
-        "timestamp": "0:33"
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to unscrew screws on the side of a metal box",
+        "timestamp": "00:27"
     },
     {
         "video_name": "00:00",
-        "object_name": "RAM module",
-        "object_type": "computer part",
-        "object_color": "green",
-        "object_size": "5 cm x 2 cm x 0.5 cm",
-        "action": "installing RAM module",
-        "timestamp": "0:35"
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to unscrew screws on the side of a metal box",
+        "timestamp": "00:30"
     },
     {
         "video_name": "00:00",
-        "object_name": "computer case",
-        "object_type": "computer part",
-        "object_color": "gray",
-        "object_size": "30 cm x 20 cm x 5 cm",
-        "action": "holding computer case",
-        "timestamp": "0:50"
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to unscrew screws on the side of a metal box",
+        "timestamp": "00:33"
     },
     {
         "video_name": "00:00",
-        "object_name": "computer case",
-        "object_type": "computer part",
-        "object_color": "gray",
-        "object_size": "30 cm x 20 cm x 5 cm",
-        "action": "holding computer case",
-        "timestamp": "0:55"
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to unscrew screws on the side of a metal box",
+        "timestamp": "00:36"
     },
     {
         "video_name": "00:00",
-        "object_name": "hard drive",
-        "object_type": "computer part",
-        "object_color": "silver",
-        "object_size": "10 cm x 7 cm x 1 cm",
-        "action": "holding hard drive",
-        "timestamp": "1:05"
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to unscrew screws on the side of a metal box",
+        "timestamp": "00:39"
     },
     {
         "video_name": "00:00",
-        "object_name": "screwdriver",
-        "object_type": "tool",
-        "object_color": "red and black",
-        "object_size": "15 cm long",
-        "action": "using screwdriver to fasten hard drive",
-        "timestamp": "1:15"
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to unscrew screws on the side of a metal box",
+        "timestamp": "00:42"
     },
     {
         "video_name": "00:00",
-        "object_name": "screwdriver",
-        "object_type": "tool",
-        "object_color": "red and black",
-        "object_size": "15 cm long",
-        "action": "using screwdriver to fasten hard drive",
-        "timestamp": "1:20"
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to unscrew screws on the side of a metal box",
+        "timestamp": "00:45"
     },
     {
         "video_name": "00:00",
-        "object_name": "screwdriver",
-        "object_type": "tool",
-        "object_color": "red and black",
-        "object_size": "15 cm long",
-        "action": "using screwdriver to fasten hard drive",
-        "timestamp": "1:25"
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to unscrew screws on the side of a metal box",
+        "timestamp": "00:48"
+    },
+    {
+        "video_name": "00:00",
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to unscrew screws on the side of a metal box",
+        "timestamp": "00:51"
+    },
+    {
+        "video_name": "00:00",
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to unscrew screws on the side of a metal box",
+        "timestamp": "00:54"
+    },
+    {
+        "video_name": "00:00",
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to unscrew screws on the side of a metal box",
+        "timestamp": "00:57"
+    },
+    {
+        "video_name": "00:00",
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to unscrew screws on the side of a metal box",
+        "timestamp": "01:00"
+    },
+    {
+        "video_name": "00:00",
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to unscrew screws on the side of a metal box",
+        "timestamp": "01:03"
+    },
+    {
+        "video_name": "00:00",
+        "object_name": "red screwdriver",
+        "object_type": "screwdriver",
+        "object_color": "red",
+        "object_size": "approximately 15 cm long",
+        "action": "using a screwdriver to unscrew screws on the side of a metal box",
+        "timestamp": "01:06"
+    },
+    {
+        "video_name": "00:00",
+        "object_name": "metal box",
+        "object_type": "box",
+        "object_color": "grey",
+        "object_size": "approximately 30cm x 20cm x 5cm",
+        "action": "holding the metal box",
+        "timestamp": "01:11"
+    },
+    {
+        "video_name": "00:00",
+        "object_name": "black cable",
+        "object_type": "cable",
+        "object_color": "black",
+        "object_size": "approximately 1 meter long",
+        "action": "holding and plugging the cable into the monitor",
+        "timestamp": "01:17"
+    },
+    {
+        "video_name": "00:00",
+        "object_name": "black cable",
+        "object_type": "cable",
+        "object_color": "black",
+        "object_size": "approximately 1 meter long",
+        "action": "holding the cable",
+        "timestamp": "01:21"
+    },
+    {
+        "video_name": "00:00",
+        "object_name": "black cable",
+        "object_type": "cable",
+        "object_color": "black",
+        "object_size": "approximately 1 meter long",
+        "action": "holding the cable",
+        "timestamp": "01:23"
     }
 ]

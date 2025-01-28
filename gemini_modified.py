@@ -100,11 +100,17 @@ def update_databank(new_tool_info):
     try:
         logging.info("update_databank")
         if os.path.exists(DATABANK_FILE) and os.path.getsize(DATABANK_FILE) > 0:
-            df = pd.read_csv(DATABANK_FILE)
+            df = pd.read_json(DATABANK_FILE) #bosong, should be json instead of csv
         else:
             df = pd.DataFrame(columns=['timestamp', 'object', 'object_type', 'object_color', 'object_size', 'action', 'status', 'location'])
             logging.warning("Databank file not found or is empty. Creating a new dataframe.")
         
+    except FileNotFoundError:
+        logging.error("Databank file does not exist. Creating a new dataframe.")
+        df = pd.DataFrame(columns=['timestamp', 'object', 'object_type', 'object_color', 'object_size', 'action', 'status', 'location'])
+    except pd.errors.EmptyDataError:
+        logging.warning("Databank file is empty. Creating a new dataframe.")
+        df = pd.DataFrame(columns=['timestamp', 'object', 'object_type', 'object_color', 'object_size', 'action', 'status', 'location'])
     except Exception as e:
         handle_exception(e, "reading databank file")
         return
@@ -125,7 +131,7 @@ def update_databank(new_tool_info):
             else:
                 new_row = {
                     'timestamp': timestamp,
-                    'object': object_name,
+                    'object_name': object_name, # bosong, change object to object_name
                     'object_type': object_type,
                     'object_color': object_color,
                     'object_size': object_size,
@@ -136,9 +142,12 @@ def update_databank(new_tool_info):
                 df = pd.concat([df, pd.DataFrame([new_row])], ignore_index=True)
                 logging.info(f"Added new tool: {object_name}")
 
-    df.to_csv(DATABANK_FILE, index=False)
-    logging.info("Databank updated successfully.")
-
+    try:
+        df.to_json(DATABANK_FILE, index=False)#bosong, should be json instead of csv
+        logging.info("Databank updated successfully.")
+    except Exception as e:
+        handle_exception(e, "writing databank file")
+        
 def process_video(video_path):
     """Processes a single video"""
     logging.info(f"Processing video file: {video_path}")
@@ -159,7 +168,7 @@ def process_video(video_path):
 1. Provide a summary of the identified tools and objects in a table format with the following columns: timestamp, object, estimated action.
 2. Include a JSON object with detailed descriptions of each tool, which can be used directly in the update function. The JSON should include the fields with table and description of objects and actions needs to be accurate and complete,**Output the results in a structured JSON format**:
 {
-    "video_name": "",
+    "video_name": is the input video name or follow the sequence of the video" ",
     "tools": [
         {
             "object_name": "",
@@ -172,20 +181,22 @@ def process_video(video_path):
         ...
     ]
 }
-Ensure that the output is valid JSON and does not contain any additional textual explanations or interpretations, video name should be the input video name or follow the sequence of the video.
+Ensure that the output is valid JSON and does not contain any additional textual explanations or interpretations, video_name should be the input video name or follow the sequence of the video.
 
 Ensure that repeat frame is minimized, but the description of objects and actions needs to be accurate and complete and also be detailed.:
 - If the action does not change for more than 6 seconds, only include the timestamps for the start, middle, and end of that action.
 - Provide a summary after the table that explains the behavior of the user with respect to the tools and objects.
 
 Additionally, extract the table data into a JSON/CSV file for subsequent reading and writing. Identify all tools and objects held by the user in the video, and ensure the analysis is thorough and accurate.
+
+After analyse all videos, shows the summary in detail of the what did the person do(a title of the task), how the person did the task, what tools does the task need, where is all the tools (each used tools location at the end) and what is the status of the tools,the generate text 'Task Summary:' as start, 'End Summary.'as the end. Also give some advise of the task incase another person need to do the task again. 
                     """
                 ]
             }
         ]
     )
 
-    response = chat_session.send_message("Extract tool and action information from the videos with following all roles that mentioned.")
+    response = chat_session.send_message("Extract tool and action information from the videos with following all roles that mentioned. After analyse all videos, shows the summary in detail of the what did the person do(a title of the task), how the person did the task, what tools does the task need, where is all the tools (each used tools location at the end) and what is the status of the tools. Also give some advise of the task incase another person need to do the task again,the generate text 'Task Summary:' as start, 'End Summary.'as the end.")
     #data = json.loads(response)
     #response_text=data['candidates']['content']['parts'][0]['text']
     #if is_valid_response(response_text):
@@ -204,7 +215,7 @@ def load_tool_info_from_json(json_file):
 
     with open(json_file, 'r') as file:
         try:
-            data = json.loads(file)
+            data = json.load(file) #bosong, change loads to load
             return data.get('tools', [])
         except json.JSONDecodeError as e:
             logging.error(f"Failed to decode JSON from file {json_file}: {str(e)}")
