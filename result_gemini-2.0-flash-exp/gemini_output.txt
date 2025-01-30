@@ -1,5 +1,5 @@
-timestamp,response_text
-2025-01-28 16:54:46,"```json
+﻿timestamp	response_text
+2025-01-28 16:54:46	"```json
 {
     ""video_name"": ""00:00"",
     ""tools"": [
@@ -149,7 +149,7 @@ Advise:
 End Summary.
 ```
 "
-2025-01-28 16:55:16,"```json
+2025-01-28 16:55:16	"```json
 {
     ""video_name"": ""00:00"",
     ""tools"": [
@@ -347,7 +347,7 @@ End Summary.
 }
 ```
 "
-2025-01-28 16:55:45,"```json
+2025-01-28 16:55:45	"```json
 {
     ""video_name"": ""00:00"",
     ""tools"": [
@@ -561,7 +561,7 @@ Advice for future tasks:
 End Summary.
 ```
 "
-2025-01-28 16:56:14,"```json
+2025-01-28 16:56:14	"```json
 {
     ""video_name"": ""00:00"",
     ""tools"": [
@@ -728,7 +728,7 @@ Advise for the task:
 End Summary.
 ```
 "
-2025-01-28 16:56:45,"```json
+2025-01-28 16:56:45	"```json
 {
     ""video_name"": ""00:00"",
     ""tools"": [
@@ -946,7 +946,7 @@ Advise for the task:
 End Summary.
 ```
 "
-2025-01-28 16:57:45,"```json
+2025-01-28 16:57:45	"```json
 {
     ""video_name"": ""00:00"",
     ""tools"": [
@@ -1563,7 +1563,7 @@ Advice for future tasks:
 End Summary.
 ```
 "
-2025-01-28 16:58:15,"```json
+2025-01-28 16:58:15	"```json
 {
     ""video_name"": ""00:00"",
     ""tools"": [
@@ -1751,7 +1751,7 @@ Advise for the task:
 End Summary.
 ```
 "
-2025-01-28 16:59:09,"```json
+2025-01-28 16:59:09	"```json
 {
     ""video_name"": ""00:00"",
     ""tools"": [
@@ -2257,7 +2257,7 @@ Advise:
 End Summary.
 ```
 "
-2025-01-28 16:59:52,"```json
+2025-01-28 16:59:52	"```json
 {
     ""video_name"": ""00:00"",
     ""tools"": [
@@ -2612,7 +2612,7 @@ Advise:
 - Use the correct screwdriver size to avoid damaging the screws.
 End Summary.
 "
-2025-01-28 17:00:26,"```json
+2025-01-28 17:00:26	"```json
 {
     ""video_name"": ""00:00"",
     ""tools"": [

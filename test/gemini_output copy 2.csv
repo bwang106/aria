@@ -1,0 +1,2609 @@
+timestamp,response_text
+2025-01-28 14:07:57,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""Screwdriver"",
+            ""object_type"": ""Tool"",
+            ""object_color"": ""Red and Black"",
+            ""object_size"": ""Approximately 15 cm long"",
+            ""action"": ""Holding the screwdriver"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""Screwdriver"",
+            ""object_type"": ""Tool"",
+            ""object_color"": ""Green and Black"",
+            ""object_size"": ""Approximately 15 cm long"",
+            ""action"": ""Holding the screwdriver"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""Paper"",
+            ""object_type"": ""Document"",
+            ""object_color"": ""White"",
+            ""object_size"": ""Approximately 21 cm x 29.7 cm"",
+            ""action"": ""Holding the paper"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""Computer Case"",
+            ""object_type"": ""Object"",
+            ""object_color"": ""Gray"",
+            ""object_size"": ""Approximately 30 cm x 20 cm x 5 cm"",
+            ""action"": ""Holding and inspecting the computer case"",
+            ""timestamp"": ""0:09""
+        },
+        {
+            ""object_name"": ""Computer Case"",
+            ""object_type"": ""Object"",
+            ""object_color"": ""Gray"",
+            ""object_size"": ""Approximately 30 cm x 20 cm x 5 cm"",
+            ""action"": ""Holding and inspecting the computer case"",
+            ""timestamp"": ""0:15""
+        },
+        {
+            ""object_name"": ""Computer Case"",
+            ""object_type"": ""Object"",
+            ""object_color"": ""Gray"",
+            ""object_size"": ""Approximately 30 cm x 20 cm x 5 cm"",
+            ""action"": ""Holding and inspecting the computer case"",
+            ""timestamp"": ""0:21""
+        },
+        {
+            ""object_name"": ""Computer Case"",
+            ""object_type"": ""Object"",
+            ""object_color"": ""Gray"",
+            ""object_size"": ""Approximately 30 cm x 20 cm x 5 cm"",
+            ""action"": ""Holding and inspecting the computer case"",
+            ""timestamp"": ""0:28""
+        },
+        {
+            ""object_name"": ""RAM Module"",
+            ""object_type"": ""Component"",
+            ""object_color"": ""Green"",
+            ""object_size"": ""Approximately 7 cm x 3 cm"",
+            ""action"": ""Holding and attaching the RAM module"",
+            ""timestamp"": ""0:34""
+        },
+        {
+            ""object_name"": ""Computer Case"",
+            ""object_type"": ""Object"",
+            ""object_color"": ""Gray"",
+            ""object_size"": ""Approximately 30 cm x 20 cm x 5 cm"",
+            ""action"": ""Holding and inspecting the computer case"",
+            ""timestamp"": ""0:52""
+        },
+        {
+            ""object_name"": ""Hard Drive"",
+            ""object_type"": ""Component"",
+            ""object_color"": ""Silver"",
+            ""object_size"": ""Approximately 10 cm x 7 cm x 1 cm"",
+            ""action"": ""Holding and attaching the hard drive"",
+            ""timestamp"": ""1:05""
+        },
+        {
+            ""object_name"": ""Screwdriver"",
+            ""object_type"": ""Tool"",
+            ""object_color"": ""Red and Black"",
+            ""object_size"": ""Approximately 15 cm long"",
+            ""action"": ""Using the screwdriver to fasten the hard drive"",
+            ""timestamp"": ""1:15""
+        },
+        {
+            ""object_name"": ""Screwdriver"",
+            ""object_type"": ""Tool"",
+            ""object_color"": ""Red and Black"",
+            ""object_size"": ""Approximately 15 cm long"",
+            ""action"": ""Using the screwdriver to fasten the hard drive"",
+            ""timestamp"": ""1:25""
+        }
+    ]
+}
+```
+### Summary of User Behavior:
+
+**Task Title:** Computer Assembly
+
+**Task Description:** The person in the video is assembling a computer. They begin by inspecting the computer case, then proceed to attach the RAM module and the hard drive. The person uses a red and black screwdriver to fasten the hard drive.
+
+**Tools Needed:**
+- Red and black screwdriver
+- Green and black screwdriver
+
+**Tool Locations and Status:**
+- Red and black screwdriver: Used to fasten the hard drive, located on the table.
+- Green and black screwdriver: Located on the table.
+- Paper: Located on the table.
+
+**Advice for Future Tasks:**
+- Ensure all components are properly aligned before fastening.
+- Use the correct screwdriver for each type of screw to avoid damage.
+- Keep the workspace organized to easily locate the necessary tools and components.
+- Double-check all connections to ensure proper functionality.
+"
+2025-01-28 14:08:28,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15cm long, handle diameter 2.5cm"",
+            ""action"": ""using a screwdriver to fasten screws on the metal frame"",
+            ""timestamp"": ""00:00""
+        },
+         {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15cm long, handle diameter 2.5cm"",
+            ""action"": ""using a screwdriver to fasten screws on the metal frame"",
+            ""timestamp"": ""00:03""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15cm long, handle diameter 2.5cm"",
+            ""action"": ""using a screwdriver to fasten screws on the metal frame"",
+            ""timestamp"": ""00:06""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15cm long, handle diameter 2.5cm"",
+            ""action"": ""using a screwdriver to fasten screws on the metal frame"",
+            ""timestamp"": ""00:08""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15cm long, handle diameter 2.5cm"",
+            ""action"": ""using a screwdriver to fasten screws on the metal frame"",
+            ""timestamp"": ""00:10""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15cm long, handle diameter 2.5cm"",
+            ""action"": ""using a screwdriver to fasten screws on the metal frame"",
+            ""timestamp"": ""00:13""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15cm long, handle diameter 2.5cm"",
+            ""action"": ""using a screwdriver to fasten screws on the metal frame"",
+            ""timestamp"": ""00:16""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15cm long, handle diameter 2.5cm"",
+            ""action"": ""using a screwdriver to fasten screws on the metal frame"",
+            ""timestamp"": ""00:18""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15cm long, handle diameter 2.5cm"",
+            ""action"": ""using a screwdriver to fasten screws on the metal frame"",
+            ""timestamp"": ""00:20""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15cm long, handle diameter 2.5cm"",
+            ""action"": ""using a screwdriver to fasten screws on the metal frame"",
+            ""timestamp"": ""00:23""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15cm long, handle diameter 2.5cm"",
+            ""action"": ""using a screwdriver to fasten screws on the metal frame"",
+            ""timestamp"": ""00:26""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15cm long, handle diameter 2.5cm"",
+            ""action"": ""using a screwdriver to fasten screws on the metal frame"",
+            ""timestamp"": ""00:28""
+        },
+         {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15cm long, handle diameter 2.5cm"",
+            ""action"": ""using a screwdriver to fasten screws on the metal frame"",
+            ""timestamp"": ""00:30""
+        },
+        {
+            ""object_name"": ""red and black wire"",
+            ""object_type"": ""object"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 10cm long"",
+            ""action"": ""holding the wire"",
+            ""timestamp"": ""00:32""
+        },
+        {
+            ""object_name"": ""red and black wire"",
+            ""object_type"": ""object"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 10cm long"",
+            ""action"": ""holding the wire"",
+            ""timestamp"": ""00:34""
+        },
+        {
+            ""object_name"": ""black wire with white connector"",
+            ""object_type"": ""object"",
+            ""object_color"": ""black and white"",
+            ""object_size"": ""approximately 10cm long"",
+            ""action"": ""holding the wire and connecting to the board"",
+            ""timestamp"": ""00:35""
+        },
+        {
+            ""object_name"": ""black wire with white connector"",
+            ""object_type"": ""object"",
+            ""object_color"": ""black and white"",
+            ""object_size"": ""approximately 10cm long"",
+            ""action"": ""connecting the wire to the board"",
+            ""timestamp"": ""00:38""
+        },
+         {
+            ""object_name"": ""black wire with white connector"",
+            ""object_type"": ""object"",
+            ""object_color"": ""black and white"",
+            ""object_size"": ""approximately 10cm long"",
+            ""action"": ""connecting the wire to the board"",
+            ""timestamp"": ""00:41""
+        },
+        {
+            ""object_name"": ""black wire with white connector"",
+            ""object_type"": ""object"",
+            ""object_color"": ""black and white"",
+            ""object_size"": ""approximately 10cm long"",
+            ""action"": ""connecting the wire to the board"",
+            ""timestamp"": ""00:44""
+        },
+        {
+            ""object_name"": ""black wire with white connector"",
+            ""object_type"": ""object"",
+            ""object_color"": ""black and white"",
+            ""object_size"": ""approximately 10cm long"",
+            ""action"": ""connecting the wire to the board"",
+            ""timestamp"": ""00:47""
+        },
+        {
+            ""object_name"": ""black wire with white connector"",
+            ""object_type"": ""object"",
+            ""object_color"": ""black and white"",
+            ""object_size"": ""approximately 10cm long"",
+            ""action"": ""connecting the wire to the board"",
+            ""timestamp"": ""00:49""
+        },
+        {
+            ""object_name"": ""black wire with white connector"",
+            ""object_type"": ""object"",
+            ""object_color"": ""black and white"",
+            ""object_size"": ""approximately 10cm long"",
+            ""action"": ""connecting the wire to the board"",
+            ""timestamp"": ""00:51""
+        }
+    ]
+}
+```
+### Summary of the Task:
+
+**Task Title:** Disassembling and Reassembling a Device
+
+**Description:** The person in the video is disassembling and reassembling a device, likely a computer or electronic component. The task involves removing screws from the device's metal frame using a red screwdriver, then connecting the power and data cables to the board.
+
+**How the Task Was Performed:**
+1.  **Disassembly:** The person starts by using a red screwdriver to unscrew various screws holding the metal frame of the device. They carefully remove each screw, placing them aside.
+2.  **Cable Connection:** After removing the screws, the person connects the power and data cables to the board. They first connect the power cable, followed by the data cable, ensuring each is securely plugged in.
+
+**Tools Needed:**
+1.  **Red Screwdriver:** Used to remove and fasten screws.
+2.  **Power Cable:** A black wire with a white connector.
+3.  **Data Cable:** A red and black wire.
+
+**Tool Locations and Status:**
+1.  **Red Screwdriver:** The red screwdriver is placed on the table after use.
+2.  **Power Cable:** The power cable is connected to the board.
+3.  **Data Cable:** The data cable is connected to the board.
+4.  **Screws:** The screws are placed on the table after being removed.
+
+**Advice for Future Tasks:**
+1.  **Organization:** Keep the screws organized in a small container to prevent loss and make reassembly easier.
+2.  **Cable Handling:** Handle the cables carefully to avoid damage. Ensure they are securely connected to the board.
+3.  **Documentation:** Refer to the device's manual or a guide if available to ensure correct assembly.
+4.  **Workspace:** Ensure the workspace is clean and well-lit to facilitate the task.
+5.  **Patience:** Take your time and avoid rushing to prevent mistakes.
+"
+2025-01-28 14:09:15,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""holding and manipulating the cable to connect it to the device"",
+            ""timestamp"": ""00:00""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:01""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:03""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:05""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:07""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:09""
+        },
+         {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:11""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:13""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:15""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:17""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:19""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:21""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:23""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:25""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:27""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""00:29""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:30""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""00:32""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:33""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:35""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:37""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:39""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:41""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:43""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:45""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:47""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:49""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:51""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+             ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:53""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+             ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:55""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+             ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:57""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""00:59""
+        },
+         {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""01:01""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+             ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:03""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+             ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:05""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+             ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:07""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+             ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:09""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+             ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:11""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+             ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:13""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+             ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:15""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+             ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:17""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+             ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:19""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+             ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:21""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+             ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:23""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+             ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:25""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+             ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:27""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""01:29""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+             ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:30""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""01:32""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+             ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:33""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+             ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:35""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+             ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:37""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+             ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:39""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+             ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:41""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 30 cm long"",
+             ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:43""
+        }
+    ]
+}
+```
+### Summary of Actions
+The user is primarily focused on connecting a red cable to a device. They use a red and yellow screwdriver to fasten screws at a few points during the process. The user manipulates the red cable, connecting it to different parts of the device.
+
+### Task Summary: Connecting Cables to a Device
+**Task Title:** Connecting SATA Cables to a Hard Drive
+
+**How the Task Was Performed:**
+The user carefully connected a red SATA cable to a hard drive within a device casing. They manipulated the cable, ensuring it was properly aligned and connected to the appropriate ports. The user also used a red and yellow screwdriver to fasten screws at various points to secure the cable and the hard drive.
+
+**Tools Needed:**
+1. Red SATA cable
+2. Red and yellow screwdriver
+
+**Tool Locations and Status:**
+- **Red SATA cable:** Connected to the hard drive inside the device casing.
+- **Red and yellow screwdriver:** Placed on the table next to the device casing.
+
+**Advice for Future Tasks:**
+1. **Cable Alignment:** Ensure the cable is correctly aligned before attempting to connect it to the ports.
+2. **Screw Tightening:** Do not over-tighten the screws, as this could damage the device.
+3. **Workspace:** Keep the workspace clear of unnecessary items to avoid confusion and accidents.
+4. **Patience:** Take your time and be patient, as rushing could lead to mistakes.
+5. **Documentation:** Refer to the documentation or instructions if you are unsure about any step.
+"
+2025-01-28 14:09:44,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long, with a cylindrical handle about 2 cm in diameter"",
+            ""action"": ""using a screwdriver to fasten screws on the metal box"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long, with a cylindrical handle about 2 cm in diameter"",
+            ""action"": ""using a screwdriver to fasten screws on the metal box"",
+            ""timestamp"": ""0:03""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long, with a cylindrical handle about 2 cm in diameter"",
+            ""action"": ""using a screwdriver to fasten screws on the metal box"",
+            ""timestamp"": ""0:06""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long, with a cylindrical handle about 2 cm in diameter"",
+            ""action"": ""placing the screwdriver on the table"",
+            ""timestamp"": ""0:08""
+        },
+        {
+            ""object_name"": ""metal side plate"",
+            ""object_type"": ""plate"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15 cm long, 5 cm wide, and 0.5 cm thick"",
+            ""action"": ""holding the metal side plate"",
+            ""timestamp"": ""0:14""
+        },
+        {
+            ""object_name"": ""metal side plate"",
+            ""object_type"": ""plate"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15 cm long, 5 cm wide, and 0.5 cm thick"",
+            ""action"": ""positioning the metal side plate on the metal box"",
+            ""timestamp"": ""0:17""
+        },
+        {
+            ""object_name"": ""green screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15 cm long, with a cylindrical handle about 2 cm in diameter"",
+            ""action"": ""using a screwdriver to fasten screws on the metal box"",
+            ""timestamp"": ""0:31""
+        },
+        {
+            ""object_name"": ""green screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15 cm long, with a cylindrical handle about 2 cm in diameter"",
+            ""action"": ""using a screwdriver to fasten screws on the metal box"",
+            ""timestamp"": ""0:38""
+        },
+        {
+            ""object_name"": ""green screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15 cm long, with a cylindrical handle about 2 cm in diameter"",
+            ""action"": ""using a screwdriver to fasten screws on the metal box"",
+            ""timestamp"": ""0:44""
+        },
+        {
+            ""object_name"": ""green screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15 cm long, with a cylindrical handle about 2 cm in diameter"",
+            ""action"": ""using a screwdriver to fasten screws on the metal box"",
+            ""timestamp"": ""0:56""
+        },
+        {
+            ""object_name"": ""green screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15 cm long, with a cylindrical handle about 2 cm in diameter"",
+            ""action"": ""using a screwdriver to fasten screws on the metal box"",
+            ""timestamp"": ""1:10""
+        },
+        {
+            ""object_name"": ""green screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15 cm long, with a cylindrical handle about 2 cm in diameter"",
+            ""action"": ""placing the screwdriver on the table"",
+            ""timestamp"": ""1:21""
+        },
+         {
+            ""object_name"": ""metal lower plate"",
+            ""object_type"": ""plate"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15 cm long, 5 cm wide, and 0.5 cm thick"",
+            ""action"": ""holding the metal lower plate"",
+            ""timestamp"": ""1:26""
+        }
+    ]
+}
+```
+## Task Summary:
+
+**Task Title:** Assembling a Metal Box
+
+**Task Description:** The person in the video is assembling a metal box, likely part of an electronic device. The process involves attaching side and lower plates to the main body of the box using screws.
+
+**How the Task Was Performed:**
+1.  The person starts by using a red screwdriver to fasten screws on the metal box.
+2.  They then attach a metal side plate to the box.
+3.  Next, they use a green screwdriver to secure the side plate with screws.
+4.  Finally, they attach the lower plate to the box.
+
+**Tools Needed:**
+*   Red screwdriver
+*   Green screwdriver
+
+**Tool Locations at the End:**
+*   Both the red and green screwdrivers are placed on the table.
+
+**Tool Status:**
+*   The tools are in good condition and ready for future use.
+
+**Advice for Future Tasks:**
+1.  **Organization:** Keep all screws and plates organized to avoid confusion during assembly.
+2.  **Screwdriver Selection:** Ensure the correct screwdriver is used for each type of screw to prevent damage.
+3.  **Tightening:** Tighten screws firmly but avoid over-tightening to prevent stripping the threads.
+4.  **Check Alignment:** Before fully tightening screws, check the alignment of the plates to ensure a proper fit.
+5.  **Documentation:** Refer to the provided documentation (the paper on the table) for any specific instructions or torque specifications.
+"
+2025-01-28 14:10:17,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""bottom case"",
+            ""object_type"": ""rectangular plate"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm x 15cm x 1cm"",
+            ""action"": ""placing the bottom case onto the chassis"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""bottom case"",
+            ""object_type"": ""rectangular plate"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm x 15cm x 1cm"",
+            ""action"": ""aligning the bottom case with the chassis"",
+             ""timestamp"": ""0:02""
+        },
+        {
+            ""object_name"": ""bottom case"",
+            ""object_type"": ""rectangular plate"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm x 15cm x 1cm"",
+            ""action"": ""attaching the bottom case to the chassis"",
+            ""timestamp"": ""0:05""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""hand tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long, 2cm diameter handle"",
+            ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""0:08""
+        },
+         {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""hand tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long, 2cm diameter handle"",
+            ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""0:13""
+        },
+         {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""hand tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long, 2cm diameter handle"",
+            ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""0:18""
+        },
+         {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""hand tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long, 2cm diameter handle"",
+            ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""0:23""
+        },
+         {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""hand tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long, 2cm diameter handle"",
+            ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""0:28""
+        },
+         {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""hand tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long, 2cm diameter handle"",
+            ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""0:33""
+        },
+        {
+            ""object_name"": ""bottom case"",
+            ""object_type"": ""rectangular plate"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm x 15cm x 1cm"",
+            ""action"": ""checking the bottom case after assembly"",
+            ""timestamp"": ""0:38""
+        },
+        {
+            ""object_name"": ""chassis"",
+            ""object_type"": ""rectangular box"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm x 15cm x 5cm"",
+            ""action"": ""rotating the chassis"",
+            ""timestamp"": ""0:41""
+        },
+        {
+            ""object_name"": ""instruction sheet"",
+            ""object_type"": ""paper"",
+            ""object_color"": ""white"",
+            ""object_size"": ""approximately 20cm x 30cm"",
+            ""action"": ""checking the instruction sheet"",
+            ""timestamp"": ""0:44""
+        },
+        {
+            ""object_name"": ""upper case"",
+            ""object_type"": ""rectangular plate"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm x 15cm x 1cm"",
+            ""action"": ""preparing the upper case for assembly"",
+            ""timestamp"": ""0:46""
+        },
+        {
+            ""object_name"": ""upper case"",
+            ""object_type"": ""rectangular plate"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm x 15cm x 1cm"",
+            ""action"": ""placing the upper case onto the chassis"",
+            ""timestamp"": ""0:49""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""hand tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long, 2cm diameter handle"",
+            ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""0:52""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""hand tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long, 2cm diameter handle"",
+            ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""0:57""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""hand tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long, 2cm diameter handle"",
+            ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""1:01""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""hand tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long, 2cm diameter handle"",
+            ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""1:06""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""hand tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long, 2cm diameter handle"",
+            ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""1:11""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""hand tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long, 2cm diameter handle"",
+            ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""1:14""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""hand tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long, 2cm diameter handle"",
+            ""action"": ""removing the screwdriver from the screw"",
+            ""timestamp"": ""1:16""
+        },
+        {
+            ""object_name"": ""assembled case"",
+            ""object_type"": ""rectangular box"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm x 15cm x 6cm"",
+            ""action"": ""checking the assembled case"",
+            ""timestamp"": ""1:18""
+        },
+        {
+            ""object_name"": ""assembled case"",
+            ""object_type"": ""rectangular box"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm x 15cm x 6cm"",
+            ""action"": ""rotating the assembled case"",
+            ""timestamp"": ""1:21""
+        }
+    ]
+}
+```
+### Summary of the Task:
+
+**Task Title:** Assembling a Computer Case
+
+**How the Task Was Performed:**
+The person in the video is assembling a computer case. They start by placing the bottom case onto the chassis, aligning it, and then using a screwdriver to fasten screws to secure it. After securing the bottom case, the person rotates the chassis and checks the instruction sheet. Then, they place the upper case onto the chassis and use the screwdriver to fasten the screws. Finally, they check the assembled case.
+
+**Tools Needed:**
+1.  Screwdriver (green and black)
+2.  Instruction sheet
+
+**Tool Locations and Status:**
+*   **Screwdriver:** The screwdriver is placed on the table after use.
+*   **Instruction Sheet:** The instruction sheet is placed on the table after use.
+
+**Advice for Future Tasks:**
+1.  **Organization:** Keep all the screws and parts organized to avoid confusion during assembly.
+2.  **Instruction Sheet:** Follow the instruction sheet carefully to ensure the correct order of assembly.
+3.  **Screwdriver:** Use the correct screwdriver for the screws to avoid damaging them.
+4.  **Alignment:** Ensure that all parts are properly aligned before fastening the screws.
+5.  **Check:** Check the assembled case after each step to ensure that it is assembled correctly.
+"
+2025-01-28 14:10:52,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15cm long, 2cm wide"",
+            ""action"": ""holding and positioning the bracket"",
+            ""timestamp"": ""00:00""
+        },
+         {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15cm long, 2cm wide"",
+            ""action"": ""holding and positioning the bracket"",
+            ""timestamp"": ""00:02""
+        },
+        {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15cm long, 2cm wide"",
+            ""action"": ""holding and positioning the bracket"",
+            ""timestamp"": ""00:04""
+        },
+        {
+            ""object_name"": ""metal backplate"",
+            ""object_type"": ""backplate"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15cm long, 8cm wide"",
+            ""action"": ""holding and positioning the backplate"",
+            ""timestamp"": ""00:05""
+        },
+         {
+            ""object_name"": ""metal backplate"",
+            ""object_type"": ""backplate"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15cm long, 8cm wide"",
+            ""action"": ""holding and positioning the backplate"",
+            ""timestamp"": ""00:07""
+        },
+        {
+            ""object_name"": ""metal backplate"",
+            ""object_type"": ""backplate"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15cm long, 8cm wide"",
+            ""action"": ""holding and positioning the backplate"",
+            ""timestamp"": ""00:09""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""case"",
+            ""object_color"": ""grey"",
+            ""object_size"": ""approximately 25cm long, 20cm wide, 5cm high"",
+            ""action"": ""holding and positioning the computer case"",
+            ""timestamp"": ""00:10""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""case"",
+            ""object_color"": ""grey"",
+            ""object_size"": ""approximately 25cm long, 20cm wide, 5cm high"",
+            ""action"": ""holding and positioning the computer case"",
+            ""timestamp"": ""00:13""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""case"",
+            ""object_color"": ""grey"",
+            ""object_size"": ""approximately 25cm long, 20cm wide, 5cm high"",
+            ""action"": ""holding and positioning the computer case"",
+            ""timestamp"": ""00:16""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long, 2cm diameter"",
+            ""action"": ""picking up the screwdriver"",
+            ""timestamp"": ""00:21""
+        },
+        {
+            ""object_name"": ""screw"",
+            ""object_type"": ""fastener"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 1cm long, 0.5cm diameter"",
+            ""action"": ""holding a screw"",
+            ""timestamp"": ""00:21""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long, 2cm diameter"",
+            ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""00:22""
+        },
+         {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long, 2cm diameter"",
+             ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""00:25""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long, 2cm diameter"",
+            ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""00:28""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long, 2cm diameter"",
+             ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""00:31""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long, 2cm diameter"",
+            ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""00:34""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long, 2cm diameter"",
+            ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""00:37""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long, 2cm diameter"",
+            ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""00:40""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long, 2cm diameter"",
+            ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""00:43""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long, 2cm diameter"",
+            ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""00:46""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long, 2cm diameter"",
+            ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""00:49""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long, 2cm diameter"",
+            ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""00:52""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long, 2cm diameter"",
+            ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""00:55""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""case"",
+            ""object_color"": ""grey"",
+            ""object_size"": ""approximately 25cm long, 20cm wide, 5cm high"",
+             ""action"": ""holding and positioning the computer case"",
+            ""timestamp"": ""01:03""
+        },
+         {
+            ""object_name"": ""power connector"",
+            ""object_type"": ""connector"",
+            ""object_color"": ""green"",
+            ""object_size"": ""approximately 5cm long, 2cm wide"",
+             ""action"": ""holding the power connector"",
+            ""timestamp"": ""01:12""
+        },
+        {
+            ""object_name"": ""power connector"",
+            ""object_type"": ""connector"",
+            ""object_color"": ""green"",
+            ""object_size"": ""approximately 5cm long, 2cm wide"",
+            ""action"": ""connecting the power connector to the computer case"",
+            ""timestamp"": ""01:15""
+        }
+    ]
+}
+```
+## Summary of Task: Mounting a Backplate and Connecting Power
+
+**Task Title:** Mounting a Backplate and Connecting Power to a Computer Case
+
+**How the Task Was Performed:**
+
+The person began by handling two metal brackets, positioning them on the table. They then picked up a metal backplate, carefully aligning it with the computer case. After that, the person used a green and black screwdriver to fasten screws to secure the backplate to the case. The person used the screwdriver to fasten screws in the following order: lower right, upper right, upper left, lower left. Finally, the person connected a green power connector to the computer case.
+
+**Tools Needed:**
+
+1.  **Metal Brackets:** Two silver metal brackets, approximately 15cm long and 2cm wide.
+2.  **Metal Backplate:** One silver metal backplate, approximately 15cm long and 8cm wide.
+3.  **Screwdriver:** One green and black screwdriver, approximately 15cm long and 2cm in diameter.
+4.  **Screws:** Several small silver screws, approximately 1cm long and 0.5cm in diameter.
+5.  **Computer Case:** One grey computer case, approximately 25cm long, 20cm wide, and 5cm high.
+6.  **Power Connector:** One green power connector, approximately 5cm long and 2cm wide.
+
+**Tool Locations and Status:**
+
+*   **Metal Brackets:** Left on the table after initial handling. Status: Unused.
+*   **Metal Backplate:** Attached to the computer case. Status: Mounted.
+*   **Screwdriver:** Left on the table after use. Status: Used.
+*   **Screws:** Some screws are used to fasten the backplate, and the rest are left on the table. Status: Some used, some unused.
+*   **Computer Case:** On the table with the backplate attached and power connected. Status: Partially assembled.
+*   **Power Connector:** Connected to the computer case. Status: Connected.
+
+**Advice for Future Tasks:**
+
+1.  **Organization:** Keep all screws and small parts in a container to avoid losing them.
+2.  **Screw Order:** Follow a consistent pattern when fastening screws (e.g., diagonal or clockwise) to ensure even pressure.
+3.  **Tool Placement:** Keep the screwdriver within easy reach to avoid unnecessary movements.
+4.  **Check Connections:** After connecting the power connector, double-check that it is securely attached.
+5.  **Documentation:** Refer to the instruction manual or documentation for specific screw locations and power connection details.
+6.  **Safety:** Ensure the power connector is disconnected from the power source before handling.
+7.  **Workspace:** Ensure the workspace is clean and well-lit to avoid errors.
+"
+2025-01-28 14:11:28,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""Screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long, with a 1 cm diameter handle"",
+            ""action"": ""Using the screwdriver to tighten a screw on a green terminal block"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""Screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long, with a 1 cm diameter handle"",
+            ""action"": ""Using the screwdriver to tighten a screw on a green terminal block"",
+            ""timestamp"": ""0:03""
+        },
+        {
+            ""object_name"": ""Screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long, with a 1 cm diameter handle"",
+            ""action"": ""Using the screwdriver to tighten a screw on a green terminal block"",
+            ""timestamp"": ""0:06""
+        },
+         {
+            ""object_name"": ""Screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long, with a 1 cm diameter handle"",
+            ""action"": ""Using the screwdriver to tighten a screw on a green terminal block"",
+            ""timestamp"": ""0:10""
+        },
+        {
+            ""object_name"": ""Computer"",
+            ""object_type"": ""electronic device"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 30 cm long, 20 cm wide, and 5 cm high"",
+            ""action"": ""Holding the computer to check the connection"",
+            ""timestamp"": ""0:12""
+        },
+        {
+            ""object_name"": ""Computer"",
+            ""object_type"": ""electronic device"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 30 cm long, 20 cm wide, and 5 cm high"",
+            ""action"": ""Holding the computer to check the connection"",
+            ""timestamp"": ""0:15""
+        },
+        {
+            ""object_name"": ""Computer"",
+            ""object_type"": ""electronic device"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 30 cm long, 20 cm wide, and 5 cm high"",
+            ""action"": ""Holding the computer to check the connection"",
+            ""timestamp"": ""0:18""
+        },
+        {
+            ""object_name"": ""Computer"",
+            ""object_type"": ""electronic device"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 30 cm long, 20 cm wide, and 5 cm high"",
+            ""action"": ""Holding the computer to check the connection"",
+            ""timestamp"": ""0:22""
+        },
+        {
+            ""object_name"": ""Computer"",
+            ""object_type"": ""electronic device"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 30 cm long, 20 cm wide, and 5 cm high"",
+            ""action"": ""Holding the computer to check the connection"",
+            ""timestamp"": ""0:26""
+        },
+        {
+            ""object_name"": ""Metal bracket"",
+            ""object_type"": ""hardware"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15 cm long, 2 cm wide, and 0.5 cm thick"",
+            ""action"": ""Holding the metal bracket"",
+            ""timestamp"": ""0:30""
+        },
+         {
+            ""object_name"": ""Metal bracket"",
+            ""object_type"": ""hardware"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15 cm long, 2 cm wide, and 0.5 cm thick"",
+            ""action"": ""Holding the metal bracket"",
+            ""timestamp"": ""0:33""
+        },
+        {
+            ""object_name"": ""Metal bracket"",
+            ""object_type"": ""hardware"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15 cm long, 2 cm wide, and 0.5 cm thick"",
+            ""action"": ""Holding the metal bracket"",
+            ""timestamp"": ""0:36""
+        },
+        {
+            ""object_name"": ""Metal bracket"",
+            ""object_type"": ""hardware"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15 cm long, 2 cm wide, and 0.5 cm thick"",
+            ""action"": ""Holding the metal bracket"",
+            ""timestamp"": ""0:39""
+        },
+        {
+            ""object_name"": ""Metal bracket"",
+            ""object_type"": ""hardware"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15 cm long, 2 cm wide, and 0.5 cm thick"",
+            ""action"": ""Holding the metal bracket"",
+            ""timestamp"": ""0:42""
+        },
+        {
+            ""object_name"": ""Metal bracket"",
+            ""object_type"": ""hardware"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15 cm long, 2 cm wide, and 0.5 cm thick"",
+            ""action"": ""Holding the metal bracket"",
+            ""timestamp"": ""0:45""
+        },
+        {
+            ""object_name"": ""Metal bracket"",
+            ""object_type"": ""hardware"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15 cm long, 2 cm wide, and 0.5 cm thick"",
+            ""action"": ""Holding the metal bracket"",
+            ""timestamp"": ""0:48""
+        },
+        {
+            ""object_name"": ""Metal bracket"",
+            ""object_type"": ""hardware"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15 cm long, 2 cm wide, and 0.5 cm thick"",
+            ""action"": ""Holding the metal bracket"",
+            ""timestamp"": ""0:51""
+        },
+        {
+            ""object_name"": ""Metal bracket"",
+            ""object_type"": ""hardware"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15 cm long, 2 cm wide, and 0.5 cm thick"",
+            ""action"": ""Holding the metal bracket"",
+            ""timestamp"": ""0:54""
+        },
+        {
+            ""object_name"": ""Metal bracket"",
+            ""object_type"": ""hardware"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15 cm long, 2 cm wide, and 0.5 cm thick"",
+            ""action"": ""Holding the metal bracket"",
+            ""timestamp"": ""0:57""
+        },
+        {
+            ""object_name"": ""Metal bracket"",
+            ""object_type"": ""hardware"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15 cm long, 2 cm wide, and 0.5 cm thick"",
+            ""action"": ""Holding the metal bracket"",
+            ""timestamp"": ""1:00""
+        },
+        {
+            ""object_name"": ""Metal bracket"",
+            ""object_type"": ""hardware"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15 cm long, 2 cm wide, and 0.5 cm thick"",
+            ""action"": ""Holding the metal bracket"",
+            ""timestamp"": ""1:03""
+        },
+        {
+            ""object_name"": ""Metal bracket"",
+            ""object_type"": ""hardware"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15 cm long, 2 cm wide, and 0.5 cm thick"",
+            ""action"": ""Holding the metal bracket"",
+            ""timestamp"": ""1:06""
+        },
+        {
+            ""object_name"": ""Metal bracket"",
+            ""object_type"": ""hardware"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15 cm long, 2 cm wide, and 0.5 cm thick"",
+            ""action"": ""Holding the metal bracket"",
+            ""timestamp"": ""1:09""
+        },
+         {
+            ""object_name"": ""Metal bracket"",
+            ""object_type"": ""hardware"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15 cm long, 2 cm wide, and 0.5 cm thick"",
+            ""action"": ""Holding the metal bracket"",
+            ""timestamp"": ""1:11""
+        },
+         {
+            ""object_name"": ""Metal bracket"",
+            ""object_type"": ""hardware"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15 cm long, 2 cm wide, and 0.5 cm thick"",
+            ""action"": ""Holding the metal bracket"",
+            ""timestamp"": ""1:14""
+        },
+         {
+            ""object_name"": ""Computer"",
+            ""object_type"": ""electronic device"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 30 cm long, 20 cm wide, and 5 cm high"",
+            ""action"": ""Holding the computer to check the connection"",
+            ""timestamp"": ""1:15""
+        },
+        {
+            ""object_name"": ""Computer"",
+            ""object_type"": ""electronic device"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 30 cm long, 20 cm wide, and 5 cm high"",
+            ""action"": ""Holding the computer to check the connection"",
+            ""timestamp"": ""1:18""
+        },
+        {
+            ""object_name"": ""Computer"",
+            ""object_type"": ""electronic device"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 30 cm long, 20 cm wide, and 5 cm high"",
+            ""action"": ""Holding the computer to check the connection"",
+            ""timestamp"": ""1:21""
+        }
+    ]
+}
+```
+## Summary of Actions
+
+**Task Title:** Mounting a Computer
+
+**Task Description:** The person in the video is mounting a computer onto a wooden block using metal brackets. The task involves connecting a power cable, securing the computer to the block, and then attaching the metal brackets.
+
+**How the Task Was Performed:**
+1.  The person first uses a screwdriver to tighten the power cable connection on the computer.
+2.  They then place the computer on a wooden block.
+3.  Next, they align and attach metal brackets to the computer and the wooden block.
+
+**Tools Needed:**
+*   Screwdriver (red and yellow handle)
+*   Metal brackets
+*   Screws (not held directly, but used)
+*   Computer
+*   Wooden block
+
+**Tool Locations at the End:**
+*   Screwdriver: On the table, near the computer.
+*   Metal brackets: On the table, near the computer.
+*   Screws: Scattered on the table.
+*   Computer: Mounted on the wooden block.
+*   Wooden block: On the table, with the computer mounted on it.
+
+**Status of Tools:**
+*   Screwdriver: Used and placed on the table.
+*   Metal brackets: Attached to the computer and wooden block.
+*   Screws: Some are used, some are scattered on the table.
+*   Computer: Mounted on the wooden block.
+*   Wooden block: Used as a base for the computer.
+
+**Advice for Future Tasks:**
+1.  **Organization:** Keep screws in a small container to prevent them from scattering.
+2.  **Preparation:** Ensure all necessary tools and parts are within easy reach before starting the task.
+3.  **Procedure:** Follow a systematic approach, such as connecting the power cable first, then mounting the computer, and finally attaching the brackets.
+4.  **Checklist:** Use a checklist to ensure all steps are completed correctly.
+5.  **Tightening:** Ensure all screws are tightened properly to avoid loose connections.
+"
+2025-01-28 14:12:12,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15cm long, 2cm wide, 0.5cm thick"",
+            ""action"": ""holding and positioning the bracket against the side of a gray box"",
+            ""timestamp"": ""00:00""
+        },
+        {
+            ""object_name"": ""gray box"",
+            ""object_type"": ""box"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm long, 15cm wide, 5cm thick"",
+            ""action"": ""holding the box while positioning the bracket"",
+            ""timestamp"": ""00:00""
+        },
+        {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15cm long, 2cm wide, 0.5cm thick"",
+            ""action"": ""holding and positioning the bracket against the side of a gray box"",
+            ""timestamp"": ""00:01""
+        },
+        {
+            ""object_name"": ""gray box"",
+            ""object_type"": ""box"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm long, 15cm wide, 5cm thick"",
+            ""action"": ""holding the box while positioning the bracket"",
+            ""timestamp"": ""00:01""
+        },
+         {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15cm long, 2cm wide, 0.5cm thick"",
+            ""action"": ""holding and positioning the bracket against the side of a gray box"",
+            ""timestamp"": ""00:02""
+        },
+        {
+            ""object_name"": ""gray box"",
+            ""object_type"": ""box"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm long, 15cm wide, 5cm thick"",
+            ""action"": ""holding the box while positioning the bracket"",
+            ""timestamp"": ""00:02""
+        },
+        {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15cm long, 2cm wide, 0.5cm thick"",
+            ""action"": ""holding and positioning the bracket against the side of a gray box"",
+            ""timestamp"": ""00:03""
+        },
+        {
+            ""object_name"": ""gray box"",
+            ""object_type"": ""box"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm long, 15cm wide, 5cm thick"",
+            ""action"": ""holding the box while positioning the bracket"",
+            ""timestamp"": ""00:03""
+        },
+        {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15cm long, 2cm wide, 0.5cm thick"",
+            ""action"": ""holding and positioning the bracket against the side of a gray box"",
+            ""timestamp"": ""00:04""
+        },
+        {
+            ""object_name"": ""gray box"",
+            ""object_type"": ""box"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm long, 15cm wide, 5cm thick"",
+            ""action"": ""holding the box while positioning the bracket"",
+            ""timestamp"": ""00:04""
+        },
+        {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15cm long, 2cm wide, 0.5cm thick"",
+            ""action"": ""holding and positioning the bracket against the side of a gray box"",
+            ""timestamp"": ""00:05""
+        },
+        {
+            ""object_name"": ""gray box"",
+            ""object_type"": ""box"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm long, 15cm wide, 5cm thick"",
+            ""action"": ""holding the box while positioning the bracket"",
+            ""timestamp"": ""00:05""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15cm long, 1cm diameter handle"",
+            ""action"": ""using the screwdriver to fasten screws into the bracket and box"",
+            ""timestamp"": ""00:12""
+        },
+        {
+            ""object_name"": ""gray box"",
+            ""object_type"": ""box"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm long, 15cm wide, 5cm thick"",
+            ""action"": ""holding the box while fastening screws"",
+            ""timestamp"": ""00:12""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15cm long, 1cm diameter handle"",
+            ""action"": ""using the screwdriver to fasten screws into the bracket and box"",
+            ""timestamp"": ""00:15""
+        },
+        {
+            ""object_name"": ""gray box"",
+            ""object_type"": ""box"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm long, 15cm wide, 5cm thick"",
+            ""action"": ""holding the box while fastening screws"",
+            ""timestamp"": ""00:15""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15cm long, 1cm diameter handle"",
+            ""action"": ""using the screwdriver to fasten screws into the bracket and box"",
+            ""timestamp"": ""00:18""
+        },
+        {
+            ""object_name"": ""gray box"",
+            ""object_type"": ""box"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm long, 15cm wide, 5cm thick"",
+            ""action"": ""holding the box while fastening screws"",
+            ""timestamp"": ""00:18""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15cm long, 1cm diameter handle"",
+            ""action"": ""using the screwdriver to fasten screws into the bracket and box"",
+            ""timestamp"": ""00:21""
+        },
+        {
+            ""object_name"": ""gray box"",
+            ""object_type"": ""box"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm long, 15cm wide, 5cm thick"",
+            ""action"": ""holding the box while fastening screws"",
+            ""timestamp"": ""00:21""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15cm long, 1cm diameter handle"",
+            ""action"": ""using the screwdriver to fasten screws into the bracket and box"",
+            ""timestamp"": ""00:24""
+        },
+        {
+            ""object_name"": ""gray box"",
+            ""object_type"": ""box"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm long, 15cm wide, 5cm thick"",
+            ""action"": ""holding the box while fastening screws"",
+            ""timestamp"": ""00:24""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15cm long, 1cm diameter handle"",
+            ""action"": ""using the screwdriver to fasten screws into the bracket and box"",
+            ""timestamp"": ""00:27""
+        },
+        {
+            ""object_name"": ""gray box"",
+            ""object_type"": ""box"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm long, 15cm wide, 5cm thick"",
+            ""action"": ""holding the box while fastening screws"",
+            ""timestamp"": ""00:27""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15cm long, 1cm diameter handle"",
+            ""action"": ""using the screwdriver to fasten screws into the bracket and box"",
+            ""timestamp"": ""00:30""
+        },
+        {
+            ""object_name"": ""gray box"",
+            ""object_type"": ""box"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm long, 15cm wide, 5cm thick"",
+            ""action"": ""holding the box while fastening screws"",
+            ""timestamp"": ""00:30""
+        },
+         {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15cm long, 1cm diameter handle"",
+            ""action"": ""using the screwdriver to fasten screws into the bracket and box"",
+            ""timestamp"": ""00:33""
+        },
+        {
+            ""object_name"": ""gray box"",
+            ""object_type"": ""box"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm long, 15cm wide, 5cm thick"",
+            ""action"": ""holding the box while fastening screws"",
+            ""timestamp"": ""00:33""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15cm long, 1cm diameter handle"",
+            ""action"": ""using the screwdriver to fasten screws into the bracket and box"",
+            ""timestamp"": ""00:36""
+        },
+        {
+            ""object_name"": ""gray box"",
+            ""object_type"": ""box"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm long, 15cm wide, 5cm thick"",
+            ""action"": ""holding the box while fastening screws"",
+            ""timestamp"": ""00:36""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15cm long, 1cm diameter handle"",
+            ""action"": ""using the screwdriver to fasten screws into the bracket and box"",
+            ""timestamp"": ""00:39""
+        },
+        {
+            ""object_name"": ""gray box"",
+            ""object_type"": ""box"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm long, 15cm wide, 5cm thick"",
+            ""action"": ""holding the box while fastening screws"",
+            ""timestamp"": ""00:39""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15cm long, 1cm diameter handle"",
+            ""action"": ""using the screwdriver to fasten screws into the bracket and box"",
+            ""timestamp"": ""00:42""
+        },
+        {
+            ""object_name"": ""gray box"",
+            ""object_type"": ""box"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm long, 15cm wide, 5cm thick"",
+            ""action"": ""holding the box while fastening screws"",
+            ""timestamp"": ""00:42""
+        },
+        {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15cm long, 2cm wide, 0.5cm thick"",
+            ""action"": ""holding and positioning the bracket against the side of a gray box"",
+            ""timestamp"": ""00:46""
+        },
+        {
+            ""object_name"": ""gray box"",
+            ""object_type"": ""box"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm long, 15cm wide, 5cm thick"",
+            ""action"": ""holding the box while positioning the bracket"",
+            ""timestamp"": ""00:46""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15cm long, 1cm diameter handle"",
+            ""action"": ""using the screwdriver to fasten screws into the bracket and box"",
+            ""timestamp"": ""00:48""
+        },
+        {
+            ""object_name"": ""gray box"",
+            ""object_type"": ""box"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm long, 15cm wide, 5cm thick"",
+            ""action"": ""holding the box while fastening screws"",
+            ""timestamp"": ""00:48""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15cm long, 1cm diameter handle"",
+            ""action"": ""using the screwdriver to fasten screws into the bracket and box"",
+            ""timestamp"": ""00:51""
+        },
+        {
+            ""object_name"": ""gray box"",
+            ""object_type"": ""box"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm long, 15cm wide, 5cm thick"",
+            ""action"": ""holding the box while fastening screws"",
+            ""timestamp"": ""00:51""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15cm long, 1cm diameter handle"",
+            ""action"": ""using the screwdriver to fasten screws into the bracket and box"",
+            ""timestamp"": ""00:54""
+        },
+        {
+            ""object_name"": ""gray box"",
+            ""object_type"": ""box"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm long, 15cm wide, 5cm thick"",
+            ""action"": ""holding the box while fastening screws"",
+            ""timestamp"": ""00:54""
+        }
+    ]
+}
+```
+### Summary of the task:
+
+**Task Title:** Mounting Metal Brackets to a Gray Box
+
+**How the task was performed:** The person first positioned a metal bracket against the side of a gray box. They held the bracket in place with one hand while using the other hand to align it. Once aligned, they used a red screwdriver to fasten the bracket to the box with screws. This process was repeated for the second bracket.
+
+**Tools Needed:**
+1.  **Metal Brackets:** Two silver metal brackets, approximately 15cm long, 2cm wide, and 0.5cm thick.
+2.  **Red Screwdriver:** A red screwdriver, approximately 15cm long with a 1cm diameter handle.
+3.  **Screws:** Multiple small screws used to fasten the brackets.
+4.  **Gray Box:** A gray box, approximately 20cm long, 15cm wide, and 5cm thick.
+
+**Tool Locations and Status:**
+*   **Metal Brackets:** Both brackets are attached to the gray box.
+*   **Red Screwdriver:** The red screwdriver is placed on the table.
+*   **Screws:** The screws are used and are now fastening the brackets to the box.
+*   **Gray Box:** The gray box has both metal brackets attached to it.
+
+**Advice for future tasks:**
+1.  **Pre-positioning:** Before starting, ensure all screws are within easy reach to avoid interruptions.
+2.  **Alignment:** Double-check the alignment of the brackets before fully tightening the screws to ensure they are correctly positioned.
+3.  **Screw Tightening:** Tighten screws evenly to ensure the bracket is securely attached and does not wobble.
+4.  **Workspace:** Keep the workspace clear of unnecessary items to avoid clutter and ensure a smooth workflow.
+"
+2025-01-28 14:12:54,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw on the metal frame"",
+            ""timestamp"": ""00:00""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw on the metal frame"",
+            ""timestamp"": ""00:02""
+        },
+         {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw on the metal frame"",
+            ""timestamp"": ""00:04""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw on the metal frame"",
+            ""timestamp"": ""00:06""
+        },
+         {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw on the metal frame"",
+            ""timestamp"": ""00:08""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw on the metal frame"",
+            ""timestamp"": ""00:10""
+        },
+         {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw on the metal frame"",
+             ""timestamp"": ""00:12""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw on the metal frame"",
+            ""timestamp"": ""00:14""
+        },
+         {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw on the metal frame"",
+            ""timestamp"": ""00:16""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw on the metal frame"",
+            ""timestamp"": ""00:18""
+        },
+         {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw on the metal frame"",
+            ""timestamp"": ""00:20""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw on the metal frame"",
+            ""timestamp"": ""00:22""
+        },
+         {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw on the metal frame"",
+            ""timestamp"": ""00:24""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw on the metal frame"",
+            ""timestamp"": ""00:26""
+        },
+         {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw on the metal frame"",
+            ""timestamp"": ""00:28""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw on the metal frame"",
+            ""timestamp"": ""00:30""
+        },
+         {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw on the metal frame"",
+            ""timestamp"": ""00:32""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw on the metal frame"",
+            ""timestamp"": ""00:34""
+        },
+         {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw on the metal frame"",
+            ""timestamp"": ""00:36""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw on the metal frame"",
+            ""timestamp"": ""00:38""
+        },
+         {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw on the metal frame"",
+            ""timestamp"": ""00:40""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw on the metal frame"",
+            ""timestamp"": ""00:42""
+        },
+         {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw on the metal frame"",
+            ""timestamp"": ""00:44""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw on the metal frame"",
+            ""timestamp"": ""00:46""
+        },
+         {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw on the metal frame"",
+            ""timestamp"": ""00:48""
+        },
+        {
+            ""object_name"": ""metal box"",
+            ""object_type"": ""box"",
+            ""object_color"": ""grey"",
+            ""object_size"": ""rectangular, approximately 30cm x 20cm x 5cm"",
+            ""action"": ""flipping the metal box"",
+            ""timestamp"": ""00:50""
+        },
+        {
+            ""object_name"": ""metal box"",
+            ""object_type"": ""box"",
+            ""object_color"": ""grey"",
+            ""object_size"": ""rectangular, approximately 30cm x 20cm x 5cm"",
+            ""action"": ""holding the metal box"",
+            ""timestamp"": ""00:52""
+        },
+         {
+            ""object_name"": ""metal box"",
+            ""object_type"": ""box"",
+            ""object_color"": ""grey"",
+            ""object_size"": ""rectangular, approximately 30cm x 20cm x 5cm"",
+            ""action"": ""holding the metal box"",
+            ""timestamp"": ""00:54""
+        },
+        {
+            ""object_name"": ""metal box"",
+            ""object_type"": ""box"",
+            ""object_color"": ""grey"",
+            ""object_size"": ""rectangular, approximately 30cm x 20cm x 5cm"",
+            ""action"": ""holding the metal box"",
+            ""timestamp"": ""00:56""
+        },
+         {
+            ""object_name"": ""metal box"",
+            ""object_type"": ""box"",
+            ""object_color"": ""grey"",
+            ""object_size"": ""rectangular, approximately 30cm x 20cm x 5cm"",
+            ""action"": ""holding the metal box"",
+            ""timestamp"": ""00:58""
+        },
+        {
+            ""object_name"": ""metal box"",
+            ""object_type"": ""box"",
+            ""object_color"": ""grey"",
+            ""object_size"": ""rectangular, approximately 30cm x 20cm x 5cm"",
+            ""action"": ""holding the metal box"",
+            ""timestamp"": ""01:00""
+        },
+         {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to fasten a screw on the metal frame"",
+            ""timestamp"": ""01:04""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to fasten a screw on the metal frame"",
+            ""timestamp"": ""01:06""
+        },
+         {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to fasten a screw on the metal frame"",
+            ""timestamp"": ""01:08""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to fasten a screw on the metal frame"",
+            ""timestamp"": ""01:10""
+        },
+         {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to fasten a screw on the metal frame"",
+            ""timestamp"": ""01:12""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to fasten a screw on the metal frame"",
+            ""timestamp"": ""01:14""
+        },
+         {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to fasten a screw on the metal frame"",
+            ""timestamp"": ""01:16""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to fasten a screw on the metal frame"",
+            ""timestamp"": ""01:18""
+        },
+         {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to fasten a screw on the metal frame"",
+            ""timestamp"": ""01:20""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20cm long"",
+            ""action"": ""using a screwdriver to fasten a screw on the metal frame"",
+            ""timestamp"": ""01:22""
+        }
+    ]
+}
+```
+### Summary of the Task:
+
+**Task Title:** Disassembling and Reassembling a Metal Box
+
+**How the Task Was Performed:**
+
+The person in the video first used a red screwdriver to remove multiple screws from the metal frame of a grey rectangular box. After removing all the screws, the person flipped the box and then reattached the metal frame to the box using the same screws and screwdriver.
+
+**Tools Needed:**
+
+1.  **Red Screwdriver:** A standard red screwdriver, approximately 20cm long.
+
+**Location and Status of Tools:**
+
+*   **Red Screwdriver:** The red screwdriver is left on the table at the end of the task.
+*   **Screws:** The screws are left on the table at the end of the task.
+
+**Advice for Future Tasks:**
+
+1.  **Organization:** Keep the screws organized in a small container or tray to prevent them from rolling away or getting lost.
+2.  **Screw Placement:** Pay attention to the screw placement during disassembly to make reassembly easier.
+3.  **Work Area:** Ensure the work area is clear and well-lit to avoid any accidents or misplacements.
+4.  **Tool Condition:** Check the condition of the screwdriver before starting the task to ensure it is in good working order.
+5.  **Screw Tightness:** When reassembling, ensure the screws are tightened properly but not over-tightened, which could damage the box or screws.
+"
+2025-01-28 14:13:26,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 15 cm long, 1 cm diameter handle"",
+            ""action"": ""using a screwdriver to unscrew screws on the side of a metal box"",
+            ""timestamp"": ""00:00""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 15 cm long, 1 cm diameter handle"",
+            ""action"": ""using a screwdriver to unscrew screws on the side of a metal box"",
+            ""timestamp"": ""00:03""
+        },
+         {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 15 cm long, 1 cm diameter handle"",
+            ""action"": ""using a screwdriver to unscrew screws on the side of a metal box"",
+            ""timestamp"": ""00:06""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 15 cm long, 1 cm diameter handle"",
+            ""action"": ""using a screwdriver to unscrew screws on the side of a metal box"",
+            ""timestamp"": ""00:08""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 15 cm long, 1 cm diameter handle"",
+            ""action"": ""using a screwdriver to unscrew screws on the side of a metal box"",
+            ""timestamp"": ""00:11""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 15 cm long, 1 cm diameter handle"",
+            ""action"": ""using a screwdriver to unscrew screws on the side of a metal box"",
+            ""timestamp"": ""00:15""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 15 cm long, 1 cm diameter handle"",
+            ""action"": ""using a screwdriver to unscrew screws on the side of a metal box"",
+             ""timestamp"": ""00:20""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 15 cm long, 1 cm diameter handle"",
+            ""action"": ""using a screwdriver to unscrew screws on the side of a metal box"",
+            ""timestamp"": ""00:23""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 15 cm long, 1 cm diameter handle"",
+            ""action"": ""using a screwdriver to unscrew screws on the side of a metal box"",
+            ""timestamp"": ""00:27""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 15 cm long, 1 cm diameter handle"",
+            ""action"": ""using a screwdriver to unscrew screws on the side of a metal box"",
+            ""timestamp"": ""00:33""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 15 cm long, 1 cm diameter handle"",
+            ""action"": ""using a screwdriver to unscrew screws on the side of a metal box"",
+            ""timestamp"": ""00:38""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 15 cm long, 1 cm diameter handle"",
+            ""action"": ""using a screwdriver to unscrew screws on the side of a metal box"",
+            ""timestamp"": ""00:41""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 15 cm long, 1 cm diameter handle"",
+            ""action"": ""using a screwdriver to unscrew screws on the side of a metal box"",
+            ""timestamp"": ""00:44""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 15 cm long, 1 cm diameter handle"",
+            ""action"": ""using a screwdriver to unscrew screws on the side of a metal box"",
+            ""timestamp"": ""00:48""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 15 cm long, 1 cm diameter handle"",
+            ""action"": ""using a screwdriver to unscrew screws on the side of a metal box"",
+            ""timestamp"": ""00:52""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 15 cm long, 1 cm diameter handle"",
+            ""action"": ""using a screwdriver to unscrew screws on the side of a metal box"",
+            ""timestamp"": ""00:56""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 15 cm long, 1 cm diameter handle"",
+            ""action"": ""using a screwdriver to unscrew screws on the side of a metal box"",
+            ""timestamp"": ""01:00""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 15 cm long, 1 cm diameter handle"",
+            ""action"": ""using a screwdriver to unscrew screws on the side of a metal box"",
+            ""timestamp"": ""01:02""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 15 cm long, 1 cm diameter handle"",
+            ""action"": ""using a screwdriver to unscrew screws on the side of a metal box"",
+            ""timestamp"": ""01:06""
+        },
+        {
+            ""object_name"": ""black cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""black"",
+            ""object_size"": ""approximately 1 meter long, 0.5 cm diameter"",
+            ""action"": ""holding a cable to connect to a monitor"",
+            ""timestamp"": ""01:18""
+        },
+        {
+            ""object_name"": ""black cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""black"",
+            ""object_size"": ""approximately 1 meter long, 0.5 cm diameter"",
+            ""action"": ""holding a cable to connect to a metal box"",
+            ""timestamp"": ""01:21""
+        }
+    ]
+}
+```
+## Task Summary: Disassembling and Connecting a Metal Box
+
+**Task Title:** Disassembling and Connecting a Metal Box
+
+**How the Task Was Performed:**
+The person in the video disassembled a metal box by unscrewing multiple screws using a red screwdriver. They systematically removed the screws from all sides of the box. After disassembling the box, they connected a black cable to the box and then to a monitor.
+
+**Tools Needed:**
+1.  Red screwdriver (approximately 15 cm long, 1 cm diameter handle)
+2.  Black cable (approximately 1 meter long, 0.5 cm diameter)
+
+**Tool Locations at the End:**
+-   The red screwdriver is left on the table next to the metal box.
+-   The black cable is connected between the metal box and the monitor.
+
+**Tool Status:**
+-   The red screwdriver is in good condition and ready for reuse.
+-   The black cable is connected and functional.
+
+**Advise for Future Tasks:**
+1.  **Organization:** Keep all screws in a small container to avoid losing them during disassembly.
+2.  **Systematic Approach:** Follow a systematic approach when unscrewing the screws, such as going around the box in a clockwise or counterclockwise direction.
+3.  **Cable Management:** Ensure the cable is properly connected and not tangled to prevent any issues.
+4.  **Documentation:** Take pictures or videos during the process for reference if needed.
+5.  **Tool Placement:** Place the tools in a designated area after use to keep the workspace organized.
+"

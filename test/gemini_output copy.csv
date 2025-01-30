@@ -1,0 +1,3329 @@
+timestamp,response_text
+2025-01-24 14:18:58,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""paper"",
+            ""object_type"": ""document"",
+            ""object_color"": ""white"",
+            ""object_size"": ""A4"",
+            ""action"": ""holding and looking at the paper"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""holding the screwdriver"",
+            ""timestamp"": ""0:01""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""holding the screwdriver"",
+            ""timestamp"": ""0:01""
+        },
+         {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm long, 20 cm wide"",
+            ""action"": ""holding and inspecting the computer case"",
+            ""timestamp"": ""0:09""
+        },
+         {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm long, 20 cm wide"",
+            ""action"": ""holding and inspecting the computer case"",
+            ""timestamp"": ""0:15""
+        },
+         {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm long, 20 cm wide"",
+            ""action"": ""holding and inspecting the computer case"",
+            ""timestamp"": ""0:22""
+        },
+         {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm long, 20 cm wide"",
+            ""action"": ""holding and inspecting the computer case"",
+            ""timestamp"": ""0:28""
+        },
+        {
+            ""object_name"": ""RAM module"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""green"",
+            ""object_size"": ""5 cm long"",
+            ""action"": ""holding the RAM module"",
+            ""timestamp"": ""0:34""
+        },
+        {
+            ""object_name"": ""RAM module"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""green"",
+            ""object_size"": ""5 cm long"",
+            ""action"": ""installing the RAM module"",
+            ""timestamp"": ""0:35""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm long, 20 cm wide"",
+            ""action"": ""holding the computer case"",
+            ""timestamp"": ""0:51""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm long, 20 cm wide"",
+            ""action"": ""holding the computer case"",
+            ""timestamp"": ""0:55""
+        },
+        {
+            ""object_name"": ""hard drive"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""10 cm long, 7 cm wide"",
+            ""action"": ""holding the hard drive"",
+            ""timestamp"": ""1:05""
+        },
+        {
+            ""object_name"": ""hard drive"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""10 cm long, 7 cm wide"",
+            ""action"": ""installing the hard drive"",
+            ""timestamp"": ""1:07""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""using the screwdriver to fasten the hard drive"",
+            ""timestamp"": ""1:15""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""using the screwdriver to fasten the hard drive"",
+            ""timestamp"": ""1:25""
+        }
+    ]
+}
+```
+"
+2025-01-24 14:19:23,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long, cylindrical handle"",
+            ""action"": ""using a screwdriver to fasten screws"",
+            ""timestamp"": ""00:00""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long, cylindrical handle"",
+            ""action"": ""using a screwdriver to fasten screws"",
+            ""timestamp"": ""00:03""
+        },
+         {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long, cylindrical handle"",
+            ""action"": ""using a screwdriver to fasten screws"",
+            ""timestamp"": ""00:06""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long, cylindrical handle"",
+            ""action"": ""using a screwdriver to fasten screws"",
+            ""timestamp"": ""00:08""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long, cylindrical handle"",
+            ""action"": ""using a screwdriver to fasten screws"",
+            ""timestamp"": ""00:11""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long, cylindrical handle"",
+            ""action"": ""using a screwdriver to fasten screws"",
+            ""timestamp"": ""00:14""
+        },
+         {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long, cylindrical handle"",
+            ""action"": ""using a screwdriver to fasten screws"",
+            ""timestamp"": ""00:17""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long, cylindrical handle"",
+            ""action"": ""using a screwdriver to fasten screws"",
+            ""timestamp"": ""00:20""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long, cylindrical handle"",
+            ""action"": ""using a screwdriver to fasten screws"",
+            ""timestamp"": ""00:23""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long, cylindrical handle"",
+            ""action"": ""using a screwdriver to fasten screws"",
+            ""timestamp"": ""00:26""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long, cylindrical handle"",
+            ""action"": ""using a screwdriver to fasten screws"",
+            ""timestamp"": ""00:29""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long, cylindrical handle"",
+            ""action"": ""using a screwdriver to fasten screws"",
+            ""timestamp"": ""00:31""
+        },
+        {
+            ""object_name"": ""power cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""black, red, yellow"",
+            ""object_size"": ""approximately 10 cm long, with a rectangular connector"",
+            ""action"": ""connecting power cable to the board"",
+            ""timestamp"": ""00:33""
+        },
+        {
+            ""object_name"": ""power cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""black, red, yellow"",
+            ""object_size"": ""approximately 10 cm long, with a rectangular connector"",
+            ""action"": ""connecting power cable to the board"",
+            ""timestamp"": ""00:36""
+        },
+        {
+            ""object_name"": ""power cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""black, red, yellow"",
+            ""object_size"": ""approximately 10 cm long, with a rectangular connector"",
+            ""action"": ""connecting power cable to the board"",
+            ""timestamp"": ""00:39""
+        },
+        {
+            ""object_name"": ""data cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""black"",
+            ""object_size"": ""approximately 10 cm long, with a rectangular connector"",
+            ""action"": ""connecting data cable to the board"",
+            ""timestamp"": ""00:46""
+        },
+        {
+            ""object_name"": ""data cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""black"",
+            ""object_size"": ""approximately 10 cm long, with a rectangular connector"",
+            ""action"": ""connecting data cable to the board"",
+            ""timestamp"": ""00:49""
+        },
+         {
+            ""object_name"": ""data cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""black"",
+            ""object_size"": ""approximately 10 cm long, with a rectangular connector"",
+            ""action"": ""connecting data cable to the board"",
+            ""timestamp"": ""00:52""
+        }
+    ]
+}
+```
+"
+2025-01-24 14:19:58,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""holding and manipulating the cable"",
+            ""timestamp"": ""00:00""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:01""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:04""
+        },
+         {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:07""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:10""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:13""
+        },
+         {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:16""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:19""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""00:28""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:30""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using the screwdriver to fasten a screw"",
+            ""timestamp"": ""00:32""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:33""
+        },
+         {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:36""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:38""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:41""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:44""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:47""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:50""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:52""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""00:55""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using the screwdriver to remove a screw"",
+            ""timestamp"": ""01:00""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:04""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:06""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:10""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:13""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:16""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:19""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:22""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:25""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:28""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:31""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:34""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:37""
+        },
+        {
+            ""object_name"": ""red cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 20 cm long"",
+            ""action"": ""connecting the cable to the device"",
+            ""timestamp"": ""01:40""
+        }
+    ]
+}
+```
+"
+2025-01-24 14:20:21,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long, round handle with a diameter of 2 cm"",
+            ""action"": ""using a screwdriver to fasten screws inside the metal case"",
+            ""timestamp"": ""0:00""
+        },
+         {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long, round handle with a diameter of 2 cm"",
+            ""action"": ""using a screwdriver to fasten screws inside the metal case"",
+            ""timestamp"": ""0:03""
+        },
+         {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long, round handle with a diameter of 2 cm"",
+            ""action"": ""using a screwdriver to fasten screws inside the metal case"",
+            ""timestamp"": ""0:07""
+        },
+        {
+            ""object_name"": ""metal case"",
+            ""object_type"": ""case"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 20 cm long, 15 cm wide, 5 cm high, rectangular"",
+            ""action"": ""holding the metal case"",
+            ""timestamp"": ""0:08""
+        },
+        {
+            ""object_name"": ""metal side plate"",
+            ""object_type"": ""plate"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15 cm long, 5 cm wide, rectangular"",
+            ""action"": ""holding the metal side plate"",
+            ""timestamp"": ""0:14""
+        },
+        {
+            ""object_name"": ""metal side plate"",
+            ""object_type"": ""plate"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15 cm long, 5 cm wide, rectangular"",
+            ""action"": ""placing the metal side plate onto the metal case"",
+            ""timestamp"": ""0:17""
+        },
+        {
+            ""object_name"": ""green screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15 cm long, round handle with a diameter of 2 cm"",
+            ""action"": ""using a screwdriver to fasten screws onto the metal case"",
+            ""timestamp"": ""0:31""
+        },
+         {
+            ""object_name"": ""green screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15 cm long, round handle with a diameter of 2 cm"",
+            ""action"": ""using a screwdriver to fasten screws onto the metal case"",
+            ""timestamp"": ""0:38""
+        },
+         {
+            ""object_name"": ""green screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15 cm long, round handle with a diameter of 2 cm"",
+            ""action"": ""using a screwdriver to fasten screws onto the metal case"",
+            ""timestamp"": ""0:44""
+        },
+         {
+            ""object_name"": ""green screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15 cm long, round handle with a diameter of 2 cm"",
+            ""action"": ""using a screwdriver to fasten screws onto the metal case"",
+            ""timestamp"": ""0:56""
+        },
+         {
+            ""object_name"": ""green screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15 cm long, round handle with a diameter of 2 cm"",
+            ""action"": ""using a screwdriver to fasten screws onto the metal case"",
+            ""timestamp"": ""1:10""
+        },
+        {
+            ""object_name"": ""metal case"",
+            ""object_type"": ""case"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 20 cm long, 15 cm wide, 5 cm high, rectangular"",
+            ""action"": ""holding the metal case"",
+            ""timestamp"": ""1:23""
+        },
+        {
+            ""object_name"": ""metal lower plate"",
+            ""object_type"": ""plate"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 20 cm long, 15 cm wide, rectangular"",
+            ""action"": ""holding the metal lower plate"",
+            ""timestamp"": ""1:26""
+        }
+    ]
+}
+```
+"
+2025-01-24 14:20:47,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""gray rectangular plate"",
+            ""object_type"": ""plate"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm x 15cm x 1cm"",
+            ""action"": ""holding and placing the plate onto a metal frame"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""gray rectangular plate"",
+            ""object_type"": ""plate"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm x 15cm x 1cm"",
+            ""action"": ""aligning the plate with the metal frame"",
+            ""timestamp"": ""0:02""
+        },
+        {
+            ""object_name"": ""green and black screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long"",
+            ""action"": ""using the screwdriver to fasten screws"",
+            ""timestamp"": ""0:08""
+        },
+        {
+            ""object_name"": ""green and black screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long"",
+            ""action"": ""using the screwdriver to fasten screws"",
+            ""timestamp"": ""0:13""
+        },
+        {
+            ""object_name"": ""green and black screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long"",
+            ""action"": ""using the screwdriver to fasten screws"",
+            ""timestamp"": ""0:18""
+        },
+        {
+            ""object_name"": ""green and black screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long"",
+            ""action"": ""using the screwdriver to fasten screws"",
+            ""timestamp"": ""0:23""
+        },
+        {
+            ""object_name"": ""green and black screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long"",
+            ""action"": ""using the screwdriver to fasten screws"",
+            ""timestamp"": ""0:28""
+        },
+        {
+            ""object_name"": ""green and black screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long"",
+            ""action"": ""using the screwdriver to fasten screws"",
+            ""timestamp"": ""0:33""
+        },
+        {
+            ""object_name"": ""gray rectangular plate"",
+            ""object_type"": ""plate"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm x 15cm x 1cm"",
+            ""action"": ""holding and turning the plate"",
+            ""timestamp"": ""0:38""
+        },
+        {
+            ""object_name"": ""gray rectangular plate"",
+            ""object_type"": ""plate"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm x 15cm x 1cm"",
+            ""action"": ""holding and placing the plate onto a metal frame"",
+            ""timestamp"": ""0:40""
+        },
+        {
+            ""object_name"": ""gray rectangular plate"",
+            ""object_type"": ""plate"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm x 15cm x 1cm"",
+            ""action"": ""holding and placing the plate onto a metal frame"",
+            ""timestamp"": ""0:47""
+        },
+        {
+            ""object_name"": ""gray rectangular plate"",
+            ""object_type"": ""plate"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm x 15cm x 1cm"",
+            ""action"": ""holding and placing the plate onto a metal frame"",
+            ""timestamp"": ""0:50""
+        },
+        {
+            ""object_name"": ""green and black screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long"",
+            ""action"": ""using the screwdriver to fasten screws"",
+            ""timestamp"": ""0:52""
+        },
+         {
+            ""object_name"": ""green and black screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long"",
+            ""action"": ""using the screwdriver to fasten screws"",
+            ""timestamp"": ""0:57""
+        },
+        {
+            ""object_name"": ""green and black screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long"",
+            ""action"": ""using the screwdriver to fasten screws"",
+            ""timestamp"": ""1:01""
+        },
+        {
+            ""object_name"": ""green and black screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long"",
+            ""action"": ""using the screwdriver to fasten screws"",
+            ""timestamp"": ""1:06""
+        },
+        {
+            ""object_name"": ""green and black screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long"",
+            ""action"": ""using the screwdriver to fasten screws"",
+            ""timestamp"": ""1:11""
+        },
+        {
+            ""object_name"": ""green and black screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15cm long"",
+            ""action"": ""using the screwdriver to fasten screws"",
+            ""timestamp"": ""1:14""
+        },
+        {
+            ""object_name"": ""gray rectangular plate"",
+            ""object_type"": ""plate"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm x 15cm x 1cm"",
+            ""action"": ""holding and turning the plate"",
+            ""timestamp"": ""1:18""
+        },
+        {
+            ""object_name"": ""gray rectangular plate"",
+            ""object_type"": ""plate"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm x 15cm x 1cm"",
+            ""action"": ""holding and turning the plate"",
+            ""timestamp"": ""1:21""
+        }
+    ]
+}
+```
+"
+2025-01-24 14:21:14,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15 cm long, 2 cm wide"",
+            ""action"": ""holding and aligning two metal brackets"",
+            ""timestamp"": ""00:00""
+        },
+        {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15 cm long, 2 cm wide"",
+            ""action"": ""holding and aligning two metal brackets"",
+            ""timestamp"": ""00:02""
+        },
+        {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15 cm long, 2 cm wide"",
+            ""action"": ""placing the metal bracket on the table"",
+            ""timestamp"": ""00:04""
+        },
+        {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15 cm long, 2 cm wide"",
+            ""action"": ""holding and aligning a metal bracket"",
+             ""timestamp"": ""00:05""
+        },
+        {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15 cm long, 2 cm wide"",
+            ""action"": ""placing the metal bracket on the computer case"",
+            ""timestamp"": ""00:07""
+        },
+         {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""case"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 25 cm long, 20 cm wide, 5 cm high"",
+            ""action"": ""holding and aligning the computer case"",
+            ""timestamp"": ""00:10""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""case"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 25 cm long, 20 cm wide, 5 cm high"",
+            ""action"": ""holding and aligning the computer case"",
+            ""timestamp"": ""00:16""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15 cm long, 2 cm diameter"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:21""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15 cm long, 2 cm diameter"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:24""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15 cm long, 2 cm diameter"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:28""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15 cm long, 2 cm diameter"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:32""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15 cm long, 2 cm diameter"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:36""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15 cm long, 2 cm diameter"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:39""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15 cm long, 2 cm diameter"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:42""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15 cm long, 2 cm diameter"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:45""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15 cm long, 2 cm diameter"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:48""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15 cm long, 2 cm diameter"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:51""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""approximately 15 cm long, 2 cm diameter"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:55""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""case"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 25 cm long, 20 cm wide, 5 cm high"",
+            ""action"": ""holding the computer case"",
+            ""timestamp"": ""01:03""
+        },
+         {
+            ""object_name"": ""power connector"",
+            ""object_type"": ""connector"",
+            ""object_color"": ""green"",
+            ""object_size"": ""approximately 3 cm long, 2 cm wide"",
+            ""action"": ""holding the power connector"",
+            ""timestamp"": ""01:12""
+        },
+        {
+            ""object_name"": ""power connector"",
+            ""object_type"": ""connector"",
+            ""object_color"": ""green"",
+            ""object_size"": ""approximately 3 cm long, 2 cm wide"",
+            ""action"": ""connecting the power connector to the computer case"",
+            ""timestamp"": ""01:15""
+        }
+    ]
+}
+```
+"
+2025-01-24 14:21:47,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""red and yellow screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using the screwdriver to tighten a screw on the green terminal block"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""red and yellow screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using the screwdriver to tighten a screw on the green terminal block"",
+            ""timestamp"": ""0:03""
+        },
+        {
+            ""object_name"": ""red and yellow screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using the screwdriver to tighten a screw on the green terminal block"",
+            ""timestamp"": ""0:06""
+        },
+        {
+            ""object_name"": ""gray computer case"",
+            ""object_type"": ""computer case"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""rectangular, approximately 30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding the computer case"",
+            ""timestamp"": ""0:11""
+        },
+         {
+            ""object_name"": ""red and yellow screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""holding the screwdriver"",
+            ""timestamp"": ""0:11""
+        },
+        {
+            ""object_name"": ""gray computer case"",
+            ""object_type"": ""computer case"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""rectangular, approximately 30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding the computer case"",
+            ""timestamp"": ""0:13""
+        },
+        {
+            ""object_name"": ""gray computer case"",
+            ""object_type"": ""computer case"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""rectangular, approximately 30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding the computer case"",
+            ""timestamp"": ""0:16""
+        },
+        {
+            ""object_name"": ""gray computer case"",
+            ""object_type"": ""computer case"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""rectangular, approximately 30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding the computer case"",
+            ""timestamp"": ""0:22""
+        },
+        {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""rectangular, approximately 20 cm x 2 cm"",
+            ""action"": ""holding the metal bracket"",
+            ""timestamp"": ""0:30""
+        },
+        {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""rectangular, approximately 20 cm x 2 cm"",
+            ""action"": ""holding the metal bracket"",
+            ""timestamp"": ""0:33""
+        },
+        {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""rectangular, approximately 20 cm x 2 cm"",
+            ""action"": ""holding the metal bracket"",
+            ""timestamp"": ""0:36""
+        },
+         {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""rectangular, approximately 20 cm x 2 cm"",
+            ""action"": ""holding the metal bracket"",
+            ""timestamp"": ""0:40""
+        },
+         {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""rectangular, approximately 20 cm x 2 cm"",
+            ""action"": ""holding the metal bracket"",
+            ""timestamp"": ""0:43""
+        },
+         {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""rectangular, approximately 20 cm x 2 cm"",
+            ""action"": ""holding the metal bracket"",
+            ""timestamp"": ""0:46""
+        },
+        {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""rectangular, approximately 20 cm x 2 cm"",
+            ""action"": ""holding the metal bracket"",
+            ""timestamp"": ""0:49""
+        },
+        {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""rectangular, approximately 20 cm x 2 cm"",
+            ""action"": ""holding the metal bracket"",
+            ""timestamp"": ""0:52""
+        },
+        {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""rectangular, approximately 20 cm x 2 cm"",
+            ""action"": ""holding the metal bracket"",
+            ""timestamp"": ""0:55""
+        },
+        {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""rectangular, approximately 20 cm x 2 cm"",
+            ""action"": ""holding the metal bracket"",
+            ""timestamp"": ""1:00""
+        },
+        {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""rectangular, approximately 20 cm x 2 cm"",
+            ""action"": ""holding the metal bracket"",
+            ""timestamp"": ""1:04""
+        },
+        {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""rectangular, approximately 20 cm x 2 cm"",
+            ""action"": ""holding the metal bracket"",
+            ""timestamp"": ""1:06""
+        },
+        {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""rectangular, approximately 20 cm x 2 cm"",
+            ""action"": ""holding the metal bracket"",
+            ""timestamp"": ""1:10""
+        },
+        {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""rectangular, approximately 20 cm x 2 cm"",
+            ""action"": ""holding the metal bracket"",
+            ""timestamp"": ""1:12""
+        },
+        {
+            ""object_name"": ""gray computer case"",
+            ""object_type"": ""computer case"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""rectangular, approximately 30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding the computer case"",
+            ""timestamp"": ""1:15""
+        },
+        {
+            ""object_name"": ""gray computer case"",
+            ""object_type"": ""computer case"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""rectangular, approximately 30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding the computer case"",
+            ""timestamp"": ""1:18""
+        },
+        {
+            ""object_name"": ""gray computer case"",
+            ""object_type"": ""computer case"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""rectangular, approximately 30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding the computer case"",
+            ""timestamp"": ""1:20""
+        }
+    ]
+}
+```
+"
+2025-01-24 14:22:15,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15cm long, 2cm wide"",
+            ""action"": ""holding and positioning the bracket"",
+            ""timestamp"": ""00:00""
+        },
+        {
+            ""object_name"": ""gray box"",
+            ""object_type"": ""box"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm x 15cm x 5cm"",
+            ""action"": ""holding the box"",
+            ""timestamp"": ""00:00""
+        },
+        {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15cm long, 2cm wide"",
+            ""action"": ""holding and positioning the bracket"",
+            ""timestamp"": ""00:01""
+        },
+        {
+            ""object_name"": ""gray box"",
+            ""object_type"": ""box"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm x 15cm x 5cm"",
+            ""action"": ""holding the box"",
+            ""timestamp"": ""00:01""
+        },
+         {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15cm long, 2cm wide"",
+            ""action"": ""holding and positioning the bracket"",
+            ""timestamp"": ""00:03""
+        },
+        {
+            ""object_name"": ""gray box"",
+            ""object_type"": ""box"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""approximately 20cm x 15cm x 5cm"",
+            ""action"": ""holding the box"",
+            ""timestamp"": ""00:03""
+        },
+        {
+            ""object_name"": ""screw"",
+            ""object_type"": ""screw"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 1cm long, 0.5cm diameter"",
+            ""action"": ""placing a screw"",
+            ""timestamp"": ""00:06""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:11""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:14""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:17""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:20""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:23""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:26""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:28""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:31""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:34""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:37""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:40""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:43""
+        },
+        {
+            ""object_name"": ""metal bracket"",
+            ""object_type"": ""bracket"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""approximately 15cm long, 2cm wide"",
+            ""action"": ""holding and positioning the bracket"",
+            ""timestamp"": ""00:46""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:47""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:50""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:53""
+        }
+    ]
+}
+```
+"
+2025-01-24 14:22:39,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw"",
+            ""timestamp"": ""00:00""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw"",
+            ""timestamp"": ""00:02""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+             ""action"": ""using a screwdriver to unscrew a screw"",
+            ""timestamp"": ""00:04""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw"",
+            ""timestamp"": ""00:06""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw"",
+            ""timestamp"": ""00:12""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw"",
+            ""timestamp"": ""00:18""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw"",
+            ""timestamp"": ""00:24""
+        },
+         {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw"",
+            ""timestamp"": ""00:31""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw"",
+            ""timestamp"": ""00:36""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw"",
+            ""timestamp"": ""00:40""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw"",
+            ""timestamp"": ""00:45""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to unscrew a screw"",
+            ""timestamp"": ""01:04""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to screw a screw"",
+            ""timestamp"": ""01:06""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to screw a screw"",
+            ""timestamp"": ""01:12""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to screw a screw"",
+            ""timestamp"": ""01:17""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to screw a screw"",
+            ""timestamp"": ""01:23""
+        }
+    ]
+}
+```
+"
+2025-01-24 14:23:07,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:00""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:03""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:06""
+        },
+         {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:08""
+        },
+         {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:11""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:14""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:18""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:22""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:24""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:28""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:32""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:36""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:39""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:42""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:46""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:50""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:54""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""00:58""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""01:01""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""01:04""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten a screw"",
+            ""timestamp"": ""01:07""
+        },
+        {
+            ""object_name"": ""black cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""black"",
+            ""object_size"": ""approximately 1 meter long"",
+             ""action"": ""plugging the cable into the monitor"",
+            ""timestamp"": ""01:18""
+        },
+        {
+            ""object_name"": ""black cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""black"",
+            ""object_size"": ""approximately 1 meter long"",
+             ""action"": ""plugging the cable into the device"",
+            ""timestamp"": ""01:22""
+        }
+    ]
+}
+```
+"
+2025-01-24 14:30:15,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""paper"",
+            ""object_type"": ""document"",
+            ""object_color"": ""white"",
+            ""object_size"": ""A4"",
+            ""action"": ""holding paper"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""holding screwdriver"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""holding screwdriver"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding computer case"",
+            ""timestamp"": ""0:05""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""inspecting computer case"",
+            ""timestamp"": ""0:10""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""inspecting computer case"",
+            ""timestamp"": ""0:15""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""inspecting computer case"",
+            ""timestamp"": ""0:20""
+        },
+         {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""inspecting computer case"",
+            ""timestamp"": ""0:25""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding computer case"",
+            ""timestamp"": ""0:28""
+        },
+        {
+            ""object_name"": ""RAM module"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""green"",
+            ""object_size"": ""5 cm long"",
+            ""action"": ""holding RAM module"",
+            ""timestamp"": ""0:34""
+        },
+        {
+            ""object_name"": ""RAM module"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""green"",
+            ""object_size"": ""5 cm long"",
+            ""action"": ""installing RAM module"",
+            ""timestamp"": ""0:35""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding computer case"",
+            ""timestamp"": ""0:51""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding computer case"",
+            ""timestamp"": ""0:55""
+        },
+        {
+            ""object_name"": ""hard drive"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""10 cm x 7 cm x 1 cm"",
+            ""action"": ""holding hard drive"",
+            ""timestamp"": ""1:05""
+        },
+        {
+            ""object_name"": ""hard drive"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""10 cm x 7 cm x 1 cm"",
+            ""action"": ""installing hard drive"",
+            ""timestamp"": ""1:06""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""using screwdriver to fasten screws"",
+            ""timestamp"": ""1:15""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""using screwdriver to fasten screws"",
+            ""timestamp"": ""1:20""
+        },
+         {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""using screwdriver to fasten screws"",
+            ""timestamp"": ""1:25""
+        }
+    ]
+}
+```
+"
+2025-01-24 15:58:34,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""paper"",
+            ""object_type"": ""document"",
+            ""object_color"": ""white"",
+            ""object_size"": ""A4"",
+            ""action"": ""holding the paper"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""holding the screwdriver"",
+            ""timestamp"": ""0:00""
+        },
+         {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""holding the screwdriver"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""grey"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding the computer case"",
+            ""timestamp"": ""0:05""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""grey"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""inspecting the computer case"",
+            ""timestamp"": ""0:10""
+        },
+         {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""grey"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""inspecting the computer case"",
+            ""timestamp"": ""0:15""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""grey"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""inspecting the computer case"",
+            ""timestamp"": ""0:20""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""grey"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""inspecting the computer case"",
+            ""timestamp"": ""0:25""
+        },
+         {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""grey"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""inspecting the computer case"",
+            ""timestamp"": ""0:28""
+        },
+        {
+            ""object_name"": ""RAM module"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""green"",
+            ""object_size"": ""5 cm x 2 cm x 0.5 cm"",
+            ""action"": ""holding the RAM module"",
+            ""timestamp"": ""0:33""
+        },
+        {
+            ""object_name"": ""RAM module"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""green"",
+            ""object_size"": ""5 cm x 2 cm x 0.5 cm"",
+            ""action"": ""installing the RAM module"",
+            ""timestamp"": ""0:35""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""grey"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding the computer case"",
+            ""timestamp"": ""0:51""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""grey"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding the computer case"",
+            ""timestamp"": ""0:55""
+        },
+         {
+            ""object_name"": ""hard drive"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""10 cm x 7 cm x 1 cm"",
+            ""action"": ""holding the hard drive"",
+            ""timestamp"": ""1:05""
+        },
+        {
+            ""object_name"": ""hard drive"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""10 cm x 7 cm x 1 cm"",
+            ""action"": ""installing the hard drive"",
+            ""timestamp"": ""1:07""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""using the screwdriver to fasten the hard drive"",
+            ""timestamp"": ""1:15""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""using the screwdriver to fasten the hard drive"",
+            ""timestamp"": ""1:20""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""using the screwdriver to fasten the hard drive"",
+            ""timestamp"": ""1:25""
+        }
+    ]
+}
+```
+"
+2025-01-24 16:03:29,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""paper"",
+            ""object_type"": ""document"",
+            ""object_color"": ""white"",
+            ""object_size"": ""A4"",
+            ""action"": ""holding and reading"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""holding"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""holding"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding and inspecting"",
+            ""timestamp"": ""0:05""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding and inspecting"",
+            ""timestamp"": ""0:11""
+        },
+         {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding and inspecting"",
+            ""timestamp"": ""0:17""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding and inspecting"",
+            ""timestamp"": ""0:23""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding and inspecting"",
+            ""timestamp"": ""0:28""
+        },
+        {
+            ""object_name"": ""RAM module"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""5 cm x 2 cm"",
+            ""action"": ""holding and attaching"",
+            ""timestamp"": ""0:34""
+        },
+        {
+            ""object_name"": ""RAM module"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""5 cm x 2 cm"",
+            ""action"": ""attaching"",
+            ""timestamp"": ""0:36""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding"",
+            ""timestamp"": ""0:52""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding"",
+            ""timestamp"": ""0:55""
+        },
+        {
+            ""object_name"": ""hard drive"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""10 cm x 7 cm x 1 cm"",
+            ""action"": ""holding and placing"",
+            ""timestamp"": ""1:05""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""using to fasten screws"",
+            ""timestamp"": ""1:15""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""using to fasten screws"",
+            ""timestamp"": ""1:20""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""using to fasten screws"",
+            ""timestamp"": ""1:25""
+        }
+    ]
+}
+```
+"
+2025-01-24 16:24:01,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""paper"",
+            ""object_type"": ""document"",
+            ""object_color"": ""white"",
+            ""object_size"": ""A4"",
+            ""action"": ""holding paper"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""holding screwdriver"",
+            ""timestamp"": ""0:01""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""holding screwdriver"",
+            ""timestamp"": ""0:01""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding computer case"",
+            ""timestamp"": ""0:05""
+        },
+         {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""inspecting computer case"",
+            ""timestamp"": ""0:10""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding computer case"",
+            ""timestamp"": ""0:28""
+        },
+        {
+            ""object_name"": ""RAM module"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""green"",
+            ""object_size"": ""5 cm x 2 cm"",
+            ""action"": ""holding RAM module"",
+            ""timestamp"": ""0:33""
+        },
+        {
+            ""object_name"": ""RAM module"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""green"",
+            ""object_size"": ""5 cm x 2 cm"",
+            ""action"": ""installing RAM module"",
+            ""timestamp"": ""0:35""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding computer case"",
+            ""timestamp"": ""0:51""
+        },
+        {
+            ""object_name"": ""hard drive"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""10 cm x 7 cm x 1 cm"",
+            ""action"": ""holding hard drive"",
+            ""timestamp"": ""0:53""
+        },
+        {
+            ""object_name"": ""hard drive"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""10 cm x 7 cm x 1 cm"",
+            ""action"": ""installing hard drive"",
+            ""timestamp"": ""1:05""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""using screwdriver to fasten screws"",
+            ""timestamp"": ""1:15""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""using screwdriver to fasten screws"",
+            ""timestamp"": ""1:25""
+        }
+    ]
+}
+```
+"
+2025-01-24 16:28:14,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""paper"",
+            ""object_type"": ""document"",
+            ""object_color"": ""white"",
+            ""object_size"": ""A4"",
+            ""action"": ""holding and reading"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15cm long"",
+            ""action"": ""picking up"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""15cm long"",
+            ""action"": ""picking up"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15cm long"",
+            ""action"": ""holding"",
+            ""timestamp"": ""0:01""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""15cm long"",
+            ""action"": ""holding"",
+            ""timestamp"": ""0:01""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30cm x 20cm x 5cm"",
+            ""action"": ""holding and inspecting"",
+            ""timestamp"": ""0:05""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30cm x 20cm x 5cm"",
+            ""action"": ""holding and inspecting"",
+            ""timestamp"": ""0:12""
+        },
+         {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30cm x 20cm x 5cm"",
+            ""action"": ""holding and inspecting"",
+            ""timestamp"": ""0:20""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30cm x 20cm x 5cm"",
+            ""action"": ""holding and inspecting"",
+            ""timestamp"": ""0:27""
+        },
+        {
+            ""object_name"": ""RAM module"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""5cm x 2cm x 0.5cm"",
+            ""action"": ""holding and installing"",
+            ""timestamp"": ""0:34""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30cm x 20cm x 5cm"",
+            ""action"": ""holding and inspecting"",
+            ""timestamp"": ""0:51""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30cm x 20cm x 5cm"",
+            ""action"": ""holding and inspecting"",
+            ""timestamp"": ""0:55""
+        },
+        {
+            ""object_name"": ""hard drive"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""10cm x 7cm x 1cm"",
+            ""action"": ""holding and installing"",
+            ""timestamp"": ""1:06""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15cm long"",
+            ""action"": ""using to fasten screws"",
+            ""timestamp"": ""1:15""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15cm long"",
+            ""action"": ""using to fasten screws"",
+            ""timestamp"": ""1:24""
+        }
+    ]
+}
+```
+"
+2025-01-24 16:39:15,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""paper"",
+            ""object_type"": ""document"",
+            ""object_color"": ""white"",
+            ""object_size"": ""A4"",
+            ""action"": ""holding paper"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""holding screwdriver"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""holding screwdriver"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding computer case"",
+            ""timestamp"": ""0:06""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""inspecting computer case"",
+            ""timestamp"": ""0:10""
+        },
+         {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""inspecting computer case"",
+            ""timestamp"": ""0:16""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""inspecting computer case"",
+            ""timestamp"": ""0:22""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""inspecting computer case"",
+            ""timestamp"": ""0:28""
+        },
+        {
+            ""object_name"": ""RAM module"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""green"",
+            ""object_size"": ""7 cm x 3 cm"",
+            ""action"": ""holding RAM module"",
+            ""timestamp"": ""0:34""
+        },
+        {
+            ""object_name"": ""RAM module"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""green"",
+            ""object_size"": ""7 cm x 3 cm"",
+            ""action"": ""installing RAM module"",
+            ""timestamp"": ""0:35""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding computer case"",
+            ""timestamp"": ""0:51""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding computer case"",
+            ""timestamp"": ""0:55""
+        },
+        {
+            ""object_name"": ""hard drive"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""10 cm x 7 cm x 1 cm"",
+            ""action"": ""holding hard drive"",
+            ""timestamp"": ""1:05""
+        },
+        {
+            ""object_name"": ""hard drive"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""10 cm x 7 cm x 1 cm"",
+            ""action"": ""installing hard drive"",
+            ""timestamp"": ""1:07""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""using screwdriver to fasten screws"",
+            ""timestamp"": ""1:15""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""using screwdriver to fasten screws"",
+            ""timestamp"": ""1:24""
+        }
+    ]
+}
+```
+"
+2025-01-24 16:47:41,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""paper"",
+            ""object_type"": ""document"",
+            ""object_color"": ""white"",
+            ""object_size"": ""A4"",
+            ""action"": ""holding paper"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""holding screwdriver"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""holding screwdriver"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding computer case"",
+            ""timestamp"": ""0:05""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""inspecting computer case"",
+            ""timestamp"": ""0:10""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""inspecting computer case"",
+            ""timestamp"": ""0:15""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""inspecting computer case"",
+            ""timestamp"": ""0:20""
+        },
+         {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""inspecting computer case"",
+            ""timestamp"": ""0:25""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding computer case"",
+            ""timestamp"": ""0:28""
+        },
+        {
+            ""object_name"": ""RAM module"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""green"",
+            ""object_size"": ""5 cm x 2 cm"",
+            ""action"": ""holding RAM module"",
+            ""timestamp"": ""0:33""
+        },
+        {
+            ""object_name"": ""RAM module"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""green"",
+            ""object_size"": ""5 cm x 2 cm"",
+            ""action"": ""installing RAM module"",
+            ""timestamp"": ""0:35""
+        },
+        {
+            ""object_name"": ""RAM module"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""green"",
+            ""object_size"": ""5 cm x 2 cm"",
+            ""action"": ""installing RAM module"",
+            ""timestamp"": ""0:40""
+        },
+         {
+            ""object_name"": ""RAM module"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""green"",
+            ""object_size"": ""5 cm x 2 cm"",
+            ""action"": ""installing RAM module"",
+            ""timestamp"": ""0:45""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding computer case"",
+            ""timestamp"": ""0:50""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding computer case"",
+            ""timestamp"": ""0:55""
+        },
+        {
+            ""object_name"": ""hard drive"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""10 cm x 7 cm x 1 cm"",
+            ""action"": ""holding hard drive"",
+             ""timestamp"": ""1:05""
+        },
+         {
+            ""object_name"": ""hard drive"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""10 cm x 7 cm x 1 cm"",
+            ""action"": ""installing hard drive"",
+             ""timestamp"": ""1:08""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""using screwdriver to fasten hard drive"",
+            ""timestamp"": ""1:15""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""using screwdriver to fasten hard drive"",
+            ""timestamp"": ""1:20""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""using screwdriver to fasten hard drive"",
+            ""timestamp"": ""1:25""
+        }
+    ]
+}
+```
+"
+2025-01-24 16:50:32,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""paper with text"",
+            ""object_type"": ""rectangular"",
+            ""object_color"": ""white"",
+            ""object_size"": ""8.5 x 11 inches"",
+            ""action"": ""holding the paper"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""cylindrical"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""6 inches long"",
+            ""action"": ""picking up the screwdriver"",
+            ""timestamp"": ""0:01""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""cylindrical"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""6 inches long"",
+            ""action"": ""picking up the screwdriver"",
+            ""timestamp"": ""0:01""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""rectangular"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""12 x 8 x 2 inches"",
+            ""action"": ""holding the computer case"",
+            ""timestamp"": ""0:05""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""rectangular"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""12 x 8 x 2 inches"",
+            ""action"": ""inspecting the computer case"",
+            ""timestamp"": ""0:11""
+        },
+         {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""rectangular"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""12 x 8 x 2 inches"",
+            ""action"": ""inspecting the computer case"",
+            ""timestamp"": ""0:17""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""rectangular"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""12 x 8 x 2 inches"",
+            ""action"": ""inspecting the computer case"",
+            ""timestamp"": ""0:23""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""rectangular"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""12 x 8 x 2 inches"",
+            ""action"": ""holding the computer case"",
+            ""timestamp"": ""0:28""
+        },
+        {
+            ""object_name"": ""RAM module"",
+            ""object_type"": ""rectangular"",
+            ""object_color"": ""green"",
+            ""object_size"": ""3 x 1 inches"",
+            ""action"": ""picking up the RAM module"",
+            ""timestamp"": ""0:33""
+        },
+        {
+            ""object_name"": ""RAM module"",
+            ""object_type"": ""rectangular"",
+            ""object_color"": ""green"",
+            ""object_size"": ""3 x 1 inches"",
+            ""action"": ""installing the RAM module"",
+            ""timestamp"": ""0:35""
+        },
+        {
+            ""object_name"": ""RAM module"",
+            ""object_type"": ""rectangular"",
+            ""object_color"": ""green"",
+            ""object_size"": ""3 x 1 inches"",
+            ""action"": ""installing the RAM module"",
+            ""timestamp"": ""0:40""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""rectangular"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""12 x 8 x 2 inches"",
+            ""action"": ""holding the computer case"",
+            ""timestamp"": ""0:51""
+        },
+        {
+            ""object_name"": ""hard drive"",
+            ""object_type"": ""rectangular"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""4 x 3 x 0.5 inches"",
+            ""action"": ""picking up the hard drive"",
+            ""timestamp"": ""1:05""
+        },
+        {
+            ""object_name"": ""hard drive"",
+            ""object_type"": ""rectangular"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""4 x 3 x 0.5 inches"",
+            ""action"": ""installing the hard drive"",
+            ""timestamp"": ""1:07""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""cylindrical"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""6 inches long"",
+            ""action"": ""using a screwdriver to fasten the hard drive"",
+            ""timestamp"": ""1:15""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""cylindrical"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""6 inches long"",
+            ""action"": ""using a screwdriver to fasten the hard drive"",
+            ""timestamp"": ""1:20""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""cylindrical"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""6 inches long"",
+            ""action"": ""using a screwdriver to fasten the hard drive"",
+            ""timestamp"": ""1:25""
+        }
+    ]
+}
+```
+"
+2025-01-24 17:00:19,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""paper with text and image"",
+            ""object_type"": ""rectangular"",
+            ""object_color"": ""white"",
+            ""object_size"": ""8.5 x 11 inches"",
+            ""action"": ""holding paper"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""round handle with flat tip"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""6 inches long"",
+            ""action"": ""holding screwdriver"",
+            ""timestamp"": ""0:00""
+        },
+         {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""round handle with flat tip"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""6 inches long"",
+            ""action"": ""holding screwdriver"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""rectangular"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""10 x 12 inches"",
+            ""action"": ""holding and inspecting computer case"",
+            ""timestamp"": ""0:09""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""rectangular"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""10 x 12 inches"",
+            ""action"": ""holding and inspecting computer case"",
+            ""timestamp"": ""0:15""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""rectangular"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""10 x 12 inches"",
+            ""action"": ""holding and inspecting computer case"",
+            ""timestamp"": ""0:21""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""rectangular"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""10 x 12 inches"",
+            ""action"": ""holding and inspecting computer case"",
+            ""timestamp"": ""0:28""
+        },
+         {
+            ""object_name"": ""RAM module"",
+            ""object_type"": ""rectangular"",
+            ""object_color"": ""green"",
+            ""object_size"": ""2 x 0.5 inches"",
+            ""action"": ""holding RAM module"",
+            ""timestamp"": ""0:34""
+        },
+        {
+            ""object_name"": ""RAM module"",
+            ""object_type"": ""rectangular"",
+            ""object_color"": ""green"",
+            ""object_size"": ""2 x 0.5 inches"",
+            ""action"": ""installing RAM module"",
+            ""timestamp"": ""0:35""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""rectangular"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""10 x 12 inches"",
+            ""action"": ""holding computer case"",
+            ""timestamp"": ""0:52""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""rectangular"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""10 x 12 inches"",
+            ""action"": ""holding computer case"",
+            ""timestamp"": ""0:56""
+        },
+        {
+            ""object_name"": ""hard drive"",
+            ""object_type"": ""rectangular"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""2.5 x 4 inches"",
+            ""action"": ""holding hard drive"",
+            ""timestamp"": ""1:06""
+        },
+        {
+            ""object_name"": ""hard drive"",
+            ""object_type"": ""rectangular"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""2.5 x 4 inches"",
+            ""action"": ""installing hard drive"",
+            ""timestamp"": ""1:07""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""round handle with flat tip"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""6 inches long"",
+            ""action"": ""using screwdriver to fasten screws"",
+            ""timestamp"": ""1:15""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""round handle with flat tip"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""6 inches long"",
+            ""action"": ""using screwdriver to fasten screws"",
+            ""timestamp"": ""1:20""
+        },
+         {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""round handle with flat tip"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""6 inches long"",
+            ""action"": ""using screwdriver to fasten screws"",
+            ""timestamp"": ""1:25""
+        },
+         {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""round handle with flat tip"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""6 inches long"",
+            ""action"": ""using screwdriver to fasten screws"",
+            ""timestamp"": ""1:28""
+        }
+    ]
+}
+```
+"
+2025-01-24 17:00:47,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten screws on the metal frame"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten screws on the metal frame"",
+            ""timestamp"": ""0:03""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten screws on the metal frame"",
+            ""timestamp"": ""0:06""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten screws on the metal frame"",
+            ""timestamp"": ""0:08""
+        },
+         {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten screws on the metal frame"",
+            ""timestamp"": ""0:11""
+        },
+         {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten screws on the metal frame"",
+            ""timestamp"": ""0:14""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten screws on the metal frame"",
+            ""timestamp"": ""0:17""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten screws on the metal frame"",
+            ""timestamp"": ""0:20""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten screws on the metal frame"",
+            ""timestamp"": ""0:23""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten screws on the metal frame"",
+            ""timestamp"": ""0:26""
+        },
+        {
+            ""object_name"": ""red screwdriver"",
+            ""object_type"": ""screwdriver"",
+            ""object_color"": ""red and yellow"",
+            ""object_size"": ""approximately 15 cm long"",
+            ""action"": ""using a screwdriver to fasten screws on the metal frame"",
+            ""timestamp"": ""0:29""
+        },
+        {
+            ""object_name"": ""red and black cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 10 cm long"",
+            ""action"": ""holding a cable"",
+            ""timestamp"": ""0:31""
+        },
+        {
+            ""object_name"": ""red and black cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""approximately 10 cm long"",
+            ""action"": ""holding a cable"",
+            ""timestamp"": ""0:33""
+        },
+         {
+            ""object_name"": ""black cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""black"",
+            ""object_size"": ""approximately 10 cm long"",
+            ""action"": ""holding a cable"",
+            ""timestamp"": ""0:35""
+        },
+        {
+            ""object_name"": ""black cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""black"",
+            ""object_size"": ""approximately 10 cm long"",
+            ""action"": ""connecting the cable to the board"",
+            ""timestamp"": ""0:37""
+        },
+        {
+            ""object_name"": ""black cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""black"",
+            ""object_size"": ""approximately 10 cm long"",
+            ""action"": ""connecting the cable to the board"",
+            ""timestamp"": ""0:40""
+        },
+        {
+            ""object_name"": ""black cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""black"",
+            ""object_size"": ""approximately 10 cm long"",
+            ""action"": ""connecting the cable to the board"",
+            ""timestamp"": ""0:43""
+        },
+        {
+            ""object_name"": ""black cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""black"",
+            ""object_size"": ""approximately 10 cm long"",
+            ""action"": ""connecting the cable to the board"",
+            ""timestamp"": ""0:46""
+        },
+        {
+            ""object_name"": ""black cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""black"",
+            ""object_size"": ""approximately 10 cm long"",
+            ""action"": ""connecting the cable to the board"",
+            ""timestamp"": ""0:48""
+        },
+        {
+            ""object_name"": ""black cable"",
+            ""object_type"": ""cable"",
+            ""object_color"": ""black"",
+            ""object_size"": ""approximately 10 cm long"",
+            ""action"": ""connecting the cable to the board"",
+            ""timestamp"": ""0:51""
+        }
+    ]
+}
+```
+"
+2025-01-24 17:20:08,"```json
+{
+    ""video_name"": ""00:00"",
+    ""tools"": [
+        {
+            ""object_name"": ""paper"",
+            ""object_type"": ""document"",
+            ""object_color"": ""white"",
+            ""object_size"": ""A4"",
+            ""action"": ""holding paper"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""holding screwdriver"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""green and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""holding screwdriver"",
+            ""timestamp"": ""0:00""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding computer case"",
+            ""timestamp"": ""0:05""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""inspecting computer case"",
+            ""timestamp"": ""0:10""
+        },
+         {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""inspecting computer case"",
+            ""timestamp"": ""0:15""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""inspecting computer case"",
+            ""timestamp"": ""0:20""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""inspecting computer case"",
+            ""timestamp"": ""0:25""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding computer case"",
+            ""timestamp"": ""0:28""
+        },
+        {
+            ""object_name"": ""RAM module"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""green"",
+            ""object_size"": ""5 cm x 2 cm x 0.5 cm"",
+            ""action"": ""holding RAM module"",
+            ""timestamp"": ""0:33""
+        },
+        {
+            ""object_name"": ""RAM module"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""green"",
+            ""object_size"": ""5 cm x 2 cm x 0.5 cm"",
+            ""action"": ""installing RAM module"",
+            ""timestamp"": ""0:35""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding computer case"",
+            ""timestamp"": ""0:50""
+        },
+        {
+            ""object_name"": ""computer case"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""gray"",
+            ""object_size"": ""30 cm x 20 cm x 5 cm"",
+            ""action"": ""holding computer case"",
+            ""timestamp"": ""0:55""
+        },
+        {
+            ""object_name"": ""hard drive"",
+            ""object_type"": ""computer part"",
+            ""object_color"": ""silver"",
+            ""object_size"": ""10 cm x 7 cm x 1 cm"",
+            ""action"": ""holding hard drive"",
+            ""timestamp"": ""1:05""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""using screwdriver to fasten hard drive"",
+            ""timestamp"": ""1:15""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""using screwdriver to fasten hard drive"",
+            ""timestamp"": ""1:20""
+        },
+        {
+            ""object_name"": ""screwdriver"",
+            ""object_type"": ""tool"",
+            ""object_color"": ""red and black"",
+            ""object_size"": ""15 cm long"",
+            ""action"": ""using screwdriver to fasten hard drive"",
+            ""timestamp"": ""1:25""
+        }
+    ]
+}
+```
+"
