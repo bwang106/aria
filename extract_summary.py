@@ -1,12 +1,14 @@
 import os
 import pandas as pd
 import csv
+import gemini_tools
 
 # 定义文件路径
-RESULT_BASE_PATH = "/mnt/Data/bosong/agent/result_gemini-2.0-flash-exp"
-INPUT_CSV_FILE = os.path.join(RESULT_BASE_PATH, "gemini_output.csv")
-OUTPUT_CSV_FILE = os.path.join(RESULT_BASE_PATH, "task_summaries_output.csv")
-INPUT_TXT_FILE = os.path.join(RESULT_BASE_PATH, "gemini_output.txt")
+#RESULT_BASE_PATH = "/mnt/Data/bosong/agent/result_gemini-2.0-flash-exp"
+
+INPUT_CSV_FILE = os.path.join(gemini_tools.RESULT_BASE_PATH, "gemini_output.csv")
+OUTPUT_CSV_FILE = os.path.join(gemini_tools.RESULT_BASE_PATH, "task_summaries_output.csv")
+INPUT_TXT_FILE = os.path.join(gemini_tools.RESULT_BASE_PATH, "gemini_output.txt")
 
 def convert_to_txt(csv_file, txt_file):
     """将 CSV 文件转换为 TXT 文件。"""
