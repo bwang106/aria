@@ -3,7 +3,7 @@ import os
 import time
 import logging
 import google.generativeai as genai
-# from config import GEMINI_API_KEY # Assuming config.py is in the same directory or PYTHONPATH
+from config import GEMINI_API_KEY
 import pandas as pd
 import re
 import sys
@@ -22,7 +22,9 @@ GEMINI_PARAMS = {
     "top_k": 40,
     "max_output_tokens": 12000,
 }
-# GEMINI_API_KEY = "YOUR_API_KEY_HERE" # Replace with your actual API key or uncomment config import if you have config.py
+
+# Configure Gemini API
+genai.configure(api_key=GEMINI_API_KEY)
 
 # Configure logging
 logging.basicConfig(
@@ -34,9 +36,15 @@ logging.basicConfig(
     ]
 )
 
-# Configure Gemini API
-# genai.configure(api_key=GEMINI_API_KEY) # Uncomment and set your API key
-# model = genai.GenerativeModel(model_name=MODEL_NAME) # Initialize Gemini model globally - uncomment if you initialize globally
+
+"""
+model = genai.GenerativeModel(
+    model_name="gemini-2.0-flash-exp",
+    #model_name="gemini-2.0-flash-thinking-exp-1219",
+    generation_config=GEMINI_PARAMS,
+    #system_instruction="You are an AI assistant, helping the worker to analyze videos with following all roles. You are a coding expert which has ability with analyse video contents and with annotation you can better understand the user action with interaction with the tools with time stamp in logic, after each movement or actions finished you have ability with remember what was the user doing, which tools does the task need, where is the tools and what is the status of the tools. Use memory bank to remenber  all the necessary information. If in the future another user is asking to do the same task, the agent will able to access the memory bank to have the instrction with the whole task include the tools and actions and other informations."
+)
+"""
 
 # --- Memory Bank Functions ---
 def read_memory_bank(memory_folder):
@@ -264,13 +272,65 @@ def header_check(row):
         return False
     return all(isinstance(item, str) for item in row) # Assume header row contains only strings
 
+def ask_and_answer_question(csv_writer, model, memory_data_combined, task_data):
+    """Asks the user if they have more questions and answers using Gemini API."""
+    while True:
+        user_question = input("Do you have any more questions? (Type 'no' or 'done' to finish)\n> ")
+        if user_question.lower() in ["no", "done"]:
+            logging.info("User indicated no more questions.")
+            csv_writer.writerow([datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "User Interaction", "No more questions."])
+            break
+
+        logging.info(f"User question: {user_question}")
+
+        try:
+            #reinitialize the model
+            genai.configure(api_key=GEMINI_API_KEY)
+            model = genai.GenerativeModel(model_name=MODEL_NAME)
+            logging.info(f"Gemini model '{MODEL_NAME}' re-initialized successfully.")
+            # --- Construct Gemini Prompt for Question Answering ---
+            context_for_question = ""
+            if memory_data_combined:
+                context_for_question += "Here is context from my memory bank (past tasks):\n"
+                for row in memory_data_combined:
+                    if len(row) > 2:
+                        context_for_question += f"- [{row[0]}] {row[1]} using {row[2]}\n"
+            if task_data and len(task_data) > 1: # Check if task_data has actions
+                context_for_question += "\nHere are the actions from the video I just processed:\n"
+                for row in task_data[1:]: # Skip header
+                    if len(row) > 2:
+                        context_for_question += f"- [{row[0]}] {row[1]} using {row[2]}\n"
+
+            question_prompt = f"""Answer the following question based on the provided context of past tasks and the actions performed in the video I just processed. If the question is not related to the context, please indicate that you cannot answer it based on the given information.
+
+            Context:\n{context_for_question}
+
+            Question: {user_question}
+            """
+
+            response = model.generate_content(
+                question_prompt,
+                generation_config=GEMINI_PARAMS
+            )
+            answer_text = response.text
+            logging.info(f"Gemini Answer: {answer_text}")
+            csv_writer.writerow([datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "User Question", user_question])
+            csv_writer.writerow([datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "Gemini Answer", answer_text])
+            print(f"Answer: {answer_text}\n") # Print answer to console for user
+
+        except Exception as e:
+            error_message = f"Error during Gemini question answering: {e}"
+            logging.error(error_message)
+            csv_writer.writerow([datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "Error", error_message])
+            print(f"Error answering question. Please check logs.\n")
+
 
 # --- Main Execution / Example Usage ---
 if __name__ == "__main__":
     task_name = "MakingCoffeeFromVideo" # Updated task name for video processing
     task_data = [["Timestamp", "Action", "Tool", "Tool Location", "Tool Status"]] # Initialize with header row
 
-    logging.info(f"--- Starting Task: {task_name} (Video Processing with Databank Integration) ---")
+    logging.info(f"--- Starting Task: {task_name} (Video Processing with Databank & Question Answering) ---")
 
     # --- Initialize CSV file for output log ---
     try:
@@ -326,6 +386,10 @@ if __name__ == "__main__":
         instruction_query = "How to make coffee" # Or a more general query like "Perform the task in the video"
         generate_instructions_from_memory(csv_writer, MEMORY_FOLDER, instruction_query) # Pass csv_writer
         logging.info("Instructions written to CSV.")
+
+        # --- Ask User for More Questions and Answer using Gemini ---
+        ask_and_answer_question(csv_writer, model, memory_data_combined, task_data) # Start question answering loop
+
 
     else:
         logging.error("New databank was not saved to memory due to an error.")
